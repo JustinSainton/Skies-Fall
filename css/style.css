@@ -40,7 +40,8 @@ div.panel {
 
 div.panel-container,
 nav.header {
-	width: 1000px;
+	width: 100%;
+	max-width: 1000px;
 	margin: 0 auto;
 	overflow: auto;
 }
