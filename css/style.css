@@ -5,6 +5,8 @@ body, html {
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 18px;
 	font-style: italic;
+	margin: 0;
+	padding: 0;
 }
 a {
 	-o-transition:color .2s ease-out, background 1s ease-in;
@@ -115,6 +117,12 @@ ul#portfolio li {
 
 ul#portfolio li a img {
 	vertical-align: middle;
+}
+
+body.home div#panel-2 {
+	background: #171616;
+	opacity: .7;
+	padding: 135px 0;
 }
 
 /** BIG VIDEO **/
