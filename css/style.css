@@ -29,7 +29,7 @@ span.subheading {
 
 div.panel {
 	width: 100%;
-	margin: 0;
+	margin: 300px 0 0 0;
 	padding: 0;
 }
 
@@ -69,7 +69,12 @@ nav.header li a {
 	color: #FFF;
 	font-style: normal;
 	text-decoration: none;
-	letter-spacing: 5px
+	letter-spacing: 5px;
+	-o-transition:color .2s ease-out, background 2s ease-in;
+	-ms-transition:color .2s ease-out, background 2s ease-in;
+	-moz-transition:color .2s ease-out, background 2s ease-in;
+	-webkit-transition:color .2s ease-out, background 2s ease-in;
+	transition:color .2s ease-out, background 2s ease-in;
 }
 
 nav.header li a.selected,
@@ -88,4 +93,5 @@ body.home p.quote {
 
 body.home #panel-1 {
 	text-align: center;
+	margin-top: 0;
 }
