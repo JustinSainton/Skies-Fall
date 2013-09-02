@@ -1,12 +1,91 @@
+/** GENERAL **/
 body, html {
 	background: #000;
 	color: #FFF;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: italic;
+}
+
+span.heading,
+span.subheading {
+	text-transform: uppercase;
+	text-align: center
 }
 
 span.heading {
-	font: ;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 67px;
+	font-style: normal;
+	letter-spacing: 6px;
+	word-spacing: 19px;
 }
 
 span.subheading {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 20px;
+	font-style: italic;
+}
 
+div.panel {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div.panel-container,
+nav.header {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+nav.header {
+	margin: 34px auto 135px;
+}
+
+nav.header ul {
+	float: right;
+	width: 100%
+
+}
+
+nav.header li {
+	display: inline-block;
+	margin-left: 35px;
+	position: relative;
+	bottom: 75px;
+}
+
+nav.header li.logo {
+	margin-right: 35px;
+	bottom: 0;
+}
+
+nav.header li a {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing: 5px
+}
+
+nav.header li a.selected,
+nav.header li a:hover {
+	color: #244FA6;
+}
+
+body.home p.quote {
+	font-size: 31px;
+	padding: 0 25px;
+	margin-top: 7px;
+	line-height: 42px;
+}
+
+/** HOME SPECIFIC **/
+
+body.home #panel-1 {
+	text-align: center;
 }
