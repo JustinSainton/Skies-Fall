@@ -128,7 +128,11 @@
             // initialize BigVideo
             BV = new $.BigVideo();
 			BV.init();
-			BV.show('http://skiesfall.com/video/bg.mp4',{ambient:true});
+			if (Modernizr.touch) {
+				BV.show('http://2.bp.blogspot.com/-S2sK9xIPhzU/ULePRPpu_4I/AAAAAAAACXA/XTkaNreDs3g/s1600/black-and-white-wheat-inkbluesky.png');
+			} else {
+				BV.show('http://skiesfall.com/video/bg.mp4',{ambient:true});
+			}
 
 	    });
     </script>
