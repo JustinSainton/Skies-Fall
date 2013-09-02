@@ -122,6 +122,15 @@
 		<div id="panel-6" class="panel colophon">
 			<div class="panel-container"></div>
 		</div>
+    <script>
+        var BV;
+	    $(function() {
+            // initialize BigVideo
+            BV = new $.BigVideo();
+			BV.init();
+			BV.show('http://skiesfall.com/video/bg.mp4',{ambient:true});
 
+	    });
+    </script>
 	</body>
 </html>
