@@ -2,13 +2,33 @@
 
 	/** Panel Resizing **/
 	resize_panels = function() {
-		var bodyheight = $( window ).height();
 
-		$( 'div.panel' ).height( bodyheight );
+		var panels = {
+			home   : [ 'panel-1', 'panel-3' ],
+		},
+		page = $( 'body' ).attr( 'class' ),
+		bodyheight = $( window ).height();
+		bodyheight = bodyheight - 325;
+
+
+		$( 'div.panel' ).each(function() {
+			var $this = $( this ),
+			id = $this.attr( 'id' );
+
+			console.log( id );
+			console.log( panels[ page ] );
+			console.log( bodyheight );
+
+			if ( ! $.inArray( id, panels[ page ] ) ) {
+				$this.addClass( 'modified' );
+				$this.height( bodyheight );
+			}
+		});
 	}
 
 	resize_panels();
-	$ ( window ).resize( resize_panels );
+
+	$( window ).resize( resize_panels );
 
 	/** Video Background **/
 
@@ -30,8 +50,6 @@
 		// initialize BigVideo
 		BV = new $.BigVideo();
 		BV.init();
-
-		console.log( videos[ page ] );
 
 		if (  Modernizr.touch ) {
 			BV.show('img/mobile-placeholder.jpg');
