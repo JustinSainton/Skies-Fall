@@ -118,26 +118,10 @@
 			<div class="panel-container"></div>
 		</div>
 
-		<div id="panel-5" class="panel map">
-			<div class="panel-container"></div>
-		</div>
+		<div id="panel-5 map-canvas" class="panel"></div>
 
 		<div id="panel-6" class="panel colophon">
 			<div class="panel-container"></div>
 		</div>
-    <script>
-        var BV;
-	    $(function() {
-            // initialize BigVideo
-            BV = new $.BigVideo();
-			BV.init();
-			if (  Modernizr.touch ) {
-				BV.show('img/mobile-placeholder.jpg');
-			} else {
-				BV.show('http://skiesfall.com/video/bg.mp4',{ambient:true});
-			}
-
-	    });
-    </script>
 	</body>
 </html>
