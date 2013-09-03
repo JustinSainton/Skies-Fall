@@ -124,6 +124,10 @@
 
 	});
 
+	$( 'ul#portfolio li a' ).click( function(e){
+		e.preventDefault();
+	});
+
 
 
 })(jQuery);
