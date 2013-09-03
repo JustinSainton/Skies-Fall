@@ -41,7 +41,7 @@
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
 			scrollwheel : false
 		},
-		image = 'http://skiesfall.com/dev/img/map-marker.png',
+		image = 'img/map-marker.png',
 		hqMarker = new google.maps.Marker({
 			position : hq,
 			map      : map,

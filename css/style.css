@@ -1,13 +1,30 @@
+/** FONTS **/
+
+@import url("http://fast.fonts.net/lt/1.css?apiType=css&c=f0c9dd27-cd15-4357-b553-76f865520d32&fontids=694355,694358");
+
+@font-face {
+	font-family:"Didot W02 Roman";
+	src:url("../Fonts/694355/44c137d9-c4c5-4ec7-99c6-b288854a5a4c.eot?#iefix");
+	src:url("../Fonts/694355/44c137d9-c4c5-4ec7-99c6-b288854a5a4c.eot?#iefix") format("eot"),url("../Fonts/694355/3ced57ea-930a-4a35-b65b-2a1e482858f0.woff") format("woff"),url("../Fonts/694355/dfee02f2-2061-49e4-86f1-c7d9cf822527.ttf") format("truetype"),url("../Fonts/694355/41fb3b38-51d1-4fc4-8be8-fcf207ade3c4.svg#41fb3b38-51d1-4fc4-8be8-fcf207ade3c4") format("svg");
+}
+@font-face {
+	font-family:"Didot W02 Italic";
+	src:url("../Fonts/694358/2f50937c-d04a-4785-90e2-c0ea941afa28.eot?#iefix");
+	src:url("../Fonts/694358/2f50937c-d04a-4785-90e2-c0ea941afa28.eot?#iefix") format("eot"),url("../Fonts/694358/5c08ac2f-b8ec-4fc7-9369-fe3cf967808f.woff") format("woff"),url("../Fonts/694358/9cc897c4-3032-4590-a9d9-25b5827d6d3a.ttf") format("truetype"),url("../Fonts/694358/54d7b27d-e7e7-4e5d-8371-b079d9c1cbc3.svg#54d7b27d-e7e7-4e5d-8371-b079d9c1cbc3") format("svg");
+}
+
+
 /** GENERAL **/
 body, html {
 	background: #000;
 	color: #FFF;
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: "Didot W02 Italic", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 18px;
 	font-style: italic;
 	margin: 0;
 	padding: 0;
 }
+
 a {
 	-o-transition:color .2s ease-out, background 1s ease-in;
 	-ms-transition:color .2s ease-out, background 1s ease-in;
@@ -127,10 +144,10 @@ body.home div#panel-2 {
 
 body.home div#panel-2 a img {
 	opacity: .7;
-  -webkit-transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -o-transition: opacity .25s ease-in-out;
-  transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
 }
 
 body.home div#panel-2 a img:hover {
