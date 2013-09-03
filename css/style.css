@@ -121,9 +121,26 @@ ul#portfolio li a img {
 }
 
 body.home div#panel-2 {
-	background: #171616;
+	background-color: rgba(23, 22, 22, 0.7);
+	padding: 135px 0 0;
+}
+
+body.home div#panel-2 a img {
 	opacity: .7;
-	padding: 135px 0;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+
+body.home div#panel-2 a img:hover {
+	opacity: 1;
+}
+
+#map-canvas {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 /** BIG VIDEO **/

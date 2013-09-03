@@ -3,6 +3,7 @@
 	/** Panel Resizing **/
 	resize_panels = function() {
 		var bodyheight = $( window ).height();
+
 		$( 'div.panel' ).height( bodyheight );
 	}
 
@@ -40,7 +41,7 @@
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
 			scrollwheel : false
 		},
-		image = 'img/map-marker.png',
+		image = 'http://skiesfall.com/dev/img/map-marker.png',
 		hqMarker = new google.maps.Marker({
 			position : hq,
 			map      : map,
