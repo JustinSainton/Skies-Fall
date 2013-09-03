@@ -124,9 +124,13 @@
 
 	});
 
+	/** General hijackery **/
 	$( 'ul#portfolio li a' ).click( function(e){
 		e.preventDefault();
 	});
+
+	//Sets the Down Arrow to be under the first location text, period.
+	$( 'span.down-arrow' ).css( 'left', $( 'div.address' ).eq(0).offset().left + 35 );
 
 
 

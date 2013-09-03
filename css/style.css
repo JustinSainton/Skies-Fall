@@ -44,9 +44,10 @@ span.heading {
 	letter-spacing: 6px;
 	word-spacing: 1px;
 }
+
 div.location h3 {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	font-style: normal;
 	letter-spacing: 6px;
 	text-transform: uppercase;
@@ -65,12 +66,23 @@ div.address span a {
 	text-decoration: none
 }
 
+#contact-bubble {
+	font-family: "Didot W02 Roman";
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+}
 .down-arrow {
-	border-color: black transparent;
+	border-color: #161616 transparent;
 	border-style: solid;
-	border-width: 20px 20px 0px 20px;
+	border-width: 20px 15px 0px 15px;
 	height: 0px;
 	width: 0px;
+	position: absolute;
+	z-index: 100;
+	left: 240px;
+	opacity: 0.9;
 }
 
 span.subheading {
@@ -97,6 +109,7 @@ div#panel-1 {
 div.panel.location {
 	background-color: #161616;
 	opacity: .9;
+	padding: 25px 0;
 }
 
 div.panel-container,
