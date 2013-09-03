@@ -56,11 +56,14 @@ span.subheading {
 
 div.panel {
 	width: 100%;
-	margin: 300px 0 0 0;
 	padding: 0;
 	z-index: 10;
 	position: relative;
 	min-height:100px;
+}
+
+div#panel-1 {
+	margin: 0 0 300px 0;
 }
 
 div.panel-container,
