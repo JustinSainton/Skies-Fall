@@ -60,7 +60,7 @@ div.address {
 }
 
 div.address span,
-div.address span a, {
+div.address span a {
 	color: #0380FF;
 	text-decoration: none
 }
