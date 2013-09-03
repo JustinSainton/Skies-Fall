@@ -8,20 +8,35 @@
 	}
 
 	resize_panels();
-
 	$ ( window ).resize( resize_panels );
 
 	/** Video Background **/
+
 	var BV;
 
 	$(function() {
+
+		var videos = {
+			home   : 'http://player.vimeo.com/external/73702612.hd.mp4?s=1ea318ce4c81df7e0d6d99c93638434e',
+			who    : 'http://player.vimeo.com/external/73702613.hd.mp4?s=dca69bc69ed721b723375792a2729008',
+			video  : 'http://player.vimeo.com/external/73701651.hd.mp4?s=897fc226d7b0f3d111d424d9cf617d6a',
+			audio  : 'http://player.vimeo.com/external/73703469.hd.mp4?s=75f3772c5f79f6ad407f6f425e587e47',
+			photo  : 'http://player.vimeo.com/external/73701370.hd.mp4?s=ed7747b111296ad40d1d8d985d4d99db',
+			design : 'http://player.vimeo.com/external/73702612.hd.mp4?s=1ea318ce4c81df7e0d6d99c93638434e',
+		},
+
+		page = $( 'body' ).attr( 'class' );
+
 		// initialize BigVideo
 		BV = new $.BigVideo();
 		BV.init();
+
+		console.log( videos[ page ] );
+
 		if (  Modernizr.touch ) {
 			BV.show('img/mobile-placeholder.jpg');
 		} else {
-			BV.show('http://skiesfall.com/video/bg.mp4', { ambient : true } );
+			BV.show( videos[ page ], { ambient : true } );
 		}
 
 	});
@@ -62,5 +77,35 @@
 	}
 
 	google.maps.event.addDomListener( window, 'load', initialize );
+
+	/** Home Page | Services Photos Centering **/
+
+	var smallest_div_height = 10000;
+
+	$( 'body.home div#panel-3 div > div' ).each(function(){
+
+		var $this = $( 'img', $( this ) );
+
+		if ( $this.height() < smallest_div_height )
+			smallest_div_height = $this.height();
+
+	});
+
+	$( 'body.home div#panel-3 div > div' ).css( 'height', smallest_div_height );
+
+
+	$( 'body.home div#panel-3 div > div' ).each(function(){
+
+		var $this = $( this ), $h2 = $( 'h2', $this );
+
+		//Center h2 vertically within container
+		$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
+
+		//Center h2 horizontally within container
+		$h2.css( 'top', ( $this.height() - $h2.height() ) / 2 );
+
+	});
+
+
 
 })(jQuery);

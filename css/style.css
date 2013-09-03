@@ -20,7 +20,6 @@ body, html {
 	color: #FFF;
 	font-family: "Didot W02 Italic", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 18px;
-	font-style: italic;
 	margin: 0;
 	padding: 0;
 }
@@ -158,6 +157,83 @@ body.home div#panel-2 a img:hover {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+}
+
+div.full-width {
+	max-width: none;
+}
+
+body.home #panel-3 .panel-container {
+	background-color: rgb(44, 46, 48);
+}
+
+#video,
+#audio,
+#photography,
+#design {
+	width: 50%;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	background-color: rgba(44, 46, 48, 1);
+}
+
+#video h2,
+#audio h2,
+#photography h2,
+#design h2 {
+	font-size: 25px;
+	font-weight: normal;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-style: normal;
+	letter-spacing: 6px;
+	word-spacing: 19px;
+	text-transform: uppercase;
+	position: absolute;
+	z-index: 10
+}
+
+div.img {
+	background-color: rgba(44, 46, 48, .6);
+	position: relative;
+	z-index: 1;
+	opacity: .6
+}
+
+div.img {
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}
+
+div.img:hover {
+	opacity: 1
+}
+
+#video img,
+#audio img,
+#photography img,
+#design img {
+	max-width: 100%;
+}
+
+#video {
+	float: left;
+}
+
+#audio {
+	float: right;
+}
+
+#photography {
+	float: left;
+	clear: left;
+}
+
+#design {
+	float: right;
+	clear: right;
 }
 
 /** BIG VIDEO **/
