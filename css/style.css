@@ -44,6 +44,34 @@ span.heading {
 	letter-spacing: 6px;
 	word-spacing: 1px;
 }
+div.location h3 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+div.address {
+	font-family : 'Myriad Pro', Myriad;
+	float: left;
+	margin-right: 80px;
+	font-size: 16px;
+}
+
+div.address span,
+div.address span a, {
+	color: #0380FF;
+	text-decoration: none
+}
+
+.down-arrow {
+	border-color: black transparent;
+	border-style: solid;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+}
 
 span.subheading {
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -64,6 +92,11 @@ div.panel {
 
 div#panel-1 {
 	margin: 0 0 300px 0;
+}
+
+div.panel.location {
+	background-color: #161616;
+	opacity: .9;
 }
 
 div.panel-container,
