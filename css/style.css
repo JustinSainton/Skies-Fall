@@ -194,10 +194,10 @@ body.home #panel-3 .panel-container {
 }
 
 div.img {
-	background-color: rgba(44, 46, 48, .6);
+	background-color: rgba(44, 46, 48, .3);
 	position: relative;
 	z-index: 1;
-	opacity: .6
+	opacity: .3
 }
 
 div.img {
