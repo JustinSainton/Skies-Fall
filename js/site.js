@@ -141,17 +141,17 @@
 
 		var percentage = ( ( ( windowHeight - distance ) / mapHeight ) * 100 );
 
-		if ( distance < fullyVisible ) {
+		if ( percentage > 140 ) {
 			map.setZoom( 10 );
-		} else if ( percentage > 80 )  {
+		} else if ( percentage > 135 )  {
 			map.setZoom( 9 );
-		} else if ( percentage > 60 )  {
+		} else if ( percentage > 130 )  {
 			map.setZoom( 8 );
-		} else if ( percentage > 40 )  {
+		} else if ( percentage > 120 )  {
 			map.setZoom( 7 );
-		} else if ( percentage > 15 )  {
+		} else if ( percentage > 110 )  {
 			map.setZoom( 6 );
-		} else if ( percentage > 1 )  {
+		} else if ( percentage > 100 )  {
 			map.setZoom( 5 );
 		}
 	}
