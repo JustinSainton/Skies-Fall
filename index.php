@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Audio | Skies Fall Media</title>
+		<title>Skies Fall Media</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,7 +31,7 @@
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 	</head>
-	<body class="audio">
+	<body class="home">
 
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel">
@@ -48,7 +48,7 @@
 							<a href="video.html">Video</a>
 						</li>
 						<li>
-							<a class="selected" href="audio.html">Audio</a>
+							<a href="audio.html">Audio</a>
 						</li>
 						<li>
 							<a href="photo.html">Photo</a>
