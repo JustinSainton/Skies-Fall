@@ -71,8 +71,7 @@
 			zoom        : 5,
 			center      : hq,
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
-			scrollwheel : false,
-			optimized   : false
+			scrollwheel : false
 		};
 
 		var map = new google.maps.Map( document.getElementById( 'map' ), mapOptions );
@@ -83,20 +82,41 @@
 			var image = 'http://skiesfall.com/dev/img/map-marker.png';
 		}
 
+		var markerImage = {
+			url        : image,
+			scaledSize : new google.maps.Size(44, 48),
+			origin     : new google.maps.Point(0,0),
+			anchor     : new google.maps.Point(24, 48)
+		},
+
 		hqMarker = new google.maps.Marker({
-			position : hq,
-			map      : map,
-			icon     : image
+			position  : hq,
+			map       : map,
+			icon      : image,
+			title     : 'Skies Fall Headquarters',
+			animation : google.maps.Animation.DROP,
+			icon      : markerImage,
+			optimized : false
 		}),
+
 		recMarker = new google.maps.Marker({
-			position : recording,
-			map      : map,
-			icon     : image
+			position  : recording,
+			map       : map,
+			icon      : image,
+			title     : 'Skies Fall Recording Studio',
+			animation : google.maps.Animation.DROP,
+			icon      : markerImage,
+			optimized : false
 		}),
+
 		tvMarker = new google.maps.Marker({
-			position : tv,
-			map      : map,
-			icon     : image
+			position  : tv,
+			map       : map,
+			icon      : image,
+			title     : 'Skies Fall TV',
+			animation : google.maps.Animation.DROP,
+			icon      : markerImage,
+			optimized : false
 		});
 
 		return map;
