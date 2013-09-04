@@ -493,7 +493,6 @@ body.who div#panel-3 {
 
 .bio img {
 	float: left;
-	max-height: 100%;
 	margin-right: 40px;
 }
 
@@ -509,7 +508,8 @@ body.who div#panel-3 {
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #244FA6;
-	margin-top: 130px;
+	margin-top: 180px;
+	margin-bottom: -10px;
 }
 
 .bio p {
