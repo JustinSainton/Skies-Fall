@@ -491,7 +491,7 @@ body.who div#panel-3 {
 
 .bio img {
 	float: left;
-	margin-top: -50px;
+	max-height: 100%
 }
 
 .bio.right img {
