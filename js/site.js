@@ -10,7 +10,6 @@
 		bodyheight = $( window ).height();
 		bodyheight = bodyheight - 325;
 
-
 		$( 'div.panel' ).each(function() {
 			var $this = $( this ),
 			id = $this.attr( 'id' );
