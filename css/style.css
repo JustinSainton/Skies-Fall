@@ -448,7 +448,7 @@ body.who div.content-2 h2 {
 	margin: -11px 0 0 0;
 }
 
-body.who div.content-2 p {
+body.who #panel-2 div.content-2 p {
 	font-size: 26px;
 }
 
