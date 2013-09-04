@@ -425,7 +425,7 @@ body.who #panel-2 h2 {
 	letter-spacing: 0;
 	word-spacing: 0
 }
-body.who #panel-2 h2 span.heading {
+body.who #panel-2 .content-2 h2 span.heading {
 	letter-spacing: 0;
 	word-spacing: 0
 }
