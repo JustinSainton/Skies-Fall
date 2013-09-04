@@ -1,5 +1,5 @@
 (function($) {
-
+	alert( window.devicePixelRatio );
 	/** Panel Resizing **/
 	resize_panels = function() {
 
