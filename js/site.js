@@ -145,10 +145,12 @@
 		},
 		success = function( response ) {
 			if ( response.errormsg ) {
+				$( 'div.hidden-message' ).remove();
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.errormsg + '</p>' );
 				$( 'div.hidden-message' ).slideDown( 400 ).delay( 3000 ).slideUp( 400 );
 			} else {
+				$( 'div.hidden-message' ).remove();
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.success + '</p>' );
 				$( 'div.hidden-message' ).slideDown( 300 ).delay( 3000 ).slideUp( 300 );
