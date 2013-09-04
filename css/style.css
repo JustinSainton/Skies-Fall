@@ -419,6 +419,17 @@ a.genericon:hover {
 	background-color: #666;
 }
 
+/** WHO WE ARE **/
+body.who #panel-2 h2 {
+	color: #244FA6;
+}
+
+body.who #panel-2 p {
+	width: 903px;
+	font-size: 30px;
+	text-align: justify;
+}
+
 /** BIG VIDEO **/
 #big-video-wrap {
     overflow: hidden;
