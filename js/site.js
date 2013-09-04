@@ -60,6 +60,9 @@
 
 	function initialize() {
 
+		if ( 'undefined' !== typeof map )
+			return map;
+
 		google.maps.visualRefresh = true;
 
 		var hq    = new google.maps.LatLng( 42.680964,-87.812026 ),
@@ -90,9 +93,33 @@
 			map      : map,
 			icon     : image
 		});
+
+		return map;
 	}
 
-	google.maps.event.addDomListener( window, 'load', initialize );
+	google.maps.event.addDomListener( window, 'load'  , initialize );
+	google.maps.event.addDomListener( window, 'scroll', scroll );
+
+	function scroll() {
+		var windowEl   = $( window ),
+		mapEl          = $( '#map' ),
+		scrollTop      = windowEl.scrollTop(),
+		windowHeight   = windowEl.height(),
+		mapHeight      = mapEl.height(),
+		mapOffset      = mapEl.offset().top,
+		distance       = ( mapOffset - scrollTop ),
+		fullyVisible   = ( windowHeight - mapHeight );
+
+		if ( 'undefined' === typeof map || ( 'undefined' !== typeof map && 'undefined' == typeof( map.setZoom ) ) ) {
+			map = initialize();
+		}
+
+		if ( distance < fullyVisible ) {
+			console.log( 'set zoom' );
+			map.setZoom( 12 );
+		}
+
+	}
 
 	/** Home Page | Services Photos Centering **/
 
