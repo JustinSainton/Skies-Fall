@@ -257,7 +257,7 @@ nav.header li a:hover {
 	margin: 0 0 300px 0;
 }
 
-body.home p.quote {
+p.quote {
 	font-size: 31px;
 	padding: 0 25px;
 	margin-top: 7px;
