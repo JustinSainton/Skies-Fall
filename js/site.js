@@ -59,18 +59,19 @@
 	var map;
 
 	function initialize() {
+
 		google.maps.visualRefresh = true;
 
 		var hq    = new google.maps.LatLng( 42.680964,-87.812026 ),
 		recording = new google.maps.LatLng( 42.580899,-87.848738 ),
 		tv        = new google.maps.LatLng( 42.723704,-87.789871 ),
 		mapOptions = {
-			zoom        : 12,
+			zoom        : 9,
 			center      : hq,
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
 			scrollwheel : false
 		},
-		image = 'img/map-marker.png',
+		image = '../img/map-marker.png',
 		hqMarker = new google.maps.Marker({
 			position : hq,
 			map      : map,
@@ -128,7 +129,7 @@
 	//Sets the Down Arrow to be under the first location text, period.
 	$( 'span.down-arrow' ).css( 'left', $( 'div.address' ).eq(0).offset().left + 35 );
 
-	//Show Contact Form
+	//Contact Form
 	$( '#contact-bubble' ).click( function(){
 		$( '#contact-form' ).slideToggle( 250 );
 		$( '#contact-form input' ).eq(0).focus();

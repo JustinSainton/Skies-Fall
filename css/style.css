@@ -269,11 +269,17 @@ ul#portfolio li {
 	text-align: center;
 	line-height:132px;
 }
+
 ul#portfolio li a {
 	cursor: default;
 }
+
 ul#portfolio li a img {
 	vertical-align: middle;
+}
+
+div.map {
+	height: 300px;
 }
 
 body.home div#panel-2 {
