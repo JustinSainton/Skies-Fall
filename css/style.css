@@ -430,10 +430,26 @@ body.who #panel-2 p {
 	text-align: justify;
 }
 
+body.who #panel-2 div.panel-container {
+	height: 540px;
+	overflow: scroll;
+}
+
 div.content-1,
 div.content-2 {
 	width: 922px;
 	margin: 0 auto;
+}
+
+body.who div.content-2 h2 {
+	float: left;
+	width: 400px;
+	padding: 0;
+	margin: -11px 0 0 0;
+}
+
+body.who div.content-2 p {
+	font-size: 26px;
 }
 
 /** BIG VIDEO **/
