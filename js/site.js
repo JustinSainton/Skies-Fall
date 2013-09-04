@@ -27,9 +27,14 @@
 
 	/** BIO **/
 
+	var largest_offset;
+
 	$( 'div.bio' ).each( function(i,v){
-		$( this ).css( 'bottom', ( i * 100 ) );
+		largest_offset = i * 100;
+		$( this ).css( 'bottom', largest_offset );
 	});
+
+	$( 'div.bio' ).eq( -1 ).css( 'margin-bottom', '-' + largest_offset + 'px' );
 
 	/** Video Background **/
 
