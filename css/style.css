@@ -38,7 +38,7 @@ span.subheading {
 }
 
 span.heading {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 67px;
 	font-style: normal;
 	letter-spacing: 6px;
@@ -46,7 +46,7 @@ span.heading {
 }
 
 div.location h3 {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	letter-spacing: 6px;
@@ -54,9 +54,9 @@ div.location h3 {
 }
 
 div.address {
-	font-family : 'Myriad Pro', Myriad;
+	font-family : 'myriad-pro', 'Myriad Pro', Myriad, sans-serif;
 	float: left;
-	margin-right: 80px;
+	margin-right: 66px;
 	font-size: 16px;
 }
 
@@ -72,7 +72,17 @@ div.address span a {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	word-spacing: 2px;
+	width: 145px;
+	height: 48px;
+	background: url('../img/bubble.png' );
+	float: right;
+	padding: 43px;
 }
+
+#contact-bubble a {
+	white-space: nowrap;
+}
+
 .down-arrow {
 	border-color: #161616 transparent;
 	border-style: solid;
@@ -86,9 +96,8 @@ div.address span a {
 }
 
 span.subheading {
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: "Didot W02 Italic", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 22px;
-	font-style: italic;
 	display: block;
 	letter-spacing: 4px;
 	word-spacing: 3px;
@@ -143,7 +152,7 @@ nav.header li.logo {
 }
 
 nav.header li a {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 21px;
 	text-transform: uppercase;
 	color: #FFF;
@@ -236,7 +245,7 @@ body.home #panel-3 .panel-container {
 #design h2 {
 	font-size: 25px;
 	font-weight: normal;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-style: normal;
 	letter-spacing: 6px;
 	word-spacing: 19px;
