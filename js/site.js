@@ -114,11 +114,21 @@
 			map = initialize();
 		}
 
-		if ( distance < fullyVisible ) {
-			console.log( 'set zoom' );
-			map.setZoom( 12 );
-		}
+		var percentage = ( ( ( windowHeight - distance ) / mapHeight ) * 100 );
 
+		if ( distance < fullyVisible ) {
+			map.setZoom( 10 );
+		} else if ( percentage > 80 )  {
+			map.setZoom( 9 );
+		} else if ( percentage > 60 )  {
+			map.setZoom( 8 );
+		} else if ( percentage > 40 )  {
+			map.setZoom( 7 );
+		} else if ( percentage > 15 )  {
+			map.setZoom( 6 );
+		} else if ( percentage > 1 )  {
+			map.setZoom( 5 );
+		}
 	}
 
 	/** Home Page | Services Photos Centering **/
