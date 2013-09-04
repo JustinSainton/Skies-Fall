@@ -84,9 +84,9 @@
 
 		var markerImage = {
 			url        : image,
-			scaledSize : new google.maps.Size(44, 48),
+			scaledSize : new google.maps.Size(44, 58),
 			origin     : new google.maps.Point(0,0),
-			anchor     : new google.maps.Point(24, 48)
+			anchor     : new google.maps.Point(29, 58)
 		},
 
 		hqMarker = new google.maps.Marker({
