@@ -128,6 +128,10 @@
 	//Sets the Down Arrow to be under the first location text, period.
 	$( 'span.down-arrow' ).css( 'left', $( 'div.address' ).eq(0).offset().left + 35 );
 
+	//Show Contact Form
+	$( '#contact-bubble' ).click( function(){
+		$( '#contact-form' ).slideToggle( 250 );
+	});
 
 
 })(jQuery);

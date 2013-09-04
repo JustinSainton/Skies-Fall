@@ -48,7 +48,7 @@ span.heading {
 div.location h3 {
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 20px;
-	font-style: normal;
+	font-weight: normal;
 	letter-spacing: 6px;
 	text-transform: uppercase;
 }
@@ -56,7 +56,7 @@ div.location h3 {
 div.address {
 	font-family : 'myriad-pro', 'Myriad Pro', Myriad, sans-serif;
 	float: left;
-	margin-right: 66px;
+	margin-right: 60px;
 	font-size: 16px;
 }
 
@@ -89,6 +89,73 @@ div.address span a {
 }
 
 #contact-bubble:hover {
+	color: #244FA6;
+}
+
+#contact-form {
+	display: none;
+	float: right;
+	clear: both;
+	width: 276px;
+}
+
+#contact-form #name {
+	float: left;
+	margin-right: 30px;
+}
+
+#contact-form label,
+#contact-form input,
+#message textarea {
+	display: block;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 4px;
+	width: 108px;
+}
+
+#contact-form #email {
+	float: left
+}
+
+#contact-form input {
+	margin-top: 3px;
+}
+
+#contact-form #message {
+	margin-top: 9px;
+}
+
+#contact-form #message textarea {
+	width: 257px;
+	height: 60px;
+	margin-top: 3px;
+}
+
+#contact-form input[type="submit"] {
+	background: transparent;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing: 5px;
+	border: 1px solid white;
+	margin: 10px 0 0 6px;
+	padding: 4px 4px 4px 9px;
+	-o-transition:color .2s ease-out, background 1s ease-in;
+	-ms-transition:color .2s ease-out, background 1s ease-in;
+	-moz-transition:color .2s ease-out, background 1s ease-in;
+	-webkit-transition:color .2s ease-out, background 1s ease-in;
+	transition:color .2s ease-out, background 1s ease-in;
+	cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
 	color: #244FA6;
 }
 
