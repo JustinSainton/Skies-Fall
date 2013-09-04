@@ -151,7 +151,7 @@
 			} else {
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.success + '</p>' );
-				$( 'div.hidden-message' ).slideDown( 300 ).delay( 3000 ).slideDown( 300 );
+				$( 'div.hidden-message' ).slideDown( 300 ).delay( 3000 ).slideUp( 300 );
 			}
 		};
 		$.post( url, data, success, 'json' );
