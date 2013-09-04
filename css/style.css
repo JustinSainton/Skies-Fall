@@ -427,7 +427,8 @@ body.who #panel-2 h2 {
 }
 body.who #panel-2 .content-2 h2 span.heading {
 	letter-spacing: 0;
-	word-spacing: 0
+	word-spacing: 0;
+	line-height: 78px;
 }
 
 body.who #panel-2 p {
@@ -449,6 +450,18 @@ div.content-2 {
 
 div.content-1 {
 	margin-bottom: 60px;
+}
+
+div.content-2 ul#portfolio {
+	float: right;
+	margin-top: 60px;
+}
+div.content-2 ul#portfolio li {
+	float: left;
+	width: 141px;
+	height: 79px;
+	display: inline-block;
+	margin: -60px 0 0 -45px;
 }
 
 body.who div.content-2 h2 {
