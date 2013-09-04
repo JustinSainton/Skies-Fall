@@ -166,7 +166,6 @@
 
 		if ( $this.height() < smallest_div_height )
 			smallest_div_height = $this.height();
-
 	});
 
 	$( 'body.home div#panel-3 div > div' ).css( 'height', smallest_div_height );
@@ -180,7 +179,7 @@
 		$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
 
 		//Center h2 horizontally within container
-		$h2.css( 'top', ( $this.height() - $h2.height() ) / 2 );
+		$h2.css( 'top', ( $this.height() - ( $h2.height() / 2 ) ) / 2 );
 
 	});
 

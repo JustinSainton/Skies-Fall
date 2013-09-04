@@ -40,7 +40,7 @@ span.subheading {
 span.heading {
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 67px;
-	font-style: normal;
+	font-weight: 500;
 	letter-spacing: 6px;
 	word-spacing: 1px;
 }
@@ -48,7 +48,7 @@ span.heading {
 div.location h3 {
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 20px;
-	font-weight: normal;
+	font-weight: 500;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 }
@@ -89,7 +89,7 @@ div.address span a {
 }
 
 #contact-bubble:hover {
-	color: #244FA6;
+	color: #0380FF;
 }
 
 #contact-form {
@@ -110,7 +110,7 @@ div.address span a {
 	display: block;
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 12px;
-	font-weight: normal;
+	font-weight: 500;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	padding: 4px;
@@ -145,7 +145,7 @@ div.hidden-message {
 	font-size: 15px;
 	text-transform: uppercase;
 	color: #FFF;
-	font-style: normal;
+	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 5px;
 	border: 1px solid white;
@@ -160,7 +160,7 @@ div.hidden-message {
 }
 
 #contact-form input[type="submit"]:hover {
-	color: #244FA6;
+	color: #0380FF;
 }
 
 .down-arrow {
@@ -197,7 +197,7 @@ div#panel-1 {
 
 div.panel.location {
 	background-color: #161616;
-	opacity: .9;
+	opacity: .95;
 	padding: 25px 0;
 }
 
@@ -236,7 +236,7 @@ nav.header li a {
 	font-size: 21px;
 	text-transform: uppercase;
 	color: #FFF;
-	font-style: normal;
+	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 5px;
 }
@@ -283,20 +283,8 @@ div.map {
 }
 
 body.home div#panel-2 {
-	background-color: rgba(23, 22, 22, 0.7);
+	background-color: rgba(23, 22, 22, 0.95);
 	padding: 60px 0;
-}
-
-body.home div#panel-2 a img {
-	opacity: .7;
-	-webkit-transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-o-transition: opacity .25s ease-in-out;
-	transition: opacity .25s ease-in-out;
-}
-
-body.home div#panel-2 a img:hover {
-	opacity: 1;
 }
 
 div.full-width {
