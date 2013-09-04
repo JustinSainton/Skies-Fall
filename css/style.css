@@ -293,12 +293,6 @@ body.home div#panel-2 a img:hover {
 	opacity: 1;
 }
 
-#map-canvas {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-}
-
 div.full-width {
 	max-width: none;
 }
