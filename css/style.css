@@ -165,7 +165,8 @@ div.hidden-message {
 	cursor: pointer;
 }
 
-#contact-form input[type="submit"]:hover {
+#contact-form input[type="submit"]:hover,
+#contact-form input[type="submit"]:focus {
 	color: #0380FF;
 	border: 1px solid #0380FF;
 }
