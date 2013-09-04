@@ -482,6 +482,12 @@ body.who #panel-2 div.content-2 p {
 body.who div#panel-3 {
 	background-color: rgba( 255, 255, 255, .93 );
 }
+
+h2.jordan {
+	letter-spacing: -1px;
+	word-spacing: 3px;
+}
+
 .bio {
 	overflow: auto;
 	position: relative;
