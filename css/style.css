@@ -78,10 +78,10 @@ div.address span a {
 	float: right;
 	padding: 43px;
 	cursor: pointer;
-	-webkit-transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-o-transition: opacity .25s ease-in-out;
-	transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+	transition: opacity .25s ease-in-out, background .25s ease-in-out;
 }
 
 #contact-bubble a {
@@ -90,6 +90,7 @@ div.address span a {
 
 #contact-bubble:hover {
 	color: #0380FF;
+	background: url('../img/bubble-hover.png' );
 }
 
 #contact-form {
@@ -151,16 +152,17 @@ div.hidden-message {
 	border: 1px solid white;
 	margin: 10px 0 0 6px;
 	padding: 4px 4px 4px 9px;
-	-o-transition:color .2s ease-out, background 1s ease-in;
-	-ms-transition:color .2s ease-out, background 1s ease-in;
-	-moz-transition:color .2s ease-out, background 1s ease-in;
-	-webkit-transition:color .2s ease-out, background 1s ease-in;
-	transition:color .2s ease-out, background 1s ease-in;
+	-o-transition:color .2s ease-out, background 1s ease-in, border-color .2s ease-out;
+	-ms-transition:color .2s ease-out, background 1s ease-in, border-color .2s ease-out;
+	-moz-transition:color .2s ease-out, background 1s ease-in, border-color .2s ease-out;
+	-webkit-transition:color .2s ease-out, background 1s ease-in, border-color .2s ease-out;
+	transition:color .2s ease-out, background 1s ease-in, border-color .2s ease-out;
 	cursor: pointer;
 }
 
 #contact-form input[type="submit"]:hover {
 	color: #0380FF;
+	border: 1px solid #0380FF;
 }
 
 .down-arrow {
