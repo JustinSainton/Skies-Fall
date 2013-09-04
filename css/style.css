@@ -377,6 +377,52 @@ div.img:hover {
 	clear: right;
 }
 
+div.colophon {
+	background: #161616;
+	padding: 25px 0 0 0;
+}
+
+p.copyright {
+	font-family : 'myriad-pro', 'Myriad Pro', Myriad, sans-serif;
+	font-size: 14px;
+}
+
+div.social {
+	width: 250px;
+	float: right;
+	margin-top: -45px;
+}
+
+div.social ul {
+	display: inline;
+}
+
+div.social li {
+	display: inline;
+	width:100px;
+	overflow: hidden;
+}
+
+a.genericon {
+	margin-right: 10px;
+	border-radius: 50%;
+	height:18px;
+	width: 18px;
+	padding: 7px;
+	background-color: #244FA6;
+	font-size: 17px;
+	-o-transition:color .2s ease-out, background .4s ease-in;
+	-ms-transition:color .2s ease-out, background .4s ease-in;
+	-moz-transition:color .2s ease-out, background .4s ease-in;
+	-webkit-transition:color .2s ease-out, background .4s ease-in;
+	transition:color .2s ease-out, background .4s ease-in;
+	color: #161616;
+}
+
+a.genericon:hover {
+	background-color: #666;
+}
+
 /** BIG VIDEO **/
 #big-video-wrap {
     overflow: hidden;
