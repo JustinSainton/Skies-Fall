@@ -15,10 +15,6 @@
 			var $this = $( this ),
 			id = $this.attr( 'id' );
 
-			console.log( id );
-			console.log( panels[ page ] );
-			console.log( bodyheight );
-
 			if ( ! $.inArray( id, panels[ page ] ) ) {
 				$this.addClass( 'modified' );
 				$this.height( bodyheight );

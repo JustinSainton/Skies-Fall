@@ -77,10 +77,19 @@ div.address span a {
 	background: url('../img/bubble.png' );
 	float: right;
 	padding: 43px;
+	cursor: pointer;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
 }
 
 #contact-bubble a {
 	white-space: nowrap;
+}
+
+#contact-bubble:hover {
+	color: #244FA6;
 }
 
 .down-arrow {
