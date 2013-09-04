@@ -25,6 +25,12 @@
 
 	$( window ).resize( resize_panels );
 
+	/** BIO **/
+
+	$( 'div.bio' ).each( function(i,v){
+		$( this ).css( 'bottom', ( i * 100 ) );
+	});
+
 	/** Video Background **/
 
 	var BV;

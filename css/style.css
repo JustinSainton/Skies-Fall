@@ -483,24 +483,25 @@ body.who #panel-2 div.content-2 p {
 }
 
 body.who div#panel-3 {
-	background-color: rgba( 255, 255, 255, .7 );
+	background-color: rgba( 255, 255, 255, .93 );
 }
 .bio {
 	overflow: auto;
 	position: relative;
-	bottom: 90px;
-
+	margin-top: 50px;
 }
 
 .bio img {
 	float: left;
 	max-height: 100%;
+	margin-right: 40px;
 }
 
 .bio.right img {
 	float: right;
+	margin-left: 40px;
+	margin-right: 0;
 }
-
 
 .bio h2 {
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
@@ -508,10 +509,12 @@ body.who div#panel-3 {
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #244FA6;
+	margin-top: 130px;
 }
 
 .bio p {
 	color: #000;
+	line-height: 24px;
 }
 
 /** BIG VIDEO **/
