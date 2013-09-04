@@ -135,7 +135,7 @@
 
 	$( '#contact-form' ).submit( function(e){
 		e.preventDefault();
-
+		$( 'div.ajax-loader' ).fadeIn( 350 );
 		var url = 'contact.php',
 		data = {
 			name    : $( 'label#name input' ).val(),
@@ -148,11 +148,13 @@
 				$( 'div.hidden-message' ).remove();
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.errormsg + '</p>' );
+				$( 'div.ajax-loader' ).fadeOut( 350 );
 				$( 'div.hidden-message' ).slideDown( 400 ).delay( 3000 ).slideUp( 400 );
 			} else {
 				$( 'div.hidden-message' ).remove();
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.success + '</p>' );
+				$( 'div.ajax-loader' ).fadeOut( 350 );
 				$( 'div.hidden-message' ).slideDown( 300 ).delay( 3000 ).slideUp( 300 );
 			}
 		};
