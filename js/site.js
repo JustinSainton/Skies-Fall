@@ -66,12 +66,15 @@
 		recording = new google.maps.LatLng( 42.580899,-87.848738 ),
 		tv        = new google.maps.LatLng( 42.723704,-87.789871 ),
 		mapOptions = {
-			zoom        : 9,
+			zoom        : 5,
 			center      : hq,
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
 			scrollwheel : false
-		},
-		image = '../img/map-marker.png',
+		};
+
+		var map = new google.maps.Map( document.getElementById( 'map' ), mapOptions );
+
+		var image = 'http://skiesfall.com/dev/img/map-marker.png',
 		hqMarker = new google.maps.Marker({
 			position : hq,
 			map      : map,
@@ -86,9 +89,7 @@
 			position : tv,
 			map      : map,
 			icon     : image
-		}),
-
-		map = new google.maps.Map( document.getElementById( 'panel-5' ), mapOptions );
+		});
 	}
 
 	google.maps.event.addDomListener( window, 'load', initialize );
