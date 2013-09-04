@@ -77,9 +77,9 @@
 		var map = new google.maps.Map( document.getElementById( 'map' ), mapOptions );
 
 		if ( window.devicePixelRatio > 1 ) {
-			var image = 'http://skiesfall.com/dev/img/map-marker@2x.png',
+			var image = 'http://skiesfall.com/dev/img/map-marker@2x.png';
 		} else {
-			var image = 'http://skiesfall.com/dev/img/map-marker.png',
+			var image = 'http://skiesfall.com/dev/img/map-marker.png';
 		}
 
 		hqMarker = new google.maps.Marker({
