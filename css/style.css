@@ -422,6 +422,12 @@ a.genericon:hover {
 /** WHO WE ARE **/
 body.who #panel-2 h2 {
 	color: #244FA6;
+	letter-spacing: 0;
+	word-spacing: 0
+}
+body.who #panel-2 h2 span.heading {
+	letter-spacing: 0;
+	word-spacing: 0
 }
 
 body.who #panel-2 p {
@@ -447,7 +453,7 @@ div.content-1 {
 
 body.who div.content-2 h2 {
 	float: left;
-	width: 400px;
+	width: 340px;
 	padding: 0;
 	margin: -11px 0 0 0;
 }
@@ -455,6 +461,8 @@ body.who div.content-2 h2 {
 body.who #panel-2 div.content-2 p {
 	font-size: 26px;
 }
+
+di
 
 /** BIG VIDEO **/
 #big-video-wrap {
