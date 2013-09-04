@@ -121,6 +121,10 @@ div.address span a {
 	float: left
 }
 
+div.hidden-message {
+	display: none
+}
+
 #contact-form input {
 	margin-top: 3px;
 }

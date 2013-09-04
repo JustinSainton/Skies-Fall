@@ -133,5 +133,28 @@
 		$( '#contact-form' ).slideToggle( 250 );
 	});
 
+	$( '#contact-form' ).submit( function(e){
+		e.preventDefault();
+
+		var url = 'contact.php',
+		data = {
+			name    : $( 'label#name input' ).val(),
+			email   : $( 'label#email input' ).val(),
+			message : $( 'label#message textarea' ).val(),
+			gotye   : $( 'input#gotye' ).val(),
+		},
+		success = function( response ) {
+			if ( response.errormsg ) {
+				$( '#contact' ).before( '<div class="hidden-message" />' );
+				$( 'div.hidden-message' ).html( '<p>' + response.errormsg + '</p>' ).fadeIn( 300 ).delay( 3000 ).fadeOut( 300 ).remove();
+			} else {
+				$( '#contact' ).before( '<div class="hidden-message" />' );
+				$( 'div.hidden-message' ).html( '<p>' + response.success + '</p>' ).fadeIn( 300 ).delay( 3000 ).fadeOut( 300 ).remove();
+			}
+		};
+		$.post( url, data, success, 'json' );
+
+	});
+
 
 })(jQuery);
