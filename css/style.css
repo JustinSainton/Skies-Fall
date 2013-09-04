@@ -286,7 +286,7 @@ div.map {
 	height: 300px;
 }
 
-body.home div#panel-2 {
+div#panel-2 {
 	background-color: rgba(23, 22, 22, 0.95);
 	padding: 60px 0;
 }
