@@ -205,7 +205,6 @@
 	//Contact Form
 	$( '#contact-bubble' ).click( function(){
 		$( '#contact-form' ).slideToggle( 250 );
-		$( '#contact-form input' ).eq(0).focus();
 	});
 
 	$( '#contact-form' ).submit( function(e){
