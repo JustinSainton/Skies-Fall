@@ -32,7 +32,7 @@
 	$(function() {
 
 		var videos = {
-			home   : 'http://player.vimeo.com/external/73702612.sd.mp4?s=8ae3075d51a5848e2e0ff42017894213',
+			home   : 'http://player.vimeo.com/external/73702612.hd.mp4?s=1ea318ce4c81df7e0d6d99c93638434e',
 			who    : 'http://player.vimeo.com/external/73702613.hd.mp4?s=dca69bc69ed721b723375792a2729008',
 			video  : 'http://player.vimeo.com/external/73701651.hd.mp4?s=897fc226d7b0f3d111d424d9cf617d6a',
 			audio  : 'http://player.vimeo.com/external/73703469.hd.mp4?s=75f3772c5f79f6ad407f6f425e587e47',
@@ -49,7 +49,7 @@
 		if (  Modernizr.touch ) {
 			BV.show('img/mobile-placeholder.jpg');
 		} else {
-			BV.show( videos[ page ], { ambient : true } );
+			BV.show( videos[ page ], { ambient : true, loop : true, doLoop : true } );
 		}
 
 	});
