@@ -164,7 +164,7 @@
 
 		var $this = $( 'img', $( this ) );
 
-		if ( $this.height() < smallest_div_height )
+		if ( $this.height() > 1 && $this.height() < smallest_div_height )
 			smallest_div_height = $this.height();
 	});
 
