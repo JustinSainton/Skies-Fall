@@ -71,7 +71,8 @@
 			zoom        : 5,
 			center      : hq,
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
-			scrollwheel : false
+			scrollwheel : false,
+			optimized   : false
 		};
 
 		var map = new google.maps.Map( document.getElementById( 'map' ), mapOptions );
