@@ -4,6 +4,7 @@
 
 		var panels = {
 			home   : [ 'panel-1', 'panel-3' ],
+			who    : [ 'panel-1' ]
 		},
 		page = $( 'body' ).attr( 'class' ),
 		bodyheight = $( window ).height();
