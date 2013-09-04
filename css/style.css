@@ -401,11 +401,11 @@ a.genericon {
 	padding: 7px;
 	background-color: #244FA6;
 	font-size: 17px;
-	-o-transition:color .2s ease-out, background .4s ease-in;
-	-ms-transition:color .2s ease-out, background .4s ease-in;
-	-moz-transition:color .2s ease-out, background .4s ease-in;
-	-webkit-transition:color .2s ease-out, background .4s ease-in;
-	transition:color .2s ease-out, background .4s ease-in;
+	-o-transition:color .1s ease-out, background .1s ease-in;
+	-ms-transition:color .1s ease-out, background .1s ease-in;
+	-moz-transition:color .1s ease-out, background .1s ease-in;
+	-webkit-transition:color .1s ease-out, background .1s ease-in;
+	transition:color .1s ease-out, background .1s ease-in;
 	color: #161616;
 }
 
