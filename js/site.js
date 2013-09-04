@@ -144,6 +144,7 @@
 			gotye   : $( 'input#gotye' ).val(),
 		},
 		success = function( response ) {
+			console.log(response);
 			if ( response.errormsg ) {
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.errormsg + '</p>' ).fadeIn( 300 ).delay( 3000 ).fadeOut( 300 ).remove();
