@@ -147,11 +147,11 @@
 			if ( response.errormsg ) {
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.errormsg + '</p>' );
-				$( 'div.hidden-message' ).fadeIn( 300 ).delay( 3000 ).fadeOut( 300 );
+				$( 'div.hidden-message' ).slideDown( 400 ).delay( 3000 ).slideUp( 400 );
 			} else {
 				$( '#contact' ).before( '<div class="hidden-message" />' );
 				$( 'div.hidden-message' ).html( '<p>' + response.success + '</p>' );
-				$( 'div.hidden-message' ).fadeIn( 300 ).delay( 3000 ).fadeOut( 300 );
+				$( 'div.hidden-message' ).slideDown( 300 ).delay( 3000 ).slideDown( 300 );
 			}
 		};
 		$.post( url, data, success, 'json' );
