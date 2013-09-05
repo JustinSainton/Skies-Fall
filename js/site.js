@@ -1,8 +1,10 @@
 (function($) {
-	$( window ).stellar({
+
+	$( 'body.home #panel-3' ).stellar({
 		scrollProperty  : 'transform',
 		positionPropery : 'transform'
 	});
+
 	/** Panel Resizing **/
 	resize_panels = function() {
 
