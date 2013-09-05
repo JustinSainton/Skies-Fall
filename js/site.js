@@ -1,4 +1,5 @@
 (function($) {
+	$( window ).stellar();
 	/** Panel Resizing **/
 	resize_panels = function() {
 
