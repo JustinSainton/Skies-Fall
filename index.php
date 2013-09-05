@@ -116,19 +116,19 @@
 					</div>
 				</div>
 				<div id="audio">
-					<h2><a href="design.html">Audio</h2>
+					<h2>Audio</h2>
 					<div class="img">
 						<img src="img/audio-large.png" alt="" />
 					</div>
 				</div>
 				<div id="photography">
-					<h2><a href="design.html">Photography</h2>
+					<h2>Photography</h2>
 					<div class="img">
 						<img src="img/photo-large.png" alt="" />
 					</div>
 				</div>
 				<div id="design">
-					<h2><a href="design.html">Design</a></h2>
+					<h2>Design</h2>
 					<div class="img">
 						<img src="img/design-large.png" alt="" />
 					</div>
