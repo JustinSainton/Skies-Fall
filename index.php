@@ -110,25 +110,25 @@
 		<div id="panel-3" class="panel">
 			<div class="panel-container full-width">
 				<div id="video">
-					<h2>Video</h2>
+					<h2><a href="design.html">Video</a></h2>
 					<div class="img">
 						<img src="img/video-large.png" alt="" />
 					</div>
 				</div>
 				<div id="audio">
-					<h2>Audio</h2>
+					<h2><a href="design.html">Audio</a></h2>
 					<div class="img">
 						<img src="img/audio-large.png" alt="" />
 					</div>
 				</div>
 				<div id="photography">
-					<h2>Photography</h2>
+					<h2><a href="design.html">Photography</a></h2>
 					<div class="img">
 						<img src="img/photo-large.png" alt="" />
 					</div>
 				</div>
 				<div id="design">
-					<h2>Design</h2>
+					<h2><a href="design.html">Design</a></h2>
 					<div class="img">
 						<img src="img/design-large.png" alt="" />
 					</div>
