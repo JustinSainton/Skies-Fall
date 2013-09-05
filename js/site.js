@@ -213,6 +213,21 @@
 
 	});
 
+	$( '#video' ).click(function(){
+		window.location = 'video.html';
+	});
+
+	$( '#photography' ).click(function(){
+		window.location = 'photo.html';
+	});
+
+	$( '#audio' ).click(function(){
+		window.location = 'audio.html';
+	});
+
+	$( '#design' ).click(function(){
+		window.location = 'design.html';
+	});
 
 })(jQuery);
 
@@ -221,7 +236,7 @@ jQuery( document ).ready( function( $ ) {
 
 	var smallest_div_height = 500;
 
-	$( 'body.home div#panel-3 div > div' ).each(function(){
+	$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
 
 		var $this = $( 'img', $( this ) );
 
@@ -229,12 +244,12 @@ jQuery( document ).ready( function( $ ) {
 			smallest_div_height = $this.height();
 	});
 
-	$( 'body.home div#panel-3 div > div' ).css( 'height', smallest_div_height );
+	$( 'body.home div#panel-3 div > div' ).not( '.img' ).css( 'height', smallest_div_height );
 
 
-	$( 'body.home div#panel-3 div > div' ).each(function(){
+	$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
 
-		var $this = $( this ), $h2 = $( 'h2 a', $this );
+		var $this = $( this ), $h2 = $( 'h2', $this );
 
 		//Center h2 vertically within container
 		$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
