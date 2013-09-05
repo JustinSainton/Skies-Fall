@@ -234,7 +234,7 @@ jQuery( document ).ready( function( $ ) {
 
 	$( 'body.home div#panel-3 div > div' ).each(function(){
 
-		var $this = $( this ), $h2 = $( 'h2', $this );
+		var $this = $( this ), $h2 = $( 'h2 a', $this );
 
 		//Center h2 vertically within container
 		$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
