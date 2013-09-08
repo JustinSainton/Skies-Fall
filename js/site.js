@@ -1,7 +1,7 @@
 (function($) {
 
 	$.stellar({
-		responsive : true,
+		responsive : ! Modernizr.touch,
 		hideDistantElements : false
 	});
 
