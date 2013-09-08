@@ -34,7 +34,8 @@ a {
 span.heading,
 span.subheading {
 	text-transform: uppercase;
-	text-align: center
+	text-align: center;
+	position: relative;
 }
 
 span.heading {
@@ -267,6 +268,7 @@ p.quote {
 	padding: 0 25px;
 	margin-top: 7px;
 	line-height: 42px;
+	position: relative;
 }
 
 ul#portfolio li {
