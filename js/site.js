@@ -1,8 +1,6 @@
 (function($) {
 
 	$.stellar({
-		scrollProperty: 'transform',
-		positionProperty: 'transform',
 		horizontalScrolling: false,
 		verticalOffset: 40
 	});
