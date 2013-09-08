@@ -1,9 +1,6 @@
 (function($) {
 
-	$.stellar({
-		horizontalScrolling: false,
-		verticalOffset: 40
-	});
+	$.stellar();
 
 	/** Panel Resizing **/
 	resize_panels = function() {
