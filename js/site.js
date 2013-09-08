@@ -1,6 +1,6 @@
 (function($) {
 
-	$( 'div.panel' ).stellar({
+	$.stellar({
 		scrollProperty: 'transform',
 		positionProperty: 'transform',
 		horizontalScrolling: false,
