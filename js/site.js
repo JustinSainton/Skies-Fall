@@ -2,7 +2,7 @@
 
 	$.stellar({
 		scrollProperty  : 'transform',
-		positionPropery : 'transform'
+		positionProperty : 'transform'
 	});
 
 	/** Panel Resizing **/
