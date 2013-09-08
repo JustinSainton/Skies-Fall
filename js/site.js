@@ -1,6 +1,9 @@
 (function($) {
 
-	$.stellar();
+	$.stellar({
+		horizontalOffset: 40,
+		verticalOffset: -150
+	});
 
 	/** Panel Resizing **/
 	resize_panels = function() {
