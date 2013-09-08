@@ -34,7 +34,7 @@
 	<body class="home">
 
 		<!-- Panel #1 will always include the navigation !-->
-		<div id="panel-1" class="panel">
+		<div id="panel-1" class="panel" data-stellar-background-ratio="0.5">
 			<div class="panel-container">
 				<nav class="header">
 					<ul>
@@ -63,7 +63,7 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel">
+		<div id="panel-2" class="panel" data-stellar-background-ratio="0.5">
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
 				<ul id="portfolio">
@@ -107,7 +107,7 @@
 			</div>
 		</div>
 
-		<div id="panel-3" class="panel">
+		<div id="panel-3" class="panel" data-stellar-background-ratio="0.5">
 			<div class="panel-container full-width">
 				<div id="video">
 					<h2>Video</h2>
@@ -136,7 +136,7 @@
 			</div>
 		</div>
 
-		<div id="panel-4" class="panel location">
+		<div id="panel-4" class="panel location" data-stellar-background-ratio="0.5">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -198,8 +198,8 @@
 			</div>
 		</div>
 		<span class="down-arrow"></span>
-		<div id="map" class="panel map"></div>
-		<div id="panel-6" class="panel colophon">
+		<div id="map" class="panel map" data-stellar-background-ratio="0.5"></div>
+		<div id="panel-6" class="panel colophon" data-stellar-background-ratio="0.5">
 			<div class="panel-container">
 				<p class="copyright">
 					&copy; <?php echo date( 'Y' ); ?> Skies Fall Media Group. All Rights Reserved.
