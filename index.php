@@ -36,6 +36,10 @@
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel" data-stellar-background-ratio="0.5">
 			<div class="panel-container">
+				<div class="quote-container" data-stellar-ratio=".5">
+					<span class="heading">We own the sky</span>
+					<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
+				</div>
 				<nav class="header">
 					<ul>
 						<li class="logo">
@@ -58,14 +62,10 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="quote-container" data-stellar-ratio=".5">
-					<span class="heading">We own the sky</span>
-					<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
-				</div>
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel" data-stellar-background-ratio="0.5">
+		<div id="panel-2" class="panel" data-stellar-ratio="0.5">
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
 				<ul id="portfolio">
@@ -109,7 +109,7 @@
 			</div>
 		</div>
 
-		<div id="panel-3" class="panel" data-stellar-background-ratio="0.5">
+		<div id="panel-3" class="panel" data-stellar-ratio="0.5">
 			<div class="panel-container full-width">
 				<div id="video">
 					<h2>Video</h2>
@@ -138,7 +138,7 @@
 			</div>
 		</div>
 
-		<div id="panel-4" class="panel location" data-stellar-background-ratio="0.5">
+		<div id="panel-4" class="panel location" data-stellar-ratio="0.5">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -200,8 +200,8 @@
 			</div>
 		</div>
 		<span class="down-arrow"></span>
-		<div id="map" class="panel map" data-stellar-background-ratio="0.5"></div>
-		<div id="panel-6" class="panel colophon" data-stellar-background-ratio="0.5">
+		<div id="map" class="panel map" data-stellar-ratio="0.5"></div>
+		<div id="panel-6" class="panel colophon" data-stellar-ratio="0.5">
 			<div class="panel-container">
 				<p class="copyright">
 					&copy; <?php echo date( 'Y' ); ?> Skies Fall Media Group. All Rights Reserved.
