@@ -34,7 +34,7 @@
 	<body class="home">
 
 		<!-- Panel #1 will always include the navigation !-->
-		<div id="panel-1" class="panel" data-stellar-background-ratio="0.5">
+		<div id="panel-1" class="panel">
 			<div class="panel-container">
 				<nav class="header">
 					<ul>
