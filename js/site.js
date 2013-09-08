@@ -1,6 +1,10 @@
 (function($) {
 
 	$.stellar({
+		responsive : true
+	});
+
+	$( 'body.home div#panel-1 > div.panel-container' ).stellar({
 		responsive : true,
 		scrollProperty : Modernizr.touch ? 'scroll' : 'transform',
 		positionProperty : Modernizr.touch ? 'scroll' : 'transform'
