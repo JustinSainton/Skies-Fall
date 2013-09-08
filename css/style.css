@@ -255,6 +255,11 @@ div.panel {
 	margin-top: 140px;
 }
 
+div.panel.map,
+div.panel.colophon {
+	margin-top: 0;
+}
+
 /** HOME SPECIFIC **/
 
 #panel-1.panel {
