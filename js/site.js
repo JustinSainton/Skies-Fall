@@ -1,6 +1,10 @@
 (function($) {
 
-	$.stellar();
+	$.stellar({
+		responsive : true,
+		scrollProperty : Modernizr.touch ? 'scroll' : 'transform',
+		positionProperty : Modernizr.touch ? 'scroll' : 'transform'
+	});
 
 	/** Panel Resizing **/
 	resize_panels = function() {
