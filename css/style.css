@@ -215,7 +215,7 @@ nav.header {
 }
 
 nav.header {
-	margin: 0 auto 50px;
+	margin: 0 auto;
 }
 
 nav.header ul {
@@ -270,7 +270,6 @@ div.panel.colophon {
 
 body.home #panel-1 .panel-container {
 	position: relative;
-	margin-top: -280px;
 }
 
 p.quote {
