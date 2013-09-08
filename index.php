@@ -57,10 +57,7 @@
 					</li>
 				</ul>
 			</nav>
-			<div style="width: 100%;
-	max-width: 1000px;
-	margin: 0 auto;
-	overflow: auto; position: relative" data-stellar-ratio=".5">
+			<div class="panel-container" data-stellar-ratio="1.2">
 				<span class="heading">We own the sky</span>
 				<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
 			</div>
