@@ -57,8 +57,10 @@
 					</li>
 				</ul>
 			</nav>
-			<span class="heading" data-stellar-ratio=".5">We own the sky</span>
-			<p class="quote" data-stellar-ratio=".5">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
+			<div class="panel-container">
+				<span class="heading" data-stellar-ratio=".5">We own the sky</span>
+				<p class="quote" data-stellar-ratio=".5">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
+			</div>
 		</div>
 
 		<div id="panel-2" class="panel" data-stellar-background-ratio="0.5">
