@@ -794,3 +794,6 @@ transform:scale(1)}
 transform:scale(.3)}
 
 }
+div.quote-container {
+	position: relative
+}

@@ -58,7 +58,7 @@
 						</li>
 					</ul>
 				</nav>
-				<div data-stellar-ratio="2">
+				<div class="quote-container" data-stellar-ratio=".5">
 					<span class="heading">We own the sky</span>
 					<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
 				</div>
