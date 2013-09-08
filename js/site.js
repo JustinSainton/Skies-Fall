@@ -1,7 +1,8 @@
 (function($) {
 
 	$.stellar({
-		responsive : true
+		responsive : true,
+		hideDistantElements : false
 	});
 
 	$( 'body.home div#panel-1 > div.panel-container' ).stellar({
