@@ -10,8 +10,8 @@
 
 		$( 'body.home #portfolio li:even' ).addClass( 'move-it' );
 		$( 'body.home #portfolio li:odd' ).addClass( 'alt' );
-		$( 'body.home #portfolio li' ).slice( 4 ).css( 'margin-top', -100 );
-		$( 'body.home #portfolio li' ).slice( 8 ).css( 'margin-top', -200 );
+		$( 'body.home #portfolio li' ).slice( 4 ).css( 'margin-top', -132 );
+		$( 'body.home #portfolio li' ).slice( 8 ).css( 'margin-top', -264 );
 
 	} else {
 
