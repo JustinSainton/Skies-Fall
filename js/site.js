@@ -279,5 +279,5 @@ jQuery( document ).ready( function( $ ) {
 });
 
 jQuery( window ).load( function(){
-		alert( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top );
+		alert( ( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top ) );
 });
