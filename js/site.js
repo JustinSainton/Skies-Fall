@@ -236,6 +236,8 @@ jQuery( document ).ready( function( $ ) {
 
 	var property = Modernizr.touch ? 'transform' : 'scroll';
 
+	alert( property );
+
 	$( 'body.home div#panel-1 div.panel-container' ).stellar({
 		scrollProperty   : property,
 		positionProperty : property
