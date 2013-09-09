@@ -64,9 +64,9 @@
 		</div>
 
 		<div id="panel-2" class="panel">
-			<div class="panel-container" data-stellar-offset-parent="true" data-stellar-vertical-offset="-889">
+			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
-				<ul id="portfolio">
+				<ul id="portfolio" data-stellar-vertical-offset="-889">
 					<li data-stellar-ratio="1.15">
 						<a href=""><img src="img/client-logos/jockey.png" alt="Jockey" /></a>
 					</li>
