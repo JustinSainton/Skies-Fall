@@ -1,11 +1,19 @@
 (function($) {
-	var property = Modernizr.touch ? 'transform' : 'scroll';
 
-	$.stellar({
-		hideDistantElements : false,
-		scrollProperty   : property,
-		positionProperty : property,
-	});
+	if ( Modernizr.touch ) {
+		$.stellar({
+			hideDistantElements : false,
+			scrollProperty   : 'scroll',
+			positionProperty : 'scroll',
+		});
+	} else {
+		$.stellar({
+			hideDistantElements : false,
+			scrollProperty   : 'transform',
+			positionProperty : 'transform',
+		});
+	}
+
 
 	/** Panel Resizing **/
 	resize_panels = function() {
