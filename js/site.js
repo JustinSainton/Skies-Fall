@@ -3,7 +3,7 @@
 	if ( ! Modernizr.touch ) {
 
 		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
-
+		alert( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top );
 		$.stellar({
 			hideDistantElements : false,
 			horizontalScrolling : false
