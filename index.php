@@ -30,6 +30,18 @@
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+		<script>
+			$.stellar({
+				hideDistantElements : false
+			});
+
+			$( 'body.home div#panel-1 > div.panel-container' ).stellar({
+				scrollProperty   : 'scroll',
+				positionProperty : 'scroll'
+			});
+		</script>
+
 	</head>
 	<body class="home">
 
