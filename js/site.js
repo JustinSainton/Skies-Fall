@@ -11,8 +11,8 @@
 		$( 'body.home #portfolio li:even' ).addClass( 'move-it' );
 		$( 'body.home #portfolio li:odd' ).addClass( 'alt' );
 
-		$( 'body.home #portfolio li' ).slice( 4, 7 ).wrapAll( '<div class="second-row" />' );
-		$( 'body.home #portfolio li' ).slice( 8, 11 ).wrapAll( '<div class="third-row" />' );
+		$( 'body.home #portfolio li' ).slice( 4, 8 ).wrapAll( '<div class="second-row" />' );
+		$( 'body.home #portfolio li' ).slice( 8, 12 ).wrapAll( '<div class="third-row" />' );
 
 	} else {
 
