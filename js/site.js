@@ -4,12 +4,7 @@
 
 		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
 
-		$( '#panel-1' ).stellar({
-			hideDistantElements : false,
-			horizontalScrolling : false,
-		});
-
-		$( '#panel-1' ).stellar({
+		$.stellar({
 			hideDistantElements : false,
 			horizontalScrolling : false,
 		});
