@@ -35,7 +35,7 @@
 
 			var isMobile = Modernizr.touch, property = isMobile ? 'transform' : 'scroll';
 
-			$( 'body.home #panel-1 .panel-container' ).stellar({
+			$( 'body' ).stellar({
 				scrollProperty   : property,
 				positionProperty : property,
 				horizontalScrolling : false,
