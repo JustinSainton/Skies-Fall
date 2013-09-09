@@ -39,10 +39,11 @@
 				$( 'body.home #panel-1 .panel-container' ).addClass( 'vertical scrollable' );
 			}
 
+			$.stellar();
+
 			$( 'body.home #panel-1 .panel-container' ).stellar({
-				scrollProperty      : property,
-				positionProperty    : property,
-				hideDistantElements : false
+				scrollProperty   : property,
+				positionProperty : property
 			});
 
 		</script>
