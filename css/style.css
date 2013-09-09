@@ -312,6 +312,12 @@ div#panel-2 {
 	padding: 60px 0;
 }
 
+body.home ul#portfolio {
+	min-height: 590px;
+	overflow: hidden;
+	margin-top: -60px;
+}
+
 div.full-width {
 	max-width: none;
 }
