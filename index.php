@@ -209,6 +209,7 @@
 						<li class="twitter"><a class="genericon genericon-twitter" href="http://twitter.com"></a></li>
 						<li class="facebook"><a href="http://facebook.com" class="genericon genericon-facebook-alt"></a></li>
 						<li class="vimeo"><a href="http://vimeo.com" class="genericon genericon-vimeo"></a></li>
+						<li class="linkedin"><a href="http://linkedin.com" class="genericon genericon-linkedin"></a></li>
 					</ul>
 				</div>
 			</div>
