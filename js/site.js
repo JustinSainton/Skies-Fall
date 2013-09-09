@@ -1,7 +1,6 @@
 (function($) {
 
 	if ( ! Modernizr.touch ) {
-		alert( ( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top ) );
 
 		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
 		$.stellar({
@@ -280,4 +279,5 @@ jQuery( document ).ready( function( $ ) {
 });
 
 jQuery( window ).load( function(){
+		alert( ( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top ) );
 });
