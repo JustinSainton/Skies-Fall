@@ -2,12 +2,12 @@
 
 	var property = Modernizr.touch ? 'transform' : 'scroll';
 
-	console.log( property );
+	alert( property );
 
 	$( 'body.home div#panel-1 div.panel-container' ).stellar({
-		horizontalScrolling: false,
-		scrollProperty: 'scroll',
-		positionProperty: 'scroll'
+		horizontalScrolling : false,
+		scrollProperty      : property,
+		positionProperty    : property
 	});
 
 	/** Panel Resizing **/
