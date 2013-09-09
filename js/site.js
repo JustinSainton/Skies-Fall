@@ -5,7 +5,8 @@
 			hideDistantElements : false
 		});
 	} else {
-		$( 'body' ).stellar({
+
+		$( 'body' ).addClass( 'vertical scrollable' ).stellar({
 			hideDistantElements : false,
 			scrollProperty   : 'transform',
 			positionProperty : 'transform',
