@@ -32,10 +32,9 @@
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 		<script>
-
 			var property = Modernizr.touch ? 'transform' : 'scroll';
 
-			$( 'body.home #panel-1 .panel-container' ).stellar({
+			$( 'body.home #panel-1' ).stellar({
 				scrollProperty      : property,
 				positionProperty    : property,
 				hideDistantElements : false
