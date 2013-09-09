@@ -467,9 +467,8 @@ a.genericon:hover {
 }
 
 div.social li.linkedin a.genericon {
-	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 9px;
+	font-size: 27px;
+	padding: 3px 11px 11px 3px
 }
 
 /** WHO WE ARE **/
