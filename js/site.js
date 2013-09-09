@@ -251,7 +251,6 @@
 
 jQuery( document ).ready( function( $ ) {
 /** Home Page | Services Photos Centering **/
-		alert( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top );
 
 	var smallest_div_height = 500;
 
@@ -277,4 +276,8 @@ jQuery( document ).ready( function( $ ) {
 		$h2.css( 'top', ( ( $this.height() / 2 ) - ( $h2.height() / 2 ) ) - 5 );
 
 	});
+});
+
+jQuery( window ).load( function(){
+		alert( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top );
 });
