@@ -1,11 +1,11 @@
 (function($) {
 
-	if ( Modernizr.touch ) {
+	if ( ! Modernizr.touch ) {
 		$.stellar({
 			hideDistantElements : false
 		});
 	} else {
-		$.stellar({
+		$( 'body' ).stellar({
 			hideDistantElements : false,
 			scrollProperty   : 'transform',
 			positionProperty : 'transform',
