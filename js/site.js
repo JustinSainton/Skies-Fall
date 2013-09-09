@@ -6,8 +6,8 @@
 
 	$( 'body.home div#panel-1 div.panel-container' ).stellar({
 		horizontalScrolling: false,
-		scrollProperty: 'transform',
-		positionProperty: 'transform'
+		scrollProperty: 'scroll',
+		positionProperty: 'scroll'
 	});
 
 	/** Panel Resizing **/
