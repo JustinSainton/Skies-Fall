@@ -2,9 +2,7 @@
 
 	if ( Modernizr.touch ) {
 		$.stellar({
-			hideDistantElements : false,
-			scrollProperty   : 'scroll',
-			positionProperty : 'scroll',
+			hideDistantElements : false
 		});
 	} else {
 		$.stellar({
