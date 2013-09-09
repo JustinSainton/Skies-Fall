@@ -318,6 +318,10 @@ body.home ul#portfolio {
 	margin-top: -60px;
 }
 
+body.home ul#portfolio li {
+	margin-left: -500px;
+}
+
 div.full-width {
 	max-width: none;
 }
