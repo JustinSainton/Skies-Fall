@@ -9,7 +9,8 @@
 			horizontalScrolling : false
 		});
 
-		$( 'body.home #portfolio li' ).addClass( 'move-it' );
+		$( 'body.home #portfolio li:even' ).addClass( 'move-it' );
+		$( 'body.home #portfolio li:odd' ).addClass( 'alt' );
 
 	} else {
 
