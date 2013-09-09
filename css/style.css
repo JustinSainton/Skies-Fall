@@ -247,7 +247,7 @@ nav.header li a {
 
 nav.header li a.selected,
 nav.header li a:hover {
-	color: #0048BB;
+
 }
 
 div.panel {
@@ -468,6 +468,8 @@ a.genericon:hover {
 
 div.social li.linkedin a.genericon {
 	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 9px;
 }
 
 /** WHO WE ARE **/
