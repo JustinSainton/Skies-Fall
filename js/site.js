@@ -5,7 +5,8 @@
 		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
 
 		$.stellar({
-			hideDistantElements : false
+			hideDistantElements : false,
+			horizontalScrolling : false
 		});
 
 		$( 'body.home #portfolio li' ).addClass( 'move-it' );
