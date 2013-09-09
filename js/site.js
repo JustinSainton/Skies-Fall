@@ -1,7 +1,7 @@
 (function($) {
 
 	if ( ! Modernizr.touch ) {
-		$( '#panel-1' ).stellar({
+		$.stellar({
 			hideDistantElements : false
 		});
 	} else {
