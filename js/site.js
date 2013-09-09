@@ -172,18 +172,18 @@
 		}
 
 		var percentage = ( ( ( windowHeight - distance ) / mapHeight ) * 100 );
-		console.log(percentage);
-		if ( percentage > 141 ) {
+
+		if ( percentage > 131 ) {
 			map.setZoom( 10 );
-		} else if ( percentage > 140 )  {
+		} else if ( percentage > 130 )  {
 			map.setZoom( 9 );
-		} else if ( percentage > 135 )  {
+		} else if ( percentage > 124 )  {
 			map.setZoom( 8 );
-		} else if ( percentage > 127 )  {
-			map.setZoom( 7 );
 		} else if ( percentage > 118 )  {
+			map.setZoom( 7 );
+		} else if ( percentage > 112 )  {
 			map.setZoom( 6 );
-		} else if ( percentage > 108 )  {
+		} else if ( percentage > 106 )  {
 			map.setZoom( 5 );
 		} else if ( percentage > 100 )  {
 			map.setZoom( 4 );
