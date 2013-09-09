@@ -63,44 +63,44 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel" data-stellar-background-ratio="0.5">
+		<div id="panel-2" class="panel">
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
 				<ul id="portfolio">
-					<li>
+					<li data-stellar-ratio=".9">
 						<a href=""><img src="img/client-logos/jockey.png" alt="Jockey" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio="1.1">
 						<a href=""><img src="img/client-logos/target.png" alt="Target" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio=".9">
 						<a href=""><img src="img/client-logos/e.png" alt="E! Entertainment" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio="1.1">
 						<a href=""><img src="img/client-logos/united-way.png" alt="United Way" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio=".9">
 						<a href=""><img src="img/client-logos/atlantic.png" alt="Atlantic Records" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio="1.1">
 						<a href=""><img src="img/client-logos/mtv.png" alt="MTV" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio=".9">
 						<a href=""><img src="img/client-logos/dillards.png" alt="Dillard's" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio="1.1">
 						<a href=""><img src="img/client-logos/qvc.png" alt="QVC" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio=".9">
 						<a href=""><img src="img/client-logos/hbo.png" alt="HBO" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio="1.1">
 						<a href=""><img src="img/client-logos/skillet.png" alt="Skillet" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio=".9">
 						<a href=""><img src="img/client-logos/reach.png" alt="Reach Records" /></a>
 					</li>
-					<li>
+					<li data-stellar-ratio="1.1">
 						<a href=""><img src="img/client-logos/cw.png" alt="The CW" /></a>
 					</li>
 				</ul>
