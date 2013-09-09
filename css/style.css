@@ -181,7 +181,7 @@ div.hidden-message {
 	position: absolute;
 	z-index: 100;
 	left: 240px;
-	opacity: 0.9;
+	opacity: 0.95;
 }
 
 span.subheading {
