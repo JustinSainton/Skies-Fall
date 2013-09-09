@@ -63,10 +63,10 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel" data-stellar-offset-parent="true">
+		<div id="panel-2" class="panel" data-stellar-offset-parent="true" data-stellar-vertical-offset="1282">
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
-				<ul id="portfolio" data-stellar-vertical-offset="1282">
+				<ul id="portfolio">
 					<li>
 						<img data-stellar-ratio="1.15" src="img/client-logos/jockey.png" alt="Jockey" />
 					</li>

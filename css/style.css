@@ -325,6 +325,10 @@ body.home ul#portfolio li.alt {
 	margin:0;
 }
 
+body.home ul#portfolio li img {
+	position: relative;
+}
+
 div.full-width {
 	max-width: none;
 }
