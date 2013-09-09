@@ -1,6 +1,6 @@
 (function($) {
 
-	var property = Modernizr.touch ? 'transform' : 'scroll';
+	var property = ! Modernizr.touch ? 'transform' : 'scroll';
 
 	$( 'body.home div#panel-1 div.panel-container' ).stellar({
 		scrollProperty   : property,
