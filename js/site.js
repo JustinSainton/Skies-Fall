@@ -1,7 +1,10 @@
 (function($) {
+	var property = Modernizr.touch ? 'transform' : 'scroll';
 
 	$.stellar({
-		hideDistantElements : false
+		hideDistantElements : false,
+		scrollProperty   : property,
+		positionProperty : property,
 	});
 
 	/** Panel Resizing **/
