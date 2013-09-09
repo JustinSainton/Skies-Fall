@@ -35,10 +35,6 @@
 
 			var isMobile = Modernizr.touch, property = isMobile ? 'transform' : 'scroll';
 
-			if ( ! isMobile ) {
-				$( 'body.home #panel-1 .panel-container' ).removeClass( 'vertical scrollable' );
-			}
-
 			$( 'body.home #panel-1 .panel-container' ).stellar({
 				scrollProperty   : property,
 				positionProperty : property,
