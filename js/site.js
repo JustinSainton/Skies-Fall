@@ -100,7 +100,7 @@
 		recording = new google.maps.LatLng( 42.580899,-87.848738 ),
 		tv        = new google.maps.LatLng( 42.723704,-87.789871 ),
 		mapOptions = {
-			zoom        : 5,
+			zoom        : 4,
 			center      : hq,
 			mapTypeId   : google.maps.MapTypeId.ROADMAP,
 			scrollwheel : false
