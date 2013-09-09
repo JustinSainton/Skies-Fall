@@ -230,19 +230,6 @@
 
 jQuery( document ).ready( function( $ ) {
 
-	$.stellar({
-		hideDistantElements : false
-	});
-
-	var property = Modernizr.touch ? 'transform' : 'scroll';
-
-	alert( property );
-
-	$( 'body.home div#panel-1 div.panel-container' ).stellar({
-		scrollProperty   : property,
-		positionProperty : property
-	});
-
 	/** Home Page | Services Photos Centering **/
 
 	var smallest_div_height = 500;
