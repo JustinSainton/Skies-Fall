@@ -226,13 +226,12 @@ nav.header ul {
 
 nav.header li {
 	display: inline-block;
-	margin-left: 35px;
+	margin-right: 35px;
 	position: relative;
-	bottom: 75px;
+	bottom: 87px;
 }
 
 nav.header li.logo {
-	margin-right: 35px;
 	bottom: 0;
 }
 
