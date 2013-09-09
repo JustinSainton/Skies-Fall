@@ -173,17 +173,17 @@
 
 		var percentage = ( ( ( windowHeight - distance ) / mapHeight ) * 100 );
 
-		if ( percentage > 140 ) {
+		if ( percentage > 141 ) {
 			map.setZoom( 10 );
-		} else if ( percentage > 135 )  {
+		} else if ( percentage > 140 )  {
 			map.setZoom( 9 );
 		} else if ( percentage > 135 )  {
 			map.setZoom( 8 );
-		} else if ( percentage > 130 )  {
+		} else if ( percentage > 127 )  {
 			map.setZoom( 7 );
-		} else if ( percentage > 120 )  {
+		} else if ( percentage > 118 )  {
 			map.setZoom( 6 );
-		} else if ( percentage > 110 )  {
+		} else if ( percentage > 108 )  {
 			map.setZoom( 5 );
 		} else if ( percentage > 100 )  {
 			map.setZoom( 4 );
