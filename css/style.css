@@ -466,6 +466,10 @@ a.genericon:hover {
 	background-color: #FFF;
 }
 
+div.social li.linkedin a.genericon {
+	font-size: 20px;
+}
+
 /** WHO WE ARE **/
 body.who #panel-2 h2 {
 	color: #0048BB;
