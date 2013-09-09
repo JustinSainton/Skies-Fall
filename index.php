@@ -30,23 +30,6 @@
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-
-		<script>
-			if ( ! Modernizr.touch ) {
-				$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
-				$.stellar({
-					hideDistantElements : false
-				});
-			} else {
-
-				$( 'body' ).addClass( 'vertical scrollable' ).stellar({
-					hideDistantElements : false,
-					scrollProperty   : 'transform',
-					positionProperty : 'transform',
-				});
-			}
-		</script>
-
 	</head>
 	<body class="home">
 

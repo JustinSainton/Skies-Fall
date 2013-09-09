@@ -1,5 +1,20 @@
 (function($) {
 
+	if ( ! Modernizr.touch ) {
+		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
+		$.stellar({
+			hideDistantElements : false
+		});
+	} else {
+
+		$( '#panel-1' ).addClass( 'vertical scrollable' ).stellar({
+			hideDistantElements : false,
+			scrollProperty   : 'transform',
+			positionProperty : 'transform',
+		});
+	}
+
+
 	/** Panel Resizing **/
 	resize_panels = function() {
 
