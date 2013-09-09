@@ -172,7 +172,7 @@
 		}
 
 		var percentage = ( ( ( windowHeight - distance ) / mapHeight ) * 100 );
-
+		console.log(percentage);
 		if ( percentage > 141 ) {
 			map.setZoom( 10 );
 		} else if ( percentage > 140 )  {
