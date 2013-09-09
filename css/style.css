@@ -319,7 +319,11 @@ body.home ul#portfolio {
 }
 
 body.home ul#portfolio li.move-it {
-	margin-left: -500px;
+	margin:0;
+}
+
+body.home ul#portfolio li.alt {
+	margin:0;
 }
 
 div.full-width {
