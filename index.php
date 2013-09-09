@@ -67,40 +67,40 @@
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
 				<ul id="portfolio">
-					<li data-stellar-ratio="1.15">
+					<li>
 						<img src="img/client-logos/jockey.png" alt="Jockey" />
 					</li>
-					<li data-stellar-ratio=".85">
+					<li>
 						<img src="img/client-logos/target.png" alt="Target" />
 					</li>
-					<li data-stellar-ratio="1.15">
+					<li>
 						<img src="img/client-logos/e.png" alt="E! Entertainment" />
 					</li>
-					<li data-stellar-ratio=".85">
+					<li>
 						<img src="img/client-logos/united-way.png" alt="United Way" />
 					</li>
-					<li data-stellar-ratio="1.15">
+					<li>
 						<img src="img/client-logos/atlantic.png" alt="Atlantic Records" />
 					</li>
-					<li data-stellar-ratio=".85">
+					<li>
 						<img src="img/client-logos/mtv.png" alt="MTV" />
 					</li>
-					<li data-stellar-ratio="1.15">
+					<li>
 						<img src="img/client-logos/dillards.png" alt="Dillard's" />
 					</li>
-					<li data-stellar-ratio=".85">
+					<li>
 						<img src="img/client-logos/qvc.png" alt="QVC" />
 					</li>
-					<li data-stellar-ratio="1.15">
+					<li>
 						<img src="img/client-logos/hbo.png" alt="HBO" />
 					</li>
-					<li data-stellar-ratio=".85">
+					<li>
 						<img src="img/client-logos/skillet.png" alt="Skillet" />
 					</li>
-					<li data-stellar-ratio="1.15">
+					<li>
 						<img src="img/client-logos/reach.png" alt="Reach Records" />
 					</li>
-					<li data-stellar-ratio=".85">
+					<li>
 						<img src="img/client-logos/cw.png" alt="The CW" />
 					</li>
 				</ul>
