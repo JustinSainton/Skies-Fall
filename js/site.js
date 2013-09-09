@@ -177,14 +177,16 @@
 			map.setZoom( 10 );
 		} else if ( percentage > 135 )  {
 			map.setZoom( 9 );
-		} else if ( percentage > 130 )  {
+		} else if ( percentage > 135 )  {
 			map.setZoom( 8 );
-		} else if ( percentage > 120 )  {
+		} else if ( percentage > 130 )  {
 			map.setZoom( 7 );
-		} else if ( percentage > 110 )  {
+		} else if ( percentage > 120 )  {
 			map.setZoom( 6 );
-		} else if ( percentage > 100 )  {
+		} else if ( percentage > 110 )  {
 			map.setZoom( 5 );
+		} else if ( percentage > 100 )  {
+			map.setZoom( 4 );
 		}
 	}
 
