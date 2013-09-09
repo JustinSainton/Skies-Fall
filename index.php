@@ -21,7 +21,7 @@
 		<script src="js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="https://rawgithub.com/markdalgleish/stellar.js/master/src/jquery.stellar.js"></script>
+		<script src="js/stellar.js"></script>
 
 		<!-- Stylesheets -->
 		<link href="css/style.css" rel="stylesheet" type="text/css">

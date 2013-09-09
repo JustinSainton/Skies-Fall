@@ -2,10 +2,7 @@
 
 	var property = Modernizr.touch ? 'transform' : 'scroll';
 
-	$( 'body.home div#panel-1 div.panel-container' ).stellar({
-		scrollProperty   : property,
-		positionProperty : property
-	});
+	$( 'body.home div#panel-1 div.panel-container' ).stellar();
 
 	/** Panel Resizing **/
 	resize_panels = function() {
