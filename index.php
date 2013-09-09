@@ -33,7 +33,11 @@
 
 		<script>
 
-			var property = Modernizr.touch ? 'transform' : 'scroll';
+			var isMobile = Modernizr.touch, property = isMobile ? 'transform' : 'scroll';
+
+			if ( isMobile ) {
+				$( 'body.home #panel-1 .panel-container' ).addClass( 'vertical scrollable' );
+			}
 
 			$( 'body.home #panel-1 .panel-container' ).stellar({
 				scrollProperty      : property,
@@ -69,7 +73,7 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="panel-container scrollable vertical" data-stellar-ratio=".75">
+			<div class="panel-container" data-stellar-ratio=".75">
 				<span class="heading">We own the sky</span>
 				<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
 			</div>
