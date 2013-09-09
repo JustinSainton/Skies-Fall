@@ -1,9 +1,5 @@
 (function($) {
 
-	var property = Modernizr.touch ? 'transform' : 'scroll';
-
-	$( 'body.home div#panel-1 div.panel-container' ).stellar();
-
 	/** Panel Resizing **/
 	resize_panels = function() {
 
@@ -233,7 +229,19 @@
 })(jQuery);
 
 jQuery( document ).ready( function( $ ) {
-/** Home Page | Services Photos Centering **/
+
+	$.stellar({
+		hideDistantElements : false
+	});
+
+	var property = Modernizr.touch ? 'transform' : 'scroll';
+
+	$( 'body.home div#panel-1 div.panel-container' ).stellar({
+		scrollProperty   : property,
+		positionProperty : property
+	});
+
+	/** Home Page | Services Photos Centering **/
 
 	var smallest_div_height = 500;
 
