@@ -1,5 +1,14 @@
 (function($) {
 
+	$.stellar({
+		hideDistantElements : false
+	});
+
+	$( 'body.home div#panel-1 > div.panel-container' ).stellar({
+		scrollProperty   : 'scroll',
+		positionProperty : 'scroll',
+	});
+
 	/** Panel Resizing **/
 	resize_panels = function() {
 
