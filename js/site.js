@@ -3,7 +3,6 @@
 	if ( ! Modernizr.touch ) {
 
 		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
-		alert( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top );
 		$.stellar({
 			hideDistantElements : false,
 			horizontalScrolling : false
@@ -252,6 +251,7 @@
 
 jQuery( document ).ready( function( $ ) {
 /** Home Page | Services Photos Centering **/
+		alert( $( 'ul#portfolio' ).height() / 2 ) + ( $( 'ul#portfolio' ).offset().top );
 
 	var smallest_div_height = 500;
 
