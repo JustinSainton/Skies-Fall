@@ -1,12 +1,12 @@
 (function($) {
 
 	if ( ! Modernizr.touch ) {
-		$.stellar({
+		$( '#panel-1' ).stellar({
 			hideDistantElements : false
 		});
 	} else {
 
-		$( 'body' ).addClass( 'vertical scrollable' ).stellar({
+		$( '#panel-1' ).addClass( 'vertical scrollable' ).stellar({
 			hideDistantElements : false,
 			scrollProperty   : 'transform',
 			positionProperty : 'transform',
