@@ -272,6 +272,10 @@ body.home #panel-1 .panel-container {
 	position: relative;
 }
 
+body.home #panel-1 .panel-container.desktop-panel {
+	margin-top: -160px;
+}
+
 p.quote {
 	font-size: 31px;
 	padding: 0 25px;
