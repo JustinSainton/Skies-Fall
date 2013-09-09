@@ -329,6 +329,16 @@ body.home ul#portfolio li img {
 	position: relative;
 }
 
+div.second-row {
+	display: inline-block;
+	margin-top: -132px;
+}
+
+div.third-row {
+	display: inline-block;
+	margin-top: -264px;
+}
+
 div.full-width {
 	max-width: none;
 }
