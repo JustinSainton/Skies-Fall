@@ -35,9 +35,9 @@
 
 			var property = Modernizr.touch ? 'transform' : 'scroll';
 
-			$( '#panel-1' ).stellar({
-				scrollProperty: 'transform',
-				positionProperty: 'transform',
+			$( 'body.home #panel-1 .panel-container' ).stellar({
+				scrollProperty      : property,
+				positionProperty    : property,
 				hideDistantElements : false
 			});
 
