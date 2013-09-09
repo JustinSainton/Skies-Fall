@@ -270,8 +270,7 @@ div.panel.colophon {
 
 body.home #panel-1 .panel-container {
 	position: relative;
-	height: 400px;
-	overflow: hidden;
+	margin-top: -160px;
 }
 
 p.quote {

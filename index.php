@@ -30,15 +30,6 @@
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-
-		<script>
-			var property = Modernizr.touch ? 'transform' : 'scroll';
-
-			$( '#panel-1 .panel-container' ).stellar({
-				hideDistantElements : false
-			});
-
-		</script>
 	</head>
 	<body class="home">
 
