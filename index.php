@@ -63,7 +63,7 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel" data-stellar-offset-parent="true" data-stellar-horizontal-offset="500">
+		<div id="panel-2" class="panel" data-stellar-offset-parent="true" data-stellar-horizontal-offset="-500">
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
 				<ul id="portfolio">
