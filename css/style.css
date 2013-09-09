@@ -292,6 +292,7 @@ ul#portfolio li {
 	margin-top: 31px;
 	text-align: center;
 	line-height:132px;
+	position: relative;
 }
 
 ul#portfolio li a {
