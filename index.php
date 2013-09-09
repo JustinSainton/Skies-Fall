@@ -46,7 +46,7 @@
 	<body class="home">
 
 		<!-- Panel #1 will always include the navigation !-->
-		<div id="panel-1" class="panel scrollable vertical">
+		<div id="panel-1" class="panel">
 			<nav class="header">
 				<ul>
 					<li class="logo">
