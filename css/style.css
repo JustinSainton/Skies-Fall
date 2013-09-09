@@ -318,7 +318,7 @@ body.home ul#portfolio {
 	margin-top: -60px;
 }
 
-body.home ul#portfolio li {
+body.home ul#portfolio li.move-it {
 	margin-left: -500px;
 }
 

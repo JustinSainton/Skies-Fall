@@ -1,10 +1,15 @@
 (function($) {
 
 	if ( ! Modernizr.touch ) {
+
 		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
+
 		$.stellar({
 			hideDistantElements : false
 		});
+
+		$( 'body.home #portfolio li' ).addClass( 'move-it' );
+
 	} else {
 
 		$( '#panel-1' ).addClass( 'vertical scrollable' ).stellar({
