@@ -314,6 +314,7 @@ div#panel-2 {
 
 body.home ul#portfolio {
 	min-height: 590px;
+	margin-top: -70px;
 	overflow: hidden;
 }
 
