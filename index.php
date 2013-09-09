@@ -41,7 +41,9 @@
 
 			$( 'body.home #panel-1 .panel-container' ).stellar({
 				scrollProperty   : property,
-				positionProperty : property
+				positionProperty : property,
+				horizontalScrolling : false,
+				hideDistantElements : false
 			});
 
 		</script>
