@@ -10,8 +10,9 @@
 
 		$( 'body.home #portfolio li:even' ).addClass( 'move-it' );
 		$( 'body.home #portfolio li:odd' ).addClass( 'alt' );
-		$( 'body.home #portfolio li' ).slice( 4 ).css( 'margin-top', -132 );
-		$( 'body.home #portfolio li' ).slice( 8 ).css( 'margin-top', -264 );
+
+		$( 'body.home #portfolio li' ).slice( 4, 7 ).wrapAll( '<div class="second-row" />' );
+		$( 'body.home #portfolio li' ).slice( 8, 11 ).wrapAll( '<div class="third-row" />' );
 
 	} else {
 
