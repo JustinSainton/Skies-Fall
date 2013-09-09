@@ -5,7 +5,6 @@
 	alert( property );
 
 	$( 'body.home div#panel-1 div.panel-container' ).stellar({
-		horizontalScrolling : false,
 		scrollProperty      : property,
 		positionProperty    : property
 	});
