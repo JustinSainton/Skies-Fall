@@ -285,12 +285,12 @@ p.quote {
 
 ul#portfolio li {
 	float: left;
-	width: 230px;
-	height: 150px;
+	width: 25%;
+	height: 180;
 	display: inline;
 	margin-top: 31px;
 	text-align: center;
-	line-height:132px;
+	line-height:180px;
 	position: relative;
 }
 
