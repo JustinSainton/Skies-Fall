@@ -286,7 +286,7 @@ p.quote {
 ul#portfolio li {
 	float: left;
 	width: 25%;
-	height: 180;
+	height: 180px;
 	display: inline;
 	margin-top: 31px;
 	text-align: center;
