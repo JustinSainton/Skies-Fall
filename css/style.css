@@ -208,8 +208,8 @@ div.panel.location {
 
 div.panel-container,
 nav.header {
-	width: 100%;
-	max-width: 1000px;
+	width: 80%;
+	min-width: 1000px;
 	margin: 0 auto;
 	overflow: auto;
 }
@@ -286,7 +286,7 @@ p.quote {
 ul#portfolio li {
 	float: left;
 	width: 230px;
-	height: 132px;
+	height: 150px;
 	display: inline;
 	margin-top: 31px;
 	text-align: center;
@@ -312,7 +312,6 @@ div#panel-2 {
 }
 
 body.home ul#portfolio {
-	min-height: 590px;
 	overflow: hidden;
 }
 
