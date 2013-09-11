@@ -98,7 +98,7 @@ div.address a.add {
 
 #contact-bubble:hover {
 	color: #0048BB;
-	background: url('../img/bubble-hover.png' );
+	background: url('../img/bubble-hover.png' ) no-repeat;
 }
 
 #contact-form {
