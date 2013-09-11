@@ -208,7 +208,7 @@ div.panel.location {
 
 div.panel-container,
 nav.header {
-	max-width: 100px;
+	max-width: 100%;
 	margin: 0 auto;
 	overflow: auto;
 }
