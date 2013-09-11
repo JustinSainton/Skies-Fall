@@ -107,30 +107,38 @@
 			</div>
 		</div>
 
-		<div id="panel-3" class="panel" data-stellar-background-ratio="0.5">
+		<div id="panel-3" class="panel">
 			<div class="panel-container full-width">
 				<div id="video">
-					<h2>Video</h2>
-					<div class="img">
-						<img src="img/video-large.png" alt="" />
+					<div class="services-container">
+						<h2>Video</h2>
+						<div class="img">
+							<img src="img/video-large.png" alt="" />
+						</div>
 					</div>
 				</div>
 				<div id="audio">
-					<h2>Audio</h2>
-					<div class="img">
-						<img src="img/audio-large.png" alt="" />
+					<div class="services-container">
+						<h2>Audio</h2>
+						<div class="img">
+							<img src="img/audio-large.png" alt="" />
+						</div>
 					</div>
 				</div>
 				<div id="photography">
-					<h2>Photography</h2>
-					<div class="img">
-						<img src="img/photo-large.png" alt="" />
+					<div class="services-container">
+						<h2>Photography</h2>
+						<div class="img">
+							<img src="img/photo-large.png" alt="" />
+						</div>
 					</div>
 				</div>
 				<div id="design">
-					<h2>Design</h2>
-					<div class="img">
-						<img src="img/design-large.png" alt="" />
+					<div class="services-container">
+						<h2>Design</h2>
+						<div class="img">
+							<img src="img/design-large.png" alt="" />
+						</div>
 					</div>
 				</div>
 			</div>
