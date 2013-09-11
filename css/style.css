@@ -259,6 +259,10 @@ nav.header li a:hover {
 	padding-top:50px;
 }
 
+nav.header li.logo a:hover {
+	background: transparent;
+}
+
 div.panel {
 	margin-top: 140px;
 }
