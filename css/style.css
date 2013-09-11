@@ -82,7 +82,7 @@ div.address a.add {
 	word-spacing: 2px;
 	width: 145px;
 	height: 48px;
-	background: url('../img/bubble.png' );
+	background: url('../img/bubble.png' ) no-repeat;
 	float: right;
 	padding: 43px;
 	cursor: pointer;
