@@ -271,7 +271,7 @@ jQuery( document ).ready( function( $ ) {
 			$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
 
 			//Center h2 horizontally within container
-			$h2.css( 'top', ( ( $this.height() / 2 ) - ( $h2.height() / 2 ) ) - 5 );
+			$h2.css( 'top', ( ( $this.height() / 2 ) - ( $h2.height() / 2 ) ) - 46 );
 
 		});
 	}
