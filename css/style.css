@@ -278,9 +278,10 @@ body.home #panel-1 .panel-container.desktop-panel {
 p.quote {
 	font-size: 31px;
 	padding: 0 25px;
-	margin-top: 7px;
 	line-height: 42px;
 	position: relative;
+	max-width: 1000px;
+	margin: 7px auto 0;
 }
 
 ul#portfolio li {
