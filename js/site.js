@@ -251,29 +251,34 @@
 
 jQuery( document ).ready( function( $ ) {
 
-	/** Home Page | Services Photos Centering **/
-	var smallest_div_height = 500;
+	var align_h2 = function() {
+		/** Home Page | Services Photos Centering **/
+		var smallest_div_height = 500;
 
-	$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
+		$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
 
-		var $this = $( 'img', $( this ) );
+			var $this = $( 'img', $( this ) );
 
-		if ( $this.height() > 1 && $this.height() < smallest_div_height )
-			smallest_div_height = $this.height();
-	});
+			if ( $this.height() > 1 && $this.height() < smallest_div_height )
+				smallest_div_height = $this.height();
+		});
 
-	//$( 'body.home div#panel-3 div > div' ).not( '.img' ).css( 'height', smallest_div_height );
+		$( 'body.home div#panel-3 div > div' ).not( '.img' ).each( function(){
+
+			var $this = $( this ), $h2 = $( 'h2', $this );
+
+			//Center h2 vertically within container
+			$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
+
+			//Center h2 horizontally within container
+			$h2.css( 'top', ( ( $this.height() / 2 ) - ( $h2.height() / 2 ) ) - 5 );
+
+		});
+	}
+
+	$( window ).resize( align_h2 );
+
+	align_h2();
 
 
-	$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
-
-		var $this = $( this ), $h2 = $( 'h2', $this );
-
-		//Center h2 vertically within container
-		$h2.css( 'left', ( $this.width() - $h2.width() ) / 2 );
-
-		//Center h2 horizontally within container
-		$h2.css( 'top', ( ( $this.height() / 2 ) - ( $h2.height() / 2 ) ) - 5 );
-
-	});
 });
