@@ -250,8 +250,8 @@
 })(jQuery);
 
 jQuery( document ).ready( function( $ ) {
-/** Home Page | Services Photos Centering **/
 
+	/** Home Page | Services Photos Centering **/
 	var smallest_div_height = 500;
 
 	$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
@@ -262,7 +262,7 @@ jQuery( document ).ready( function( $ ) {
 			smallest_div_height = $this.height();
 	});
 
-	$( 'body.home div#panel-3 div > div' ).not( '.img' ).css( 'height', smallest_div_height );
+	//$( 'body.home div#panel-3 div > div' ).not( '.img' ).css( 'height', smallest_div_height );
 
 
 	$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
