@@ -279,7 +279,7 @@ body.home #panel-1 .panel-container {
 }
 
 body.home #panel-1 .panel-container.desktop-panel {
-	margin-top: --112px;
+	margin-top: -86px;
 }
 
 p.quote {
