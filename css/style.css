@@ -208,10 +208,14 @@ div.panel.location {
 
 div.panel-container,
 nav.header {
-	width: 80%;
-	min-width: 1000px;
+	max-width: 100px;
 	margin: 0 auto;
 	overflow: auto;
+}
+
+body.home #panel-2 .panel-container {
+	width: 80%;
+	min-width: 1000px;
 }
 
 nav.header {
