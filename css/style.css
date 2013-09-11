@@ -255,7 +255,8 @@ nav.header li a {
 
 nav.header li a.selected,
 nav.header li a:hover {
-
+	background: url(../img/nav-caret.png) no-repeat center center;
+	padding-top:50px;
 }
 
 div.panel {
