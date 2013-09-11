@@ -80,8 +80,8 @@ div.address a.add {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	word-spacing: 2px;
-	width: 145px;
-	height: 48px;
+	width: 134px;
+	height: 38px;
 	background: url('../img/bubble.png' ) no-repeat;
 	float: right;
 	padding: 43px;
@@ -94,6 +94,7 @@ div.address a.add {
 
 #contact-bubble a {
 	white-space: nowrap;
+	margin-left: -5px;
 }
 
 #contact-bubble:hover {
