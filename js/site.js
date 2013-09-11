@@ -68,7 +68,7 @@
 			video  : 'http://player.vimeo.com/external/73701651.hd.mp4?s=897fc226d7b0f3d111d424d9cf617d6a',
 			audio  : 'http://player.vimeo.com/external/73703469.hd.mp4?s=75f3772c5f79f6ad407f6f425e587e47',
 			photo  : 'http://player.vimeo.com/external/73701370.hd.mp4?s=ed7747b111296ad40d1d8d985d4d99db',
-			design : 'http://player.vimeo.com/external/73702612.hd.mp4?s=1ea318ce4c81df7e0d6d99c93638434e',
+			design : 'http://player.vimeo.com/external/74322918.hd.mp4?s=b3d120a046d230d1a8709f402d790361',
 		},
 
 		page = $( 'body' ).attr( 'class' );
