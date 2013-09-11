@@ -349,6 +349,8 @@ div.full-width {
 
 body.home #panel-3 .panel-container {
 	background-color: rgb(44, 46, 48);
+	overflow: hidden;
+	height:100%;
 }
 
 #video,
