@@ -27,11 +27,11 @@ body, html {
 }
 
 a {
-	-o-transition:color .2s ease-out, background 1s ease-in;
-	-ms-transition:color .2s ease-out, background 1s ease-in;
-	-moz-transition:color .2s ease-out, background 1s ease-in;
-	-webkit-transition:color .2s ease-out, background 1s ease-in;
-	transition:color .2s ease-out, background 1s ease-in;
+	-o-transition:color .2s ease-in-out, background .2s ease-in-out;
+	-ms-transition:color .2s ease-out, background .2s ease-in-out;
+	-moz-transition:color .2s ease-out, background .2s ease-in-out;
+	-webkit-transition:color .2s ease-out, background .2s ease-in-out;
+	transition:color .2s ease-out, background .2s ease-in-out;
 }
 span.heading,
 span.subheading {
@@ -251,6 +251,9 @@ nav.header li a {
 	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 5px;
+	background: none no-repeat center center;
+	padding-top: 50px;
+
 }
 
 nav.header li a.selected,
