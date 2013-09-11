@@ -416,7 +416,7 @@ div.img:hover {
 #audio img,
 #photography img,
 #design img {
-	max-width: 100%;
+	width: 100%;
 }
 
 #video {
@@ -430,11 +430,13 @@ div.img:hover {
 #photography {
 	float: left;
 	clear: left;
+	margin-bottom: -.25%;
 }
 
 #design {
 	float: right;
 	clear: right;
+	margin-bottom: -.25%;
 }
 
 span.telephone {
