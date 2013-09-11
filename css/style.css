@@ -378,6 +378,10 @@ body.home #panel-3 .panel-container {
 	z-index: 10
 }
 
+.ratio16_9:before{
+	padding-top: 56.25%;
+}
+
 div.img {
 	background-color: rgba(44, 46, 48, .3);
 	position: relative;

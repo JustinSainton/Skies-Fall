@@ -24,9 +24,10 @@
 	resize_panels = function() {
 
 		var panels = {
-			home   : [ 'panel-1', 'panel-3' ],
+			home   : [ 'panel-1' ],
 			who    : [ 'panel-1' ]
 		},
+
 		page = $( 'body' ).attr( 'class' ),
 		bodyheight = $( window ).height();
 		bodyheight = bodyheight - 325;
@@ -47,7 +48,6 @@
 	$( window ).resize( resize_panels );
 
 	/** BIO **/
-
 	var largest_offset;
 
 	$( 'div.bio' ).each( function(i,v){
@@ -58,7 +58,6 @@
 	$( 'div.bio' ).eq( -1 ).css( 'margin-bottom', '-' + largest_offset + 'px' );
 
 	/** Video Background **/
-
 	var BV;
 
 	$(function() {
