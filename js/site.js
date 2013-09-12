@@ -49,17 +49,6 @@
 
 	$( window ).resize( resize_panels );
 
-	var set_proper_home_margin = function() {
-		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
-			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
-		}
-		if ( parseInt( $( 'body.who #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
-			$( 'body.who #panel-1 .panel-container' ).css( 'top', 247 );
-		}
-	};
-
-	set_proper_home_margin();
-
 	/** BIO **/
 	var largest_offset;
 
@@ -293,5 +282,16 @@ jQuery( document ).ready( function( $ ) {
 
 	align_h2();
 
+
+	var set_proper_home_margin = function() {
+		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
+			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
+		}
+		if ( parseInt( $( 'body.who #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
+			$( 'body.who #panel-1 .panel-container' ).css( 'top', 247 );
+		}
+	};
+
+	set_proper_home_margin();
 
 });
