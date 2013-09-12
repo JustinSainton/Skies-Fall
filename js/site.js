@@ -296,7 +296,7 @@ jQuery( document ).ready( function( $ ) {
           disableOn       : 700,
           type            : 'iframe',
           mainClass       : 'mfp-fade',
-          removalDelay    : 160
+          removalDelay    : 160,
           fixedContentPos : false
         });
 
