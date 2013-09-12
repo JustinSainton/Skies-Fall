@@ -1,3 +1,12 @@
+var set_proper_home_margin = function() {
+		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
+			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
+		}
+		if ( parseInt( $( 'body.who #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
+			$( 'body.who #panel-1 .panel-container' ).css( 'top', 247 );
+		}
+	};
+
 (function($) {
 
 	if ( ! Modernizr.touch ) {
@@ -9,7 +18,7 @@
 			horizontalScrolling : false,
 		});
 
-
+	set_proper_home_margin();
 
 
 	} else {
@@ -282,16 +291,10 @@ jQuery( document ).ready( function( $ ) {
 
 	align_h2();
 
-
-	var set_proper_home_margin = function() {
-		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
-			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
-		}
-		if ( parseInt( $( 'body.who #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
-			$( 'body.who #panel-1 .panel-container' ).css( 'top', 247 );
-		}
-	};
-
 	set_proper_home_margin();
 
+});
+
+jQuery( window ).load( function(){
+	set_proper_home_margin();
 });
