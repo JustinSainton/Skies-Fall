@@ -251,13 +251,13 @@ nav.header li a {
 	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 5px;
-	background: none no-repeat center top;
+	background: none no-repeat center center;
 	padding-top: 50px;
-	-webkit-transition: background-position 0.2s ease-in-out;
-	-moz-transition: background-position 0.2s ease-in-out;
-	-ms-transition: background-position 0.2s ease-in-out;
-	-o-transition: background-position 0.2s ease-in-out;
-	transition: background-position 0.2s ease-in-out;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 nav.header li a.selected,
