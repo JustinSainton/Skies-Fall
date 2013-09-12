@@ -292,14 +292,16 @@ jQuery( document ).ready( function( $ ) {
 	align_h2();
 
 	if ( jQuery.fn.magnificPopup ) {
+
 		//Video page popup video
-		$( '.popup-vimeo' ).magnificPopup({
+		$( '.popup-vimeo, #demo, #reel, #demo-reel-link' ).magnificPopup({
 			disableOn       : 700,
 			type            : 'iframe',
 			mainClass       : 'mfp-iframe-scaler',
 			removalDelay    : 160,
 			fixedContentPos : false
 		});
+
 	}
 });
 

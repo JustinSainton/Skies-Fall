@@ -68,9 +68,9 @@
 			</div>
 		</div>
 
-		<canvas id="demo" width="647" height="150"></canvas>
-		<canvas id="reel" width="665" height="180"></canvas>
-		<canvas id="demo-reel-link"></canvas>
+		<canvas id="demo" width="647" height="150" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
+		<canvas id="reel" width="665" height="180" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
+		<canvas id="demo-reel-link" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
 
 		<div id="panel-3" class="panel">
 			<div class="panel-container full-width">
