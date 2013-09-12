@@ -356,5 +356,6 @@ jQuery( window ).load( function(){
 	link.lineTo(128, 190);
 	link.moveTo(128, 190);
 	link.lineTo(0, 380);
+	link.lineWidth = 3;
 	link.stroke();
 });
