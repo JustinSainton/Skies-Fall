@@ -316,5 +316,5 @@ jQuery( window ).load( function(){
 
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 100, 100, 300);
+	ctx.fillText("DEMO", 100, 100);
 });
