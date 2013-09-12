@@ -2,7 +2,7 @@
 
 	if ( ! Modernizr.touch ) {
 
-		$( 'body.home #panel-1 .panel-container' ).addClass( 'desktop-panel' );
+		$( 'body.home #panel-1 .panel-container, body.who #panel-1 .panel-container' ).addClass( 'desktop-panel' );
 
 		$.stellar({
 			hideDistantElements : false,
@@ -52,6 +52,9 @@
 	var set_proper_home_margin = function() {
 		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
 			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
+		}
+		if ( parseInt( $( 'body.who #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
+			$( 'body.who #panel-1 .panel-container' ).css( 'top', 247 );
 		}
 	};
 
