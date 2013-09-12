@@ -302,31 +302,20 @@ jQuery( document ).ready( function( $ ) {
 		});
 	}
 
-    var canvas = document.getElementById('demo'),
-    ctx = canvas.getContext('2d');
+	// Get a handle to our canvas
+	var ctx = document.getElementById('demo').getContext("2d");
 
-    // resize the canvas to fill browser window dynamically
-    window.addEventListener('resize', resizeCanvas, false);
+	// Choose font
+	ctx.font = "80px 'Didot W02 Italic'";
 
-    function resizeCanvas() {
-		drawStuff();
-    }
+	// Draw black rectangle
+	ctx.fillStyle = "rgba(0,0,0,0.95)";
+	ctx.fillRect(0,0,647,150);
 
-    resizeCanvas();
+	// Punch out the text!
+	ctx.globalCompositeOperation = 'destination-out';
+	ctx.fillText("DEMO", 100, 100);
 
-    function drawStuff() {
-
-		// Choose font
-		ctx.font = "100px 'Didot W02 Italic'";
-
-		// Draw black rectangle
-		ctx.fillStyle = "rgba( 0,0,0,.95 )";
-		ctx.fillRect( 0, 0, 647, 150 );
-
-		// Punch out the text!
-		ctx.globalCompositeOperation = 'destination-out';
-		ctx.fillText( "DEMO", 0, 100 );
-    }
 
 });
 
