@@ -251,7 +251,7 @@ nav.header li a {
 	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 5px;
-	background: none no-repeat center center;
+	background: url( ../img/blank-caret.png ) no-repeat center center;
 	padding-top: 50px;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
