@@ -253,11 +253,11 @@ nav.header li a {
 	letter-spacing: 5px;
 	background: url( ../img/blank-caret.png ) no-repeat center center;
 	padding-top: 50px;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 nav.header li a.selected,

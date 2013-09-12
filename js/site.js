@@ -10,6 +10,8 @@
 		});
 
 
+
+
 	} else {
 
 		$( '#panel-1' ).addClass( 'vertical scrollable' ).stellar({
@@ -21,7 +23,7 @@
 
 
 	/** Panel Resizing **/
-	resize_panels = function() {
+	var resize_panels = function() {
 
 		var panels = {
 			home   : [ 'panel-1' ],
@@ -46,6 +48,14 @@
 	resize_panels();
 
 	$( window ).resize( resize_panels );
+
+	var set_proper_home_margin = function() {
+		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
+			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
+		}
+	};
+
+	set_proper_home_margin();
 
 	/** BIO **/
 	var largest_offset;
