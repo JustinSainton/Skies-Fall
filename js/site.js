@@ -308,7 +308,7 @@ jQuery( window ).load( function(){
 	var ctx = document.getElementById('demo').getContext("2d");
 
 	// Choose font
-	ctx.font = '100px "Didot W02 Italic"';
+	ctx.font = '150px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillRect( 0, 0, window.innerWidth, window.innerHeight );
