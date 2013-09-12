@@ -346,6 +346,6 @@ jQuery( window ).load( function(){
 	var width_r   = metrics_r.width;
 	var reel_x  = ( canvas_width / 2 ) - ( width_r / 2 );
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx_r.fillText("REEL", reel_x, 185);
+	ctx_r.fillText("REEL", reel_x, 195);
 
 });
