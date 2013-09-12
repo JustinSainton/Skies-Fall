@@ -307,7 +307,7 @@ p.quote {
 body.video p.quote {
 	text-align: right;
 	font-size: 29px;
-	padding: 160px 6px;
+	padding: 160px 6px 0;
 }
 
 ul#portfolio li {
