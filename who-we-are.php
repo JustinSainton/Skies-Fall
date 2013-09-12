@@ -41,7 +41,7 @@
 						<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
 					</li>
 					<li>
-						<a href="/dev/who-we-are/">Who We Are</a>
+						<a class="selected" href="/dev/who-we-are/">Who We Are</a>
 					</li>
 					<li>
 						<a href="video.php">Video</a>
