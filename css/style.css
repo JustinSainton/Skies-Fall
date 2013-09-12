@@ -290,7 +290,7 @@ body.home #panel-1 .panel-container {
 	position: relative;
 }
 
-body.home #panel-1 .panel-container.desktop-panel {
+.panel-container.desktop-panel {
 	margin-top: -86px;
 }
 
