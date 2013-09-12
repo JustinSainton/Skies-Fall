@@ -351,7 +351,7 @@ jQuery( window ).load( function(){
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 	var img  = document.getElementById("arrow");
-	link.globalCompositeOperation = 'destination-out';
+	link.fillStyle = 'rgba(0,0,0,.95)';
 	link.drawImage(img,0,0, 128, 368);
 
 });
