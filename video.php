@@ -58,8 +58,7 @@
 						</li>
 					</ul>
 				</nav>
-				<span class="heading">We own the sky</span>
-				<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
+				<p class="quote">&#8220;Cinema has become the modern cathedral and is the grand concert of all the arts&#8221;<br />- Robert Mckee</p>
 			</div>
 		</div>
 
