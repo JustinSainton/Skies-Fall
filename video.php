@@ -30,6 +30,11 @@
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+		<!-- Popup (Video and Image Gallery) styles and scripts -->
+		<link rel="stylesheet" href="/dev/css/popup.css">
+		<script src="/dev/js/popup.js"></script>
+
 	</head>
 	<body class="video">
 
@@ -65,7 +70,9 @@
 
 		<div id="panel-2" class="panel">
 			<div class="panel-container">
-
+				<div id="demo"></div>
+				<div id="reel"></div>
+				<div id="demo-reel-link"></div>
 			</div>
 		</div>
 
