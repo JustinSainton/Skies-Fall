@@ -317,4 +317,18 @@ jQuery( window ).load( function(){
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
 	ctx.fillText("DEMO", 100, 100);
+
+	// Get a handle to our canvas
+	var ctx_r = document.getElementById('reel').getContext("2d");
+
+	// Choose font
+	ctx_r.font = '150px "Didot W02 Italic"';
+
+	// Draw black rectangle
+	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
+	ctx_r.fillRect( 0, 0, window.innerWidth, window.innerHeight );
+
+	// Punch out the text!
+	ctx_r.globalCompositeOperation = 'destination-out';
+	ctx_r.fillText("REEL", 100, 100);
 });
