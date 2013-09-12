@@ -243,19 +243,19 @@ var set_proper_home_margin = function() {
 	});
 
 	$( '#video' ).click(function(){
-		window.location = 'video.html';
+		window.location = '/dev/video/';
 	});
 
 	$( '#photography' ).click(function(){
-		window.location = 'photo.html';
+		window.location = '/dev/photo/';
 	});
 
 	$( '#audio' ).click(function(){
-		window.location = 'audio.html';
+		window.location = '/dev/audio/';
 	});
 
 	$( '#design' ).click(function(){
-		window.location = 'design.html';
+		window.location = '/dev/design/';
 	});
 
 })(jQuery);
