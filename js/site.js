@@ -310,9 +310,9 @@ jQuery( window ).load( function(){
 	// Get a handle to our canvas
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
 
-	demo.width  = canvas_width;
+//	demo.width  = canvas_width;
 	demo.height = ( canvas_height / 3 );
-	reel.width  = canvas_width;
+//	reel.width  = canvas_width;
 	reel.height = ( canvas_height / 3 );
 
 	ctx   = demo.getContext("2d");
@@ -351,11 +351,5 @@ jQuery( window ).load( function(){
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 
-	link.beginPath();
-	link.moveTo(0, 0);
-	link.lineTo(128, 190);
-	link.moveTo(128, 190);
-	link.lineTo(0, 380);
-	link.lineWidth = 3;
-	link.stroke();
+
 });
