@@ -358,7 +358,7 @@ div.full-width {
 }
 
 body.home #panel-3 .panel-container {
-	background-color: rgb(44, 46, 48);
+	background-color: #000;
 	overflow: hidden;
 	height:100%;
 }
@@ -370,7 +370,7 @@ body.home #panel-3 .panel-container {
 	width: 50%;
 	padding: 0;
 	position: relative;
-	background-color: rgba(44, 46, 48, 1);
+	background-color: #000;
 	cursor: pointer;
 }
 
@@ -415,10 +415,10 @@ body.home #panel-3 .panel-container {
 }
 
 div.img {
-	background-color: rgba(44, 46, 48, .3);
+	background-color: rgba(44, 46, 48, .5);
 	position: relative;
 	z-index: 1;
-	opacity: .3
+	opacity: .5
 }
 
 div.img {
@@ -429,7 +429,7 @@ div.img {
 }
 
 div.img:hover {
-	opacity: 1
+	opacity: .3
 }
 
 #video img,
