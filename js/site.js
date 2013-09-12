@@ -308,11 +308,11 @@ jQuery( window ).load( function(){
 	var ctx = document.getElementById('demo').getContext("2d");
 
 	// Choose font
-	ctx.font = '120px "Didot W02 Italic"';
+	ctx.font = '100px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillStyle = "rgba(0,0,0,.9)";
-	ctx.fillRect(0,0,647,150);
+	ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
 
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
