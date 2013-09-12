@@ -308,12 +308,12 @@ jQuery( window ).load( function(){
 	var ctx = document.getElementById('demo').getContext("2d");
 
 	// Choose font
-	ctx.font = '150px "Didot W02 Italic"';
+	ctx.font = '50px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillRect( 0, 0, window.innerWidth, window.innerHeight );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 100, 100, 645);
+	ctx.fillText("DEMO", 100, 100, 300);
 });
