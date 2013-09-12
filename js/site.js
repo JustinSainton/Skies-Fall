@@ -308,15 +308,15 @@ jQuery( window ).load( function(){
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
 
 	demo.width  = canvas_width;
-	demo.height = ( canvas_height / 2 );
+	demo.height = ( canvas_height / 3 );
 	reel.width  = canvas_width;
-	reel.height = ( canvas_height / 2 );
+	reel.height = ( canvas_height / 3 );
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
 
 	// Choose font
-	ctx.font = '150px "Didot W02 Roman"';
+	ctx.font = '200px "Didot W02 Roman"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.95)';
@@ -330,7 +330,7 @@ jQuery( window ).load( function(){
 	var ctx_r = document.getElementById('reel').getContext("2d");
 
 	// Choose font
-	ctx_r.font = '180px "Didot W02 Italic"';
+	ctx_r.font = '200px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
