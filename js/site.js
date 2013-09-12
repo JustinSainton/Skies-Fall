@@ -304,6 +304,7 @@ jQuery( document ).ready( function( $ ) {
 });
 
 jQuery( window ).load( function(){
+
 	// Get a handle to our canvas
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
 
@@ -323,8 +324,11 @@ jQuery( window ).load( function(){
 	ctx.fillRect( 0, 0, window.innerWidth, window.innerHeight );
 
 	// Punch out the text!
+	var metrics = ctx.measureText( 'DEMO' );
+	var width   = metrics.width;
+	var demo_x  = ( canvas_width / 2 ) - ( width / 2 );
 	ctx.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 100, 100);
+	ctx.fillText("DEMO", demo_x, 100);
 
 	// Get a handle to our canvas
 	var ctx_r = document.getElementById('reel').getContext("2d");
@@ -337,6 +341,11 @@ jQuery( window ).load( function(){
 	ctx_r.fillRect( 0, 0, window.innerWidth, window.innerHeight );
 
 	// Punch out the text!
+
+	var metrics_r = ctx_r.measureText( 'REEL' );
+	var width_r   = metrics_r.width;
+	var reel_x  = ( canvas_width / 2 ) - ( width_r / 2 );
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx_r.fillText("REEL", 100, 100);
+	ctx_r.fillText("REEL", reel_x, 100);
+
 });
