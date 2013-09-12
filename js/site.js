@@ -326,7 +326,6 @@ jQuery( window ).load( function(){
 	ctx.fillRect( 0, 0, 720, window.innerHeight );
 
 	// Punch out the text!
-	var metrics = ctx.measureText( 'DEMO' );
 	ctx.globalCompositeOperation = 'destination-out';
 	ctx.fillText("DEMO", 3, 300);
 
@@ -341,11 +340,8 @@ jQuery( window ).load( function(){
 	ctx_r.fillRect( 0, 0, 720, window.innerHeight );
 
 	// Punch out the text!
-	var metrics_r = ctx_r.measureText( 'REEL' );
-	var width_r   = metrics_r.width;
-	var reel_x    = ( canvas_width / 2 ) - ( width_r / 2 );
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx_r.fillText("REEL", reel_x, 195);
+	ctx_r.fillText("REEL", 3, 195);
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 	var img  = document.getElementById("arrow");
