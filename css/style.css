@@ -606,10 +606,14 @@ body.who div#panel-3 {
 }
 
 canvas#demo,
-canvas#reel {
+canvas#reel,
+canvas#demo-reel-link {
 	position: relative;
 	z-index: 1;
 	opacity: .95;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
 }
 
 h2.jordan {

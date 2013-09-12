@@ -70,7 +70,7 @@
 
 		<canvas id="demo" width="647" height="150"></canvas>
 		<canvas id="reel" width="665" height="180"></canvas>
-		<div id="demo-reel-link"></div>
+		<canvas id="demo-reel-link"></canvas>
 
 		<div id="panel-3" class="panel">
 			<div class="panel-container full-width">
