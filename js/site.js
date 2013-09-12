@@ -291,10 +291,10 @@ jQuery( document ).ready( function( $ ) {
 
 	align_h2();
 
-	set_proper_home_margin();
+	//set_proper_home_margin();
 
 });
 
 jQuery( window ).load( function(){
-	set_proper_home_margin();
+	//set_proper_home_margin();
 });
