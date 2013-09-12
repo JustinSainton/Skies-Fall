@@ -305,7 +305,15 @@ jQuery( document ).ready( function( $ ) {
 
 jQuery( window ).load( function(){
 	// Get a handle to our canvas
-	var ctx = document.getElementById('demo').getContext("2d");
+	var demo = $( '#demo' ), reel = $( '#reel' ), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
+
+	demo.attr( 'width', canvas_width );
+	demo.attr( 'height', canvas_height / 2 );
+	reel.attr( 'width', canvas_width );
+	reel.attr( 'height', canvas_height / 2 );
+
+	ctx   = demo.getContext("2d");
+	ctx_r = reel.getContext("2d");
 
 	// Choose font
 	ctx.font = '150px "Didot W02 Roman"';
