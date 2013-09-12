@@ -304,17 +304,51 @@ jQuery( document ).ready( function( $ ) {
 });
 
 jQuery( window ).load( function(){
+
+	var PIXEL_RATIO = (function () {
+    var ctx = document.createElement("canvas").getContext("2d"),
+        dpr = window.devicePixelRatio || 1,
+        bsr = ctx.webkitBackingStorePixelRatio ||
+              ctx.mozBackingStorePixelRatio ||
+              ctx.msBackingStorePixelRatio ||
+              ctx.oBackingStorePixelRatio ||
+              ctx.backingStorePixelRatio || 1;
+
+	    return dpr / bsr;
+	})();
+
+
+	createHiDPICanvas = function(w, h, ratio) {
+	    if (!ratio) { ratio = PIXEL_RATIO; }
+	    var can = document.createElement("canvas");
+	    can.width = w * ratio;
+	    can.height = h * ratio;
+	    can.style.width = w + "px";
+	    can.style.height = h + "px";
+	    can.getContext("2d").setTransform(ratio, 0, 0, ratio, 0, 0);
+	    return can;
+	}
+
 	// Get a handle to our canvas
-	var ctx = document.getElementById('demo').getContext("2d");
+	var demo = createHiDPICanvas( 647, 150 );
+	var reel = createHiDPICanvas( 665, 180 );
 
 	// Choose font
-	ctx.font = '100px "Didot W02 Italic"';
+	demo.font = '80px "Didot W02 Italic"';
+	reel.font = '80px "Didot W02 Italic"';
 
 	// Draw black rectangle
-	ctx.fillStyle = "rgba(0,0,0,.9)";
-	ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
+	demo.fillRect( 0, 0, window.innerWidth, window.innerHeight );
+	reel.fillRect( 0, 0, window.innerWidth, window.innerHeight );
 
 	// Punch out the text!
-	ctx.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 100, 100);
+	demo.globalCompositeOperation = 'destination-out';
+	reel.globalCompositeOperation = 'destination-out';
+
+	demo.fillText("DEMO", 100, 100);
+	reel.fillText("REEL", 100, 100);
+
+	$( demo ).insertAfter( $( 'body.video #panel-1' ) );
+	$( reel ).insertAfter( $( 'body.video #panel-1' ) );
+
 });

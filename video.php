@@ -68,8 +68,6 @@
 			</div>
 		</div>
 
-		<canvas id="demo"></canvas>
-		<canvas id="reel"></canvas>
 		<div id="demo-reel-link"></div>
 
 		<div id="panel-3" class="panel">
