@@ -41,19 +41,19 @@
 						<h1><a href="/dev"><img src="img/logo.png" alt="Skies Fall Media" /></a></h1>
 					</li>
 					<li>
-						<a href="who-we-are.html">Who We Are</a>
+						<a href="who-we-are.php">Who We Are</a>
 					</li>
 					<li>
-						<a href="video.html">Video</a>
+						<a href="video.php">Video</a>
 					</li>
 					<li>
-						<a href="audio.html">Audio</a>
+						<a href="audio.php">Audio</a>
 					</li>
 					<li>
-						<a href="photo.html">Photo</a>
+						<a href="photo.php">Photo</a>
 					</li>
 					<li>
-						<a href="design.html">Design</a>
+						<a href="design.php">Design</a>
 					</li>
 				</ul>
 			</nav>
@@ -217,9 +217,10 @@
 				</p>
 				<div class='social'>
 					<ul>
-						<li class="twitter"><a class="genericon genericon-twitter" href="http://twitter.com"></a></li>
-						<li class="facebook"><a href="http://facebook.com" class="genericon genericon-facebook-alt"></a></li>
-						<li class="vimeo"><a href="http://vimeo.com" class="genericon genericon-vimeo"></a></li>
+						<li class="twitter"><a class="genericon genericon-twitter" href="https://twitter.com/skiesfall"></a></li>
+						<li class="facebook"><a href="https://www.facebook.com/skiesfall" class="genericon genericon-facebook-alt"></a></li>
+						<li class="linkedin"><a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></li>
+						<li class="vimeo"><a href="http://www.vimeo.com/skiesfall" class="genericon genericon-vimeo"></a></li>
 					</ul>
 				</div>
 			</div>
