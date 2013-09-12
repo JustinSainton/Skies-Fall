@@ -301,7 +301,9 @@ jQuery( document ).ready( function( $ ) {
 			fixedContentPos : false
 		});
 	}
+});
 
+jQuery( window ).load( function(){
 	// Get a handle to our canvas
 	var ctx = document.getElementById('demo').getContext("2d");
 
@@ -315,9 +317,4 @@ jQuery( document ).ready( function( $ ) {
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
 	ctx.fillText("DEMO", 100, 100);
-
-
-});
-
-jQuery( window ).load( function(){
 });
