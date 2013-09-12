@@ -12,21 +12,21 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="js/jquery.imagesloaded.min.js"></script>
+		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="js/modernizr-2.5.3.min.js"></script>
+		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="js/bigvideo.js"></script>
+		<script src="/dev/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="js/stellar.js"></script>
+		<script src="/dev/js/stellar.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<link href="css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="genericons/genericons.css">
+		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/dev/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
@@ -41,7 +41,7 @@
 						<h1><a href="/dev"><img src="img/logo.png" alt="Skies Fall Media" /></a></h1>
 					</li>
 					<li>
-						<a href="who-we-are.php">Who We Are</a>
+						<a href="/dev/who-we-are/">Who We Are</a>
 					</li>
 					<li>
 						<a href="video.php">Video</a>
