@@ -351,7 +351,11 @@ jQuery( window ).load( function(){
 
 	var c =document.getElementById("demo-reel-link");
 	var ctx =c.getContext("2d");
-	var img =document.getElementById("logo");
 	ctx.globalCompositeOperation = 'destination-out';
-	ctx.drawImage(img,1,1);
+	ctx.beginPath();
+	ctx.moveTo(0, 0);
+	ctx.lineTo(128, 190);
+	ctx.moveTo(128, 190);
+	ctx.lineTo(0, 380);
+	ctx.stroke();
 });
