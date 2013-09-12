@@ -64,7 +64,7 @@
 					</ul>
 				</nav>
 				<p class="quote">&#8220;Cinema has become the modern cathedral and is the grand concert of all the arts&#8221;<br />- Robert Mckee</p>
-				<img class="play-button popup-vimeo" src="/dev/img/play.png" alt="Play Video" data-mfp-src="https://vimeo.com/72420766" />
+				<img class="play-button popup-vimeo" src="/dev/img/play.png" alt="Play Video" data-mfp-src="http://player.vimeo.com/video/72420766" />
 			</div>
 		</div>
 
