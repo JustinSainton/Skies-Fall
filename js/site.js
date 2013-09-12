@@ -302,19 +302,33 @@ jQuery( document ).ready( function( $ ) {
 		});
 	}
 
-	// Get a handle to our canvas
-	var ctx = document.getElementById('demo').getContext("2d");
+    var canvas = document.getElementById('demo'),
+    ctx = canvas.getContext('2d');
 
-	// Choose font
-	ctx.font = "80px 'Didot W02 Italic'";
+    // resize the canvas to fill browser window dynamically
+    window.addEventListener('resize', resizeCanvas, false);
 
-	// Draw black rectangle
-	ctx.fillStyle = "rgba(0,0,0,0.95)";
-	ctx.fillRect(0,0,647,150);
+    function resizeCanvas() {
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+		drawStuff();
+    }
 
-	// Punch out the text!
-	ctx.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 647, 150);
+    resizeCanvas();
+
+    function drawStuff() {
+
+		// Choose font
+		ctx.font = "80px 'Didot W02 Italic'";
+
+		// Draw black rectangle
+		ctx.fillStyle = "rgba(0,0,0,0.95)";
+		ctx.fillRect(0,0,647,150);
+
+		// Punch out the text!
+		ctx.globalCompositeOperation = 'destination-out';
+		ctx.fillText("DEMO", 647, 150);
+    }
 
 });
 
