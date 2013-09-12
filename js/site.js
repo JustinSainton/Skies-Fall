@@ -353,6 +353,5 @@ jQuery( window ).load( function(){
 	var ctx =c.getContext("2d");
 	var img =document.getElementById("logo");
 	ctx.globalCompositeOperation = 'destination-out';
-	ctx.drawImage(img,10,10);
-
+	ctx.drawImage(img,1,1);
 });
