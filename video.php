@@ -70,8 +70,8 @@
 
 		<div id="panel-2" class="panel">
 			<div class="panel-container">
-				<div id="demo"></div>
-				<div id="reel"></div>
+				<canvas id="demo" width="647" height="150"></canvas>
+				<canvas id="reel" width="665" height="180"></canvas>
 				<div id="demo-reel-link"></div>
 			</div>
 		</div>
