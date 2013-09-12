@@ -305,12 +305,12 @@ jQuery( document ).ready( function( $ ) {
 
 jQuery( window ).load( function(){
 	// Get a handle to our canvas
-	var demo = $( '#demo' ), reel = $( '#reel' ), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
+	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
 
-	demo.attr( 'width', canvas_width );
-	demo.attr( 'height', canvas_height / 2 );
-	reel.attr( 'width', canvas_width );
-	reel.attr( 'height', canvas_height / 2 );
+	demo.width  = canvas_width;
+	demo.height = ( canvas_height / 2 );
+	reel.width  = canvas_width;
+	reel.height = ( canvas_height / 2 );
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
