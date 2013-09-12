@@ -349,13 +349,12 @@ jQuery( window ).load( function(){
 	ctx_r.globalCompositeOperation = 'destination-out';
 	ctx_r.fillText("REEL", reel_x, 195);
 
-	var c =document.getElementById("demo-reel-link");
-	var ctx =c.getContext("2d");
-	ctx.globalCompositeOperation = 'destination-out';
-	ctx.beginPath();
-	ctx.moveTo(0, 0);
-	ctx.lineTo(128, 190);
-	ctx.moveTo(128, 190);
-	ctx.lineTo(0, 380);
-	ctx.stroke();
+	var link = document.getElementById("demo-reel-link").getContext("2d");
+
+	link.beginPath();
+	link.moveTo(0, 0);
+	link.lineTo(128, 190);
+	link.moveTo(128, 190);
+	link.lineTo(0, 380);
+	link.stroke();
 });
