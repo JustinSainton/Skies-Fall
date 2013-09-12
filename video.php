@@ -44,7 +44,7 @@
 				<nav class="header">
 					<ul>
 						<li class="logo">
-							<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
+							<h1><a href="/dev"><img id="logo" src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
 							<a href="/dev/who-we-are/">Who We Are</a>
