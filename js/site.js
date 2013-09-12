@@ -310,9 +310,9 @@ jQuery( window ).load( function(){
 	// Get a handle to our canvas
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
 
-//	demo.width  = canvas_width;
+	demo.width  = canvas_width;
 	demo.height = ( canvas_height / 3 );
-//	reel.width  = canvas_width;
+	reel.width  = canvas_width;
 	reel.height = ( canvas_height / 3 );
 
 	ctx   = demo.getContext("2d");
