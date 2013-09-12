@@ -932,4 +932,6 @@ div.quote-container {
 }
 .mfp-iframe-holder .mfp-content {
 	max-width: 1250px;
+	margin-top: 50px;
+	vertical-align: top;
 }
