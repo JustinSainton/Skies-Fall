@@ -309,10 +309,7 @@ jQuery( document ).ready( function( $ ) {
     window.addEventListener('resize', resizeCanvas, false);
 
     function resizeCanvas() {
-		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
 		drawStuff();
-		ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
     }
 
     resizeCanvas();
