@@ -308,10 +308,10 @@ jQuery( window ).load( function(){
 	var ctx = document.getElementById('demo').getContext("2d");
 
 	// Choose font
-	ctx.font = '150px "Didot W02 Italic"';
+	ctx.font = '150px "Didot W02 Roman"';
 
 	// Draw black rectangle
-	ctx.fillStyle = 'rgba(0,0,0,.2)';
+	ctx.fillStyle = 'rgba(0,0,0,.95)';
 	ctx.fillRect( 0, 0, window.innerWidth, window.innerHeight );
 
 	// Punch out the text!
@@ -322,7 +322,7 @@ jQuery( window ).load( function(){
 	var ctx_r = document.getElementById('reel').getContext("2d");
 
 	// Choose font
-	ctx_r.font = '150px "Didot W02 Italic"';
+	ctx_r.font = '180px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
