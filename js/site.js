@@ -320,15 +320,15 @@ jQuery( document ).ready( function( $ ) {
     function drawStuff() {
 
 		// Choose font
-		ctx.font = "80px 'Didot W02 Italic'";
+		ctx.font = "100px 'Didot W02 Italic'";
 
 		// Draw black rectangle
-		ctx.fillStyle = "black";
-		ctx.fillRect(0,0,647,150);
+		ctx.fillStyle = "rgba( 0,0,0,.95 )";
+		ctx.fillRect( 0, 0, 647, 150 );
 
 		// Punch out the text!
 		ctx.globalCompositeOperation = 'destination-out';
-		ctx.fillText("DEMO", 647, 150);
+		ctx.fillText( "DEMO", 0, 100 );
     }
 
 });
