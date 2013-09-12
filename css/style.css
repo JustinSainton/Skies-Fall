@@ -304,6 +304,12 @@ p.quote {
 	margin: 7px auto 0;
 }
 
+body.video p.quote {
+	text-align: right;
+	font-size: 29px;
+	padding: 0 6px;
+}
+
 ul#portfolio li {
 	float: left;
 	width: 25%;
