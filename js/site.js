@@ -328,7 +328,7 @@ jQuery( window ).load( function(){
 	var width   = metrics.width;
 	var demo_x  = ( canvas_width / 2 ) - ( width / 2 );
 	ctx.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", demo_x, 323);
+	ctx.fillText("DEMO", demo_x, 300);
 
 	// Get a handle to our canvas
 	var ctx_r = document.getElementById('reel').getContext("2d");
@@ -346,6 +346,6 @@ jQuery( window ).load( function(){
 	var width_r   = metrics_r.width;
 	var reel_x  = ( canvas_width / 2 ) - ( width_r / 2 );
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx_r.fillText("REEL", reel_x, 200);
+	ctx_r.fillText("REEL", reel_x, 177);
 
 });
