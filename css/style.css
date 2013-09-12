@@ -259,7 +259,6 @@ nav.header li a {
 nav.header li a.selected,
 nav.header li a:hover {
 	background: url(../img/nav-caret.png) no-repeat center center;
-	padding-top:50px;
 }
 
 nav.header li.logo a:hover {
@@ -520,7 +519,7 @@ div.social li.twitter a.genericon {
 }
 
 div.social li.facebook a.genericon {
-	font-size: 22px;
+	font-size: 21px;
 	padding: 6px 9px 8px 5px;
 }
 
