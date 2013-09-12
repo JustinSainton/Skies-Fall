@@ -42,10 +42,10 @@
 							<h1><a href="/dev"><img src="img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
-							<a href="who-we-are.php">Who We Are</a>
+							<a href="/dev/who-we-are/">Who We Are</a>
 						</li>
 						<li>
-							<a href="video.php">Video</a>
+							<a class="selected" href="/dev/video">Video</a>
 						</li>
 						<li>
 							<a href="audio.php">Audio</a>

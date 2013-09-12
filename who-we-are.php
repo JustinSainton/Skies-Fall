@@ -44,7 +44,7 @@
 						<a class="selected" href="/dev/who-we-are/">Who We Are</a>
 					</li>
 					<li>
-						<a href="video.php">Video</a>
+						<a href="/dev/video/">Video</a>
 					</li>
 					<li>
 						<a href="audio.php">Audio</a>
