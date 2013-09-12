@@ -334,7 +334,7 @@ jQuery( window ).load( function(){
 	var ctx_r = document.getElementById('reel').getContext("2d");
 
 	// Choose font
-	ctx_r.font = '250px "Didot W02 Italic"';
+	ctx_r.font = '265px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
