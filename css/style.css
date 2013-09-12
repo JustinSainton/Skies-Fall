@@ -930,3 +930,6 @@ transform:scale(.3)}
 div.quote-container {
 	position: relative
 }
+.mfp-iframe-holder .mfp-content {
+	max-width: 1250px;
+}
