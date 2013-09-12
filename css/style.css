@@ -310,6 +310,10 @@ body.video p.quote {
 	padding: 160px 6px 0;
 }
 
+img.play-button {
+	cursor: pointer;
+}
+
 ul#portfolio li {
 	float: left;
 	width: 25%;
