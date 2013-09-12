@@ -323,7 +323,7 @@ jQuery( document ).ready( function( $ ) {
 		ctx.font = "80px 'Didot W02 Italic'";
 
 		// Draw black rectangle
-		ctx.fillStyle = "rgba(0,0,0,.95)";
+		ctx.fillStyle = "black";
 		ctx.fillRect(0,0,647,150);
 
 		// Punch out the text!
