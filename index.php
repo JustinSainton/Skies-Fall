@@ -214,7 +214,7 @@
 				</p>
 				<div class='social'>
 					<ul>
-						<li class="twitter"><a class="genericon genericon-twitter" href="http://twitter.com"></a></li>
+						<li class="twitter"><a class="genericon genericon-twitter" href="https://twitter.com/skiesfall"></a></li>
 						<li class="facebook"><a href="https://www.facebook.com/skiesfall" class="genericon genericon-facebook-alt"></a></li>
 						<li class="linkedin"><a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></li>
 						<li class="vimeo"><a href="http://www.vimeo.com/skiesfall" class="genericon genericon-vimeo"></a></li>
