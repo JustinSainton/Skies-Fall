@@ -291,10 +291,18 @@ jQuery( document ).ready( function( $ ) {
 
 	align_h2();
 
-	//set_proper_home_margin();
+	//Video page popup video
+	$( '.popup-vimeo' ).magnificPopup({
+          disableOn       : 700,
+          type            : 'iframe',
+          mainClass       : 'mfp-fade',
+          removalDelay    : 160,
+          preloader       : false,
+          fixedContentPos : false
+        });
+
 
 });
 
 jQuery( window ).load( function(){
-	//set_proper_home_margin();
 });
