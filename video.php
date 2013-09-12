@@ -23,10 +23,6 @@
 		<!-- Parallax API -->
 		<script src="/dev/js/stellar.js"></script>
 
-		<!-- Popup (Video and Image Gallery) styles and scripts -->
-		<link rel="stylesheet" href="/dev/css/popup.css">
-		<script src="/dev/js/popup.js"></script>
-
 		<!-- Stylesheets -->
 		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
 		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
@@ -34,6 +30,10 @@
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+		<!-- Popup (Video and Image Gallery) styles and scripts -->
+		<link rel="stylesheet" href="/dev/css/popup.css">
+		<script src="/dev/js/popup.js"></script>
 
 	</head>
 	<body class="video">
