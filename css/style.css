@@ -286,7 +286,8 @@ div.panel.colophon {
 	margin: 0 0 300px 0;
 }
 
-body.home #panel-1 .panel-container {
+body.home #panel-1 .panel-container,
+body.who #panel-1 .panel-container {
 	position: relative;
 }
 
