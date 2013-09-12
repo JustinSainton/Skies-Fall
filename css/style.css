@@ -251,13 +251,13 @@ nav.header li a {
 	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 5px;
-	background: none no-repeat center center;
+	background: none no-repeat center top;
 	padding-top: 50px;
-	-webkit-transition: background-image 0.2s ease-in-out;
-	-moz-transition: background-image 0.2s ease-in-out;
-	-ms-transition: background-image 0.2s ease-in-out;
-	-o-transition: background-image 0.2s ease-in-out;
-	transition: background-image 0.2s ease-in-out;
+	-webkit-transition: background-position 0.2s ease-in-out;
+	-moz-transition: background-position 0.2s ease-in-out;
+	-ms-transition: background-position 0.2s ease-in-out;
+	-o-transition: background-position 0.2s ease-in-out;
+	transition: background-position 0.2s ease-in-out;
 }
 
 nav.header li a.selected,
