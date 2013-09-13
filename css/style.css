@@ -386,6 +386,7 @@ div.grid-item {
 	position: relative;
 	background-color: #000;
 	cursor: pointer;
+	float: left
 }
 
 div.grid-item h2 {
