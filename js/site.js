@@ -327,7 +327,7 @@ jQuery( window ).load( function(){
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 3, 190);
+	ctx.fillText("DEMO", 3, 170);
 
 	// Choose font
 
