@@ -323,11 +323,11 @@ jQuery( window ).load( function(){
 	ctx_r.font = '265px "Didot W02 Italic"';
 
 	// Draw black rectangle
-	ctx.fillStyle = 'rgba(0,0,0,.95)';
+	ctx.fillStyle = 'rgba(0,0,0,.9)';
 	ctx.fillRect( 0, 0, 720, 300 );
 
 	// Draw black rectangle
-	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
+	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
 	ctx_r.fillRect( 0, 0, 720, 348 );
 
 	// Punch out the text!
@@ -340,7 +340,7 @@ jQuery( window ).load( function(){
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 	var img  = document.getElementById("arrow");
 
-	link.globalAlpha = 0.95;
+	link.globalAlpha = 0.9;
 	link.drawImage(img,0,0, 128, 368);
 
 });
