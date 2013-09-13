@@ -995,14 +995,15 @@ div.panel.apparel {
 div.web p.scroll {
 	color: black;
 	text-align: center;
+	margin: 29.5% 0 0 2px;
 }
 
 div.web div.panel-container {
-	padding-top: 15%;
+	padding: 4.2% 0 0 0;
 }
 
 div.web .scroll-space {
 	margin: -.3em auto 0;
 	position: relative;
-	right: 2%;
+	right: 2.2%;
 }
