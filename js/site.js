@@ -314,6 +314,9 @@ jQuery( window ).load( function(){
 	// Get a handle to our canvas
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel');
 
+	if ( null == demo )
+		return;
+
 	demo.width   = 715;
 	reel.width   = 715;
 	demo.height  = 160;
