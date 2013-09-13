@@ -960,22 +960,34 @@ div.panel.web,
 div.panel.print,
 div.panel.music,
 div.panel.apparel {
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
 	margin-top: 0;
 
 }
 div.panel.web {
 	background: url(../img/web-bg.png) no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 div.panel.print {
 	background: url(../img/print-bg.png) no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 div.panel.music {
 	background: url(../img/music-bg.png) no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 div.panel.apparel {
 	background: url(../img/apparel-bg.png) no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
