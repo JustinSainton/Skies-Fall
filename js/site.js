@@ -351,9 +351,10 @@ jQuery( window ).load( function(){
 	demo_offset  = ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 );
 	demo_offset  = isSafari ? demo_offset + .5 : demo_offset;
 
-	$( 'div.demo-left, div.demo-right' ).css( 'width', demo_offset );
+	$( 'div.demo-left' ).css( 'width', demo_offset );
+	$( 'div.demo-right' ).css( 'width', ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 ) );
 
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
-	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) + 1 );
+	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 
 });
