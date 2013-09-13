@@ -991,3 +991,9 @@ div.panel.apparel {
 	-o-background-size: 100% auto;
 	background-size: 100% auto;
 }
+
+div.web p.scroll {
+	color: black;
+	text-align: center;
+	margin: 13em 1em 13em 0;
+}
