@@ -617,10 +617,6 @@ canvas#demo-reel-link {
 	float:left;
 }
 
-canvas#reel {
-	clear: left;
-}
-
 div.demo {
 	width:843px;
 	display: block;
