@@ -79,11 +79,7 @@
 			<div class="demo-right"></div>
 		<div class="demo-bottom"></div>
 
-		<div id="panel-3" class="panel">
-			<div class="panel-container full-width">
-				<img src="/dev/img/quotes.png" alt="Our clients love us" />
-			</div>
-		</div>
+		<img id="panel" src="/dev/img/quotes.png" alt="Our clients love us" />
 
 		<div id="panel-4" class="panel location">
 			<div class="panel-container">

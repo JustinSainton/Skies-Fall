@@ -658,12 +658,11 @@ canvas#demo-reel-link {
 	margin-top: -160px;
 }
 
-body.video #panel-3 {
+img#panel {
 	background: #0047BB;
-}
-body.video #panel-3 img {
 	display: block;
 	margin: 0 auto;
+	padding: 0 2em;
 }
 
 h2.jordan {
