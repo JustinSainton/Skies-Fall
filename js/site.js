@@ -313,7 +313,7 @@ jQuery( window ).load( function(){
 	demo.width   = 715;
 	reel.width   = 715;
 	demo.height  = 160;
-	reel.height  = 220;
+	reel.height  = 210;
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
@@ -328,14 +328,14 @@ jQuery( window ).load( function(){
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
-	ctx_r.fillRect( 0, 0, 720, 360 );
+	ctx_r.fillRect( 0, 0, 720, 350 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
 	ctx.fillText("DEMO", 3, 155);
-	ctx_r.fillText("REEL", 3, 200);
+	ctx_r.fillText("REEL", 3, 190);
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 	var img  = document.getElementById("arrow");
