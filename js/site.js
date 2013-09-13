@@ -327,6 +327,8 @@ jQuery( document ).ready( function( $ ) {
 			scrollTop: $("div.apparel").offset().top
 		}, 750 );
 	});
+
+	$( 'div.web, div.music, div.print, div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .4681 ) );
 });
 
 jQuery( window ).load( function(){
