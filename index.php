@@ -107,9 +107,9 @@
 			</div>
 		</div>
 
-		<div id="panel-3" class="panel">
+		<div id="panel-3" class="panel grid">
 			<div class="panel-container full-width">
-				<div id="video">
+				<div id="video" class="grid-item">
 					<div class="services-container">
 						<h2>Video</h2>
 						<div class="img">
@@ -117,7 +117,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="audio">
+				<div id="audio" class="grid-item">
 					<div class="services-container">
 						<h2>Audio</h2>
 						<div class="img">
@@ -125,7 +125,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="photography">
+				<div id="photography" class="grid-item">
 					<div class="services-container">
 						<h2>Photography</h2>
 						<div class="img">
@@ -133,7 +133,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="design">
+				<div id="design" class="grid-item">
 					<div class="services-container">
 						<h2>Design</h2>
 						<div class="img">

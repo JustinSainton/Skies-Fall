@@ -62,36 +62,43 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel">
+		<div id="panel-2" class="panel grid">
 			<div class="panel-container full-width">
-				<div id="video">
-					<h2>Video</h2>
-					<div class="img">
-						<img src="/dev/img/video-large.png" alt="" />
+				<div id="web" class="grid-item">
+					<div class="services-container">
+						<h2>Web</h2>
+						<div class="img">
+							<img src="img/web-large.png" alt="" />
+						</div>
 					</div>
 				</div>
-				<div id="audio">
-					<h2>Audio</h2>
-					<div class="img">
-						<img src="/dev/img/audio-large.png" alt="" />
+				<div id="print" class="grid-item">
+					<div class="services-container">
+						<h2>Print</h2>
+						<div class="img">
+							<img src="img/print-large.png" alt="" />
+						</div>
 					</div>
 				</div>
-				<div id="photography">
-					<h2>Photography</h2>
-					<div class="img">
-						<img src="/dev/img/photo-large.png" alt="" />
+				<div id="apparel" class="grid-item">
+					<div class="services-container">
+						<h2>Apparel</h2>
+						<div class="img">
+							<img src="img/apparel-large.png" alt="" />
+						</div>
 					</div>
 				</div>
-				<div id="design">
-					<h2>Design</h2>
-					<div class="img">
-						<img src="/dev/img/design-large.png" alt="" />
+				<div id="music" class="grid-item">
+					<div class="services-container">
+						<h2>Music</h2>
+						<div class="img">
+							<img src="img/music-large.png" alt="" />
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<div id="panel-4" class="panel location">
+		<div id="panel-3" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">

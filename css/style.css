@@ -379,10 +379,7 @@ body.home #panel-3 .panel-container {
 	height:100%;
 }
 
-#video,
-#audio,
-#photography,
-#design {
+div.grid-item {
 	width: 50%;
 	padding: 0;
 	position: relative;
@@ -390,10 +387,7 @@ body.home #panel-3 .panel-container {
 	cursor: pointer;
 }
 
-#video h2,
-#audio h2,
-#photography h2,
-#design h2 {
+div.grid-item h2 {
 	font-size: 61px;
 	letter-spacing: 5px;
 	word-spacing: 19px;
@@ -403,27 +397,21 @@ body.home #panel-3 .panel-container {
 	font-weight: normal
 }
 
-#video h2:after,
-#audio h2:after,
-#photography h2:after,
-#design h2:after {
+div.grid-item h2:after {
 	content: url( ../img/header-caret.png );
 	position: relative;
 	top: 1px;
 	left: 4px
 }
 
-#video:before,
-#audio:before,
-#photography:before,
-#design:before {
+div.grid-item:before {
 	content: "";
 	display: block;
 	padding-top: 54.0625%;
 }
 
 .services-container {
-	position:  absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
