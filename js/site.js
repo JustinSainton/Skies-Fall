@@ -305,7 +305,7 @@ jQuery( document ).ready( function( $ ) {
 	}
 
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
-	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) + 1 );
+	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 
 });
 
@@ -347,7 +347,11 @@ jQuery( window ).load( function(){
 	link.globalAlpha = 0.9;
 	link.drawImage(img,0,0, 128, 368);
 
-	$( 'div.demo-left, div.demo-right' ).css( 'width', ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 ) );
+	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,
+	demo_offset  = ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 );
+	demo_offset  = isSafari ? demo_offset + .5 : demo_offset;
+
+	$( 'div.demo-left, div.demo-right' ).css( 'width', demo_offset );
 
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) + 1 );
