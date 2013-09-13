@@ -322,7 +322,7 @@ jQuery( window ).load( function(){
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.95)';
-	ctx.fillRect( 0, 0, 720, 250 );
+	ctx.fillRect( 0, 0, 720, 300 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
