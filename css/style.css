@@ -373,7 +373,8 @@ div.full-width {
 	max-width: none;
 }
 
-body.home #panel-3 .panel-container {
+body.home #panel-3 .panel-container,
+body.design #panel-3 .panel-container {
 	background-color: #000;
 	overflow: hidden;
 	height:100%;
@@ -436,31 +437,9 @@ div.img:hover {
 	opacity: .5
 }
 
-#video img,
-#audio img,
-#photography img,
-#design img {
+div.grid-item img {
 	width: 100%;
-}
-
-#video {
 	float: left;
-}
-
-#audio {
-	float: right;
-}
-
-#photography {
-	float: left;
-	clear: left;
-	margin-bottom: -.25%;
-}
-
-#design {
-	float: right;
-	clear: right;
-	margin-bottom: -.25%;
 }
 
 span.telephone {
