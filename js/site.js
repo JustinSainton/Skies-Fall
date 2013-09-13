@@ -320,6 +320,7 @@ jQuery( window ).load( function(){
 
 	// Choose font
 	ctx.font = '215px "Didot W02 Roman"';
+	ctx_r.font = '265px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.95)';
@@ -327,20 +328,16 @@ jQuery( window ).load( function(){
 
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
+	ctx_r.globalCompositeOperation = 'destination-out';
 	ctx.fillText("DEMO", 3, 300);
 
-	// Get a handle to our canvas
-	var ctx_r = document.getElementById('reel').getContext("2d");
-
 	// Choose font
-	ctx_r.font = '265px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
 	ctx_r.fillRect( 0, 0, 720, window.innerHeight );
 
 	// Punch out the text!
-	ctx_r.globalCompositeOperation = 'destination-out';
 	ctx_r.fillText("REEL", 3, 195);
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
