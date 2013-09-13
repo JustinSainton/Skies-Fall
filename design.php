@@ -58,7 +58,7 @@
 						</li>
 					</ul>
 				</nav>
-				<p class="quote">&#8220;“Design creates culture. Culture shapes values. Values determine the future.&#8221;<br />&#8212; Robert L. Peters</p>
+				<p class="quote">&#8220;Design creates culture. Culture shapes values. Values determine the future.&#8221;<br />&#8212; Robert L. Peters</p>
 			</div>
 		</div>
 
