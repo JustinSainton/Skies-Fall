@@ -658,6 +658,14 @@ canvas#demo-reel-link {
 	margin-top: -160px;
 }
 
+body.video #panel-3 {
+	background: #0047BB;
+}
+body.video #panel-3 img {
+	display: block;
+	margin: 0 auto;
+}
+
 h2.jordan {
 	letter-spacing: -1px;
 	word-spacing: 3px;

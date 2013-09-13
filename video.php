@@ -81,8 +81,7 @@
 
 		<div id="panel-3" class="panel">
 			<div class="panel-container full-width">
-
-
+				<img src="/dev/img/quotes.png" alt="Our clients love us" />
 			</div>
 		</div>
 
