@@ -312,8 +312,8 @@ jQuery( window ).load( function(){
 
 	demo.width   = 715;
 	reel.width   = 715;
-	demo.height  = 250;
-	reel.height  = 250;
+	demo.height  = 160;
+	reel.height  = 160;
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
