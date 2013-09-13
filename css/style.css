@@ -663,6 +663,7 @@ img#panel {
 	display: block;
 	margin: 0 auto;
 	padding: 0 2em;
+	position: relative;
 }
 
 h2.jordan {
