@@ -328,10 +328,17 @@ jQuery( document ).ready( function( $ ) {
 		}, 750 );
 	});
 
-	$( 'div.web' ).css( 'min-height', Math.floor( window.innerWidth * .4681 ) );
-	$( 'div.music' ).css( 'min-height', Math.floor( window.innerWidth * .6848 ) );
-	$( 'div.print' ).css( 'min-height', Math.floor( window.innerWidth * .5375 ) );
-	$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .5778 ) );
+	var size_design_scrollers = function() {
+		$( 'div.web' ).css( 'min-height', Math.floor( window.innerWidth * .4681 ) );
+		$( 'div.music' ).css( 'min-height', Math.floor( window.innerWidth * .6848 ) );
+		$( 'div.print' ).css( 'min-height', Math.floor( window.innerWidth * .5375 ) );
+		$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .5778 ) );
+
+		$( 'div.web div.scroll-space' ).css( 'width', window.innerWidth * .4010416666666667 );
+	}
+
+	size_design_scrollers();
+
 });
 
 jQuery( window ).load( function(){
