@@ -329,16 +329,20 @@ jQuery( document ).ready( function( $ ) {
 	});
 
 	var size_design_scrollers = function() {
-		$( 'div.web' ).css( 'min-height', Math.floor( window.innerWidth * .4681 ) );
-		$( 'div.music' ).css( 'min-height', Math.floor( window.innerWidth * .6848 ) );
-		$( 'div.print' ).css( 'min-height', Math.floor( window.innerWidth * .5375 ) );
-		$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .5778 ) );
+		//Web
+		$( 'div.web' ).css( 'min-height', Math.round( window.innerWidth * .4681 ) );
+		$( 'div.web div.scroll-space' ).css( 'width', Math.round( window.innerWidth * .4010416666666667 ) );
+		$( 'div.web div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.2296875 ) );
 
-		$( 'div.web div.scroll-space' ).css( 'width', window.innerWidth * .4010416666666667 );
+		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
+		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
+		$( 'div.apparel' ).css( 'min-height', Math.round( window.innerWidth * .5778 ) );
+
 	}
 
 	size_design_scrollers();
 
+	$( window ).resize( size_design_scrollers );
 });
 
 jQuery( window ).load( function(){
