@@ -614,6 +614,15 @@ canvas#demo-reel-link {
 	margin: 0 auto;
 	display: block;
 	cursor: pointer;
+	float:left;
+}
+
+canvas#reel {
+	clear: left;
+}
+
+div.demo {
+	width:843px;
 }
 
 h2.jordan {

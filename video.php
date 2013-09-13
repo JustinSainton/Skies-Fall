@@ -68,9 +68,13 @@
 			</div>
 		</div>
 
-		<canvas id="demo" width="647" height="150" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
-		<canvas id="reel" width="665" height="180" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
-		<canvas id="demo-reel-link" width="128" height="380" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
+		<div class="demo-left"></div>
+		<div class="demo">
+			<canvas id="demo" width="647" height="150" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
+			<canvas id="reel" width="665" height="180" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
+			<canvas id="demo-reel-link" width="128" height="380" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
+		</div>
+		<div class="demo-right"></div>
 
 		<img src="/dev/img/demo-reel-caret.png" id="arrow" />
 
