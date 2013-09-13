@@ -630,12 +630,12 @@ div.demo-bottom {
 	width:100%;
 	float: left;
 	height: 140px;
-	background: rgba( 0,0,0,.85 );
+	background: rgba( 0,0,0,.86 );
 	position: relative;
 }
 
 div.demo-bottom {
-	margin-top: -12pxz;
+	margin-top: -12px;
 }
 
 div.demo-left {
@@ -643,7 +643,7 @@ div.demo-left {
 	position: relative;
 	height: 368px;
 	min-width: 100px;
-	background: rgba( 0,0,0,.85 );
+	background: rgba( 0,0,0,.86 );
 }
 
 div.demo-right {
@@ -651,7 +651,7 @@ div.demo-right {
 	position: relative;
 	height: 368px;
 	min-width: 100px;
-	background: rgba( 0,0,0,.85 );
+	background: rgba( 0,0,0,.86 );
 }
 
 canvas#demo-reel-link {
