@@ -632,17 +632,23 @@ div.demo-bottom {
 	position: relative;
 }
 
+div.demo-bottom {
+	margin-top: -12pxz;
+}
+
 div.demo-left {
 	float: left;
 	position: relative;
-	height: 140px;
+	height: 368px;
+	min-width: 100px;
 	background: rgba( 0,0,0,.9 );
 }
 
 div.demo-right {
 	float: right;
 	position: relative;
-	height: 140px;
+	height: 368px;
+	min-width: 100px;
 	background: rgba( 0,0,0,.9 );
 }
 
