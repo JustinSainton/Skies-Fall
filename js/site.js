@@ -322,12 +322,12 @@ jQuery( window ).load( function(){
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.95)';
-	ctx.fillRect( 0, 0, 720, 170 );
+	ctx.fillRect( 0, 0, 720, 185 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 3, 150);
+	ctx.fillText("DEMO", 3, 175);
 
 	// Choose font
 
