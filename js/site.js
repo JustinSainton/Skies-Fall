@@ -307,6 +307,26 @@ jQuery( document ).ready( function( $ ) {
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 
+	$("#web").click( function() {
+		$('html, body').animate({
+			scrollTop: $("div.web").offset().top
+		}, 2000 );
+	});
+	$("#print").click( function() {
+		$('html, body').animate({
+			scrollTop: $("div.print").offset().top
+		}, 2000 );
+	});
+	$("#music").click( function() {
+		$('html, body').animate({
+			scrollTop: $("div.music").offset().top
+		}, 2000 );
+	});
+	$("#apparel").click( function() {
+		$('html, body').animate({
+			scrollTop: $("div.apparel").offset().top
+		}, 2000 );
+	});
 });
 
 jQuery( window ).load( function(){
