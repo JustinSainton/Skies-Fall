@@ -335,10 +335,10 @@ jQuery( window ).load( function(){
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
-	ctx_r.fillRect( 0, 0, 720, 200 );
+	ctx_r.fillRect( 0, 0, 720, 300 );
 
 	// Punch out the text!
-	ctx_r.fillText("REEL", 3, 1);
+	ctx_r.fillText("REEL", 3, 155);
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 	var img  = document.getElementById("arrow");
