@@ -328,7 +328,10 @@ jQuery( document ).ready( function( $ ) {
 		}, 750 );
 	});
 
-	$( 'div.web, div.music, div.print, div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .4681 ) );
+	$( 'div.web' ).css( 'min-height', Math.floor( window.innerWidth * .4681 ) );
+	$( 'div.music' ).css( 'min-height', Math.floor( window.innerWidth * .6848 ) );
+	$( 'div.print' ).css( 'min-height', Math.floor( window.innerWidth * .5375 ) );
+	$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .5778 ) );
 });
 
 jQuery( window ).load( function(){
