@@ -997,6 +997,10 @@ div.web p.scroll {
 	text-align: center;
 }
 
+div.web div.panel-container {
+	padding-top: 15%;
+}
+
 div.web .scroll-space {
-	margin: 30.3% 1em 0;
+	margin: -.4em 1em 0;
 }
