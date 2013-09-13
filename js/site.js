@@ -310,8 +310,10 @@ jQuery( window ).load( function(){
 	// Get a handle to our canvas
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
 
-	demo.width  = 715;
-	reel.width  = 715;
+	demo.width   = 715;
+	reel.width   = 715;
+	demo.height  = 250;
+	reel.height  = 250;
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
