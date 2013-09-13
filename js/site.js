@@ -327,13 +327,13 @@ jQuery( window ).load( function(){
 	// Punch out the text!
 	ctx.globalCompositeOperation = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 3, 175);
+	ctx.fillText("DEMO", 3, 190);
 
 	// Choose font
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
-	ctx_r.fillRect( 0, 0, 720, 170 );
+	ctx_r.fillRect( 0, 0, 720, 200 );
 
 	// Punch out the text!
 	ctx_r.fillText("REEL", 3, 1);
