@@ -310,22 +310,22 @@ jQuery( document ).ready( function( $ ) {
 	$("#web").click( function() {
 		$('html, body').animate({
 			scrollTop: $("div.web").offset().top
-		}, 2000 );
+		}, 750 );
 	});
 	$("#print").click( function() {
 		$('html, body').animate({
 			scrollTop: $("div.print").offset().top
-		}, 2000 );
+		}, 750 );
 	});
 	$("#music").click( function() {
 		$('html, body').animate({
 			scrollTop: $("div.music").offset().top
-		}, 2000 );
+		}, 750 );
 	});
 	$("#apparel").click( function() {
 		$('html, body').animate({
 			scrollTop: $("div.apparel").offset().top
-		}, 2000 );
+		}, 750 );
 	});
 });
 
