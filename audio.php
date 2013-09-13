@@ -48,7 +48,7 @@
 							<a href="/dev/video/">Video</a>
 						</li>
 						<li>
-							<a href="/dev/audio/">Audio</a>
+							<a class="selected" href="/dev/audio/">Audio</a>
 						</li>
 						<li>
 							<a href="/dev/photo/">Photo</a>
