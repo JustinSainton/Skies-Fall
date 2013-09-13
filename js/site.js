@@ -313,7 +313,7 @@ jQuery( window ).load( function(){
 	demo.width   = 715;
 	reel.width   = 715;
 	demo.height  = 160;
-	reel.height  = 180;
+	reel.height  = 200;
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
