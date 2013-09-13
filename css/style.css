@@ -619,8 +619,9 @@ canvas#demo-reel-link {
 
 div.demo {
 	width:843px;
+	height: 368px;
 	display: block;
-	margin: 0 auto;
+	float:left;
 }
 
 div.demo-top,
