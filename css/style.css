@@ -629,6 +629,21 @@ div.demo-bottom {
 	float: left;
 	height: 140px;
 	background: rgba( 0,0,0,.9 );
+	position: relative;
+}
+
+div.demo-left {
+	float: left;
+	position: relative;
+	height: 140px;
+	background: rgba( 0,0,0,.9 );
+}
+
+div.demo-right {
+	float: right;
+	position: relative;
+	height: 140px;
+	background: rgba( 0,0,0,.9 );
 }
 
 canvas#demo-reel-link {
