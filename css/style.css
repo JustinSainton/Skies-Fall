@@ -1002,5 +1002,7 @@ div.web div.panel-container {
 }
 
 div.web .scroll-space {
-	margin: -.4em 1em 0;
+	margin: 0 auto;
+	position: relative;
+	right: 2%;
 }
