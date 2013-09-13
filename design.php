@@ -98,7 +98,32 @@
 				</div>
 			</div>
 		</div>
-		<div id="panel-3" class="panel location">
+
+		<div id="panel-3" class="panel web">
+			<div class="panel-container">
+
+			</div>
+		</div>
+
+		<div id="panel-4" class="panel apparel">
+			<div class="panel-container">
+
+			</div>
+		</div>
+
+		<div id="panel-5" class="panel print">
+			<div class="panel-container">
+
+			</div>
+		</div>
+
+		<div id="panel-6" class="panel music">
+			<div class="panel-container">
+
+			</div>
+		</div>
+
+		<div id="panel-7" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -156,8 +181,11 @@
 				</form>
 			</div>
 		</div>
+
 		<span class="down-arrow"></span>
+
 		<div id="map" class="panel map"></div>
+
 		<div id="panel-6" class="panel colophon">
 			<div class="panel-container">
 				<p class="copyright">
