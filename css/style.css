@@ -622,6 +622,7 @@ div.demo {
 	height: 368px;
 	display: block;
 	float:left;
+	cursor: pointer
 }
 
 div.demo-top,

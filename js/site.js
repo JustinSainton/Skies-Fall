@@ -294,7 +294,7 @@ jQuery( document ).ready( function( $ ) {
 	if ( jQuery.fn.magnificPopup ) {
 
 		//Video page popup video
-		$( '.popup-vimeo, #demo, #reel, #demo-reel-link' ).magnificPopup({
+		$( '.popup-vimeo, #demo, #reel, #demo-reel-link, div.demo' ).magnificPopup({
 			disableOn       : 700,
 			type            : 'iframe',
 			mainClass       : 'mfp-iframe-scaler',
