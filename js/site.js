@@ -308,40 +308,38 @@ jQuery( document ).ready( function( $ ) {
 jQuery( window ).load( function(){
 
 	// Get a handle to our canvas
-	var demo = document.getElementById('demo'), reel = document.getElementById('reel'), canvas_width = window.innerWidth, canvas_height = window.innerHeight;
+	var demo = document.getElementById('demo'), reel = document.getElementById('reel');
 
 	demo.width   = 715;
 	reel.width   = 715;
 	demo.height  = 160;
-	reel.height  = 160;
+	reel.height  = 180;
 
 	ctx   = demo.getContext("2d");
 	ctx_r = reel.getContext("2d");
 
 	// Choose font
-	ctx.font = '215px "Didot W02 Roman"';
+	ctx.font   = '215px "Didot W02 Roman"';
 	ctx_r.font = '265px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.95)';
 	ctx.fillRect( 0, 0, 720, 300 );
 
-	// Punch out the text!
-	ctx.globalCompositeOperation = 'destination-out';
-	ctx_r.globalCompositeOperation = 'destination-out';
-	ctx.fillText("DEMO", 3, 155);
-
-	// Choose font
-
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.95)';
 	ctx_r.fillRect( 0, 0, 720, 300 );
 
 	// Punch out the text!
+	ctx.globalCompositeOperation   = 'destination-out';
+	ctx_r.globalCompositeOperation = 'destination-out';
+
+	ctx.fillText("DEMO", 3, 155);
 	ctx_r.fillText("REEL", 3, 155);
 
 	var link = document.getElementById("demo-reel-link").getContext("2d");
 	var img  = document.getElementById("arrow");
+
 	link.globalAlpha = 0.95;
 	link.drawImage(img,0,0, 128, 368);
 

@@ -623,6 +623,10 @@ div.demo {
 	margin: 0 auto;
 }
 
+canvas#demo-reel-link {
+	margin-top: -160px;
+}
+
 h2.jordan {
 	letter-spacing: -1px;
 	word-spacing: 3px;
