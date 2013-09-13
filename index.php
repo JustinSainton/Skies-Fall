@@ -47,13 +47,13 @@
 						<a href="/dev/video/">Video</a>
 					</li>
 					<li>
-						<a href="audio.php">Audio</a>
+						<a href="/dev/audio/">Audio</a>
 					</li>
 					<li>
-						<a href="photo.php">Photo</a>
+						<a href="/dev/photo/">Photo</a>
 					</li>
 					<li>
-						<a href="design.php">Design</a>
+						<a href="/dev/design/">Design</a>
 					</li>
 				</ul>
 			</nav>

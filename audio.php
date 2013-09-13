@@ -42,19 +42,19 @@
 							<h1><a href="/dev"><img src="img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
-							<a href="who-we-are.php">Who We Are</a>
+							<a href="/dev/who-we-are/">Who We Are</a>
 						</li>
 						<li>
-							<a href="video.php">Video</a>
+							<a href="/dev/video/">Video</a>
 						</li>
 						<li>
-							<a href="audio.php">Audio</a>
+							<a href="/dev/audio/">Audio</a>
 						</li>
 						<li>
-							<a href="photo.php">Photo</a>
+							<a href="/dev/photo/">Photo</a>
 						</li>
 						<li>
-							<a href="design.php">Design</a>
+							<a href="/dev/design/">Design</a>
 						</li>
 					</ul>
 				</nav>
