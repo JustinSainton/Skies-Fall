@@ -345,7 +345,7 @@ jQuery( window ).load( function(){
 	var img  = document.getElementById("arrow");
 
 	link.globalAlpha = 0.9;
-	link.drawImage(img,0,0, 128, 368);
+	link.drawImage(img,2,0, 128, 368);
 
 	$( 'div.demo-left, div.demo-right' ).css( 'width', ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 ) );
 
