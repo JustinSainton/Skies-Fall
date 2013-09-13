@@ -68,7 +68,7 @@
 					<div class="services-container">
 						<h2>Web</h2>
 						<div class="img">
-							<img src="img/web-large.png" alt="" />
+							<img src="/dev/img/web-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -76,7 +76,7 @@
 					<div class="services-container">
 						<h2>Print</h2>
 						<div class="img">
-							<img src="img/print-large.png" alt="" />
+							<img src="/dev/img/print-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 					<div class="services-container">
 						<h2>Apparel</h2>
 						<div class="img">
-							<img src="img/apparel-large.png" alt="" />
+							<img src="/dev/img/apparel-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 					<div class="services-container">
 						<h2>Music</h2>
 						<div class="img">
-							<img src="img/music-large.png" alt="" />
+							<img src="/dev/img/music-large.png" alt="" />
 						</div>
 					</div>
 				</div>

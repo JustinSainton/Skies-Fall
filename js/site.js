@@ -266,7 +266,7 @@ jQuery( document ).ready( function( $ ) {
 		/** Home Page | Services Photos Centering **/
 		var smallest_div_height = 500;
 
-		$( 'body.home div#panel-3 div > div' ).not( '.img' ).each(function(){
+		$( 'div.grid-item' ).each(function(){
 
 			var $this = $( 'img', $( this ) );
 
@@ -274,7 +274,7 @@ jQuery( document ).ready( function( $ ) {
 				smallest_div_height = $this.height();
 		});
 
-		$( 'body.home div#panel-3 div > div' ).not( '.img' ).each( function(){
+		$( 'div.grid-item' ).each( function(){
 
 			var $this = $( this ), $h2 = $( 'h2', $this );
 
