@@ -305,7 +305,9 @@ p.quote {
 }
 
 body.video p.quote,
-body.design p.quote {
+body.design p.quote,
+body.audio p.quote,
+body.photo p.quote {
 	text-align: right;
 	font-size: 29px;
 	padding: 160px 6px 0;
