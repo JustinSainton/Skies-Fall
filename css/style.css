@@ -1085,3 +1085,26 @@ div.music p {
 	text-align: center;
 	margin-top: 43%;
 }
+
+body.audio #panel-2 {
+	padding: 75px 0;
+	background: rgba( 0,0,0,.95 );
+}
+
+body.audio #panel-2 h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 108px;
+}
+
+body.audio #panel-2 h2 span {
+	font-family: "Didot W02 Roman";
+}
+
+div.what-we-do {
+
+}
+
+div.what-we-do h3 {
+
+}
