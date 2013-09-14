@@ -367,6 +367,8 @@ jQuery( document ).ready( function( $ ) {
 
 		//Music
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
+		$( 'div.print div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.18229166666666666 ) );
+		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.17708333333333334 ) );
 
 	}
 
