@@ -342,8 +342,8 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.apparel div.scroll-space' ).eq(0).css( 'top', Math.round( window.innerWidth * .15416666666666667 ) );
 		$( 'div.apparel p.scroll' ).css( 'line-height', Math.round( window.innerWidth * .10416666666666667 ) + 'px' );
 
-		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * .4010416666666667 ) );
-		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.23125 ) );
+		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.1046875 ) );
+		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.140625 ) );
 
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
