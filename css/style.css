@@ -1029,3 +1029,7 @@ div.apparel p.scroll {
 	text-align: center;
 	vertical-align: middle;
 }
+
+div.apparel div.panel-container {
+	overflow: visible;
+}
