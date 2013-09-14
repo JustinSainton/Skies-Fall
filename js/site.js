@@ -353,11 +353,14 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.print div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.057291666666666664 ) );
 		$( 'div.print div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5682291666666667 ) );
 
-		var screenImage = $( 'div.print img' ).eq(0), theImage = new Image();
+		jQuery( window ).load(function(){
+			var screenImage = $( 'div.print img' ).eq(0), theImage = new Image();
 
-		theImage.src = screenImage.attr( 'src' );
+			theImage.src = screenImage.attr( 'src' );
 
-		$( 'div.print img' ).css( 'width', Math.ceil( theImage.width * ( window.innerWidth / 1900 ) ) );
+			$( 'div.print img' ).css( 'width', Math.ceil( theImage.width * ( window.innerWidth / 1900 ) ) );
+		});
+
 		$( 'div.print img' ).css( 'margin-left', '-' + Math.round( window.innerWidth * 0.003125 ) + 'px' );
 
 		//Music
