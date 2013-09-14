@@ -996,8 +996,11 @@ div.panel.apparel {
 	background-size: 100% auto;
 }
 
+div.scroll-space p {
+	color: #000;
+}
+
 div.web p.scroll {
-	color: black;
 	text-align: center;
 	margin: 29.5% 0 0 2px;
 }
@@ -1050,7 +1053,6 @@ div.apparel p.scroll {
 	text-align: center;
 	vertical-align: middle;
 	margin: 0;
-	color: #000;
 }
 
 div.apparel div.panel-container {
