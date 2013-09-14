@@ -43,7 +43,7 @@
 				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
-							<h1><a href="/dev"><img src="img/logo.png" alt="Skies Fall Media" /></a></h1>
+							<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
 							<a href="/dev/who-we-are/">Who We Are</a>
@@ -62,8 +62,7 @@
 						</li>
 					</ul>
 				</nav>
-				<span class="heading">We own the sky</span>
-				<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
+				<p class="quote">&#8220;Music can change the world because it can change people.&#8221;<br />&#8212; Bono</p>
 			</div>
 		</div>
 
