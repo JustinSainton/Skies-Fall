@@ -1038,14 +1038,6 @@ div.print .scroll-space {
 	overflow-x: hidden;
 }
 
-div.print .scroll-space {
-	left: 56%;
-	-webkit-transform: perspective( 10px ) rotateY( 0deg );
-	-moz-transform: perspective( 10px ) rotateY( 0deg );
-	-o-transform: perspective( 10px ) rotateY( 0deg );
-	transform: perspective( 10px ) rotateY( 0deg );
-}
-
 div.apparel .scroll-space:nth-child(1) {
 	left: 55%;
 }
@@ -1065,5 +1057,10 @@ div.apparel div.panel-container {
 	overflow: visible;
 }
 
+div.print .scroll-space {
+	left: 56%;
+}
+
 div.print img {
+	margin: 45% 0;
 }
