@@ -1096,10 +1096,16 @@ body.audio #panel-2 h2 {
 	font-weight: normal;
 	font-size: 108px;
 	font-family: "Didot W02 Roman";
+	margin-top: 0;
+	text-align: center;
 }
 
 body.audio #panel-2 h2 span {
 	font-family: "Didot W02 Italic";
+}
+
+div.what-we-do-grid {
+	margin: 0 auto;
 }
 
 div.what-we-do {
