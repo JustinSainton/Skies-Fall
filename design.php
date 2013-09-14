@@ -146,18 +146,16 @@
 		</div>
 
 		<div id="panel-6" class="panel music">
-			<div class="panel-container">
-				<div class="scroll-space">
-					<p class="scroll">-scroll here-</p>
-					<img src="/dev/img/everett-album.png" alt="" />
-					<img src="/dev/img/skillet-album.png" alt="" />
-					<img src="/dev/img/nicole-album.png" alt="" />
-					<img src="/dev/img/leo-album.png" alt="" />
-					<img src="/dev/img/sarah-album.png" alt="" />
-					<img src="/dev/img/oxygen-album.png" alt="" />
-					<img src="/dev/img/random-album.png" alt="" />
-					<img src="/dev/img/emily-album.png" alt="" />
-				</div>
+			<div class="scroll-space">
+				<p class="scroll">-scroll here-</p>
+				<img src="/dev/img/everett-album.png" alt="" />
+				<img src="/dev/img/skillet-album.png" alt="" />
+				<img src="/dev/img/nicole-album.png" alt="" />
+				<img src="/dev/img/leo-album.png" alt="" />
+				<img src="/dev/img/sarah-album.png" alt="" />
+				<img src="/dev/img/oxygen-album.png" alt="" />
+				<img src="/dev/img/random-album.png" alt="" />
+				<img src="/dev/img/emily-album.png" alt="" />
 			</div>
 		</div>
 
