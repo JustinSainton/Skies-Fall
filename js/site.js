@@ -1,3 +1,5 @@
+var navigation = responsiveNav("#nav");
+
 var set_proper_home_margin = function() {
 		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
 			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );

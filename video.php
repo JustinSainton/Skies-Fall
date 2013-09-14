@@ -35,13 +35,17 @@
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
+		<!-- Responsive Navigation -->
+		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
+		<script src="/dev/js/responsive-nav.js"></script>
+
 	</head>
 	<body class="video">
 
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel">
 			<div class="panel-container">
-				<nav class="header">
+				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
 							<h1><a href="/dev"><img id="logo" src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>

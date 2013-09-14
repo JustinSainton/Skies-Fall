@@ -30,13 +30,17 @@
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+		<!-- Responsive Navigation -->
+		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
+		<script src="/dev/js/responsive-nav.js"></script>
 	</head>
 	<body class="design">
 
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel">
 			<div class="panel-container">
-				<nav class="header">
+				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
 							<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
@@ -143,7 +147,17 @@
 
 		<div id="panel-6" class="panel music">
 			<div class="panel-container">
-
+				<div class="scroll-space">
+					<p class="scroll">-scroll here-</p>
+					<img src="/dev/img/everett-album.png" alt="" />
+					<img src="/dev/img/skillet-album.png" alt="" />
+					<img src="/dev/img/nicole-album.png" alt="" />
+					<img src="/dev/img/leo-album.png" alt="" />
+					<img src="/dev/img/sarah-album.png" alt="" />
+					<img src="/dev/img/oxygen-album.png" alt="" />
+					<img src="/dev/img/random-album.png" alt="" />
+					<img src="/dev/img/emily-album.png" alt="" />
+				</div>
 			</div>
 		</div>
 
