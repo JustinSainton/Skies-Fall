@@ -1127,3 +1127,11 @@ div.what-we-do p {
 	margin-top: 6px;
 	font-size: 20px;
 }
+
+body.audio #panel-3 p {
+	position: absolute;
+	width: 400px;
+	top: 372px;
+	left: 480px;
+}
+}
