@@ -1024,6 +1024,7 @@ div.web .scroll-space img {
 div.apparel .scroll-space img {
 	margin-top: 90%;
 	margin: 90% 0 10% 10%;
+	max-width: 90%;
 }
 
 div.apparel .scroll-space:nth-child(2) img {
