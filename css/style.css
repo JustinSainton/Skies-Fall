@@ -1040,6 +1040,10 @@ div.print .scroll-space {
 
 div.print .scroll-space {
 	left: 56%;
+	-webkit-transform: perspective( 10px ) rotateY( 0deg );
+	-moz-transform: perspective( 10px ) rotateY( 0deg );
+	-o-transform: perspective( 10px ) rotateY( 0deg );
+	transform: perspective( 10px ) rotateY( 0deg );
 }
 
 div.apparel .scroll-space:nth-child(1) {
@@ -1062,8 +1066,4 @@ div.apparel div.panel-container {
 }
 
 div.print img {
-	-webkit-transform: perspective( 10px ) rotateY( 0deg );
-	-moz-transform: perspective( 10px ) rotateY( 0deg );
-	-o-transform: perspective( 10px ) rotateY( 0deg );
-	transform: perspective( 10px ) rotateY( 0deg );
 }
