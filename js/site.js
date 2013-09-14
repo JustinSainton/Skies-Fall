@@ -337,6 +337,11 @@ jQuery( document ).ready( function( $ ) {
 
 		//Apparel
 		$( 'div.apparel' ).css( 'min-height', Math.round( window.innerWidth * .5778 ) );
+		$( 'div.apparel div.scroll-space' ).eq(0).css( 'width', Math.round( window.innerWidth * .15625 ) );
+		$( 'div.apparel div.scroll-space' ).eq(0).css( 'height', Math.round( window.innerWidth * .23177083333333334 ) );
+
+		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * .4010416666666667 ) );
+		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.23125 ) );
 
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
