@@ -359,6 +359,12 @@ jQuery( document ).ready( function( $ ) {
 	size_design_scrollers();
 
 	$( window ).resize( size_design_scrollers );
+
+	//Ensure girls and guys scroll at same time
+	$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
+		$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() );
+	});
+
 });
 
 jQuery( window ).load( function(){
