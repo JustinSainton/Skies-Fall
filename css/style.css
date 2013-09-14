@@ -1103,9 +1103,15 @@ body.audio #panel-2 h2 span {
 }
 
 div.what-we-do {
-
+	float: left;
+	width: 20%;
+	margin-right: 5%;
 }
 
 div.what-we-do h3 {
-
+	letter-spacing: 3px;
+	color: #0047BB;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 }
