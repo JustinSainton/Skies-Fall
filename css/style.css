@@ -1021,13 +1021,13 @@ div.web .scroll-space img {
 	margin-top: 30%;
 }
 
-div.apparel .scroll-space {
+div.apparel .scroll-space:nth-child(1) {
 	position: relative;
 	left: 55%;
 	overflow: scroll;
 }
 
-div.apparel p.scroll {
+div.apparel p.scroll:nth-child(1) {
 	text-align: center;
 	vertical-align: middle;
 }
