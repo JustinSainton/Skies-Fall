@@ -349,7 +349,7 @@ jQuery( document ).ready( function( $ ) {
 		//Print
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
 		$( 'div.print div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.21614583333333334 ) );
-		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.43645833333333334 ) );
+		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.43333333333333335 ) );
 		$( 'div.print div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.057291666666666664 ) );
 		$( 'div.print div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5682291666666667 ) );
 
