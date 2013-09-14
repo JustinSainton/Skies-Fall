@@ -1012,6 +1012,7 @@ div.web div.panel-container {
 
 div.scroll-space {
 	overflow: auto;
+	position: relative;
 }
 
 div.web .scroll-space {

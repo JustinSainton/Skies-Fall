@@ -369,7 +369,8 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
 		$( 'div.music div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.18229166666666666 ) );
 		$( 'div.music div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.17708333333333334 ) );
-
+		$( 'div.music div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.13802083333333334 ) );
+		$( 'div.music div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.40989583333333335 ) );
 	}
 
 	size_design_scrollers();
