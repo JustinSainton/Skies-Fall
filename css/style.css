@@ -1061,3 +1061,6 @@ div.apparel div.panel-container {
 	overflow: visible;
 }
 
+div.print img {
+	transform: perspective( 100px );
+}
