@@ -362,6 +362,7 @@ jQuery( document ).ready( function( $ ) {
 
 	//Ensure girls and guys scroll at same time
 	var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
+
 	$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
 		$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
 	});

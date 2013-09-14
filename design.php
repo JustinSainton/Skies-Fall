@@ -121,7 +121,6 @@
 					<img src="/dev/img/change.png" alt="" />
 				</div>
 				<div class="scroll-space">
-					<p class="scroll">-scroll here-</p>
 					<img src="/dev/img/cello.png" alt="" />
 					<img src="/dev/img/everett.png" alt="" />
 					<img src="/dev/img/be-the-change.png" alt="" />
