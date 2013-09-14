@@ -130,16 +130,14 @@
 		</div>
 
 		<div id="panel-5" class="panel print">
-			<div class="panel-container full-width">
-				<div class="scroll-space">
-					<p class="scroll">-scroll here-</p>
-					<img src="/dev/img/life-love-music.png" alt="" />
-					<img src="/dev/img/first-love-print.png" alt="" />
-					<img src="/dev/img/david-print.png" alt="" />
-					<img src="/dev/img/skies-fall-print.png" alt="" />
-					<img src="/dev/img/life-love-music-print.png" alt="" />
-					<img src="/dev/img/everett-print.png" alt="" />
-				</div>
+			<div class="scroll-space">
+				<p class="scroll">-scroll here-</p>
+				<img src="/dev/img/life-love-music.png" alt="" />
+				<img src="/dev/img/first-love-print.png" alt="" />
+				<img src="/dev/img/david-print.png" alt="" />
+				<img src="/dev/img/skies-fall-print.png" alt="" />
+				<img src="/dev/img/life-love-music-print.png" alt="" />
+				<img src="/dev/img/everett-print.png" alt="" />
 			</div>
 		</div>
 
