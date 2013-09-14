@@ -1088,17 +1088,18 @@ div.music p {
 
 body.audio #panel-2 {
 	padding: 75px 0;
-	background: rgba( 0,0,0,.95 );
+	background: rgba( 0,0,0,.9 );
 }
 
 body.audio #panel-2 h2 {
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 108px;
+	font-family: "Didot W02 Roman";
 }
 
 body.audio #panel-2 h2 span {
-	font-family: "Didot W02 Roman";
+	font-family: "Didot W02 Italic";
 }
 
 div.what-we-do {
