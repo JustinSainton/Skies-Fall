@@ -1003,7 +1003,13 @@ div.web div.panel-container {
 }
 
 div.web .scroll-space {
-	margin: -.3em auto 0;
+	margin: -.5em auto 0;
 	position: relative;
 	right: 2.2%;
+	overflow: auto;
+}
+
+div.web .scroll-space img {
+	width: 100%;
+	margin-top: 30%;
 }

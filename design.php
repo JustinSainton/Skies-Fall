@@ -103,6 +103,7 @@
 			<div class="panel-container">
 				<div class="scroll-space">
 					<p class="scroll">-scroll here-</p>
+					<img src="/dev/img/web-scroller.png" alt="" />
 				</div>
 			</div>
 		</div>
