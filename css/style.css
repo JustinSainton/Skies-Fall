@@ -1028,7 +1028,6 @@ div.apparel .scroll-space img {
 
 div.apparel .scroll-space {
 	position: relative;
-	left: 55%;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
