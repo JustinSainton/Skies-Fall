@@ -1062,5 +1062,8 @@ div.apparel div.panel-container {
 }
 
 div.print img {
-	transform: perspective( 100px );
+	-webkit-transform: perspective( 10px ) rotateY( 0deg );
+	-moz-transform: perspective( 10px ) rotateY( 0deg );
+	-o-transform: perspective( 10px ) rotateY( 0deg );
+	transform: perspective( 10px ) rotateY( 0deg );
 }
