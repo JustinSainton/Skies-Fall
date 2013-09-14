@@ -68,8 +68,39 @@
 
 		<div id="panel-2" class="panel">
 			<div class="panel-container">
-
-
+				<h2>What <span>We Do</span></h2>
+				<div class="what-we-do">
+					<h3>Record</h3>
+					<p>Experienced engineers &amp; great gear to get the sounds you need.</p>
+				</div>
+				<div class="what-we-do">
+					<h3>Edit</h3>
+					<p>A precise &amp; meticulous process ensures your tracks are on time &amp; in tune.</p>
+				</div>
+				<div class="what-we-do">
+					<h3>Mix</h3>
+					<p>This is where much of the magic happens. Our mixing will give your songs pro sound and &#8216;feel&#8217;. </p>
+				</div>
+				<div class="what-we-do">
+					<h3>Master</h3>
+					<p>Our final compression, EQ, and levels put the finishing professional touches on the sound of your tracks.</p>
+				</div>
+				<div class="what-we-do">
+					<h3>Write</h3>
+					<p>Our team of staff &amp; partner songwriters are available to write &amp; co-write with artists &amp; organizations.</p>
+				</div>
+				<div class="what-we-do">
+					<h3>Produce</h3>
+					<p>Our producing team is equipped to bring the best out of you &amp; your music to take it to the highest level.</p>
+				</div>
+				<div class="what-we-do">
+					<h3>Custom Music</h3>
+					<p>Our team of writers &amp; producers create great music - of any style - from scratch for your project.</p>
+				</div>
+				<div class="what-we-do">
+					<h3>Voice-over</h3>
+					<p>Exceptional facilities &amp; a rich catalogue of voice talent have prepared us to make your script come alive.</p>
+				</div>
 			</div>
 		</div>
 

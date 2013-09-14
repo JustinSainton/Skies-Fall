@@ -62,7 +62,7 @@
 						</li>
 					</ul>
 				</nav>
-
+				<p class="quote">&#8220;The soul never thinks without a picture.&#8221;<br />&#8212; Aristotle</p>
 			</div>
 		</div>
 
