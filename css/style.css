@@ -1064,5 +1064,10 @@ div.print .scroll-space {
 }
 
 div.print img {
-	margin: 45% 0;
+	margin: 52% 0;
+}
+
+div.print p {
+	text-align: center;
+	margin-top: 50%;
 }
