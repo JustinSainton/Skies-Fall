@@ -1031,10 +1031,15 @@ div.apparel .scroll-space:nth-child(2) img {
 	margin-left: 0;
 }
 
-div.apparel .scroll-space {
+div.apparel .scroll-space,
+div.print .scroll-space {
 	position: relative;
 	overflow-y: scroll;
 	overflow-x: hidden;
+}
+
+div.print .scroll-space {
+	left: 56%;
 }
 
 div.apparel .scroll-space:nth-child(1) {
@@ -1055,3 +1060,4 @@ div.apparel p.scroll {
 div.apparel div.panel-container {
 	overflow: visible;
 }
+

@@ -131,7 +131,7 @@
 		</div>
 
 		<div id="panel-5" class="panel print">
-			<div class="panel-container">
+			<div class="panel-container full-width">
 				<div class="scroll-space">
 					<p class="scroll">-scroll here-</p>
 					<img src="/dev/img/life-love-music.png" alt="" />
