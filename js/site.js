@@ -353,7 +353,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.print div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.057291666666666664 ) );
 		$( 'div.print div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5682291666666667 ) );
 
-		var screenImage = $( 'div.print img' ).get(0), theImage = new Image();
+		var screenImage = $( 'div.print img' ).eq(0), theImage = new Image();
 
 		theImage.src = screenImage.attr( 'src' );
 
