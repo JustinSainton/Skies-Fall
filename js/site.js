@@ -358,6 +358,7 @@ jQuery( document ).ready( function( $ ) {
 		theImage.src = screenImage.attr( 'src' );
 
 		$( 'div.print img' ).css( 'width', Math.ceil( theImage.width * ( window.innerWidth / 1900 ) ) );
+		$( 'div.print img' ).css( 'margin-left', '-' + Math.round( window.innerWidth * 0.003125 ) + 'px' );
 
 		//Music
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
