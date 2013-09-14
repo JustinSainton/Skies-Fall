@@ -1021,6 +1021,11 @@ div.web .scroll-space img {
 	margin-top: 30%;
 }
 
+div.apparel .scroll-space img {
+	width: 100%;
+	margin-top: 90%;
+}
+
 div.apparel .scroll-space:nth-child(1) {
 	position: relative;
 	left: 55%;
