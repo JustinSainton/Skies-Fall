@@ -999,11 +999,11 @@ div.web p.scroll {
 }
 
 div.web div.panel-container {
-	padding: 4.2% 0 0 0;
+	padding: 4.9% 0 0 0;
 }
 
 div.web .scroll-space {
-	margin: -.5em auto 0;
+	margin: 0 auto;
 	position: relative;
 	right: 2.2%;
 	overflow: auto;

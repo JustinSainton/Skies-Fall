@@ -332,7 +332,7 @@ jQuery( document ).ready( function( $ ) {
 		//Web
 		$( 'div.web' ).css( 'min-height', Math.round( window.innerWidth * .4681 ) );
 		$( 'div.web div.scroll-space' ).css( 'width', Math.round( window.innerWidth * .4010416666666667 ) );
-		$( 'div.web div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.2296875 ) );
+		$( 'div.web div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.23125 ) );
 
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
