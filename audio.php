@@ -12,21 +12,21 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="js/jquery.imagesloaded.min.js"></script>
+		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="js/modernizr-2.5.3.min.js"></script>
+		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="js/bigvideo.js"></script>
+		<script src="/dev/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="js/stellar.js"></script>
+		<script src="/dev/js/stellar.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<link href="css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="genericons/genericons.css">
+		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/dev/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
@@ -68,74 +68,14 @@
 
 		<div id="panel-2" class="panel">
 			<div class="panel-container">
-				<span class="subheading">We've had the pleasure to work with</span>
-				<ul id="portfolio">
-					<li>
-						<a href=""><img src="img/client-logos/jockey.png" alt="Jockey" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/target.png" alt="Target" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/e.png" alt="E! Entertainment" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/united-way.png" alt="United Way" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/atlantic.png" alt="Atlantic Records" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/mtv.png" alt="MTV" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/dillards.png" alt="Dillard's" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/qvc.png" alt="QVC" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/hbo.png" alt="HBO" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/skillet.png" alt="Skillet" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/reach.png" alt="Reach Records" /></a>
-					</li>
-					<li>
-						<a href=""><img src="img/client-logos/cw.png" alt="The CW" /></a>
-					</li>
-				</ul>
+
+
 			</div>
 		</div>
 
 		<div id="panel-3" class="panel">
-			<div class="panel-container full-width">
-				<div id="video">
-					<h2>Video</h2>
-					<div class="img">
-						<img src="img/video-large.png" alt="" />
-					</div>
-				</div>
-				<div id="audio">
-					<h2>Audio</h2>
-					<div class="img">
-						<img src="img/audio-large.png" alt="" />
-					</div>
-				</div>
-				<div id="photography">
-					<h2>Photography</h2>
-					<div class="img">
-						<img src="img/photo-large.png" alt="" />
-					</div>
-				</div>
-				<div id="design">
-					<h2>Design</h2>
-					<div class="img">
-						<img src="img/design-large.png" alt="" />
-					</div>
-				</div>
+			<div class="panel-container">
+
 			</div>
 		</div>
 
@@ -167,7 +107,7 @@
 				<div id='contact-bubble'>
 					<a class="contact">Say Hello</a>
 				</div>
-				<form id="contact-form" action="contact.php" method="POST">
+				<form id="contact-form" action="/dev/contact.php" method="POST">
 					<div id="contact">
 						<label id="name">Name<input type="text" name="name" /></label>
 						<label id="email">Email<input type="text" name="email" /></label>
@@ -214,6 +154,6 @@
 				</div>
 			</div>
 		</div>
-		<script src="js/site.js"></script>
+		<script src="/dev/js/site.js"></script>
 	</body>
 </html>
