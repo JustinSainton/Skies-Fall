@@ -1027,9 +1027,10 @@ div.apparel .scroll-space:nth-child(1) {
 	overflow: scroll;
 }
 
-div.apparel p.scroll:nth-child(1) {
+div.apparel p.scroll {
 	text-align: center;
 	vertical-align: middle;
+	margin: 0;
 }
 
 div.apparel div.panel-container {
