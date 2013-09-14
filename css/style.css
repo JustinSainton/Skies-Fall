@@ -1104,8 +1104,8 @@ body.audio #panel-2 h2 span {
 
 div.what-we-do {
 	float: left;
-	width: 20%;
-	margin-right: 5%;
+	width: 22%;
+	margin-right: 3%;
 }
 
 div.what-we-do h3 {
@@ -1114,4 +1114,10 @@ div.what-we-do h3 {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+div.what-we-do p {
+	margin-top: 16px;
+	font-size: 20px;
+
 }
