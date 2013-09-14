@@ -1026,6 +1026,10 @@ div.apparel .scroll-space img {
 	margin: 90% 0 10% 10%;
 }
 
+div.apparel .scroll-space:nth-child(2) img {
+	margin-left: 0;
+}
+
 div.apparel .scroll-space {
 	position: relative;
 	overflow-y: scroll;
@@ -1035,6 +1039,7 @@ div.apparel .scroll-space {
 div.apparel .scroll-space:nth-child(1) {
 	left: 55%;
 }
+
 div.apparel .scroll-space:nth-child(2) {
 	left: 14.75%;
 }

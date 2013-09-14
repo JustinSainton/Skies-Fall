@@ -344,6 +344,7 @@ jQuery( document ).ready( function( $ ) {
 
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.1046875 ) );
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.140625 ) );
+		$( 'div.apparel div.scroll-space' ).eq(1).css( 'top', Math.round( window.innerWidth * 0.025 ) );
 
 		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
