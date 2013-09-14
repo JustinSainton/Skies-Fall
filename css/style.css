@@ -1120,6 +1120,7 @@ div.what-we-do h3 {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
+	margin: 0;
 }
 
 div.what-we-do p {
