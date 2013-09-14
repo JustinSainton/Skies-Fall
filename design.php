@@ -103,14 +103,19 @@
 			<div class="panel-container">
 				<div class="scroll-space">
 					<p class="scroll">-scroll here-</p>
-					<img src="/dev/img/web-scroller.png" alt="" />
+					<a href="http://www.titus-us.com"><img src="/dev/img/titus-web-scroller.png" alt="" /></a>
+					<a href="http://www.firstloveconference.com"><img src="/dev/img/firstlove-web-scroller.png" alt="" /></a>
+					<a href="http://2220photography.com"><img src="/dev/img/220-web-scroller.png" alt="" /></a>
+					<a href="http://www.everettthomas.com"><img src="/dev/img/ev-web-scroller.png" alt="" /></a>
 				</div>
 			</div>
 		</div>
 
 		<div id="panel-4" class="panel apparel">
 			<div class="panel-container">
-
+				<div class="scroll-space">
+					<p class="scroll">-scroll here-</p>
+				</div>
 			</div>
 		</div>
 
