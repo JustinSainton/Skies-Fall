@@ -346,8 +346,13 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.140625 ) );
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'top', Math.round( window.innerWidth * 0.025 ) );
 
-		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
+		//Print
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
+		$( 'div.print div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.21614583333333334 ) );
+		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.4383346425765907 ) );
+
+		//Music
+		$( 'div.music' ).css( 'min-height', Math.round( window.innerWidth * .6848 ) );
 
 	}
 
