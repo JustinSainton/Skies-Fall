@@ -1021,3 +1021,8 @@ div.web .scroll-space img {
 div.apparel .scroll-space {
 	margin: 30% 0 0 55%;
 }
+
+div.apparel p.scroll {
+	text-align: center;
+	vertical-align: middle;
+}
