@@ -1022,7 +1022,9 @@ div.web .scroll-space img {
 }
 
 div.apparel .scroll-space {
-	padding: 30% 0 0 55%;
+	position: relative;
+	left: 55%;
+	overflow: scroll;
 }
 
 div.apparel p.scroll {
