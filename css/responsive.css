@@ -36,8 +36,33 @@
   .non-retina-iphone-only { display: block; }
 }
 
+/* ---------- 1080p HD Screen ---------- */
 @media only screen and (min-width: 1500px) {
+
 	body.audio #panel-3 p {
+		position: absolute;
+		width: 470px;
+		top: 372px;
+		left: 450px;
 		font-size: 18px;
 	}
+
+	body.audio #panel-3 div.grid-item:nth-child(even) p {
+		left: 100px;
+	}
+}
+
+/* ---------- Standard Laptop Screen ---------- */
+@media only screen and (min-width: 1100px) {
+
+	body.audio #panel-3 p {
+		width: 353px;
+		top: 235px;
+		left: 270px;
+	}
+
+	body.audio #panel-3 div.grid-item:nth-child(even) p {
+		left: 60px;
+	}
+
 }
