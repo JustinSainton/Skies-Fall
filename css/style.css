@@ -418,6 +418,10 @@ body.audio .grid-item:before {
 	padding-top: 60.9%;
 }
 
+body.audio .grid-item {
+	cursor: default;
+}
+
 .services-container {
 	position: absolute;
 	top: 0;
