@@ -36,7 +36,7 @@
   .non-retina-iphone-only { display: block; }
 }
 
-@media only screen and (min-device-width: 1500px) {
+@media only screen and (min-width: 1500px) {
 	body.audio #panel-3 p {
 		font-size: 18px;
 	}
