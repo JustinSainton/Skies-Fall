@@ -110,43 +110,43 @@
 			<div class="panel-container full-width">
 
 				<div id="skillet" class="grid-item">
+					<p>&#8220;The studio is fantastic. My favorite moments on the record [RISE] are things we did at Skies Fall...and I love working with Nick Rad. He’s made me look really good.&#8221;<br /> &#8212;John Cooper, Skillet<br /> (Atlantic Records)</p>
 					<div class="services-container">
-						<p>&#8220;The studio is fantastic. My favorite moments on the record [RISE] are things we did at Skies Fall...and I love working with Nick Rad. He’s made me look really good.&#8221;<br /> &#8212;John Cooper, Skillet<br /> (Atlantic Records)</p>
 						<img src="/dev/img/skillet-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="reach" class="grid-item">
+					<p>&#8220;Skies Fall brings so much to the table. They produce great music. Sonically, their recordings are excellent. Knowledgeable. Experienced. Affordable. They’re a joy to work with!&#8221;<br /> &#8212;Joseph Prielozny, Producer<br /> (Reach Records)</p>
 					<div class="services-container">
-						<p>&#8220;Skies Fall brings so much to the table. They produce great music. Sonically, their recordings are excellent. Knowledgeable. Experienced. Affordable. They’re a joy to work with!&#8221;<br /> &#8212;Joseph Prielozny, Producer<br /> (Reach Records)</p>
 						<img src="/dev/img/reach-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="jockey" class="grid-item">
+					<p>&#8220;Our experience working with Skies Fall has been exceptional. The end product always exceeds expectations.&#8221;<br /> &#8212; Dustin Cohn, CMO, Jockey Intl.</p>
 					<div class="services-container">
-						<p>&#8220;Our experience working with Skies Fall has been exceptional. The end product always exceeds expectations.&#8221;<br /> &#8212; Dustin Cohn, CMO, Jockey Intl.</p>
 						<img src="/dev/img/jockey-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="stonesour" class="grid-item">
+					<p>&#8220;This guy [Ben] f***ing knows what he’s doing.&#8221;<br /> &#8212;Corey Taylor, Stone Sour &amp; Slipknot<br /> (Warner Music Group)</p>
 					<div class="services-container">
-						<p>&#8220;This guy [Ben] f***ing knows what he’s doing.&#8221;<br /> &#8212;Corey Taylor, Stone Sour &amp; Slipknot<br /> (Warner Music Group)</p>
 						<img src="/dev/img/stonesour-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="hyland" class="grid-item">
+					<p>&#8220;Skies Fall was the key difference maker in our career. They took our songs, writing, and production to the next level. The doors opened as a result. When we were signed to Tooth&amp;Nail, they told us it was one of the most complete EP’s they had ever heard.&#8221;<br /> &#8212;Jon Lewis, Hyland<br /> (Tooth&amp;Nail Records)</p>
 					<div class="services-container">
-						<p>&#8220;Skies Fall was the key difference maker in our career. They took our songs, writing, and production to the next level. The doors opened as a result. When we were signed to Tooth&amp;Nail, they told us it was one of the most complete EP’s they had ever heard.&#8221;<br /> &#8212;Jon Lewis, Hyland<br /> (Tooth&amp;Nail Records)</p>
 						<img src="/dev/img/hyland-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="anberlin" class="grid-item">
+					<p>&#8220;Production is flawless. The mixes are unbelievably unique and infectious...my favorites on the record.&#8221;<br /> &#8212;Stephen &amp; Christian, Anberlin</p>
 					<div class="services-container">
-						<p>&#8220;Production is flawless. The mixes are unbelievably unique and infectious...my favorites on the record.&#8221;<br /> &#8212;Stephen &amp; Christian, Anberlin</p>
 						<img src="/dev/img/anberlin-audio-large.png" alt="" />
 					</div>
 				</div>
