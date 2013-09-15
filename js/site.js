@@ -471,8 +471,8 @@ jQuery( window ).load( function(){
 	ctx_r = gallery.getContext("2d");
 
 	// Choose font
-	ctx.font   = '215px "Didot W02 Roman"';
-	ctx_r.font = '265px "Didot W02 Italic"';
+	ctx.font   = '100px "Didot W02 Italic"';
+	ctx_r.font = '120px "Didot W02 Roman"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
