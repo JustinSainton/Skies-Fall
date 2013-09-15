@@ -9,11 +9,21 @@
 /* ---------- iPad Only ---------- */
 @media only screen and (device-width: 768px) {
   .ipad-only { display: block; }
+
+	div.grid-item {
+		width: 100%;
+		clear: left
+	}
 }
 
 /* ---------- iPhone/iPod Only ---------- */
 @media only screen and (device-width: 320px) {
   .iphone-only { display: block; }
+
+	div.grid-item {
+		width: 100%;
+		clear: left
+	}
 }
 
 /* ---------- Retina Device Only ---------- */
