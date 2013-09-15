@@ -1142,6 +1142,7 @@ body.audio #panel-3 p {
 	top: 372px;
 	left: 450px;
 	font-size: 16px;
+	z-index: 1
 }
 
 body.audio #panel-3 div.grid-item:nth-child(even) p {
