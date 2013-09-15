@@ -56,9 +56,9 @@
 @media only screen and (min-width: 1100px) and (max-width: 1290px) {
 
 	body.audio #panel-3 p {
-		width: 360px;
-		top: 240px;
-		left: 270px;
+		top: 235px;
+		width: 440px;
+		left: 180px
 	}
 
 	body.audio #panel-3 div.grid-item:nth-child(even) p {
