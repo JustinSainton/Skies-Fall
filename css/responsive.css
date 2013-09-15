@@ -40,15 +40,11 @@
 @media only screen and (min-width: 1500px) {
 
 	body.audio #panel-3 p {
-		position: absolute;
-		width: 470px;
-		top: 372px;
-		left: 450px;
 		font-size: 18px;
 	}
 
 	body.audio #panel-3 div.grid-item:nth-child(even) p {
-		left: 100px;
+
 	}
 }
 
@@ -57,7 +53,6 @@
 
 	body.audio #panel-3 p {
 		top: 240px;
-		width: 440px;
 		left: 180px
 	}
 
