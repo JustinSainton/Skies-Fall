@@ -1145,3 +1145,60 @@ body.audio #panel-3 p {
 
 body.audio #panel-3 div.grid-item:nth-child(even) p {
 }
+
+body.audio #panel-4 {
+	background: url(../img/studio-gallery-panel-bg.png) no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
+canvas#studio,
+canvas#gallery,
+canvas#studio-gallery-link {
+	position: relative;
+	z-index: 1;
+	opacity: .95;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	float:left;
+}
+
+div.studio {
+	width:843px;
+	height: 368px;
+	display: block;
+	float:left;
+	cursor: pointer
+}
+
+div.studio-top,
+div.studio-bottom {
+	width:100%;
+	float: left;
+	height: 140px;
+	background: rgba( 0,0,0,.86 );
+	position: relative;
+}
+
+div.studio-left {
+	float: left;
+	position: relative;
+	height: 368px;
+	min-width: 100px;
+	background: rgba( 0,0,0,.86 );
+}
+
+div.studio-right {
+	float: right;
+	position: relative;
+	height: 368px;
+	min-width: 100px;
+	background: rgba( 0,0,0,.86 );
+}
+
+canvas#studio-gallery-link {
+	margin-top: -160px;
+}

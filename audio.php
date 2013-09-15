@@ -154,9 +154,20 @@
 			</div>
 		</div>
 
+		<div id="panel-4" class="panel full-width">
+			<div class="studio-top"></div>
+				<div class="studio-left"></div>
+				<div class="studio">
+					<canvas id="studio" width="647" height="150"></canvas>
+					<canvas id="gallery" width="665" height="180"></canvas>
+					<canvas id="studio-gallery-link" width="128" height="380"></canvas>
+					<img src="/dev/img/demo-reel-caret.png" id="arrow" />
+				</div>
+				<div class="studio-right"></div>
+			<div class="studio-bottom"></div>
+		</div>
 
-
-		<div id="panel-4" class="panel location">
+		<div id="panel-5" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
