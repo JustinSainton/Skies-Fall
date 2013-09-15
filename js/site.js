@@ -168,8 +168,6 @@ var set_proper_home_margin = function() {
 
 	google.maps.event.addDomListener( window, 'load'  , initialize );
 	google.maps.event.addDomListener( window, 'scroll', scroll );
-	google.maps.event.addDomListener( window, 'resize'  , initialize );
-	google.maps.event.addDomListener( window, 'resize', scroll );
 
 	function scroll() {
 		var windowEl   = $( window ),
