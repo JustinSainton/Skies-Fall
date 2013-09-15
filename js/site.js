@@ -472,15 +472,15 @@ jQuery( window ).load( function(){
 
 	// Choose font
 	ctx.font   = '200px "Didot W02 Italic"';
-	ctx_r.font = '120px "Didot W02 Roman"';
+	ctx_r.font = '160px "Didot W02 Roman"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
-	ctx.fillRect( 0, 0, 720, 300 );
+	ctx.fillRect( 0, 0, 890, 300 );
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 720, 348 );
+	ctx_r.fillRect( 0, 0, 890, 348 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
