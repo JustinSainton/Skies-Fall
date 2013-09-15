@@ -467,8 +467,8 @@ jQuery( window ).load( function(){
 	studio.height  = 160;
 	gallery.height = 208;
 
-	ctx   = demo.getContext("2d");
-	ctx_r = reel.getContext("2d");
+	ctx   = studio.getContext("2d");
+	ctx_r = gallery.getContext("2d");
 
 	// Choose font
 	ctx.font   = '215px "Didot W02 Roman"';
@@ -496,10 +496,9 @@ jQuery( window ).load( function(){
 	link.drawImage(img,0,0, 128, 368);
 
 	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,
-	demo_offset  = ( ( window.innerWidth - $( 'div.studio' ).width() )  / 2 );
-	demo_offset  = isSafari ? demo_offset + .5 : demo_offset;
+	studio_offset  = ( ( window.innerWidth - $( 'div.studio' ).width() )  / 2 );
+	studio_offset  = isSafari ? studio_offset + .5 : studio_offset;
 
-	$( 'div.studio-left' ).css( 'width', demo_offset );
-	$( 'div.studio-right' ).css( 'width', ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 ) );
-
+	$( 'div.studio-left' ).css( 'width', studio_offset );
+	$( 'div.studio-right' ).css( 'width', ( ( window.innerWidth - $( 'div.studio' ).width() )  / 2 ) );
 });
