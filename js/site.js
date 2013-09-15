@@ -378,7 +378,7 @@ jQuery( document ).ready( function( $ ) {
 	$( window ).resize( size_design_scrollers );
 
 	var place_audio_paragraphs = function() {
-		$( 'body.audio #panel-3 div.grid-item p' ).css( 'width', Math.round( window.innerWidth * 0.24479166666666666 ) );
+		$( 'body.audio #panel-3 div.grid-item p' ).css( 'width', Math.round( window.innerWidth * 0.30 ) );
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'top', Math.round( window.innerWidth * 0.19375 ) );
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'left', Math.round( window.innerWidth * 0.234375 ) );
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'left', Math.round( window.innerWidth * 0.052083333333333336 ) );

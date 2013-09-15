@@ -35,3 +35,9 @@
 @media only screen and (device-width: 320px) and (-webkit-max-device-pixel-ratio: 1) {
   .non-retina-iphone-only { display: block; }
 }
+
+@media only screen and (min-device-width: 1500px) {
+	body.audio #panel-3 p {
+		font-size: 18px;
+	}
+}
