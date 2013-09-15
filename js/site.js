@@ -453,3 +453,53 @@ jQuery( window ).load( function(){
 	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 
 });
+
+jQuery( window ).load( function(){
+
+	// Get a handle to our canvas
+	var studio = document.getElementById('studio'), gallery = document.getElementById('gallery');
+
+	if ( null == studio )
+		return;
+
+	studio.width   = 715;
+	gallery.width  = 715;
+	studio.height  = 160;
+	gallery.height = 208;
+
+	ctx   = demo.getContext("2d");
+	ctx_r = reel.getContext("2d");
+
+	// Choose font
+	ctx.font   = '215px "Didot W02 Roman"';
+	ctx_r.font = '265px "Didot W02 Italic"';
+
+	// Draw black rectangle
+	ctx.fillStyle = 'rgba(0,0,0,.9)';
+	ctx.fillRect( 0, 0, 720, 300 );
+
+	// Draw black rectangle
+	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
+	ctx_r.fillRect( 0, 0, 720, 348 );
+
+	// Punch out the text!
+	ctx.globalCompositeOperation   = 'destination-out';
+	ctx_r.globalCompositeOperation = 'destination-out';
+
+	ctx.fillText("STUDIO", 3, 155);
+	ctx_r.fillText("GALLERY", 3, 204);
+
+	var link = document.getElementById("studio-gallery-link").getContext("2d");
+	var img  = document.getElementById("arrow");
+
+	link.globalAlpha = 0.9;
+	link.drawImage(img,0,0, 128, 368);
+
+	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,
+	demo_offset  = ( ( window.innerWidth - $( 'div.studio' ).width() )  / 2 );
+	demo_offset  = isSafari ? demo_offset + .5 : demo_offset;
+
+	$( 'div.studio-left' ).css( 'width', demo_offset );
+	$( 'div.studio-right' ).css( 'width', ( ( window.innerWidth - $( 'div.demo' ).width() )  / 2 ) );
+
+});
