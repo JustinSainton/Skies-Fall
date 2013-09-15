@@ -147,9 +147,7 @@
 				<div id="anberlin" class="grid-item">
 					<div class="services-container">
 						<p>&#8220;Production is flawless. The mixes are unbelievably unique and infectious...my favorites on the record.&#8221;<br /> &#8212;Stephen &amp; Christian, Anberlin</p>
-						<div class="img">
-							<img src="/dev/img/anberlin-audio-large.png" alt="" />
-						</div>
+						<img src="/dev/img/anberlin-audio-large.png" alt="" />
 					</div>
 				</div>
 
