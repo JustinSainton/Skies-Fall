@@ -1138,13 +1138,14 @@ div.what-we-do p {
 
 body.audio #panel-3 p {
 	position: absolute;
-	width: 470px;
+	width: auto;
 	top: 372px;
 	left: 450px;
 	font-size: 16px;
-	z-index: 1
+	z-index: 1;
+	margin: 0 60px 0 0
 }
 
 body.audio #panel-3 div.grid-item:nth-child(even) p {
-	left: 100px;
+	margin: 0 0 0 100px;
 }
