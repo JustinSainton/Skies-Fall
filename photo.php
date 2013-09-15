@@ -82,26 +82,29 @@
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
+					<a class="add" target="blank" href="http://maps.apple.com/?daddr=2745+Chicory+Road+Racine%2C+WI+53403">
 					Headquarters &amp; Creative Studios<br />
 					2745 Chicory Road<br />
-					Racine, WI 53403<br /><br />
-					<span>262-456-4027<br />
-					<a href="mailto:&#105;&#110;&#102;&#111;&#064;&#115;&#107;&#105;&#101;&#115;&#102;&#097;&#108;&#108;&#046;&#099;&#111;&#109;">info@skiesfall.com</a></span>
+					Racine, WI 53403</a><br /><br />
+					<span class="telephone" itemprop="telephone"><a href="tel:+12624564027">262-456-4027</a></span><br />
+					<span><a href="mailto:&#105;&#110;&#102;&#111;&#064;&#115;&#107;&#105;&#101;&#115;&#102;&#097;&#108;&#108;&#046;&#099;&#111;&#109;">info@skiesfall.com</a></span>
 				</div>
 				<div class="address">
+					<a class="add" target="blank" href="http://maps.apple.com/?daddr=3215+60th+St.+Kenosha%2C+WI+53142">
 					Skies Fall Recording Studios<br />
 					3215 60th St.<br />
-					Kenosha, WI 53142<br /><br />
-
-					<span>262-455-5814<br />
-					<a href="mailto:&#105;&#110;&#102;&#111;&#064;&#115;&#107;&#105;&#101;&#115;&#102;&#097;&#108;&#108;&#046;&#099;&#111;&#109;">info@skiesfall.com</a></span>
+					Kenosha, WI 53142</a>
+					<br /><br />
+					<span class="telephone" itemprop="telephone"><a href="tel:+12624555814">262-455-5814</a></span><br />
+					<span><a href="mailto:&#105;&#110;&#102;&#111;&#064;&#115;&#107;&#105;&#101;&#115;&#102;&#097;&#108;&#108;&#046;&#099;&#111;&#109;">info@skiesfall.com</a></span>
 				</div>
 				<div class="address">
+					<a class="add" target="blank" href="http://maps.apple.com/?daddr=800+Center+St.+Racine%2C+WI+53403">
 					Skies Fall/BelleTV Studios<br />
 					800 Center St.<br />
-					Racine, WI 53403<br /><br />
-					<span>262-619-3506<br />
-					<a href="mailto: &#116;&#104;&#101;&#098;&#101;&#108;&#108;&#101;&#116;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">thebelletv@gmail.com</a></span>
+					Racine, WI 53403</a><br /><br />
+					<span class="telephone" itemprop="telephone"><a href="tel:+12626193506">262-619-3506</a></span><br />
+					<span><a href="mailto: &#116;&#104;&#101;&#098;&#101;&#108;&#108;&#101;&#116;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">thebelletv@gmail.com</a></span>
 				</div>
 				<div id='contact-bubble'>
 					<a class="contact">Say Hello</a>
