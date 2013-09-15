@@ -373,9 +373,10 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.music div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.40989583333333335 ) );
 	}
 
-	size_design_scrollers();
-
-	$( window ).resize( size_design_scrollers );
+	if ( $( 'body' ).hasClass( 'design' ) ) {
+		size_design_scrollers();
+		$( window ).resize( size_design_scrollers );
+	}
 
 	var place_audio_paragraphs = function() {
 
