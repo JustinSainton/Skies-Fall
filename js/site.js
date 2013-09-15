@@ -202,6 +202,9 @@ var set_proper_home_margin = function() {
 		}
 	}
 
+	//Hopefully resets map on resize?
+	$( window ).resize( initialize );
+
 	/** General hijackery **/
 	$( 'ul#portfolio li a' ).click( function(e){
 		e.preventDefault();
