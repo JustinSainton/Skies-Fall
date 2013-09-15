@@ -218,7 +218,7 @@ var set_proper_home_margin = function() {
 	$( '#contact-form' ).submit( function(e){
 		e.preventDefault();
 		$( 'div.ajax-loader' ).fadeIn( 350 );
-		var url = 'contact.php',
+		var url = '/dev/contact.php',
 		data = {
 			name    : $( 'label#name input' ).val(),
 			email   : $( 'label#email input' ).val(),
