@@ -169,10 +169,6 @@ var set_proper_home_margin = function() {
 	google.maps.event.addDomListener( window, 'load'  , initialize );
 	google.maps.event.addDomListener( window, 'scroll', scroll );
 
-	var map = initialize(), currCenter = map.getCenter();
-	google.maps.event.trigger(map, 'resize');
-	map.setCenter(currCenter);
-
 	function scroll() {
 		var windowEl   = $( window ),
 		mapEl          = $( '#map' ),
