@@ -377,12 +377,25 @@ jQuery( document ).ready( function( $ ) {
 
 	$( window ).resize( size_design_scrollers );
 
-	//Ensure girls and guys scroll at same time
-	var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
+	var place_audio_paragraphs = function() {
+		$( 'body.audio #panel-3 div.grid-item p' ).css( 'width', Math.round( window.innerWidth * 0.24479166666666666 ) );
+		$( 'body.audio #panel-3 div.grid-item p' ).css( 'top', Math.round( window.innerWidth * 0.19375 ) );
+		$( 'body.audio #panel-3 div.grid-item p' ).css( 'left', Math.round( window.innerWidth * 0.234375 ) );
+		$( 'body.audio #panel-3 div.grid-item:even p' ).css( 'left', Math.round( window.innerWidth * 0.052083333333333336 ) );
+	}
 
-	$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
-		$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
-	});
+	place_audio_paragraphs();
+
+	$( window ).resize( place_audio_paragraphs );
+
+	//Ensure girls and guys scroll at same time
+	if ( $( 'div.apparel div.scroll-space' ).length ) {
+		var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
+
+		$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
+			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
+		});
+	}
 
 });
 
