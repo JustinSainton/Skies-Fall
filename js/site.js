@@ -168,6 +168,8 @@ var set_proper_home_margin = function() {
 
 	google.maps.event.addDomListener( window, 'load'  , initialize );
 	google.maps.event.addDomListener( window, 'scroll', scroll );
+	google.maps.event.addDomListener( window, 'resize'  , initialize );
+	google.maps.event.addDomListener( window, 'resize', scroll );
 
 	function scroll() {
 		var windowEl   = $( window ),
@@ -201,9 +203,6 @@ var set_proper_home_margin = function() {
 			map.setZoom( 4 );
 		}
 	}
-
-	//Hopefully resets map on resize?
-	$( window ).resize( initialize );
 
 	/** General hijackery **/
 	$( 'ul#portfolio li a' ).click( function(e){
