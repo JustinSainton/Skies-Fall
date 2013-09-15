@@ -1137,7 +1137,8 @@ div.what-we-do p {
 }
 
 body.audio #panel-3 p {
-
+	position: absolute;
+	z-index: 1;
 }
 
 body.audio #panel-3 div.grid-item:nth-child(even) p {
