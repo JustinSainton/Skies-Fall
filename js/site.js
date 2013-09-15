@@ -382,6 +382,7 @@ jQuery( document ).ready( function( $ ) {
 		//$( 'body.audio #panel-3 div.grid-item p' ).css( 'width', Math.round( window.innerWidth * 0.24479166666666666 ) );
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'top', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.6655290102389079 ) );
 		//$( 'body.audio #panel-3 div.grid-item p' ).css( 'left', Math.round( window.innerWidth * 0.234375 ) );
+		//$( 'body.audio #panel-3 div.grid-item p' ).css( 'font-size', Math.round( window.innerWidth * 0.234375 ) );
 		//$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'left', Math.round( window.innerWidth * 0.052083333333333336 ) );
 	}
 
