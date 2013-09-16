@@ -462,21 +462,20 @@ jQuery( document ).ready( function( $ ) {
 		$( window ).resize( size_design_scrollers );
 	}
 
-	var place_audio_paragraphs = function() {
+	var place_audio_objects = function() {
 
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'top', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.6655290102389079 ) );
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'margin-left', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.041666666666666664 ) + '%' );
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'margin-left', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.010416666666666666 ) + '%' );
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'margin-right', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.020833333333333332 ) + '%' );
 
-		$( 'body.audio #panel-4' ).css( 'min-height', Math.round( window.innerWidth * 0.47368421052631576 ) );
+		$( 'body.audio #panel-4, body.audio #panel-5' ).css( 'min-height', Math.round( window.innerWidth * 0.47368421052631576 ) );
 		$( 'div.studio-top' ).css( 'margin-top', ( ( $( 'div#panel-4' ).height() - ( $( 'div.studio' ).height() + $( 'div.studio-top' ).height() + $( 'div.studio-bottom' ).height() ) ) / 2 ) + 'px' );
-
 	}
 
-	place_audio_paragraphs();
+	place_audio_objects();
 
-	$( window ).resize( place_audio_paragraphs );
+	$( window ).resize( place_audio_objects );
 
 	//Ensure girls and guys scroll at same time
 	if ( $( 'div.apparel div.scroll-space' ).length ) {
