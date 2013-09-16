@@ -482,7 +482,7 @@ jQuery( window ).load( function(){
 	studio.width   = 890;
 	gallery.width  = 890;
 	studio.height  = 180;
-	gallery.height = 200;
+	gallery.height = 190;
 
 	ctx   = studio.getContext("2d");
 	ctx_r = gallery.getContext("2d");
@@ -497,7 +497,7 @@ jQuery( window ).load( function(){
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 890, 320 );
+	ctx_r.fillRect( 0, 0, 890, 300 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
