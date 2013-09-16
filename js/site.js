@@ -504,7 +504,7 @@ jQuery( window ).load( function(){
 	ctx_r.globalCompositeOperation = 'destination-out';
 
 	ctx.fillText("STUDIO", 3, 155);
-	ctx_r.fillText("GALLERY", 3, 195);
+	ctx_r.fillText("GALLERY", 3, 165);
 
 	var link = document.getElementById("studio-gallery-link").getContext("2d");
 	var img  = document.getElementById("arrow");
