@@ -1,3 +1,17 @@
+$.fn.textWidth = function(){
+    var self = $(this),
+        children = self.children(),
+        calculator = $('<span style="display: inline-block;" />'),
+        width;
+
+    children.wrap(calculator);
+    width = children.parent().width(); // parent = the calculator wrapper
+    children.unwrap();
+    return width;
+};
+
+console.log( $( 'p.quote' ).textWidth() );
+
 var navigation = responsiveNav("#nav");
 
 var set_proper_home_margin = function() {
