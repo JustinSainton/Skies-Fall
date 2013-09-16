@@ -609,7 +609,7 @@ var gear_list = function() {
 
 	// Choose font
 	ctx.font   = '220px "Didot W02 Italic"';
-	ctx_r.font = '176px "Didot W02 Italic"';
+	ctx_r.font = '250px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
