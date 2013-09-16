@@ -23,6 +23,10 @@
 		<!-- Parallax API -->
 		<script src="/dev/js/stellar.js"></script>
 
+		<!-- Popup (Video and Image Gallery) styles and scripts -->
+		<link rel="stylesheet" href="/dev/css/popup.css">
+		<script src="/dev/js/popup.js"></script>
+
 		<!-- Stylesheets -->
 		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
 		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">

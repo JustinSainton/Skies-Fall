@@ -317,6 +317,17 @@ jQuery( document ).ready( function( $ ) {
 			fixedContentPos : false
 		});
 
+		$( '#studio, #gallery, #studio-gallery-link, div.studio' ).magnificPopup({
+			items: [
+				{
+					src: 'path-to-image-1.jpg'
+				}
+			],
+			gallery: {
+				enabled: true
+			},
+		});
+
 	}
 
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
