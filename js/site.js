@@ -489,7 +489,7 @@ jQuery( window ).load( function(){
 
 	// Choose font
 	ctx.font   = '200px "Didot W02 Italic"';
-	ctx_r.font = '150px "Didot W02 Roman"';
+	ctx_r.font = '155px "Didot W02 Roman"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
