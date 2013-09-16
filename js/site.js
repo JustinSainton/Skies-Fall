@@ -489,7 +489,7 @@ jQuery( window ).load( function(){
 
 	// Choose font
 	ctx.font   = '200px "Didot W02 Italic"';
-	ctx_r.font = '160px "Didot W02 Roman"';
+	ctx_r.font = '150px "Didot W02 Roman"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
@@ -503,8 +503,8 @@ jQuery( window ).load( function(){
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("STUDIO", 3, 155);
-	ctx_r.fillText("GALLERY", 3, 160);
+	ctx.fillText("STUDIO", 19, 155);
+	ctx_r.fillText("GALLERY", 1, 160);
 
 	var link = document.getElementById("studio-gallery-link").getContext("2d");
 	var img  = document.getElementById("arrow");
