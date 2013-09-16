@@ -624,14 +624,14 @@ var gear_list = function() {
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 890, 298 );
+	ctx_r.fillRect( 0, 0, 890, 350 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_e.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("g", 19, 170);
+	ctx.fillText("g", 3, 120);
 	ctx_e.fillText("ear", 1, 170);
 	ctx_r.fillText("LIST", 3, 165);
 
