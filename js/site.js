@@ -479,8 +479,8 @@ jQuery( window ).load( function(){
 	if ( null == studio )
 		return;
 
-	studio.width   = 715;
-	gallery.width  = 715;
+	studio.width   = 890;
+	gallery.width  = 890;
 	studio.height  = 160;
 	gallery.height = 208;
 
