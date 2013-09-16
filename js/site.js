@@ -598,12 +598,12 @@ var gear_list = function() {
 	if ( null == g )
 		return;
 
-	g.width   = 100;
-	ear.width   = 790;
-	list.width  = 890;
-	g.height  = 180;
-	ear.height  = 150;
-	list.height = 150;
+	g.width   = 155;
+	ear.width   = 325;
+	list.width  = 650;
+	g.height  = 190;
+	ear.height  = 107;
+	list.height = 200;
 
 	ctx   = g.getContext("2d");
 	ctx_e = ear.getContext("2d");
@@ -616,24 +616,24 @@ var gear_list = function() {
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
-	ctx.fillRect( 0, 0, 890, 200 );
+	ctx.fillRect( 0, 0, 160, 195 );
 
 	// Draw black rectangle
 	ctx_e.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_e.fillRect( 0, 0, 150, 250 );
+	ctx_e.fillRect( 0, 0, 330, 112 );
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 890, 350 );
+	ctx_r.fillRect( 0, 0, 655, 205 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_e.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("g", 3, 120);
-	ctx_e.fillText("ear", 1, 170);
-	ctx_r.fillText("LIST", 3, 165);
+	ctx.fillText("g", 3, 1);
+	ctx_e.fillText("ear", 3, 1);
+	ctx_r.fillText("LIST", 3, 1);
 
 	var link = document.getElementById("gear-list-link").getContext("2d");
 	var img  = document.getElementById("arrow");
