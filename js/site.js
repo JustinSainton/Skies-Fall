@@ -9,8 +9,6 @@ $.fn.textWidth = function(){
     return width;
 };
 
-console.log( $( 'p.quote' ).textWidth() );
-
 var navigation = responsiveNav("#nav");
 
 var set_proper_home_margin = function() {
@@ -276,6 +274,8 @@ var set_proper_home_margin = function() {
 })(jQuery);
 
 jQuery( document ).ready( function( $ ) {
+
+	$( 'p.quote' ).width( $( 'p.quote' ).textWidth() );
 
 	var align_h2 = function() {
 		/** Home Page | Services Photos Centering **/
