@@ -1212,3 +1212,52 @@ canvas#studio-gallery-link {
 	max-width: 80%;
 	margin: 0 auto;
 }
+
+canvas#gear,
+canvas#list,
+canvas#gear-list-link {
+	position: relative;
+	z-index: 1;
+	opacity: .95;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	float:left;
+}
+
+div.gear {
+	width: 1018px;
+	height: 368px;
+	display: block;
+	float:left;
+	cursor: pointer
+}
+
+div.gear-top,
+div.gear-bottom {
+	width:100%;
+	float: left;
+	height: 140px;
+	background: rgba( 0,0,0,.86 );
+	position: relative;
+}
+
+div.gear-left {
+	float: left;
+	position: relative;
+	height: 368px;
+	min-width: 100px;
+	background: rgba( 0,0,0,.86 );
+}
+
+div.gear-right {
+	float: right;
+	position: relative;
+	height: 368px;
+	min-width: 100px;
+	background: rgba( 0,0,0,.86 );
+}
+
+canvas#gear-list-link {
+	margin-top: -180px;
+}

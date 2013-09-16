@@ -591,7 +591,58 @@ var canvas_gallery = function() {
 	$( 'div.studio-right' ).css( 'width', ( ( window.innerWidth - $( 'div.studio' ).width() )  / 2 ) );
 }
 
+var gear_list = function() {
+
+	// Get a handle to our canvas
+	var gear = document.getElementById('gear'), list = document.getElementById('list');
+
+	if ( null == studio )
+		return;
+
+	gear.width   = 890;
+	list.width  = 890;
+	gear.height  = 180;
+	list.height = 188;
+
+	ctx   = gear.getContext("2d");
+	ctx_r = list.getContext("2d");
+
+	// Choose font
+	ctx.font   = '220px "Didot W02 Italic"';
+	ctx_r.font = '176px "Didot W02 Roman"';
+
+	// Draw black rectangle
+	ctx.fillStyle = 'rgba(0,0,0,.9)';
+	ctx.fillRect( 0, 0, 890, 320 );
+
+	// Draw black rectangle
+	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
+	ctx_r.fillRect( 0, 0, 890, 298 );
+
+	// Punch out the text!
+	ctx.globalCompositeOperation   = 'destination-out';
+	ctx_r.globalCompositeOperation = 'destination-out';
+
+	ctx.fillText("gear", 19, 170);
+	ctx_r.fillText("LIST", 3, 165);
+
+	var link = document.getElementById("gear-list-link").getContext("2d");
+	var img  = document.getElementById("arrow");
+
+	link.globalAlpha = 0.9;
+	link.drawImage(img,0,0, 128, 368);
+
+	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,
+	gear_offset  = ( ( window.innerWidth - $( 'div.gear' ).width() )  / 2 );
+	gear_offset  = isSafari ? gear_offset + .5 : gear_offset;
+
+	$( 'div.gear-left' ).css( 'width', gear_offset );
+	$( 'div.gear-right' ).css( 'width', ( ( window.innerWidth - $( 'div.gear' ).width() )  / 2 ) );
+}
+
 jQuery( window ).load( canvas_gallery );
 jQuery( window ).load( canvas_demo );
+jQuery( window ).load( gear_list );
 jQuery( window ).resize( canvas_gallery );
 jQuery( window ).resize( canvas_demo );
+jQuery( window ).resize( gear_list );

@@ -171,7 +171,19 @@
 			<div class="studio-bottom"></div>
 		</div>
 
-		<div id="panel-5" class="panel location">
+		<div id="panel-5" class="panel full-width">
+			<div class="gear-top"></div>
+				<div class="gear-left"></div>
+				<div class="gear">
+					<canvas id="gear" width="647" height="150"></canvas>
+					<canvas id="list" width="665" height="180"></canvas>
+					<canvas id="gear-list-link" width="128" height="380"></canvas>
+				</div>
+				<div class="gear-right"></div>
+			<div class="gear-bottom"></div>
+		</div>
+
+		<div id="panel-6" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -234,7 +246,7 @@
 		</div>
 		<span class="down-arrow"></span>
 		<div id="map" class="panel map"></div>
-		<div id="panel-6" class="panel colophon">
+		<div id="panel-7" class="panel colophon">
 			<div class="panel-container">
 				<p class="copyright">
 					&copy; <?php echo date( 'Y' ); ?> Skies Fall Media Group. All Rights Reserved.
