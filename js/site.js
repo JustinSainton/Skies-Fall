@@ -418,7 +418,7 @@ jQuery( document ).ready( function( $ ) {
 
 });
 
-jQuery( window ).load( function(){
+var canvas_demo = function() {
 
 	// Get a handle to our canvas
 	var demo = document.getElementById('demo'), reel = document.getElementById('reel');
@@ -469,9 +469,9 @@ jQuery( window ).load( function(){
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 	$( '#panel' ).css( 'padding-right', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
 
-});
+}
 
-jQuery( window ).load( function(){
+var canvas_gallery = function() {
 
 	// Get a handle to our canvas
 	var studio = document.getElementById('studio'), gallery = document.getElementById('gallery');
@@ -518,4 +518,9 @@ jQuery( window ).load( function(){
 
 	$( 'div.studio-left' ).css( 'width', studio_offset );
 	$( 'div.studio-right' ).css( 'width', ( ( window.innerWidth - $( 'div.studio' ).width() )  / 2 ) );
-});
+}
+
+jQuery( window ).load( canvas_gallery );
+jQuery( window ).load( canvas_demo );
+jQuery( window ).resize( canvas_gallery );
+jQuery( window ).resize( canvas_demo );
