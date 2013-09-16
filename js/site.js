@@ -601,7 +601,7 @@ var gear_list = function() {
 	g.width     = 150;
 	ear.width   = 580;
 	list.width  = 730;
-	g.height    = 190;
+	g.height    = 390;
 	ear.height  = 190;
 	list.height = 200;
 
@@ -616,7 +616,7 @@ var gear_list = function() {
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
-	ctx.fillRect( 0, 0, 235, 195 );
+	ctx.fillRect( 0, 0, 235, 395 );
 
 	// Draw black rectangle
 	ctx_e.fillStyle = 'rgba(0,0,0,.9)';
