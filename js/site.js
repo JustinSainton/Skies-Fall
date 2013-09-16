@@ -610,8 +610,8 @@ var gear_list = function() {
 	ctx_r = list.getContext("2d");
 
 	// Choose font
-	ctx.font   = '220px "Didot W02 Italic"';
-	ctx_e.font = '220px "Didot W02 Italic"';
+	ctx.font   = '240px "Didot W02 Italic"';
+	ctx_e.font = '240px "Didot W02 Italic"';
 	ctx_r.font = '250px "Didot W02 Italic"';
 
 	// Draw black rectangle
