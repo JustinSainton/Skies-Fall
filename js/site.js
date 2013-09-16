@@ -318,6 +318,7 @@ jQuery( document ).ready( function( $ ) {
 		});
 
 		$( '#studio, #gallery, #studio-gallery-link, div.studio' ).magnificPopup({
+			preloader : true,
 			items: [
 				{
 					src   : '<img src="/dev/img/1-aroom-2.jpg" />',
@@ -377,7 +378,7 @@ jQuery( document ).ready( function( $ ) {
 			],
 			gallery: {
 				enabled: true,
-				preload: [0,2],
+				preload: [1,3],
 				navigateByImgClick: true,
 				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
 				tPrev: 'Previous (Left arrow key)', // title for left button
