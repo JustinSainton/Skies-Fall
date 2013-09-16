@@ -598,11 +598,11 @@ var gear_list = function() {
 	if ( null == g )
 		return;
 
-	g.width   = 150;
+	g.width     = 150;
 	ear.width   = 580;
 	list.width  = 730;
-	g.height  = 190;
-	ear.height  = 107;
+	g.height    = 190;
+	ear.height  = 190;
 	list.height = 200;
 
 	ctx   = g.getContext("2d");
