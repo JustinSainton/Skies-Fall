@@ -1,12 +1,11 @@
 $.fn.textWidth = function(){
     var self = $(this),
-        children = self.children(),
         calculator = $('<span style="display: inline-block;" />'),
         width;
 
-    children.wrap(calculator);
-    width = children.parent().width(); // parent = the calculator wrapper
-    children.unwrap();
+    self.wrap(calculator);
+    width = self.parent().width(); // parent = the calculator wrapper
+    self.unwrap();
     return width;
 };
 
