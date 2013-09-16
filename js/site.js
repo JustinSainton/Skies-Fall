@@ -320,42 +320,65 @@ jQuery( document ).ready( function( $ ) {
 		$( '#studio, #gallery, #studio-gallery-link, div.studio' ).magnificPopup({
 			items: [
 				{
-					src: '/dev/img/1-aroom-2.jpg'
+					src   : '<img src="/dev/img/1-aroom-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/2-aroom-1.jpg'
+					src: '<img src="/dev/img/2-aroom-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/3-live-room-2.jpg'
+					src: '<img src="/dev/img/3-live-room-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/4-live-room-1.jpg'
+					src: '<img src="/dev/img/4-live-room-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/5-vocal.jpg'
+					src: '<img src="/dev/img/5-vocal.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/6-iso-booth-1.jpg'
+					src: '<img src="/dev/img/6-iso-booth-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/7-iso-booth-2.jpg'
+					src: '<img src="/dev/img/7-iso-booth-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/8-b-room-2.jpg'
+					src: '<img src="/dev/img/8-b-room-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/9-b-room-1.jpg'
+					src: '<img src="/dev/img/9-b-room-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/10-c-room-1.jpg'
+					src: '<img src="/dev/img/10-c-room-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 				{
-					src: '/dev/img/11-c-room-iso.jpg'
+					src: '<img src="/dev/img/11-c-room-iso.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
 				},
 			],
 			gallery: {
 				enabled: true
 			},
+			type : 'image'
 		});
 
 	}
