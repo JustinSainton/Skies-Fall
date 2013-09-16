@@ -503,8 +503,8 @@ jQuery( window ).load( function(){
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("STUDIO", 19, 155);
-	ctx_r.fillText("GALLERY", 1, 160);
+	ctx.fillText("STUDIO", 19, 170);
+	ctx_r.fillText("GALLERY", 1, 190);
 
 	var link = document.getElementById("studio-gallery-link").getContext("2d");
 	var img  = document.getElementById("arrow");
