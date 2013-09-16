@@ -598,8 +598,8 @@ var gear_list = function() {
 	if ( null == g )
 		return;
 
-	g.width   = 230;
-	ear.width   = 500;
+	g.width   = 150;
+	ear.width   = 580;
 	list.width  = 730;
 	g.height  = 190;
 	ear.height  = 107;
@@ -631,7 +631,7 @@ var gear_list = function() {
 	ctx_e.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("g", 3, 120);
+	ctx.fillText("g", 15, 120);
 	ctx_e.fillText("ear", 1, 170);
 	ctx_r.fillText("LIST", 3, 165);
 
