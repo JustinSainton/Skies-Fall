@@ -175,7 +175,8 @@
 			<div class="gear-top"></div>
 				<div class="gear-left"></div>
 				<div class="gear">
-					<canvas id="gear" width="647" height="150"></canvas>
+					<canvas id="g" width="647" height="150"></canvas>
+					<canvas id="ear" width="647" height="150"></canvas>
 					<canvas id="list" width="665" height="180"></canvas>
 					<canvas id="gear-list-link" width="128" height="380"></canvas>
 				</div>

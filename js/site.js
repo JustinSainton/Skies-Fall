@@ -593,26 +593,34 @@ var canvas_gallery = function() {
 var gear_list = function() {
 
 	// Get a handle to our canvas
-	var gear = document.getElementById('gear'), list = document.getElementById('list');
+	var g = document.getElementById('g'), ear = document.getElementById('ear'), list = document.getElementById('list');
 
-	if ( null == studio )
+	if ( null == g )
 		return;
 
-	gear.width   = 890;
+	g.width   = 100;
+	ear.width   = 790;
 	list.width  = 890;
-	gear.height  = 180;
-	list.height = 188;
+	g.height  = 180;
+	ear.height  = 150;
+	list.height = 150;
 
-	ctx   = gear.getContext("2d");
+	ctx   = g.getContext("2d");
+	ctx_e = ear.getContext("2d");
 	ctx_r = list.getContext("2d");
 
 	// Choose font
 	ctx.font   = '220px "Didot W02 Italic"';
+	ctx_e.font = '220px "Didot W02 Italic"';
 	ctx_r.font = '250px "Didot W02 Italic"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
-	ctx.fillRect( 0, 0, 890, 320 );
+	ctx.fillRect( 0, 0, 890, 200 );
+
+	// Draw black rectangle
+	ctx_e.fillStyle = 'rgba(0,0,0,.9)';
+	ctx_e.fillRect( 0, 0, 150, 250 );
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
@@ -620,9 +628,11 @@ var gear_list = function() {
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
+	ctx_e.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("gear", 19, 170);
+	ctx.fillText("g", 19, 170);
+	ctx_e.fillText("ear", 1, 170);
 	ctx_r.fillText("LIST", 3, 165);
 
 	var link = document.getElementById("gear-list-link").getContext("2d");
