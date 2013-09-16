@@ -398,7 +398,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'margin-left', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.010416666666666666 ) + '%' );
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'margin-right', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.020833333333333332 ) + '%' );
 
-		$( 'body.audio #panel-4' ).css( 'min-height', Math.round( $( window.innerWidth * 0.47368421052631576 ) ) );
+		$( 'body.audio #panel-4' ).css( 'min-height', Math.round( window.innerWidth * 0.47368421052631576 ) );
 
 	}
 
