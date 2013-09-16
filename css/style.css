@@ -1202,3 +1202,7 @@ div.studio-right {
 canvas#studio-gallery-link {
 	margin-top: -160px;
 }
+
+#arrow {
+	display: none
+}
