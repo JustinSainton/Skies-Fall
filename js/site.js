@@ -482,7 +482,7 @@ jQuery( window ).load( function(){
 	studio.width   = 890;
 	gallery.width  = 890;
 	studio.height  = 180;
-	gallery.height = 190;
+	gallery.height = 188;
 
 	ctx   = studio.getContext("2d");
 	ctx_r = gallery.getContext("2d");
@@ -497,14 +497,14 @@ jQuery( window ).load( function(){
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 890, 300 );
+	ctx_r.fillRect( 0, 0, 890, 298 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
 	ctx.fillText("STUDIO", 19, 170);
-	ctx_r.fillText("GALLERY", 1, 160);
+	ctx_r.fillText("GALLERY", 3, 165);
 
 	var link = document.getElementById("studio-gallery-link").getContext("2d");
 	var img  = document.getElementById("arrow");
