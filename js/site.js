@@ -479,32 +479,32 @@ jQuery( window ).load( function(){
 	if ( null == studio )
 		return;
 
-	studio.width   = 715;
-	gallery.width  = 715;
-	studio.height  = 160;
-	gallery.height = 208;
+	studio.width   = 895;
+	gallery.width  = 859;
+	studio.height  = 180;
+	gallery.height = 160;
 
 	ctx   = studio.getContext("2d");
 	ctx_r = gallery.getContext("2d");
 
 	// Choose font
-	ctx.font   = '200px "Didot W02 Italic"';
-	ctx_r.font = '160px "Didot W02 Roman"';
+	ctx.font   = '190px "Didot W02 Italic"';
+	ctx_r.font = '150px "Didot W02 Roman"';
 
 	// Draw black rectangle
 	ctx.fillStyle = 'rgba(0,0,0,.9)';
-	ctx.fillRect( 0, 0, 890, 300 );
+	ctx.fillRect( 0, 0, 895, 300 );
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 890, 348 );
+	ctx_r.fillRect( 0, 0, 895, 348 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
 	ctx.fillText("STUDIO", 3, 155);
-	ctx_r.fillText("GALLERY", 3, 204);
+	ctx_r.fillText("GALLERY", 3, 195);
 
 	var link = document.getElementById("studio-gallery-link").getContext("2d");
 	var img  = document.getElementById("arrow");
