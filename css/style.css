@@ -1317,6 +1317,7 @@ p.clients {
 }
 
 body.audio #panel-6 img {
-	margin: 80% auto;
+	margin: 100%% auto;
 	display: block;
+	max-width: 95%
 }
