@@ -310,7 +310,7 @@ body.audio p.quote,
 body.photo p.quote {
 	text-align: right;
 	font-size: 29px;
-	padding: 160px 6px 0;
+	padding: 160px 0 0;
 }
 
 img.play-button {
