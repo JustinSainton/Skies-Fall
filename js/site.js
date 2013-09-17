@@ -503,7 +503,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(0).css( 'left', Math.round( window.innerWidth * 0.371875 ) );
 		$( 'body.audio #panel-7 div.scroll-space p' ).eq(0).css( 'margin-top', Math.round( window.innerWidth * 0.036458333333333336 ) + 'px' );
 
-		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.296875 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.2984375 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.0875 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'top', Math.round( window.innerWidth * 0.275 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'left', Math.round( window.innerWidth * 0.1125 ) );
