@@ -486,10 +486,10 @@ jQuery( document ).ready( function( $ ) {
 
 		//Print
 		$( 'body.audio #panel-6' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.21614583333333334 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.43854166666666666 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.057291666666666664 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5671875 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.14583333333333334 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.21614583333333334 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.14375 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.42604166666666665 ) );
 	}
 
 	place_audio_objects();
