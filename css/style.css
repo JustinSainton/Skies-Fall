@@ -446,8 +446,7 @@ div.img {
 	transition: opacity .25s ease-in-out;
 }
 
-div.img:hover,
-div.grid-item h2:hover {
+div.img:hover {
 	opacity: .5
 }
 
