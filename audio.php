@@ -303,8 +303,19 @@
 		</div>
 
 		<div id="panel-6" class="panel">
+			<p class="clients">(clients)</p>
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
+				<img src="/dev/img/warner-audio-logo.png" alt="" />
+				<img src="/dev/img/mtv-audio-logo.png" alt="" />
+				<img src="/dev/img/cw-audio-logo.png" alt="" />
+				<img src="/dev/img/hbo-audio-logo.png" alt="" />
+				<img src="/dev/img/jockey-audio-logo.png" alt="" />
+				<img src="/dev/img/reach-audio-logo.png" alt="" />
+				<img src="/dev/img/atlantic-audio-logo.png" alt="" />
+				<img src="/dev/img/universal-audio-logo.png" alt="" />
+				<img src="/dev/img/unitedway-audio-logo.png" alt="" />
+				<img src="/dev/img/toothandnail-audio-logo.png" alt="" />
 			</div>
 		</div>
 
