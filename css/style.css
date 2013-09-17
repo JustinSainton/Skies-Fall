@@ -1263,3 +1263,22 @@ canvas#gear-list-link {
 	margin-top: -135px;
 	opacity: 0.87;
 }
+
+#gear-list {
+	display: none;
+}
+
+.column {
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	font-family : 'myriad-pro', 'Myriad Pro', Myriad, sans-serif;
+}
+
+.column h3 {
+	color: #0047BB;
+}
+
+.column .chunk {
+	margin: 2em 0;
+}

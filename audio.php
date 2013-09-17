@@ -184,6 +184,124 @@
 			<div class="gear-bottom"></div>
 		</div>
 
+		<div id="gear-list">
+			<div class="column">
+				<div class="chunk">
+					<h3>Audio Workstations</h3>
+					<p>Neve 5106 Console<br>
+					Mac Pro (3)<br>
+					ProTools HD|2 - Digidesign 192 (2)<br>
+					ProTools HD version 8 (2)<br>
+					Digi002<br>
+					Mbox 2 Pro</p>
+				</div>
+				<div class="chunk">
+					<h3>Monitors</h3>
+					<p>Focal Twin6 Be<br>
+					Yamaha NS-10 (3)<br>
+					KRK V8, V6<br>
+					Mackie 824<br>
+					JBL 4311B<br>
+					JBL 4412</p>
+				</div>
+				<div class="chunk">
+					<h3>Outboard Gear</h3>
+					<p>Vintech x73i Mic Pre's<br>
+					Shadow Hills Gama Pre's<br>
+					Universal Audio LA610 Mic Pre and Compressor<br>
+					Focusrite ISA 428 Mic Pre's with A/D Converter Card<br>
+					Focusrite Voicemaster Pro<br>
+					Shadow Hills Equinox<br>
+					Manley Vari-Mu Compressor<br>
+					Apogee DA-16x Converter<br>
+					Symetrix SE 400 Dual Parametric<br>
+					NightPro EQ3D<br>
+					Urei 535 Equalizers<br>
+					1176 Urei Blue Stripe<br>
+					1176LN Urei Black Face<br>
+					Orban 424A Dual Compressor (2)<br>
+					ADR Compex Dual compressor<br>
+					BSS 402 Dual Compressor<br>
+					DBX 160s compressor (2)<br>
+					DBX 166 Dual Compressor<br>
+					Aphex 612 Gate<br>
+					TC Electronics M3000 Reverb<br>
+					Eventide H3000s EFX<br>
+					Sony MUR-201 True Stereo Reverb<br>
+					Lexicon LXP 15 EFX with MRC version 4 remote control<br>
+					Lexicon PCM-60 Reverb<br>
+					Roland SRV-2000 Reverb<br>
+					Roland SDE-1000 Delay<br>
+					Korg SDD3300 Triple Delay<br>
+					Eventide Instant Phaser<br>
+					BBE 822 Sonic Maximizer</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="chunk">
+					<h3>Studio Instruments</h3>
+					<p>DW Custom Maple drum kit<br>
+					Ludwig Black Beauty Snare - 6 1/2 x 14<br>
+					Steel Snare<br>
+					DW Edge Snare - 6 1/2 x 14<br>
+					Yamaha 88 Weighted Key Midi Controller<br>
+					M Audio Key Midi Controller<br>
+					Vintage Fender Rhodes Electric Piano<br>
+					Vintage Apollo 6-foot Grand Piano<br>
+					Yamaha G-3 6’ Grand Piano<br>
+					Hammond A-100 (B3 w/percussion in church cabinet).<br>
+					Fender American Stratocaster<br>
+					Fender American Telecaster<br>
+					Fender '72 Telecaster Thinline<br>
+					Gibson Les Paul Standard<br>
+					Gibson Les Paul Jr<br>
+					GMP Roxie<br>
+					GMP Jr.<br>
+					Gretsch 6120 Hollow Body<br>
+					PRS Baritone<br>
+					PRS SC250 (2)<br>
+					Martin D-35 Acoustic<br>
+					Larrivee Acoustic<br>
+					Fender 6 String Banjo<br>
+					Fender F-style Mandolin<br>
+					Fender Jazz Bass<br>
+					GMP 5 String Bass</p>
+				</div>
+
+				<div class="chunk">
+					<h3>Guitar Amps/Speaker Cabinets</h3>
+					<p>Marshall JCM900<br>
+					Mesa Boogie Dual Recitfier<br>
+					Sovtek<br>
+					Vox AC30<br>
+					Fender Twin Reverb<br>
+					Marshall 4 x 12 Classic<br>
+					Marshall 4 x 12 1960<br>
+					Ampeg SVT Classic<br>
+					Risen Hwy. 55</p>
+				</div>
+
+				<div class="chunk">
+					<h3>Microphones</h3>
+					<p>Mojave MA-200 (2)<br>
+					Bell: CM-1B Tube Microphones (2)<br>
+					Neumann: U87, KM-84 (3)<br>
+					Gefell: UM-70's (2)<br>
+					AKG: 414EB, 451EB (2), 452EB, 460, D112, D12, D12e (2)<br>
+					Sennheiser: 421 (7), 441 (2)<br>
+					Shure: KSM-32 (10), SM-57, (8), SM81, SM-56A<br>
+					Bang &amp; Olfsen: 310 Ribbon (2)<br>
+					American: DR332 Ribbon (2), D22 (2)<br>
+					ADK: A51s (2)<br>
+					Beyer: M300N(c)<br>
+					RCA: 77DX Ribbon<br>
+					Rode: NTK (2), NT5<br>
+					Royer: 121 Ribbon<br>
+					EV RE-20</p>
+				</div>
+			</div>
+		</div>
+
 		<div id="panel-6" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>

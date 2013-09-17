@@ -628,7 +628,7 @@ var gear_list = function() {
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
-	ctx_e.globalCompositeOperation   = 'destination-out';
+	ctx_e.globalCompositeOperation = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
 	ctx.fillText("g", 22, 120);
