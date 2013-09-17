@@ -1308,3 +1308,10 @@ body.audio div#panel-6 {
 body.audio div#panel-6 div.scroll-space p {
 	text-align: center
 }
+
+p.clients {
+	text-align: center;
+	position: relative;
+	color: #000;
+	font-size: 25px;
+}
