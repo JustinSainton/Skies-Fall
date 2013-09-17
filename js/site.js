@@ -73,12 +73,12 @@ var set_proper_home_margin = function() {
 	/** BIO **/
 	var largest_offset;
 
-	$( 'div.bio' ).each( function(i,v){
+	$( 'div.bio-container' ).each( function(i,v){
 		largest_offset = i * 100;
 		$( this ).css( 'bottom', largest_offset );
 	});
 
-	$( 'div.bio' ).eq( -1 ).css( 'margin-bottom', '-' + largest_offset + 'px' );
+	$( 'div.bio-container' ).eq( -1 ).css( 'margin-bottom', '-' + largest_offset + 'px' );
 
 	/** Video Background **/
 	var BV;
