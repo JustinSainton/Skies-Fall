@@ -328,10 +328,10 @@
 				<img src="/dev/img/audio/bands/spark-text.png" alt="" />
 				<img src="/dev/img/audio/bands/stria-text.png" alt="" />
 				<img src="/dev/img/audio/bands/love-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/lexi-text.png" alt="" />
+				<img src="/dev/img/audio/bands/air-text.png" alt="" />
+				<img src="/dev/img/audio/bands/sweet-text.png" alt="" />
+				<img src="/dev/img/audio/bands/disaster-text.png" alt="" />
 			</div>
 			<div class="scroll-space">
 				<img src="/dev/img/audio/bands/acceptance-text.png" alt="" />
@@ -340,10 +340,10 @@
 				<img src="/dev/img/audio/bands/livinglight-text.png" alt="" />
 				<img src="/dev/img/audio/bands/george-text.png" alt="" />
 				<img src="/dev/img/audio/bands/marah-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/boiling-text.png" alt="" />
+				<img src="/dev/img/audio/bands/now-text.png" alt="" />
+				<img src="/dev/img/audio/bands/cities-text.png" alt="" />
+				<img src="/dev/img/audio/bands/kal-text.png" alt="" />
 			</div>
 			<div class="scroll-space">
 				<img src="/dev/img/audio/bands/lecrae-text.png" alt="" />
@@ -352,10 +352,10 @@
 				<img src="/dev/img/audio/bands/skyhawk-text.png" alt="" />
 				<img src="/dev/img/audio/bands/scouts-text.png" alt="" />
 				<img src="/dev/img/audio/bands/random-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
-				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/modern-text.png" alt="" />
+				<img src="/dev/img/audio/bands/above-text.png" alt="" />
+				<img src="/dev/img/audio/bands/glass-text.png" alt="" />
+				<img src="/dev/img/audio/bands/jeremy-text.png" alt="" />
 			</div>
 		</div>
 
