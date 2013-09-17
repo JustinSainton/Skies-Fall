@@ -489,7 +489,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'body.audio #panel-6' ).css( 'min-height', Math.round( window.innerWidth * 0.47157894736842104 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.14583333333333334 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.21614583333333334 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.07291666666666667 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.103125 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.42604166666666665 ) );
 		$( 'body.audio #panel-6 div.scroll-space p' ).css( 'margin-top', Math.round( window.innerWidth * 0.10416666666666667 ) + 'px' );
 		$( 'p.clients' ).css( 'top', Math.round( window.innerWidth * 0.07552083333333333 ) );
@@ -510,7 +510,7 @@ jQuery( document ).ready( function( $ ) {
 
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'width', Math.round( window.innerWidth * 0.1203125 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'height', Math.round( window.innerWidth * 0.1171875 ) );
-		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'top', Math.round( window.innerWidth * 0.07291666666666667 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'top', Math.round( window.innerWidth * 0.2140625 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'left', Math.round( window.innerWidth * 0.6875 ) );
 	}
 
