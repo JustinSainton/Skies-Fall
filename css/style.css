@@ -589,6 +589,12 @@ body.who div#panel-3 {
 	background-color: rgba( 255, 255, 255, .95 );
 }
 
+div.bio h2 span {
+	font-family: "Didot W02 Italic";
+	color: #000;
+	font-size: 24px;
+}
+
 canvas#demo,
 canvas#reel,
 canvas#demo-reel-link {
@@ -671,7 +677,7 @@ h2.jordan {
 
 .bio h2 {
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 25px;
+	font-size: 36px;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #0048BB;
