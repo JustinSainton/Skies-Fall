@@ -592,7 +592,7 @@ body.who div#panel-3 {
 div.bio h2 span {
 	font-family: "Didot W02 Italic";
 	color: #000;
-	font-size: 24px;
+	font-size: 23px;
 }
 
 canvas#demo,
@@ -683,6 +683,7 @@ h2.jordan {
 	color: #0048BB;
 	margin-top: 180px;
 	margin-bottom: -10px;
+	white-space: nowrap;
 }
 
 .bio p {
