@@ -399,6 +399,212 @@ jQuery( document ).ready( function( $ ) {
 			closeOnContentClick: true,
 			closeBtnInside: false,
   		});
+
+
+		$( '#studio, #gallery, #studio-gallery-link, div.studio' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/1-aroom-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/2-aroom-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/3-live-room-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/4-live-room-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/5-vocal.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/6-iso-booth-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/7-iso-booth-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/8-b-room-2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/9-b-room-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/10-c-room-1.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src: '<img src="/dev/img/11-c-room-iso.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+					});
+
+		$( '#fashion' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/1.png" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				}
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+		});
+
+		$( '#commercial' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/1.png" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				}
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+		});
+
+		$( '#lifestyle' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/photo/galleries/lifestyle/1.png" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				}
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+		});
+
+		$( '#entertainment' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/photo/galleries/entertainment/1.png" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				}
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+		});
+
+		$( '#non-profit' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/photo/galleries/non-profit/1.png" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				}
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+		});
+
+		$( '#travel' ).magnificPopup({
+			preloader : true,
+			items: [
+				{
+					src   : '<img src="/dev/img/photo/galleries/travel/1.png" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				}
+			],
+			closeBtnInside: false,
+			gallery: {
+				enabled: true,
+				preload: [1,3],
+				navigateByImgClick: true,
+				arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+				tPrev: 'Previous (Left arrow key)', // title for left button
+				tNext: 'Next (Right arrow key)', // title for right button
+				tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+						},
+						type : 'image'
+		});
+
 	}
 
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );
