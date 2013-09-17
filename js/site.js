@@ -631,7 +631,7 @@ var gear_list = function() {
 	ctx_e.globalCompositeOperation   = 'destination-out';
 	ctx_r.globalCompositeOperation = 'destination-out';
 
-	ctx.fillText("g", 20, 120);
+	ctx.fillText("g", 22, 120);
 	ctx_e.fillText("ear", 1, 120);
 	ctx_r.fillText("LIST", 3, 180);
 
