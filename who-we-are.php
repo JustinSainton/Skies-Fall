@@ -102,7 +102,7 @@
 		</div>
 
 		<div id="panel-3" class="panel">
-			<div class="panel-container">
+			<div class="panel-container full-width">
 				<div class='bio-container'>
 					<div class="bio">
 						<img src="/dev/img/ben.png" alt="" />
