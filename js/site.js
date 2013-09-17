@@ -309,7 +309,7 @@ jQuery( document ).ready( function( $ ) {
 	$( 'div.grid-item h2' ).hover(function(){
 		$( 'div.img', $( this ).parent() ).css( 'opacity', '.5' );
 	},
-	(function(){
+	function(){
 		$( 'div.img', $( this ).parent() ).css( 'opacity', '.3' );
 	});
 
