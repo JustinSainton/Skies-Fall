@@ -497,11 +497,21 @@ jQuery( document ).ready( function( $ ) {
 
 		//Bands Scrollers
 		$( 'body.audio #panel-7' ).css( 'min-height', Math.round( window.innerWidth * 0.4726315789473684 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.14583333333333334 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.21614583333333334 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.07291666666666667 ) );
-		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.42604166666666665 ) );
-		$( 'body.audio #panel-6 div.scroll-space p' ).css( 'margin-top', Math.round( window.innerWidth * 0.10416666666666667 ) + 'px' );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(0).css( 'width', Math.round( window.innerWidth * 0.26666666666666666 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(0).css( 'height', Math.round( window.innerWidth * 0.09635416666666667 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(0).css( 'top', Math.round( window.innerWidth * 0.121875 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(0).css( 'left', Math.round( window.innerWidth * 0.371875 ) );
+		$( 'body.audio #panel-7 div.scroll-space p' ).eq(0).css( 'margin-top', Math.round( window.innerWidth * 0.10416666666666667 ) + 'px' );
+
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.296875 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.0875 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'top', Math.round( window.innerWidth * 0.275 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(1).css( 'left', Math.round( window.innerWidth * 0.1125 ) );
+
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'width', Math.round( window.innerWidth * 0.1203125 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'height', Math.round( window.innerWidth * 0.1171875 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'top', Math.round( window.innerWidth * 0.2140625 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'left', Math.round( window.innerWidth * 0.6875 ) );
 	}
 
 	place_audio_objects();
