@@ -302,6 +302,7 @@ p.quote {
 	position: relative;
 	max-width: 1000px;
 	margin: 7px auto 0;
+	overflow-x: hidden;
 }
 
 body.video p.quote,
