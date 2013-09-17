@@ -490,6 +490,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.21614583333333334 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.10208333333333333 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.42604166666666665 ) );
+		$( 'body.audio #panel-6 div.scroll-space p' ).css( 'margin-top', Math.round( window.innerWidth * 0.10416666666666667 ) + 'px' );
 	}
 
 	place_audio_objects();
