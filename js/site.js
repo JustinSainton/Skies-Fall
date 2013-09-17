@@ -30,7 +30,7 @@ var set_proper_home_margin = function() {
 			horizontalScrolling : false,
 		});
 
-	set_proper_home_margin();
+		set_proper_home_margin();
 
 
 	} else {
