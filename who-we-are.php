@@ -115,7 +115,7 @@
 				</div>
 				<div class="bio">
 					<img src="/dev/img/nick.png" alt="" />
-					<h2>Nick Radovanovic <span>1st Engineer/Producer</span></h2>
+					<h2>Nick Rad <span>1st Engineer/Producer</span></h2>
 					<p>Nick was the drummer for the popular pop-rock five-piece Acceptance (Columbia Records/Militia Group) and lead guitarist for the punk rock quartet Hangnail (Tooth & Nail Records). Since retiring from touring in 2006, he has been heavily involved with professional engineering and mixing and has worked with producers such as Howard Benson, Ben Kasica and Aaron Sprinkle. Nick is the 1st Engineer and Mixing Engineer for Skies Fall Studios and has engineered and mixed for several chart-topping artists - most recently for Skillet’s ‘Rise’, Anberlin’s ‘Devotion’, Silverline’s ‘Lights Out’ and We Are Leo’s ‘Hello’. Nick and his wife, Sam, reside in the Milwaukee area with their lovely daughter and enjoy music, friends, family and the Green Bay Packers. Go Pack Go!</p>
 				</div>
 				<div class="bio right">
