@@ -289,6 +289,7 @@ div.panel.colophon {
 body.home #panel-1 .panel-container,
 body.who #panel-1 .panel-container {
 	position: relative;
+	overflow-x: hidden;
 }
 
 .panel-container.desktop-panel {

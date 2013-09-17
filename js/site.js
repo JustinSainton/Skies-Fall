@@ -274,7 +274,7 @@ var set_proper_home_margin = function() {
 
 jQuery( document ).ready( function( $ ) {
 
-	$( 'p.quote' ).width( $( 'p.quote' ).textWidth() );
+	$( 'p.quote' ).width( $( 'p.quote' ).textWidth() + 1 );
 
 	var align_h2 = function() {
 		/** Home Page | Services Photos Centering **/
