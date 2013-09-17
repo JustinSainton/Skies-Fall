@@ -476,22 +476,32 @@ jQuery( document ).ready( function( $ ) {
 
 	var place_audio_objects = function() {
 
+		//Arist Grid
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'top', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.6655290102389079 ) );
 		$( 'body.audio #panel-3 div.grid-item p' ).css( 'margin-left', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.041666666666666664 ) + '%' );
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'margin-left', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.010416666666666666 ) + '%' );
 		$( 'body.audio #panel-3 div.grid-item:odd p' ).css( 'margin-right', Math.round( $( 'body.audio #panel-3 div.grid-item p' ).parent().height() * 0.020833333333333332 ) + '%' );
 
+		//Canvases
 		$( 'body.audio #panel-4, body.audio #panel-5' ).css( 'min-height', Math.round( window.innerWidth * 0.47368421052631576 ) );
 		$( 'div.studio-top' ).css( 'margin-top', ( ( $( 'div#panel-4' ).height() - ( $( 'div.studio' ).height() + $( 'div.studio-top' ).height() + $( 'div.studio-bottom' ).height() ) ) / 2 ) + 'px' );
 
-		//Print
-		$( 'body.audio #panel-6' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
+		//Audio card
+		$( 'body.audio #panel-6' ).css( 'min-height', Math.round( window.innerWidth * 0.47157894736842104 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.14583333333333334 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.21614583333333334 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.07291666666666667 ) );
 		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.42604166666666665 ) );
 		$( 'body.audio #panel-6 div.scroll-space p' ).css( 'margin-top', Math.round( window.innerWidth * 0.10416666666666667 ) + 'px' );
 		$( 'p.clients' ).css( 'top', Math.round( window.innerWidth * 0.07552083333333333 ) );
+
+		//Bands Scrollers
+		$( 'body.audio #panel-7' ).css( 'min-height', Math.round( window.innerWidth * 0.4726315789473684 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.14583333333333334 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.21614583333333334 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.07291666666666667 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.42604166666666665 ) );
+		$( 'body.audio #panel-6 div.scroll-space p' ).css( 'margin-top', Math.round( window.innerWidth * 0.10416666666666667 ) + 'px' );
 	}
 
 	place_audio_objects();

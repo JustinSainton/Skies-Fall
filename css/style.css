@@ -1305,6 +1305,14 @@ body.audio div#panel-6 {
 	background-size: 100% auto;
 }
 
+body.audio div#panel-7 {
+	background: url(../img/band-bg.png) no-repeat;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
 body.audio div#panel-6 div.scroll-space p {
 	text-align: center
 }
