@@ -392,7 +392,9 @@ jQuery( document ).ready( function( $ ) {
 			items: {
 				src: '#gear-list',
 				type: 'inline'
-			}
+			},
+			midClick : true,
+			closeBtnInside: true
   		});
 	}
 
