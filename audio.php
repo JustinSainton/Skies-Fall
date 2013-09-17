@@ -303,18 +303,14 @@
 		</div>
 
 		<div id="panel-6" class="panel">
-			<div class="panel-container">
-				<div class="scroll-space">
-					<p class="scroll">-scroll here-</p>
-				</div>
+			<div class="scroll-space">
+				<p class="scroll">-scroll here-</p>
 			</div>
 		</div>
 
 		<div id="panel-7" class="panel">
-			<div class="panel-container">
-				<div class="scroll-space">
-					<p class="scroll">-scroll here-</p>
-				</div>
+			<div class="scroll-space">
+				<p class="scroll">-scroll here-</p>
 			</div>
 		</div>
 
