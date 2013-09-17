@@ -638,7 +638,7 @@ var gear_list = function() {
 	var link = document.getElementById("gear-list-link").getContext("2d");
 	var img  = document.getElementById("arrow");
 
-	link.globalAlpha = 0.9;
+	link.globalAlpha = 0.85;
 	link.drawImage(img,0,0, 128, 368);
 
 	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,

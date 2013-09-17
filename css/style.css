@@ -1239,7 +1239,7 @@ div.gear-bottom {
 	width:100%;
 	float: left;
 	height: 140px;
-	background: rgba( 0,0,0,.9 );
+	background: rgba( 0,0,0,.85 );
 	position: relative;
 }
 
@@ -1248,7 +1248,7 @@ div.gear-left {
 	position: relative;
 	height: 368px;
 	min-width: 100px;
-	background: rgba( 0,0,0,.9 );
+	background: rgba( 0,0,0,.85 );
 }
 
 div.gear-right {
@@ -1256,7 +1256,7 @@ div.gear-right {
 	position: relative;
 	height: 368px;
 	min-width: 100px;
-	background: rgba( 0,0,0,.9 );
+	background: rgba( 0,0,0,.85 );
 }
 
 canvas#gear-list-link {
