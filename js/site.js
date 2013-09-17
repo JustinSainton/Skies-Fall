@@ -394,7 +394,9 @@ jQuery( document ).ready( function( $ ) {
 				type: 'inline'
 			},
 			midClick : true,
-			closeBtnInside: true
+			closeBtnInside: true,
+			removalDelay: 300,
+			mainClass: 'my-mfp-slide-bottom'
   		});
 	}
 
