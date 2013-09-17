@@ -1211,7 +1211,7 @@ canvas#studio-gallery-link {
 
 .mfp-container img {
 	display: block;
-	max-width: 80%;
+	max-height: 90%;
 	margin: 0 auto;
 }
 
