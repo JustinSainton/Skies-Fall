@@ -76,7 +76,7 @@
 					<div class="services-container">
 						<h2>Fashion</h2>
 						<div class="img">
-							<img src="img/fashion-large.png" alt="" />
+							<img src="/dev/img/fashion-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 					<div class="services-container">
 						<h2>Commercial</h2>
 						<div class="img">
-							<img src="img/commercial-large.png" alt="" />
+							<img src="/dev/img/commercial-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 					<div class="services-container">
 						<h2>Lifestyle</h2>
 						<div class="img">
-							<img src="img/lifestyle-large.png" alt="" />
+							<img src="/dev/img/lifestyle-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 					<div class="services-container">
 						<h2>Entertainment</h2>
 						<div class="img">
-							<img src="img/entertainment-large.png" alt="" />
+							<img src="/dev/img/entertainment-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 					<div class="services-container">
 						<h2>Non-Profit</h2>
 						<div class="img">
-							<img src="img/non-profit-large.png" alt="" />
+							<img src="/dev/img/non-profit-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 					<div class="services-container">
 						<h2>Travel</h2>
 						<div class="img">
-							<img src="img/travel-large.png" alt="" />
+							<img src="/dev/img/travel-large.png" alt="" />
 						</div>
 					</div>
 				</div>
