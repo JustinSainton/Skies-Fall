@@ -140,7 +140,7 @@
 				</div>
 				<div class="bio right">
 					<img src="/dev/img/jordan.png" alt="" />
-					<h2>Jordan Stocker <span>Director, Sales &amp; Marketing</span></h2>
+					<h2 class="small">Jordan Stocker <span>Director, Sales &amp; Marketing</span></h2>
 					<p>Wisconsin born and bred, and raised by business professionals, out of college, Jordan earned a Business Marketing Executive position for a midwest media agency, leading the Digital Products Management and Sales division.  After an entrepreneural stint as an independent marketing consultant, Jordan joined the BRP-Evinrude marketing team, spearheading Digital Marketing Projects, social media strategy and copywriting.  In joining Skies Fall in 2013, Jordan heads our sales and marketing initiatives from concept to implementation.  Jordan is also musician, producer and accomlished DJ, working events such as The Electric Run.  He enjoys friends, fitness, and sports and is a closet-nerd, currently enjoying Warhammer and having achieved high world rankings in video games such as The Lord of the Rings: Battle for Middle Earth and Gears of War.</p>
 				</div>
 				<div class="bio">
