@@ -148,13 +148,13 @@
 		<div id="panel-6" class="panel music">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<img src="/dev/img/everett-album.png" alt="" />
-				<img src="/dev/img/skillet-album.png" alt="" />
-				<img src="/dev/img/nicole-album.png" alt="" />
+				<a href="/dev/img/design/album-art/everett.png"><img src="/dev/img/everett-album.png" alt="" /></a>
+				<a href="/dev/img/design/album-art/skillet.png"><img src="/dev/img/skillet-album.png" alt="" /></a>
+				<a href="/dev/img/design/album-art/nicole.png"><img src="/dev/img/nicole-album.png" alt="" /></a>
 				<img src="/dev/img/leo-album.png" alt="" />
-				<img src="/dev/img/sarah-album.png" alt="" />
+				<a href="/dev/img/design/album-art/sarah.png"><img src="/dev/img/sarah-album.png" alt="" /></a>
 				<img src="/dev/img/oxygen-album.png" alt="" />
-				<img src="/dev/img/random-album.png" alt="" />
+				<a href="/dev/img/design/album-art/random.png"><img src="/dev/img/random-album.png" alt="" /></a>
 				<img src="/dev/img/emily-album.png" alt="" />
 			</div>
 		</div>

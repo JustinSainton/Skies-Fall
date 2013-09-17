@@ -308,6 +308,9 @@ jQuery( document ).ready( function( $ ) {
 
 	if ( jQuery.fn.magnificPopup ) {
 
+		//Album art pop-up
+		$( 'div.music a' ).magnificPopup({type:'image'});
+
 		//Video page popup video
 		$( '.popup-vimeo, #demo, #reel, #demo-reel-link, div.demo' ).magnificPopup({
 			disableOn       : 700,
