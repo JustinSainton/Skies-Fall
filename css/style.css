@@ -400,7 +400,8 @@ div.grid-item h2 {
 	text-transform: uppercase;
 	position: absolute;
 	z-index: 10;
-	font-weight: normal
+	font-weight: normal;
+	padding-left: 6px;
 }
 
 div.grid-item h2:after {
