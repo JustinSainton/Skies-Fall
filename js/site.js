@@ -599,8 +599,8 @@ var gear_list = function() {
 		return;
 
 	g.width     = 150;
-	ear.width   = 730;
-	list.width  = 730;
+	ear.width   = 600;
+	list.width  = 600;
 	g.height    = 390;
 	ear.height  = 150;
 	list.height = 218;
@@ -620,11 +620,11 @@ var gear_list = function() {
 
 	// Draw black rectangle
 	ctx_e.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_e.fillRect( 0, 0, 735, 155 );
+	ctx_e.fillRect( 0, 0, 605, 155 );
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 735, 223 );
+	ctx_r.fillRect( 0, 0, 605, 223 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
