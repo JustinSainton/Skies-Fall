@@ -1269,17 +1269,23 @@ canvas#gear-list-link {
 	max-width: 80%;
 	width: 1000px;
 	margin: 0 auto;
+	font-size: 16px;
 }
 
 .column {
 	float: left;
 	width: 40%;
-	margin-right: 5%;
+	margin: 5%;
 	font-family : 'myriad-pro', 'Myriad Pro', Myriad, sans-serif;
 }
 
 .column h3 {
 	color: #0047BB;
+	margin: 0;
+}
+
+.column p {
+	margin-top: 0;
 }
 
 .column .chunk {
