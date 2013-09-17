@@ -1272,6 +1272,7 @@ canvas#gear-list-link {
 	width: 1000px;
 	margin: 0 auto;
 	font-size: 16px;
+	overflow: auto;
 }
 
 .column {
