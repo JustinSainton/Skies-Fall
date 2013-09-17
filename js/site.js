@@ -388,6 +388,12 @@ jQuery( document ).ready( function( $ ) {
 						type : 'image'
 					});
 
+		$( '#g, #ear, #list, #gear-list-link, div.gear' ).magnificPopup({
+			items: {
+				src: '#gear-list',
+				type: 'inline'
+			}
+  		});
 	}
 
 	$( '#panel' ).css( 'padding-left', ( ( window.innerWidth - $( '#panel' ).width() ) / 2 ) );

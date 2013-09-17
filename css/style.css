@@ -1265,7 +1265,9 @@ canvas#gear-list-link {
 }
 
 #gear-list {
-	display: none;
+	background: rgba( 0, 0, 0, .95 );
+	max-width: 80%;
+	width: 1000px;
 }
 
 .column {
