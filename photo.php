@@ -23,6 +23,10 @@
 		<!-- Parallax API -->
 		<script src="/dev/js/stellar.js"></script>
 
+		<!-- Popup (Video and Image Gallery) styles and scripts -->
+		<link rel="stylesheet" href="/dev/css/popup.css">
+		<script src="/dev/js/popup.js"></script>
+
 		<!-- Stylesheets -->
 		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
 		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
@@ -66,19 +70,60 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel">
-			<div class="panel-container">
-
+		<div id="panel-2" class="panel grid">
+			<div class="panel-container full-width">
+				<div id="fashion" class="grid-item">
+					<div class="services-container">
+						<h2>Fashion</h2>
+						<div class="img">
+							<img src="img/fashion-large.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div id="commercial" class="grid-item">
+					<div class="services-container">
+						<h2>Commercial</h2>
+						<div class="img">
+							<img src="img/commercial-large.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div id="lifestyle" class="grid-item">
+					<div class="services-container">
+						<h2>Lifestyle</h2>
+						<div class="img">
+							<img src="img/lifestyle-large.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div id="entertainment" class="grid-item">
+					<div class="services-container">
+						<h2>Entertainment</h2>
+						<div class="img">
+							<img src="img/entertainment-large.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div id="non-profit" class="grid-item">
+					<div class="services-container">
+						<h2>Non-Profit</h2>
+						<div class="img">
+							<img src="img/non-profit-large.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div id="travel" class="grid-item">
+					<div class="services-container">
+						<h2>Travel</h2>
+						<div class="img">
+							<img src="img/travel-large.png" alt="" />
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div id="panel-3" class="panel">
-			<div class="panel-container">
-
-			</div>
-		</div>
-
-		<div id="panel-4" class="panel location">
+		<div id="panel-3" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -141,7 +186,7 @@
 		</div>
 		<span class="down-arrow"></span>
 		<div id="map" class="panel map"></div>
-		<div id="panel-6" class="panel colophon">
+		<div id="panel-4" class="panel colophon">
 			<div class="panel-container">
 				<p class="copyright">
 					&copy; <?php echo date( 'Y' ); ?> Skies Fall Media Group. All Rights Reserved.
