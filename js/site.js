@@ -510,7 +510,7 @@ jQuery( document ).ready( function( $ ) {
 
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'width', Math.round( window.innerWidth * 0.1203125 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'height', Math.round( window.innerWidth * 0.1171875 ) );
-		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'top', Math.round( window.innerWidth * 0.0625 ) );
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'top', Math.round( window.innerWidth * 0.07291666666666667 ) );
 		$( 'body.audio #panel-7 div.scroll-space' ).eq(2).css( 'left', Math.round( window.innerWidth * 0.6875 ) );
 	}
 
