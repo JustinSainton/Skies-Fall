@@ -322,12 +322,40 @@
 		<div id="panel-7" class="panel">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
+				<img src="/dev/img/audio/bands/skillet-text.png" alt="" />
+				<img src="/dev/img/audio/bands/anberlin-text.png" alt="" />
+				<img src="/dev/img/audio/bands/silverline-text.png" alt="" />
+				<img src="/dev/img/audio/bands/spark-text.png" alt="" />
+				<img src="/dev/img/audio/bands/stria-text.png" alt="" />
+				<img src="/dev/img/audio/bands/love-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
 			</div>
 			<div class="scroll-space">
-
+				<img src="/dev/img/audio/bands/acceptance-text.png" alt="" />
+				<img src="/dev/img/audio/bands/icon-text.png" alt="" />
+				<img src="/dev/img/audio/bands/weareleo-text.png" alt="" />
+				<img src="/dev/img/audio/bands/livinglight-text.png" alt="" />
+				<img src="/dev/img/audio/bands/george-text.png" alt="" />
+				<img src="/dev/img/audio/bands/marah-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
 			</div>
 			<div class="scroll-space">
-
+				<img src="/dev/img/audio/bands/lecrae-text.png" alt="" />
+				<img src="/dev/img/audio/bands/pro-text.png" alt="" />
+				<img src="/dev/img/audio/bands/hyland-text.png" alt="" />
+				<img src="/dev/img/audio/bands/skyhawk-text.png" alt="" />
+				<img src="/dev/img/audio/bands/scouts-text.png" alt="" />
+				<img src="/dev/img/audio/bands/random-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
+				<img src="/dev/img/audio/bands/band-text.png" alt="" />
 			</div>
 		</div>
 
