@@ -601,7 +601,7 @@ var gear_list = function() {
 	g.width     = 150;
 	ear.width   = 600;
 	list.width  = 600;
-	g.height    = 390;
+	g.height    = 368;
 	ear.height  = 150;
 	list.height = 218;
 
@@ -633,13 +633,13 @@ var gear_list = function() {
 
 	ctx.fillText("g", 22, 120);
 	ctx_e.fillText("ear", 1, 120);
-	ctx_r.fillText("LIST", 3, 180);
+	ctx_r.fillText("LIST", 3, 120);
 
 	var link = document.getElementById("gear-list-link").getContext("2d");
 	var img  = document.getElementById("arrow");
 
-	link.globalAlpha = 0.85;
-	link.drawImage(img,0,0, 128, 368);
+	link.globalAlpha = 0.8;
+	link.drawImage( img, 0, 0, 128, 368 );
 
 	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,
 	gear_offset  = ( ( window.innerWidth - $( 'div.gear' ).width() )  / 2 );
