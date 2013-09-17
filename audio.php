@@ -184,7 +184,7 @@
 			<div class="gear-bottom"></div>
 		</div>
 
-		<div id="gear-list" class="mfp-hide">
+		<div id="gear-list" class="zoom-anim-dialog mfp-hide">
 			<div class="column">
 				<div class="chunk">
 					<h3>Audio Workstations</h3>
