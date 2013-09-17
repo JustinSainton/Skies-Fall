@@ -694,6 +694,18 @@ h2.jordan {
 	font-size: 30px;
 }
 
+.bio a.genericon {
+	height: 12px;
+	width: 12px;
+	padding: 1px 13px 14px 2px;
+	font-size: 24px;
+	color: white;
+}
+
+a.genericon:hover {
+	background-color: #000;
+}
+
 .bio p {
 	color: #000;
 	line-height: 24px;
