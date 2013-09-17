@@ -603,7 +603,7 @@ var gear_list = function() {
 	list.width  = 730;
 	g.height    = 390;
 	ear.height  = 150;
-	list.height = 240;
+	list.height = 218;
 
 	ctx   = g.getContext("2d");
 	ctx_e = ear.getContext("2d");
@@ -624,7 +624,7 @@ var gear_list = function() {
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 735, 245 );
+	ctx_r.fillRect( 0, 0, 735, 223 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
