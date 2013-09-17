@@ -306,7 +306,7 @@ jQuery( document ).ready( function( $ ) {
 
 	align_h2();
 
-	$( 'div.grid-item h2' ).hover(function(){
+	$( 'div.grid-item h2, div.img' ).hover(function(){
 		$( 'div.img', $( this ).parent() ).css( 'opacity', '.5' );
 	},
 	function(){
