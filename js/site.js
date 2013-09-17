@@ -483,6 +483,13 @@ jQuery( document ).ready( function( $ ) {
 
 		$( 'body.audio #panel-4, body.audio #panel-5' ).css( 'min-height', Math.round( window.innerWidth * 0.47368421052631576 ) );
 		$( 'div.studio-top' ).css( 'margin-top', ( ( $( 'div#panel-4' ).height() - ( $( 'div.studio' ).height() + $( 'div.studio-top' ).height() + $( 'div.studio-bottom' ).height() ) ) / 2 ) + 'px' );
+
+		//Print
+		$( 'body.audio #panel-6' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.21614583333333334 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.43854166666666666 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.057291666666666664 ) );
+		$( 'body.audio #panel-6 div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5671875 ) );
 	}
 
 	place_audio_objects();

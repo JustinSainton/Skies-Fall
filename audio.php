@@ -302,7 +302,23 @@
 			</div>
 		</div>
 
-		<div id="panel-6" class="panel location">
+		<div id="panel-6" class="panel">
+			<div class="panel-container">
+				<div class="scroll-space">
+					<p class="scroll">-scroll here-</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="panel-7" class="panel">
+			<div class="panel-container">
+				<div class="scroll-space">
+					<p class="scroll">-scroll here-</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="panel-8" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -365,7 +381,7 @@
 		</div>
 		<span class="down-arrow"></span>
 		<div id="map" class="panel map"></div>
-		<div id="panel-7" class="panel colophon">
+		<div id="panel-9" class="panel colophon">
 			<div class="panel-container">
 				<p class="copyright">
 					&copy; <?php echo date( 'Y' ); ?> Skies Fall Media Group. All Rights Reserved.
