@@ -660,15 +660,16 @@ img#panel {
 	position: relative;
 }
 
-h2.jordan {
-	letter-spacing: -1px;
-	word-spacing: 3px;
+
+.bio-container {
+	position: relative;
 }
 
 .bio {
 	overflow: auto;
 	position: relative;
-	margin-top: 50px;
+	max-width: 1000px;
+	margin: 50px auto 0;
 }
 
 .bio img {

@@ -43,7 +43,7 @@
 
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel">
-			<div class="panel-container">
+			<div class="panel-container full-width">
 				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
