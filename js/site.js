@@ -477,10 +477,123 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/1.png" />',
+					src   : '<img src="/dev/img/photo/galleries/fashion/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
-				}
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/3.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/4.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/5.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/6.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/7.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/8.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},{
+					src   : '<img src="/dev/img/photo/galleries/fashion/9.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/10.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/11.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/12.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/13.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/14.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/15.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/16.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},{
+					src   : '<img src="/dev/img/photo/galleries/fashion/17.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/18.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/19.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/20.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/21.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/22.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/23.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/fashion/24.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
 			],
 			closeBtnInside: false,
 			gallery: {
@@ -499,10 +612,45 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/1.png" />',
+					src   : '<img src="/dev/img/photo/galleries/commercial/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
-				}
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/2.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/3.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/4.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/5.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/6.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/7.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
+				{
+					src   : '<img src="/dev/img/photo/galleries/commercial/8.jpg" />',
+					type  : 'inline',
+					title : 'Audio Room'
+				},
 			],
 			closeBtnInside: false,
 			gallery: {
