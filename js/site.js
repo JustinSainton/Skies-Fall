@@ -308,6 +308,9 @@ jQuery( document ).ready( function( $ ) {
 
 	$( 'div.grid-item h2' ).hover(function(){
 		$( 'div.img', $( this ).parent() ).css( 'opacity', '.5' );
+	},
+	(function(){
+		$( 'div.img', $( this ).parent() ).css( 'opacity', '.3' );
 	});
 
 	if ( jQuery.fn.magnificPopup ) {
