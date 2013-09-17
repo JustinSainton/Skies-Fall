@@ -595,6 +595,10 @@ div.bio h2 span {
 	font-size: 23px;
 }
 
+div.bio h2.small span {
+	font-size: 20px;
+}
+
 canvas#demo,
 canvas#reel,
 canvas#demo-reel-link {
@@ -684,6 +688,10 @@ h2.jordan {
 	margin-top: 180px;
 	margin-bottom: -10px;
 	white-space: nowrap;
+}
+
+.bio h2.small {
+	font-size: 30px;
 }
 
 .bio p {

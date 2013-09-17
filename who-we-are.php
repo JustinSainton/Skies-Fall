@@ -145,7 +145,7 @@
 				</div>
 				<div class="bio">
 					<img src="/dev/img/chino.png" alt="" />
-					<h2>Chino Villatoro <span>Head Designer/Art Director</span></h2>
+					<h2 class="small">Chino Villatoro <span>Head Designer/Art Director</span></h2>
 					<p>Born in Guatemala and raised in the Chicago area, Chino grew up drawing and playing guitar in rock bands.  After dropping out of college, he took a design gig at a midwest promotions agency where he got his first taste of production art in the business world.  Seeing more potential for expression and growth doing freelance work, Chino launched his own company, Liosvi Image &amp; Design, focusing on design and photography, pioneering dozens of campaigns and shoots while honing his design skills and eye for style and art direction.  He joined Skies Fall in 2013 as Head Designer and Art Director.  Chino and his lovely wife, Crystal, have two beautiful young daughters.  He enjoys professional wrestling, travel, fashion and tattoos.</p>
 				</div>
 			</div>
