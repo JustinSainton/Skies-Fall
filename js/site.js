@@ -108,15 +108,16 @@ var set_proper_home_margin = function() {
 
 	});
 
+
 	/** Google Maps **/
+
+	google.maps.visualRefresh = true;
 	var map;
 
 	function initialize() {
 
 		if ( 'undefined' !== typeof map )
 			return map;
-
-		google.maps.visualRefresh = true;
 
 		var hq    = new google.maps.LatLng( 42.680964,-87.812026 ),
 		recording = new google.maps.LatLng( 42.580899,-87.848738 ),
