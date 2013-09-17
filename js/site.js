@@ -394,9 +394,10 @@ jQuery( document ).ready( function( $ ) {
 				type: 'inline'
 			},
 			midClick : true,
-			closeBtnInside: true,
 			removalDelay: 300,
-			mainClass: 'my-mfp-slide-bottom'
+			mainClass: 'my-mfp-slide-bottom',
+			closeOnContentClick: true,
+			closeBtnInside: false,
   		});
 	}
 
