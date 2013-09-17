@@ -103,50 +103,68 @@
 
 		<div id="panel-3" class="panel">
 			<div class="panel-container">
-				<div class="bio">
-					<img src="/dev/img/ben.png" alt="" />
-					<h2>Ben Kasica <span>Founder</span></h2>
-					<p>A St. Louis native, Ben was the lead guitarist for the band Skillet (Atlantic Records) for 10 years. During his time with the band, Skillet sold over 2 million records, was nominated for 2 Grammy awards, won a Dove Award and scored numerous #1 radio singles. He has worked with world-renown producers like Howard Benson, Brian Howes and Paul Ebersold; and has engineered, co-written &amp; produced music for artists such as Corey Taylor of Slipknot &amp; Stone Sour, Skillet, Icon for Hire, We Are Leo and Silverline. He also spearheads the video, film &amp; television divisions of Skies Fall and has produced numerous commercial advertisements and music videos for the likes of Jockey International, E! Television, QVC, Skillet and Kohl’s. Ben enjoys friends, photography, sushi, community service and sports.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio">
+						<img src="/dev/img/ben.png" alt="" />
+						<h2>Ben Kasica <span>Founder</span></h2>
+						<p>A St. Louis native, Ben was the lead guitarist for the band Skillet (Atlantic Records) for 10 years. During his time with the band, Skillet sold over 2 million records, was nominated for 2 Grammy awards, won a Dove Award and scored numerous #1 radio singles. He has worked with world-renown producers like Howard Benson, Brian Howes and Paul Ebersold; and has engineered, co-written &amp; produced music for artists such as Corey Taylor of Slipknot &amp; Stone Sour, Skillet, Icon for Hire, We Are Leo and Silverline. He also spearheads the video, film &amp; television divisions of Skies Fall and has produced numerous commercial advertisements and music videos for the likes of Jockey International, E! Television, QVC, Skillet and Kohl’s. Ben enjoys friends, photography, sushi, community service and sports.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio right">
-					<img src="/dev/img/joe.png" alt="" />
-					<h2>Joe Snyder <span>Founder</span></h2>
-					<p>With a varied background in design, music, architecture and manufacturing, Joe has served as executive producer for chart-topping artists such as Everett Thomas, Silverline and We Are Leo and also serves in artist development while heading the business affairs of Skies Fall. Joe has been executive producer on numerous video &amp; design projects for clients such as Skillet, Jockey International, and Belletv. He also serves as Creative Director for the non-profit, LEAP (Leadership and Education for Africa Project).  Joe and his wife, Shelly, have 5 children and enjoy art &amp; architecture, music, film &amp; theater, travel, home entertaining and serving in their local church community.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio right">
+						<img src="/dev/img/joe.png" alt="" />
+						<h2>Joe Snyder <span>Founder</span></h2>
+						<p>With a varied background in design, music, architecture and manufacturing, Joe has served as executive producer for chart-topping artists such as Everett Thomas, Silverline and We Are Leo and also serves in artist development while heading the business affairs of Skies Fall. Joe has been executive producer on numerous video &amp; design projects for clients such as Skillet, Jockey International, and Belletv. He also serves as Creative Director for the non-profit, LEAP (Leadership and Education for Africa Project).  Joe and his wife, Shelly, have 5 children and enjoy art &amp; architecture, music, film &amp; theater, travel, home entertaining and serving in their local church community.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio">
-					<img src="/dev/img/nick.png" alt="" />
-					<h2>Nick Rad <span>1st Engineer/Producer</span></h2>
-					<p>Nick was the drummer for the popular pop-rock five-piece Acceptance (Columbia Records/Militia Group) and lead guitarist for the punk rock quartet Hangnail (Tooth & Nail Records). Since retiring from touring in 2006, he has been heavily involved with professional engineering and mixing and has worked with producers such as Howard Benson, Ben Kasica and Aaron Sprinkle. Nick is the 1st Engineer and Mixing Engineer for Skies Fall Studios and has engineered and mixed for several chart-topping artists - most recently for Skillet’s ‘Rise’, Anberlin’s ‘Devotion’, Silverline’s ‘Lights Out’ and We Are Leo’s ‘Hello’. Nick and his wife, Sam, reside in the Milwaukee area with their lovely daughter and enjoy music, friends, family and the Green Bay Packers. Go Pack Go!<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio">
+						<img src="/dev/img/nick.png" alt="" />
+						<h2>Nick Rad <span>1st Engineer/Producer</span></h2>
+						<p>Nick was the drummer for the popular pop-rock five-piece Acceptance (Columbia Records/Militia Group) and lead guitarist for the punk rock quartet Hangnail (Tooth & Nail Records). Since retiring from touring in 2006, he has been heavily involved with professional engineering and mixing and has worked with producers such as Howard Benson, Ben Kasica and Aaron Sprinkle. Nick is the 1st Engineer and Mixing Engineer for Skies Fall Studios and has engineered and mixed for several chart-topping artists - most recently for Skillet’s ‘Rise’, Anberlin’s ‘Devotion’, Silverline’s ‘Lights Out’ and We Are Leo’s ‘Hello’. Nick and his wife, Sam, reside in the Milwaukee area with their lovely daughter and enjoy music, friends, family and the Green Bay Packers. Go Pack Go!<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio right">
-					<img src="/dev/img/joey.png" alt="" />
-					<h2>Joey Papa <span>Writer/Director</span></h2>
-					<p>Joey grew up in the New Jersey shadows of New York City immersed in the arts. After earning his B.A. in Communications, he immediately began working as a road manager and production assistant for Acquire the Fire Productions. Joey has been heavily involved with stage production, acting &amp; performance, and the creative process for most of his professional career. Before joining Skies Fall as head writer director, Joey was a full-time freelance copywriter. Joey resides in Racine, Wisconsin with his wife, Nikki and their 4 children. He enjoys musical theater, poetry, writing, traveling and expanding his mind through inspiration.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio right">
+						<img src="/dev/img/joey.png" alt="" />
+						<h2>Joey Papa <span>Writer/Director</span></h2>
+						<p>Joey grew up in the New Jersey shadows of New York City immersed in the arts. After earning his B.A. in Communications, he immediately began working as a road manager and production assistant for Acquire the Fire Productions. Joey has been heavily involved with stage production, acting &amp; performance, and the creative process for most of his professional career. Before joining Skies Fall as head writer director, Joey was a full-time freelance copywriter. Joey resides in Racine, Wisconsin with his wife, Nikki and their 4 children. He enjoys musical theater, poetry, writing, traveling and expanding his mind through inspiration.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio">
-					<img src="/dev/img/steven.png" alt="" />
-					<h2>Steven Servi <span>2nd Engineer/Producer</span></h2>
-					<p>Steven developed his talent for music and film at a young age and explored those passions with his family, friends and local church.  His interest quickly turned toward recording &amp; engineering, and in 2008 enrolled at SAE Institute in Nashville becoming professionally certified in audio engineering.  Since then, Steven has been perfecting his technique with opportunities ranging from internships at The Tracking Room (Nashville, TN)/ 5th Floor Recording (Milwaukee, WI) to head engineer of Acacia Theatre. Since joining Skies Fall in 2010, Steven has become the primary editing engineer while producing and assisting on a variety of music and film projects.  Steven loves coloring, reading, and tea-time with his beautiful daughter Brooklyn; he also enjoys collaborating on a variety of artistic projects with family and friends.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio">
+						<img src="/dev/img/steven.png" alt="" />
+						<h2>Steven Servi <span>2nd Engineer/Producer</span></h2>
+						<p>Steven developed his talent for music and film at a young age and explored those passions with his family, friends and local church.  His interest quickly turned toward recording &amp; engineering, and in 2008 enrolled at SAE Institute in Nashville becoming professionally certified in audio engineering.  Since then, Steven has been perfecting his technique with opportunities ranging from internships at The Tracking Room (Nashville, TN)/ 5th Floor Recording (Milwaukee, WI) to head engineer of Acacia Theatre. Since joining Skies Fall in 2010, Steven has become the primary editing engineer while producing and assisting on a variety of music and film projects.  Steven loves coloring, reading, and tea-time with his beautiful daughter Brooklyn; he also enjoys collaborating on a variety of artistic projects with family and friends.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio right">
-					<img src="/dev/img/dom.png" alt="" />
-					<h2>Dominic Kegel <span>Film &amp; Video</span></h2>
-					<p>Raised in an artistic and nomadic family, Dom was able to experience a myriad of the world’s artistic perspectives throughout his youth. His love for the arts stems from early roots in music, but has found its current outworking in performance, film, and video.  He and his wife, Suz, have since visited all the continents - save Antarctica - while living and working in many countries as a freelance video and photography producer and professional football player. They have now settled in Racine, WI (of all places!) as Dom oversees operations at Belletv for Skies Fall.  Dom and Suz enjoy music, dancing, and life with their young son as Dom also stars on the Racine’s semi-pro football team, The Racine Raiders.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio right">
+						<img src="/dev/img/dom.png" alt="" />
+						<h2>Dominic Kegel <span>Film &amp; Video</span></h2>
+						<p>Raised in an artistic and nomadic family, Dom was able to experience a myriad of the world’s artistic perspectives throughout his youth. His love for the arts stems from early roots in music, but has found its current outworking in performance, film, and video.  He and his wife, Suz, have since visited all the continents - save Antarctica - while living and working in many countries as a freelance video and photography producer and professional football player. They have now settled in Racine, WI (of all places!) as Dom oversees operations at Belletv for Skies Fall.  Dom and Suz enjoy music, dancing, and life with their young son as Dom also stars on the Racine’s semi-pro football team, The Racine Raiders.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio">
-					<img src="/dev/img/christian.png" alt="" />
-					<h2>Christian Seibert <span>Producer</span></h2>
-					<p>Hailing from an east-coast musical family, Christian developed a thirst for culture and music as a youngster.  An undesired move to the midwest pushed him further into music where  he played and sang in multiple bands.  After a short stint in music business school, Christian dropped out to be a tour guitarist with Columbia and Universal Records musicians such as Natasha Bedingfield, Mat Kearney and Kate Voegel.  Between tours, he worked with music producers such as Jon Kaplan and Mikal Blue while also working as Creative Director at a multimedia firm with an emphasis on commercial photography and video production.  Christian currently utilizes his creativity at Skies Fall both in music and video production.  He enjoys writing music, skateboarding and chilling with his puppy, Dex.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio">
+						<img src="/dev/img/christian.png" alt="" />
+						<h2>Christian Seibert <span>Producer</span></h2>
+						<p>Hailing from an east-coast musical family, Christian developed a thirst for culture and music as a youngster.  An undesired move to the midwest pushed him further into music where  he played and sang in multiple bands.  After a short stint in music business school, Christian dropped out to be a tour guitarist with Columbia and Universal Records musicians such as Natasha Bedingfield, Mat Kearney and Kate Voegel.  Between tours, he worked with music producers such as Jon Kaplan and Mikal Blue while also working as Creative Director at a multimedia firm with an emphasis on commercial photography and video production.  Christian currently utilizes his creativity at Skies Fall both in music and video production.  He enjoys writing music, skateboarding and chilling with his puppy, Dex.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio right">
-					<img src="/dev/img/jordan.png" alt="" />
-					<h2 class="small">Jordan Stocker <span>Director, Sales &amp; Marketing</span></h2>
-					<p>Wisconsin born and bred, and raised by business professionals, out of college, Jordan earned a Business Marketing Executive position for a midwest media agency, leading the Digital Products Management and Sales division.  After an entrepreneural stint as an independent marketing consultant, Jordan joined the BRP-Evinrude marketing team, spearheading Digital Marketing Projects, social media strategy and copywriting.  In joining Skies Fall in 2013, Jordan heads our sales and marketing initiatives from concept to implementation.  Jordan is also musician, producer and accomlished DJ, working events such as The Electric Run.  He enjoys friends, fitness, and sports and is a closet-nerd, currently enjoying Warhammer and having achieved high world rankings in video games such as The Lord of the Rings: Battle for Middle Earth and Gears of War.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio right">
+						<img src="/dev/img/jordan.png" alt="" />
+						<h2 class="small">Jordan Stocker <span>Director, Sales &amp; Marketing</span></h2>
+						<p>Wisconsin born and bred, and raised by business professionals, out of college, Jordan earned a Business Marketing Executive position for a midwest media agency, leading the Digital Products Management and Sales division.  After an entrepreneural stint as an independent marketing consultant, Jordan joined the BRP-Evinrude marketing team, spearheading Digital Marketing Projects, social media strategy and copywriting.  In joining Skies Fall in 2013, Jordan heads our sales and marketing initiatives from concept to implementation.  Jordan is also musician, producer and accomlished DJ, working events such as The Electric Run.  He enjoys friends, fitness, and sports and is a closet-nerd, currently enjoying Warhammer and having achieved high world rankings in video games such as The Lord of the Rings: Battle for Middle Earth and Gears of War.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
-				<div class="bio">
-					<img src="/dev/img/chino.png" alt="" />
-					<h2 class="small">Chino Villatoro <span>Head Designer/Art Director</span></h2>
-					<p>Born in Guatemala and raised in the Chicago area, Chino grew up drawing and playing guitar in rock bands.  After dropping out of college, he took a design gig at a midwest promotions agency where he got his first taste of production art in the business world.  Seeing more potential for expression and growth doing freelance work, Chino launched his own company, Liosvi Image &amp; Design, focusing on design and photography, pioneering dozens of campaigns and shoots while honing his design skills and eye for style and art direction.  He joined Skies Fall in 2013 as Head Designer and Art Director.  Chino and his lovely wife, Crystal, have two beautiful young daughters.  He enjoys professional wrestling, travel, fashion and tattoos.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+				<div class='bio-container'>
+					<div class="bio">
+						<img src="/dev/img/chino.png" alt="" />
+						<h2 class="small">Chino Villatoro <span>Head Designer/Art Director</span></h2>
+						<p>Born in Guatemala and raised in the Chicago area, Chino grew up drawing and playing guitar in rock bands.  After dropping out of college, he took a design gig at a midwest promotions agency where he got his first taste of production art in the business world.  Seeing more potential for expression and growth doing freelance work, Chino launched his own company, Liosvi Image &amp; Design, focusing on design and photography, pioneering dozens of campaigns and shoots while honing his design skills and eye for style and art direction.  He joined Skies Fall in 2013 as Head Designer and Art Director.  Chino and his lovely wife, Crystal, have two beautiful young daughters.  He enjoys professional wrestling, travel, fashion and tattoos.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
+					</div>
 				</div>
 			</div>
 		</div>
