@@ -1227,7 +1227,7 @@ canvas#gear-list-link {
 }
 
 div.gear {
-	width: 1018px;
+	width: 878px;
 	height: 368px;
 	display: block;
 	float:left;
@@ -1260,5 +1260,6 @@ div.gear-right {
 }
 
 canvas#gear-list-link {
-	margin-top: -150px;
+	margin-top: -135px;
+	opacity: 0.87;
 }
