@@ -1213,7 +1213,8 @@ canvas#studio-gallery-link {
 	margin: 0 auto;
 }
 
-canvas#gear,
+canvas#g,
+canvas#ear,
 canvas#list,
 canvas#gear-list-link {
 	position: relative;
