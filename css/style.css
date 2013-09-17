@@ -1147,14 +1147,6 @@ body.audio #panel-3 p {
 body.audio #panel-3 div.grid-item:nth-child(even) p {
 }
 
-body.audio #panel-4 {
-	background: url(../img/studio-gallery-panel-bg.png) no-repeat;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
-}
-
 canvas#studio,
 canvas#gallery,
 canvas#studio-gallery-link {
