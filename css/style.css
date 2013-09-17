@@ -1315,3 +1315,8 @@ p.clients {
 	color: #000;
 	font-size: 25px;
 }
+
+body.audio #panel-6 img {
+	margin: 80% auto;
+	display: block;
+}
