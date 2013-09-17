@@ -636,6 +636,7 @@ div.demo-right {
 
 canvas#demo-reel-link {
 	margin-top: -160px;
+	opacity: .86;
 }
 
 img#panel {
@@ -1201,6 +1202,7 @@ div.studio-right {
 
 canvas#studio-gallery-link {
 	margin-top: -180px;
+	opacity.86
 }
 
 #arrow {
@@ -1261,7 +1263,7 @@ div.gear-right {
 
 canvas#gear-list-link {
 	margin-top: -135px;
-	opacity: 0.87;
+	opacity: 0.86;
 }
 
 #gear-list {
