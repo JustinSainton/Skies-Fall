@@ -602,8 +602,8 @@ var gear_list = function() {
 	ear.width   = 580;
 	list.width  = 730;
 	g.height    = 390;
-	ear.height  = 170;
-	list.height = 220;
+	ear.height  = 150;
+	list.height = 240;
 
 	ctx   = g.getContext("2d");
 	ctx_e = ear.getContext("2d");
@@ -620,11 +620,11 @@ var gear_list = function() {
 
 	// Draw black rectangle
 	ctx_e.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_e.fillRect( 0, 0, 505, 175 );
+	ctx_e.fillRect( 0, 0, 505, 155 );
 
 	// Draw black rectangle
 	ctx_r.fillStyle = 'rgba(0,0,0,.9)';
-	ctx_r.fillRect( 0, 0, 735, 225 );
+	ctx_r.fillRect( 0, 0, 735, 245 );
 
 	// Punch out the text!
 	ctx.globalCompositeOperation   = 'destination-out';
@@ -633,7 +633,7 @@ var gear_list = function() {
 
 	ctx.fillText("g", 18, 120);
 	ctx_e.fillText("ear", 1, 120);
-	ctx_r.fillText("LIST", 3, 165);
+	ctx_r.fillText("LIST", 3, 180);
 
 	var link = document.getElementById("gear-list-link").getContext("2d");
 	var img  = document.getElementById("arrow");
