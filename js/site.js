@@ -376,6 +376,8 @@ jQuery( document ).ready( function( $ ) {
 					title : 'Audio Room'
 				},
 			],
+			closeOnContentClick: true,
+			closeBtnInside: false,
 			gallery: {
 				enabled: true,
 				preload: [1,3],
