@@ -1329,3 +1329,12 @@ body.audio #panel-6 img {
 	display: block;
 	max-width: 95%
 }
+
+body.audio #panel-7 div.scroll-space {
+	position: absolute;
+}
+
+body.audio #panel-7 p.scroll {
+	color: white;
+	text-align: center
+}
