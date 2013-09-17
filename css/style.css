@@ -1319,7 +1319,7 @@ body.audio div#panel-6 div.scroll-space p {
 
 p.clients {
 	text-align: center;
-	position: relative;
+	position: absolute;
 	color: #000;
 	font-size: 25px;
 }
