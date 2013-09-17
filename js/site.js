@@ -532,7 +532,7 @@ jQuery( document ).ready( function( $ ) {
 		var left_diff = $( 'body.audio #panel-7 div.scroll-space' ).get(1).scrollHeight / $( 'body.audio #panel-7 div.scroll-space' ).get(0).scrollHeight,
 		right_diff = $( 'body.audio #panel-7 div.scroll-space' ).get(2).scrollHeight / $( 'body.audio #panel-7 div.scroll-space' ).get(0).scrollHeight;
 
-		$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
+		$( 'body.audio #panel-7 div.scroll-space' ).eq(0).on( 'scroll', function () {
 			$( 'body.audio #panel-7 div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * left_diff );
 			$( 'body.audio #panel-7 div.scroll-space' ).eq(2).scrollTop( $( this ).scrollTop() * right_diff );
 		});
