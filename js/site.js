@@ -633,7 +633,7 @@ var gear_list = function() {
 
 	ctx.fillText("g", 22, 120);
 	ctx_e.fillText("ear", 1, 120);
-	ctx_r.fillText("LIST", 3, 175);
+	ctx_r.fillText("LIST", 3, 180);
 
 	var link = document.getElementById("gear-list-link").getContext("2d");
 	var img  = document.getElementById("arrow");
