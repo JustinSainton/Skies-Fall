@@ -79,7 +79,7 @@ var set_proper_home_margin = function() {
 		$( this ).css( 'bottom', largest_offset );
 	});
 
-	$( 'div.bio-container' ).eq( -1 ).css( 'margin-bottom', '-' + largest_offset + 'px' );
+	$( 'div.bio-container' ).eq( -1 ).css( 'margin-bottom', '-' + ( largest_offset + 50 ) + 'px' );
 
 	/** Video Background **/
 	var BV;
