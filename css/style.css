@@ -83,7 +83,7 @@ div.address a.add {
 	width: 134px;
 	height: 38px;
 	background: url('../img/bubble.png' ) no-repeat;
-	float: right;
+	float: left;
 	padding: 43px;
 	cursor: pointer;
 	-webkit-transition: opacity .25s ease-in-out, background .25s ease-in-out;
@@ -104,7 +104,7 @@ div.address a.add {
 
 #contact-form {
 	display: none;
-	float: right;
+	float: left;
 	clear: both;
 	width: 276px;
 }
