@@ -258,7 +258,6 @@ var set_proper_home_margin = function() {
 
 	//Contact Form
 	$( '#contact-bubble' ).click( function(e){
-		console.log(e.target.nodeName);
 		if ( 'DIV' == event.target.nodeName )
 			$( '#contact-form' ).slideToggle( 250 );
 	});
