@@ -20,7 +20,8 @@ var set_proper_home_margin = function() {
 	};
 
 (function($) {
-	$( "a[href^='http://']" ).attr( "target","_blank" );
+
+	$( "a[href^='http://']" ).attr( "target", "_blank" );
 
 	if ( ! Modernizr.touch ) {
 
@@ -1464,15 +1465,15 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.web div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.23125 ) );
 
 		//Apparel
-		$( 'div.apparel' ).css( 'min-height', Math.round( window.innerWidth * .5778 ) );
+		$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * .0.5378947368421053 ) );
 		$( 'div.apparel div.scroll-space' ).eq(0).css( 'width', Math.round( window.innerWidth * .15625 ) );
 		$( 'div.apparel div.scroll-space' ).eq(0).css( 'height', Math.round( window.innerWidth * .23177083333333334 ) );
-		$( 'div.apparel div.scroll-space' ).eq(0).css( 'top', Math.round( window.innerWidth * .15416666666666667 ) );
+		$( 'div.apparel div.scroll-space' ).eq(0).css( 'top', Math.round( window.innerWidth * .12708333333333333 ) );
 		$( 'div.apparel p.scroll' ).css( 'line-height', Math.round( window.innerWidth * .10416666666666667 ) + 'px' );
 
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.1046875 ) );
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.round( window.innerWidth * 0.140625 ) );
-		$( 'div.apparel div.scroll-space' ).eq(1).css( 'top', Math.round( window.innerWidth * 0.025 ) );
+		$( 'div.apparel div.scroll-space' ).eq(1).css( 'bottom', Math.round( window.innerWidth * 0.0020833333333333333 ) );
 
 		//Print
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
