@@ -257,7 +257,8 @@ var set_proper_home_margin = function() {
 	$( 'span.down-arrow' ).css( 'left', $( 'div.address' ).eq(0).offset().left + 35 );
 
 	//Contact Form
-	$( '#contact-bubble' ).click( function(){
+	$( '#contact-bubble' ).click( function(e){
+		console.log(e.target);
 		$( '#contact-form' ).slideToggle( 250 );
 	});
 
