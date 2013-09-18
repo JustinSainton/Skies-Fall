@@ -149,7 +149,7 @@
 				</div>
 
 				<div id="anberlin" class="grid-item">
-					<p>&#8220;Production is flawless. The mixes are unbelievably unique and infectious...my favorites on the record.&#8221;<br /> &#8212;Stephen &amp; Christian, Anberlin</p>
+					<p>&#8220;Production is flawless. The mixes are unbelievably unique and infectious...my favorites on the record.&#8221;<br /> &#8212;Stephen &amp; Christian, Anberlin<br /> (Universal Republic Records)</p>
 					<div class="services-container">
 						<img src="/dev/img/anberlin-audio-large.png" alt="" />
 					</div>
