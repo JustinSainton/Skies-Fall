@@ -1,3 +1,5 @@
+console.log( window.innerWidth + 'x' + window.innerHeight );
+
 $.fn.textWidth = function(){
     var self = $(this),
         calculator = $('<span style="display: inline-block;" />'),
