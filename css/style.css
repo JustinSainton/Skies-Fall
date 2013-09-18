@@ -24,6 +24,7 @@ body, html {
 	padding: 0;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
+	overflow-x:hidden;
 }
 
 a {
@@ -33,6 +34,7 @@ a {
 	-webkit-transition:color .2s ease-out, background .2s ease-in-out;
 	transition:color .2s ease-out, background .2s ease-in-out;
 }
+
 span.heading,
 span.subheading {
 	text-transform: uppercase;
