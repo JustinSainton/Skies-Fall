@@ -1472,8 +1472,7 @@ jQuery( document ).ready( function( $ ) {
 		//Apparel
 		$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * 0.5378947368421053 ) );
 		$( 'div.apparel div.scroll-space' ).eq(0).css( 'width', Math.round( window.innerWidth * .15625 ) );
-		$( 'div.apparel div.scroll-space' ).eq(0).css( 'height', Math.round( window.innerWidth * .23177083333333334 ) );
-		$( 'div.apparel div.scroll-space' ).eq(0).css( 'top', Math.round( window.innerWidth * .12708333333333333 ) );
+		$( 'div.apparel div.scroll-space' ).eq(0).css( 'height', Math.floor( window.innerWidth * 0.5378947368421053 ) );
 		$( 'div.apparel p.scroll' ).css( 'line-height', Math.round( window.innerWidth * .10416666666666667 ) + 'px' );
 
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.1046875 ) );
@@ -1483,8 +1482,7 @@ jQuery( document ).ready( function( $ ) {
 		//Print
 		$( 'div.print' ).css( 'min-height', Math.round( window.innerWidth * .5375 ) );
 		$( 'div.print div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.21614583333333334 ) );
-		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.43854166666666666 ) );
-		$( 'div.print div.scroll-space' ).css( 'top', Math.round( window.innerWidth * 0.057291666666666664 ) );
+		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * .5375 ) );
 		$( 'div.print div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5671875 ) );
 
 		jQuery( window ).load(function(){
