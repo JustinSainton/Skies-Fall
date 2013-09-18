@@ -38,7 +38,7 @@
 	<body class="who">
 
 		<!-- Panel #1 will always include the navigation !-->
-		<div id="panel-1" class="panel">
+		<div id="panel-1" class="panel full-width">
 			<nav id="nav" class="header">
 				<ul>
 					<li class="logo">
