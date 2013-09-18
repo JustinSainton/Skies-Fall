@@ -1392,6 +1392,8 @@ body.audio #panel-7 .scroll-space:nth-child(n+2) img {
 #big-video-vid_html5_api_7,
 #big-video-vid_html5_api_8 {
 	z-index: -1;
+	position: relative;
+	height: 0 ! important;
 }
 
 .who .full-width {
