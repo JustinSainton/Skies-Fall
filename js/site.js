@@ -95,6 +95,7 @@ var set_proper_home_margin = function() {
 			'top' : $top,
 			'left' : $left,
 			'height' : $height,
+			'z-index' : 25
 		});
 
 
