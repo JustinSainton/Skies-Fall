@@ -676,6 +676,7 @@ img#panel {
 .bio img {
 	float: left;
 	margin-right: 40px;
+	max-height: 100%
 }
 
 .bio.right img {
