@@ -122,20 +122,10 @@ var set_proper_home_margin = function() {
 				'http://player.vimeo.com/external/73702871.hd.mp4?s=eb99e6f3c71744cc6463d3eca5ebac00'
 			];
 
-			$( 'div.bio-container' ).each( function(i,v){
-				var bio_BV;
-				// initialize BigVideo
-				bio_BV = new $.BigVideo();
-				bio_BV.init();
-
-				if (  Modernizr.touch ) {
-					bio_BV.show('/dev/img/mobile-placeholder.jpg');
-				} else {
-					bio_BV.show( bios[ i ], { ambient : true, loop : true, doLoop : true, container : $( this ) } );
+			$( 'div.bio-container' ).each( function( i, v ) {
+				if ( ! Modernizr.touch ) {
+					$( this ).append( '<video id="big-video-vid_html5_api_' + i + '" class="vjs-tech" preload="auto" data-setup="{}" webkit-playsinline="" style="position: absolute;width: 100%;" autoplay="" src="' + bios[ i ] + '"></video>' );
 				}
-
-				console.log( $( this ) );
-				console.log( bios[ i ] );
 			});
 		}
 
