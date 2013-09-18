@@ -124,8 +124,15 @@ var set_proper_home_margin = function() {
 
 			$( 'div.bio-container' ).each( function( i, el ) {
 				if ( ! Modernizr.touch ) {
-					$( this ).append( '<video id="big-video-vid_html5_api_' + i + '" style="position: absolute; width: 100%; height: auto; top:0; left: 0" preload="auto" data-setup="{}" webkit-playsinline="" style="position: absolute;width: 100%;" autoplay="true" src="' + bios[ i ] + '"></video>' );
+					$( this ).append( '<video id="big-video-vid_html5_api_' + i + '" style="position: absolute; width: 100%; height: auto; top:0; left: 0" preload="auto" data-setup="{}" webkit-playsinline="" style="position: absolute;width: 100%;" loop="loop" autoplay="true" src="' + bios[ i ] + '"></video>' );
 				}
+			});
+
+			$( 'div.bio-container video' ).each(function(){
+				var $this = $( this ).get(0);
+
+				if ( $this.paused )
+					$this.play();
 			});
 		}
 
