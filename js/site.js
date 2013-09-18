@@ -109,7 +109,7 @@ var set_proper_home_margin = function() {
 	});
 
 	$(function() {
-		if ( $( 'body' ).hasClass( 'who-we-are' ) ) {
+		if ( $( 'body' ).hasClass( 'who' ) ) {
 			var bios = [
 				'http://player.vimeo.com/external/73702870.hd.mp4?s=5789d8d066c9fb675f80512fb44ed5ce',
 				'http://player.vimeo.com/external/73703417.hd.mp4?s=d80ba7bd0954e9df2f207fb051707cd5',
