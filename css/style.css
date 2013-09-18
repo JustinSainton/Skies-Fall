@@ -1382,3 +1382,14 @@ body.audio #panel-7 img {
 body.audio #panel-7 .scroll-space:nth-child(n+2) img {
 	margin: 100% 0;
 }
+#big-video-vid_html5_api_0,
+#big-video-vid_html5_api_1,
+#big-video-vid_html5_api_2,
+#big-video-vid_html5_api_3,
+#big-video-vid_html5_api_4,
+#big-video-vid_html5_api_5,
+#big-video-vid_html5_api_6,
+#big-video-vid_html5_api_7,
+#big-video-vid_html5_api_8 {
+	z-index: -1;
+}

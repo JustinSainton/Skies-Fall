@@ -105,7 +105,7 @@
 			<div class="panel-container full-width">
 				<div class='bio-container' style="margin-top: -50px">
 					<div class="bio" style="padding-top: 60px">
-						<img src="/dev/img/ben.png" alt="" />
+						<img src="/dev/img/ben.png" alt="" style="margin-bottom: 50px" />
 						<h2>Ben Kasica <span>Founder</span></h2>
 						<p>A St. Louis native, Ben was the lead guitarist for the band Skillet (Atlantic Records) for 10 years. During his time with the band, Skillet sold over 2 million records, was nominated for 2 Grammy awards, won a Dove Award and scored numerous #1 radio singles. He has worked with world-renown producers like Howard Benson, Brian Howes and Paul Ebersold; and has engineered, co-written &amp; produced music for artists such as Corey Taylor of Slipknot &amp; Stone Sour, Skillet, Icon for Hire, We Are Leo and Silverline. He also spearheads the video, film &amp; television divisions of Skies Fall and has produced numerous commercial advertisements and music videos for the likes of Jockey International, E! Television, QVC, Skillet and Kohl’s. Ben enjoys friends, photography, sushi, community service and sports.<a href="http://www.linkedin.com/company/skies-fall-media-group" class="genericon genericon-linkedin"></a></p>
 					</div>
