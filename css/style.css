@@ -1393,3 +1393,7 @@ body.audio #panel-7 .scroll-space:nth-child(n+2) img {
 #big-video-vid_html5_api_8 {
 	z-index: -1;
 }
+
+.audio .full-width {
+	overflow: hidden;
+}
