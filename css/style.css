@@ -708,7 +708,7 @@ img#panel {
 	margin-left: 3px;
 }
 
-a.genericon:hover {
+.bio a.genericon:hover {
 	background-color: #000;
 }
 
