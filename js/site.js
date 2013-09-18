@@ -81,26 +81,6 @@ var set_proper_home_margin = function() {
 
 	$( 'div.bio-container' ).eq( -1 ).css( 'margin-bottom', '-' + largest_offset + 'px' );
 
-	//Not proud of this
-
-	$( 'div.bio img:gt(0)' ).each(function(){
-		var $this = $( this ), $top = $this.offset().top - 25, $left = $this.offset().left, $height = $this.height(), $clone = $this.clone();
-
-		$this.css( 'visibility', 'hidden' );
-		$this.css( 'margin-bottom', '-25px' );
-
-		$clone.appendTo( 'body' );
-		$clone.css({
-			'position' : 'absolute',
-			'top' : $top,
-			'left' : $left,
-			'height' : $height,
-			'z-index' : 25
-		});
-
-
-	});
-
 	/** Video Background **/
 	var BV;
 
@@ -1747,6 +1727,25 @@ var gear_list = function() {
 	$( 'div.gear-left' ).css( 'width', gear_offset );
 	$( 'div.gear-right' ).css( 'width', ( ( window.innerWidth - $( 'div.gear' ).width() )  / 2 ) );
 }
+
+jQuery( window ).load(function(){
+	//Not proud of this
+	$( 'div.bio img:gt(0)' ).each(function(){
+		var $this = $( this ), $top = $this.offset().top - 25, $left = $this.offset().left, $height = $this.height(), $clone = $this.clone();
+
+		$this.css( 'visibility', 'hidden' );
+		$this.css( 'margin-bottom', '-25px' );
+
+		$clone.appendTo( 'body' );
+		$clone.css({
+			'position' : 'absolute',
+			'top' : $top,
+			'left' : $left,
+			'height' : $height,
+			'z-index' : 25
+		});
+	});
+});
 
 jQuery( window ).load( canvas_gallery );
 jQuery( window ).load( canvas_demo );
