@@ -216,6 +216,10 @@ nav.header {
 	overflow: auto;
 }
 
+div.panel-container {
+	max-width: 1000px;
+}
+
 body.home #panel-2 .panel-container {
 	width: 80%;
 	min-width: 1000px;
