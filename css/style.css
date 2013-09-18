@@ -1084,14 +1084,6 @@ div.print .scroll-space {
 	overflow-x: hidden;
 }
 
-div.apparel .scroll-space:nth-child(1) {
-	left: 55%;
-}
-
-div.apparel .scroll-space:nth-child(2) {
-	left: 14.75%;
-}
-
 div.apparel p.scroll {
 	text-align: center;
 	vertical-align: middle;
