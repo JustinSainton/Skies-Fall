@@ -206,7 +206,7 @@ div.panel {
 div.panel.location {
 	background-color: #161616;
 	opacity: .95;
-	padding: 25px 0;
+	padding: 25px 10%;
 }
 
 div.panel-container,
