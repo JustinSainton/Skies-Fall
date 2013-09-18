@@ -312,7 +312,7 @@ jQuery( document ).ready( function( $ ) {
 
 	$( 'p.quote' ).width( $( 'p.quote' ).textWidth() + 1 );
 	$( 'li.logo' ).css( 'right', ( ( $( 'li.logo' ).offset().left / 2 ) - 104 ) );
-	$( '#contact-form' ).css( 'margin-left', ( $( '#contact-bubble' ).offset().left ) + 'px' );
+	$( '#contact-form' ).css( 'margin-left', ( $( '#contact-bubble' ).offset().left - 170 ) + 'px' );
 
 	var align_h2 = function() {
 		/** Home Page | Services Photos Centering **/
