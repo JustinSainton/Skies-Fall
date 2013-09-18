@@ -81,7 +81,7 @@ div.address a.add {
 	letter-spacing: 3px;
 	word-spacing: 2px;
 	width: 134px;
-	height: 38px;
+	min-height: 38px;
 	background: url('../img/bubble.png' ) no-repeat;
 	float: left;
 	padding: 43px;
