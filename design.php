@@ -118,20 +118,18 @@
 		</div>
 
 		<div id="panel-4" class="panel apparel">
-			<div class="panel-container">
-				<div class="scroll-space">
-					<p class="scroll">-scroll here-</p>
-					<img src="/dev/img/guard.png" alt="" />
-					<img src="/dev/img/love.png" alt="" />
-					<img src="/dev/img/flower.png" alt="" />
-					<img src="/dev/img/change.png" alt="" />
-				</div>
-				<div class="scroll-space">
-					<img src="/dev/img/cello.png" alt="" />
-					<img src="/dev/img/everett.png" alt="" />
-					<img src="/dev/img/be-the-change.png" alt="" />
-					<img src="/dev/img/skies-fall-shirt.png" alt="" />
-				</div>
+			<div class="scroll-space">
+				<p class="scroll">-scroll here-</p>
+				<img src="/dev/img/guard.png" alt="" />
+				<img src="/dev/img/love.png" alt="" />
+				<img src="/dev/img/flower.png" alt="" />
+				<img src="/dev/img/change.png" alt="" />
+			</div>
+			<div class="scroll-space">
+				<img src="/dev/img/cello.png" alt="" />
+				<img src="/dev/img/everett.png" alt="" />
+				<img src="/dev/img/be-the-change.png" alt="" />
+				<img src="/dev/img/skies-fall-shirt.png" alt="" />
 			</div>
 		</div>
 
