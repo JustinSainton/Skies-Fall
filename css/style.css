@@ -1057,19 +1057,9 @@ div.web p.scroll {
 	margin: 29.5% 0 0 2px;
 }
 
-div.web div.panel-container {
-	padding: 4.92% 0 0 0;
-}
-
 div.scroll-space {
 	overflow: auto;
 	position: relative;
-}
-
-div.web .scroll-space {
-	margin: 0 auto;
-	position: relative;
-	right: 2.2%;
 }
 
 div.web .scroll-space img {

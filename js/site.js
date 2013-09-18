@@ -1464,8 +1464,10 @@ jQuery( document ).ready( function( $ ) {
 
 		//Web
 		$( 'div.web' ).css( 'min-height', Math.round( window.innerWidth * .4681 ) );
-		$( 'div.web div.scroll-space' ).css( 'width', Math.round( window.innerWidth * .4010416666666667 ) );
+		$( 'div.web div.scroll-space' ).css( 'width', Math.floor( window.innerWidth * .4010416666666667 ) );
 		$( 'div.web div.scroll-space' ).css( 'height', Math.round( window.innerWidth * 0.23125 ) );
+		$( 'div.web div.scroll-space' ).css( 'top', Math.round( window.innerWidth * .4010416666666667 ) );
+		$( 'div.web div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.23125 ) );
 
 		//Apparel
 		$( 'div.apparel' ).css( 'min-height', Math.floor( window.innerWidth * 0.5378947368421053 ) );
