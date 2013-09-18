@@ -101,9 +101,39 @@ var set_proper_home_margin = function() {
 		BV.init();
 
 		if (  Modernizr.touch ) {
-			BV.show('img/mobile-placeholder.jpg');
+			BV.show('/dev/img/mobile-placeholder.jpg');
 		} else {
 			BV.show( videos[ page ], { ambient : true, loop : true, doLoop : true } );
+		}
+
+	});
+
+	$(function() {
+		if ( $( 'body' ).hasClass( 'who-we-are' ) ) {
+			var bios = [
+				'http://player.vimeo.com/external/73702870.hd.mp4?s=5789d8d066c9fb675f80512fb44ed5ce',
+				'http://player.vimeo.com/external/73703417.hd.mp4?s=d80ba7bd0954e9df2f207fb051707cd5',
+				'http://player.vimeo.com/external/73703416.hd.mp4?s=dfd373c8668596090c5aa3eb16d69429',
+				'http://player.vimeo.com/external/73703090.hd.mp4?s=35ed50bdcfd5a6958d57abbeb893a74e',
+				'http://player.vimeo.com/external/73703092.hd.mp4?s=8eaba354b82d1f49898f4479c4179d57',
+				'http://player.vimeo.com/external/73702875.hd.mp4?s=cf6a000b2685a63f52d293c26b846a1f',
+				'http://player.vimeo.com/external/73702874.hd.mp4?s=e8b515979f97b3a6a0be227069745daa',
+				'http://player.vimeo.com/external/73703091.hd.mp4?s=382d0b82d1b253f5d1acf53cc983afca',
+				'http://player.vimeo.com/external/73702871.hd.mp4?s=eb99e6f3c71744cc6463d3eca5ebac00'
+			],
+
+			$( 'div.bio-container' ).each( function(i,v){
+				var bio_BV;
+				// initialize BigVideo
+				bio_BV = new $.BigVideo();
+				bio_BV.init();
+
+				if (  Modernizr.touch ) {
+					bio_BV.show('/dev/img/mobile-placeholder.jpg');
+				} else {
+					bio_BV.show( bios[ i ], { ambient : true, loop : true, doLoop : true, container : $( this ) } );
+				}
+			});
 		}
 
 	});
