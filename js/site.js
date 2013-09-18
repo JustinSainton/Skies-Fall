@@ -124,9 +124,7 @@ var set_proper_home_margin = function() {
 
 			$( 'div.bio-container' ).each( function( i, el ) {
 				if ( ! Modernizr.touch ) {
-					console.log( i );
-					console.log( bios[ i ] );
-					$( this ).append( '<video id="big-video-vid_html5_api_' + i + '" class="vjs-tech" preload="auto" data-setup="{}" webkit-playsinline="" style="position: absolute;width: 100%;" autoplay="" src="' + bios[ i ] + '"></video>' );
+					$( this ).append( '<video id="big-video-vid_html5_api_' + i + '" style="position: absolute; width: 100%; height: auto; top:0; left: 0" preload="auto" data-setup="{}" webkit-playsinline="" style="position: absolute;width: 100%;" autoplay="true" src="' + bios[ i ] + '"></video>' );
 				}
 			});
 		}
