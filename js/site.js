@@ -1485,6 +1485,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.print div.scroll-space' ).css( 'width', Math.round( window.innerWidth * 0.21614583333333334 ) );
 		$( 'div.print div.scroll-space' ).css( 'height', Math.round( window.innerWidth * .5375 ) );
 		$( 'div.print div.scroll-space' ).css( 'left', Math.round( window.innerWidth * 0.5671875 ) );
+		$( 'div.print div.scroll-space img' ).eq(-1).css( 'margin-bottom', ( window.innerWidth * 0.04375 ) + 'px' );
 
 		jQuery( window ).load(function(){
 			var screenImage = $( 'div.print img' ).eq(0), theImage = new Image();
