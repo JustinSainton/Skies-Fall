@@ -312,6 +312,8 @@ jQuery( document ).ready( function( $ ) {
 
 	$( 'p.quote' ).width( $( 'p.quote' ).textWidth() + 1 );
 	$( 'li.logo' ).css( 'right', ( ( $( 'li.logo' ).offset().left / 2 ) - 104 ) );
+	$( '#contact-form' ).css( 'margin-left', ( $( '#contact-bubble' ).offset().left ) + 'px' );
+
 	var align_h2 = function() {
 		/** Home Page | Services Photos Centering **/
 		var smallest_div_height = 500;
