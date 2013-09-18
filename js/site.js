@@ -312,7 +312,6 @@ var set_proper_home_margin = function() {
 jQuery( document ).ready( function( $ ) {
 
 	$( 'p.quote' ).width( $( 'p.quote' ).textWidth() + 1 );
-	$( 'li.logo' ).css( 'right', ( ( $( 'li.logo' ).offset().left / 2 ) - 104 ) );
 
 	var align_h2 = function() {
 		/** Home Page | Services Photos Centering **/
