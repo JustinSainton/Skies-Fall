@@ -133,6 +133,9 @@ var set_proper_home_margin = function() {
 				} else {
 					bio_BV.show( bios[ i ], { ambient : true, loop : true, doLoop : true, container : $( this ) } );
 				}
+
+				console.log( $( this ) );
+				console.log( bios[ i ] );
 			});
 		}
 
