@@ -547,6 +547,7 @@ body.who #panel-2 p {
 body.who #panel-2 div.panel-container {
 	height: 585px;
 	overflow: scroll;
+	max-width: 1000px
 }
 
 div.content-1,
