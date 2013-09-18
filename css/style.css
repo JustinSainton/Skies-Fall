@@ -1384,7 +1384,7 @@ body.audio #panel-7 p.scroll {
 
 body.audio #panel-7 img {
 	display: block;
-	margin: 20% 0;
+	margin: 20% auto;
 }
 
 body.audio #panel-7 .scroll-space:nth-child(n+2) img {
