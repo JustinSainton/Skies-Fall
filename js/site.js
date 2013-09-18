@@ -1731,7 +1731,7 @@ var gear_list = function() {
 jQuery( window ).load(function(){
 	//Not proud of this
 	$( 'div.bio img:gt(0)' ).each(function(){
-		var $this = $( this ), $top = $this.offset().top - 25, $left = $this.offset().left, $height = $this.height(), $clone = $this.clone();
+		var $this = $( this ), $top = $this.offset().top - 75, $left = $this.offset().left, $height = $this.height(), $clone = $this.clone();
 
 		$this.css( 'visibility', 'hidden' );
 		$this.css( 'margin-bottom', '-25px' );
