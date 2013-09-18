@@ -104,9 +104,10 @@ div.address a.add {
 
 #contact-form {
 	display: none;
-	float: left;
-	clear: both;
 	width: 276px;
+	position: relative;
+	top: 40px;
+	right: 50px;
 }
 
 #contact-form #name {
