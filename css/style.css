@@ -1400,3 +1400,8 @@ body.audio #panel-7 .scroll-space:nth-child(n+2) img {
 .who .full-width {
 	overflow: hidden;
 }
+
+.mfp-bg {
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
