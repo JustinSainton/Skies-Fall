@@ -120,7 +120,7 @@ var set_proper_home_margin = function() {
 				'http://player.vimeo.com/external/73702874.hd.mp4?s=e8b515979f97b3a6a0be227069745daa',
 				'http://player.vimeo.com/external/73703091.hd.mp4?s=382d0b82d1b253f5d1acf53cc983afca',
 				'http://player.vimeo.com/external/73702871.hd.mp4?s=eb99e6f3c71744cc6463d3eca5ebac00'
-			],
+			];
 
 			$( 'div.bio-container' ).each( function(i,v){
 				var bio_BV;
