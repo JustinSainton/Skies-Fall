@@ -85,7 +85,7 @@
 
 		<img id="panel" src="/dev/img/quotes.png" alt="Our clients love us" />
 
-		<div id="panel-4" class="panel location">
+		<div id="panel-4" class="panel location" data-stellar-background-ratio="0.5">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -115,35 +115,35 @@
 				</div>
 				<div id='contact-bubble'>
 					<a class="contact">Say Hello</a>
-				</div>
-				<form id="contact-form" action="/dev/contact.php" method="POST">
-					<div id="contact">
-						<label id="name">Name<input type="text" name="name" /></label>
-						<label id="email">Email<input type="text" name="email" /></label>
-						<label id="message">Message<textarea name="message"></textarea></label>
-						<input name="gotye" id="gotye" value="" type="hidden" />
-						<input type="submit" value="Send" />
+					<form id="contact-form" action="contact.php" method="POST">
+						<div id="contact">
+							<label id="name">Name<input type="text" name="name" /></label>
+							<label id="email">Email<input type="text" name="email" /></label>
+							<label id="message">Message<textarea name="message"></textarea></label>
+							<input name="gotye" id="gotye" value="" type="hidden" />
+							<input type="submit" value="Send" />
 
-						<div id="circularG" class='ajax-loader'>
-							<div id="circularG_1" class="circularG">
-							</div>
-							<div id="circularG_2" class="circularG">
-							</div>
-							<div id="circularG_3" class="circularG">
-							</div>
-							<div id="circularG_4" class="circularG">
-							</div>
-							<div id="circularG_5" class="circularG">
-							</div>
-							<div id="circularG_6" class="circularG">
-							</div>
-							<div id="circularG_7" class="circularG">
-							</div>
-							<div id="circularG_8" class="circularG">
+							<div id="circularG" class='ajax-loader'>
+								<div id="circularG_1" class="circularG">
+								</div>
+								<div id="circularG_2" class="circularG">
+								</div>
+								<div id="circularG_3" class="circularG">
+								</div>
+								<div id="circularG_4" class="circularG">
+								</div>
+								<div id="circularG_5" class="circularG">
+								</div>
+								<div id="circularG_6" class="circularG">
+								</div>
+								<div id="circularG_7" class="circularG">
+								</div>
+								<div id="circularG_8" class="circularG">
+								</div>
 							</div>
 						</div>
-					</div>
-				</form>
+					</form>
+				</div>
 			</div>
 		</div>
 		<span class="down-arrow"></span>
