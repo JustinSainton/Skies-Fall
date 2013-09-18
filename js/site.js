@@ -20,6 +20,7 @@ var set_proper_home_margin = function() {
 	};
 
 (function($) {
+	$( "a[href^='http://']" ).attr( "target","_blank" );
 
 	if ( ! Modernizr.touch ) {
 
