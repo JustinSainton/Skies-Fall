@@ -662,10 +662,6 @@ img#panel {
 
 
 .bio-container {
-	position: relative;
-}
-
-.bio {
 	overflow: auto;
 	position: relative;
 	max-width: 1000px;
@@ -673,19 +669,19 @@ img#panel {
 	z-index: 15;
 }
 
-.bio img {
+..bio-container img {
 	float: left;
 	margin-right: 40px;
 	max-height: 100%
 }
 
-.bio.right img {
+..bio-container.right img {
 	float: right;
 	margin-left: 40px;
 	margin-right: 0;
 }
 
-.bio h2 {
+..bio-container h2 {
 	font-family: 'futura-pt', Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 36px;
 	font-weight: 500;
@@ -696,11 +692,11 @@ img#panel {
 	white-space: nowrap;
 }
 
-.bio h2.small {
+..bio-container h2.small {
 	font-size: 30px;
 }
 
-.bio a.genericon {
+..bio-container a.genericon {
 	height: 12px;
 	width: 12px;
 	padding: 1px 13px 14px 2px;
@@ -709,11 +705,11 @@ img#panel {
 	margin-left: 3px;
 }
 
-.bio a.genericon:hover {
+..bio-container a.genericon:hover {
 	background-color: #000;
 }
 
-.bio p {
+..bio-container p {
 	color: #000;
 	line-height: 24px;
 }
