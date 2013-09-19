@@ -1579,6 +1579,8 @@ jQuery( document ).ready( function( $ ) {
 		if ( $( window ).scrollTop() + $( window ).height() > $( 'div.apparel' ).offset().top + $( 'div.apparel' ).height() && ! scroll_through ) {
 			e.preventDefault();
 			scroll_apparel_panels();
+
+			panels_ended = false;
 			if ( panels_ended ) {
 				scroll_through = true;
 			}
