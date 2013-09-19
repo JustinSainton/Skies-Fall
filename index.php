@@ -21,7 +21,7 @@
 		<script src="/dev/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/stellar.js"></script>
+		<script src="/dev/js/skrollr.js"></script>
 
 		<!-- Stylesheets -->
 		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
@@ -35,7 +35,7 @@
 		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
 		<script src="/dev/js/responsive-nav.js"></script>
 	</head>
-	<body class="home">
+	<body id="skrollr-body" class="home">
 
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel">
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 
-		<div id="panel-2" class="panel" data-stellar-offset-parent="true" data-stellar-vertical-offset="-300">
+		<div id="panel-2" class="panel">
 			<div class="panel-container">
 				<span class="subheading">We've had the pleasure to work with</span>
 				<ul id="portfolio">
@@ -148,7 +148,7 @@
 			</div>
 		</div>
 
-		<div id="panel-4" class="panel location" data-stellar-background-ratio="0.5">
+		<div id="panel-4" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
@@ -210,8 +210,8 @@
 			</div>
 		</div>
 		<span class="down-arrow"></span>
-		<div id="map" class="panel map" data-stellar-background-ratio="0.5"></div>
-		<div id="panel-6" class="panel colophon" data-stellar-background-ratio="0.5">
+		<div id="map" class="panel map"></div>
+		<div id="panel-6" class="panel colophon">
 			<div class="panel-container">
 				<p class="copyright">
 					&copy; <?php echo date( 'Y' ); ?> Skies Fall Media Group. All Rights Reserved.

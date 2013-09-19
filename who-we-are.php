@@ -21,7 +21,7 @@
 		<script src="/dev/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/stellar.js"></script>
+		<script src="/dev/js/skrollr.js"></script>
 
 		<!-- Stylesheets -->
 		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
@@ -35,7 +35,7 @@
 		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
 		<script src="/dev/js/responsive-nav.js"></script>
 	</head>
-	<body class="who">
+	<body id="skrollr-body" class="who">
 
 		<!-- Panel #1 will always include the navigation !-->
 		<div id="panel-1" class="panel full-width">
@@ -169,7 +169,7 @@
 			</div>
 		</div>
 
-		<div id="panel-4" class="panel location" data-stellar-background-ratio="0.5">
+		<div id="panel-4" class="panel location">
 			<div class="panel-container">
 				<h3>Locations</h3>
 				<div class="address">
