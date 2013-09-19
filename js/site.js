@@ -25,28 +25,6 @@ var set_proper_home_margin = function() {
 
 	$( "a[href^='http://']" ).attr( "target", "_blank" );
 
-	if ( ! Modernizr.touch ) {
-
-		$( 'body.home #panel-1 .panel-container, body.who #panel-1 .panel-container' ).addClass( 'desktop-panel' );
-
-		$.stellar({
-			hideDistantElements : false,
-			horizontalScrolling : false,
-		});
-
-		//set_proper_home_margin();
-
-
-	} else {
-
-		$( '#panel-1' ).addClass( 'vertical scrollable' ).stellar({
-			hideDistantElements : false,
-			scrollProperty   : 'transform',
-			positionProperty : 'transform',
-		});
-	}
-
-
 	/** Panel Resizing **/
 	var resize_panels = function() {
 
