@@ -231,8 +231,8 @@ nav.header {
 
 nav.header ul {
 	float: right;
-	width: 100%
-
+	width: 100%;
+	text-align: right;
 }
 
 nav.header li {
