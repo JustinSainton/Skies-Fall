@@ -217,7 +217,7 @@ nav.header {
 	width: 100%;
 	margin: 0 auto;
 	overflow: auto;
-	max-width: 90em;
+	max-width: 1440px;
 }
 
 body.home #panel-2 .panel-container {
@@ -246,6 +246,7 @@ nav.header li.logo {
 	bottom: 0;
 	margin-left: 0;
 	margin-right: 20%;
+	float: left;
 }
 
 nav.header li a {
@@ -354,6 +355,7 @@ body.home div#panel-2 {
 
 body.home ul#portfolio {
 	overflow: hidden;
+	padding: 0;
 }
 
 body.home ul#portfolio li.move-it {
