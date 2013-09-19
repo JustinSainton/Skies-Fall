@@ -1735,7 +1735,7 @@ var gear_list = function() {
 	$( 'div.gear-right' ).css( 'width', ( ( window.innerWidth - $( 'div.gear' ).width() )  / 2 ) );
 }
 
-jQuery( window ).load(function()
+jQuery( window ).load(function() {
 	$( 'div.address' ).css( 'margin-right', ( $( 'div.location div.panel-container' ).width() - ( $( 'div.address' ).eq(0).width() + $( 'div.address' ).eq(1).width() + $( 'div.address' ).eq(2).width() + $( 'div#contact-bubble' ).width() ) ) / 4 );
 	//Not proud of this
 	$( 'div.bio img:gt(0)' ).each(function(){
