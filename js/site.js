@@ -1584,6 +1584,7 @@ jQuery( document ).ready( function( $ ) {
 			if ( panels_ended ) {
 				scroll_through = true;
 			}
+			return false;
 		} else {
 			return true;
 		}
