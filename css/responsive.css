@@ -49,6 +49,9 @@
 /* ---------- 1080p HD Screen ---------- */
 @media only screen and (min-width: 1500px) {
 
+	div.address {
+		margin-right: 15%;
+	}
 
 }
 
