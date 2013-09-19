@@ -85,7 +85,8 @@ div.address a.add {
 	width: 134px;
 	min-height: 38px;
 	background: url('../img/bubble.png' ) no-repeat;
-	float: left;
+	float: right;
+	margin-right: 5px;
 	padding: 43px;
 	cursor: pointer;
 	-webkit-transition: opacity .25s ease-in-out, background .25s ease-in-out;
