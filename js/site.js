@@ -51,8 +51,7 @@ var set_proper_home_margin = function() {
 	var resize_panels = function() {
 
 		var panels = {
-			home   : [ 'panel-1' ],
-			who    : [ 'panel-1' ]
+			home   : [ 'panel-1' ]
 		},
 
 		page = $( 'body' ).attr( 'class' ),
