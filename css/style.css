@@ -227,6 +227,7 @@ body.home #panel-2 .panel-container {
 
 nav.header {
 	margin: 2em auto 0;
+	width: 90%;
 }
 
 nav.header ul {
@@ -245,7 +246,6 @@ nav.header li {
 nav.header li.logo {
 	bottom: 0;
 	margin-left: 0;
-	margin-right: 20%;
 	float: left;
 }
 
