@@ -126,7 +126,7 @@
 				<img src="/dev/img/change.png" alt="" />
 			</div>
 			<div class="scroll-space">
-				<img data-2350="margin-top:100%" data-3000="margin-top:-730%" src="/dev/img/cello.png" alt="" />
+				<img data-2350="margin-top:350%" data-3000="margin-top:-730%" src="/dev/img/cello.png" alt="" />
 				<img src="/dev/img/everett.png" alt="" />
 				<img src="/dev/img/be-the-change.png" alt="" />
 				<img src="/dev/img/skies-fall-shirt.png" alt="" />
