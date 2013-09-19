@@ -481,6 +481,7 @@ div.social {
 	width: 250px;
 	float: right;
 	margin-top: -45px;
+	text-align: right;
 }
 
 div.social ul {
