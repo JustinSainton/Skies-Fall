@@ -117,7 +117,7 @@
 			</div>
 		</div>
 
-		<div id="panel-4" class="panel apparel">
+		<div data-3125="" id="panel-4" class="panel apparel">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
 				<img src="/dev/img/guard.png" alt="" />
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 
-		<div id="panel-5" class="panel print">
+		<div data-0="display:none" data-3132="display:block" id="panel-5" class="panel print">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
 				<img src="/dev/img/life-love-music.png" alt="" />

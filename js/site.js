@@ -1758,7 +1758,9 @@ jQuery( window ).load(function() {
 		});
 	});
 });
-
+jQuery( window ).load(function(){
+	var s = skrollr.init();
+});
 jQuery( window ).load( canvas_gallery );
 jQuery( window ).load( canvas_demo );
 jQuery( window ).load( gear_list );
