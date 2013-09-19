@@ -1555,14 +1555,37 @@ jQuery( document ).ready( function( $ ) {
 
 	$( window ).resize( place_audio_objects );
 
-	//Ensure girls and guys scroll at same time
-	if ( $( 'div.apparel div.scroll-space' ).length ) {
-		var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
+	var scroll_apparel_panels = function() {
 
-		$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
-			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
-		});
-	}
+		//Ensure girls and guys scroll at same time
+		if ( $( 'div.apparel div.scroll-space' ).length ) {
+			var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
+
+			$( 'div.apparel div.scroll-space' ).eq(0).scrollTop( $( window ).scrollTop() );
+
+			$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
+				$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
+			});
+		}
+
+	};
+
+	//If we're at the bottom of the apparel panel, scroll through apparel, then continue page scroll
+	var scroll_through = false;
+
+	$( window ).scroll(function(e){
+
+		//We're at the bottom of the apparel panel.  We need to scroll through those now, then return to page scrolling
+		if ( $( window ).scrollTop() + $( window ).height() > $( 'div.apparel' ).offset().top + $( 'div.apparel' ).height() && ! scroll_through ) {
+			e.preventDefault();
+			scroll_apparel_panels();
+			if ( panels_ended ) {
+				scroll_through = true;
+			}
+		} else {
+			return true;
+		}
+	});
 
 	//Ensure guitar cases all scroll together
 	if ( $( 'body.audio #panel-7' ).length ) {
