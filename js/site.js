@@ -1454,7 +1454,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.apparel div.scroll-space' ).eq(0).css( 'height', Math.floor( window.innerWidth * 0.5378947368421053 ) );
 		$( 'div.apparel p.scroll' ).css( 'margin-top', Math.round( window.innerWidth * 0.14583333333333334 ) + 'px' );
 		$( 'div.apparel div.scroll-space' ).eq(0).css( 'left', Math.round( window.innerWidth * 0.5260416666666666 ) );
-		$( 'div.apparel div.scroll-space:eq(0) img' ).eq(-1).css( 'margin-bottom', ( window.innerWidth * 0.19791666666666666 ) + 'px' );
+		$( 'div.apparel div.scroll-space img' ).eq(-1).css( 'margin-bottom', ( window.innerWidth * 0.19791666666666666 ) + 'px' );
 
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'width', Math.round( window.innerWidth * 0.1046875 ) );
 		$( 'div.apparel div.scroll-space' ).eq(1).css( 'height', Math.floor( window.innerWidth * 0.5378947368421053 ) )
@@ -1540,7 +1540,7 @@ jQuery( document ).ready( function( $ ) {
 		var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
 		console.log( scroll_difference );
 		$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
-			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() );
+			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * .68 );
 		});
 	}
 
