@@ -1,4 +1,6 @@
-console.log( window.innerWidth + 'x' + window.innerHeight );
+if ( window.console ) {
+	console.log( window.innerWidth + 'x' + window.innerHeight );
+}
 
 $.fn.textWidth = function(){
     var self = $(this),
@@ -1713,6 +1715,13 @@ var gear_list = function() {
 	$( 'div.gear-right' ).css( 'width', ( ( window.innerWidth - $( 'div.gear' ).width() )  / 2 ) );
 }
 
+jQuery( window ).load( canvas_gallery );
+jQuery( window ).load( canvas_demo );
+jQuery( window ).load( gear_list );
+jQuery( window ).resize( canvas_gallery );
+jQuery( window ).resize( canvas_demo );
+jQuery( window ).resize( gear_list );
+
 jQuery( window ).load(function() {
 	$( 'div.address' ).css( 'margin-right', ( $( 'div.location div.panel-container' ).width() - ( $( 'div.address' ).eq(0).width() + $( 'div.address' ).eq(1).width() + $( 'div.address' ).eq(2).width() + $( 'div#contact-bubble' ).width() ) ) / 4 );
 	//Not proud of this
@@ -1732,10 +1741,3 @@ jQuery( window ).load(function() {
 		});
 	});
 });
-
-jQuery( window ).load( canvas_gallery );
-jQuery( window ).load( canvas_demo );
-jQuery( window ).load( gear_list );
-jQuery( window ).resize( canvas_gallery );
-jQuery( window ).resize( canvas_demo );
-jQuery( window ).resize( gear_list );
