@@ -119,17 +119,17 @@
 
 		<div id="panel-4" class="panel apparel">
 			<div class="scroll-space">
-				<p class="scroll" data-2350="margin-top:100%" data-3000="margin-top:-1095%">-scroll here-</p>
+				<p class="scroll" data-2500="margin-top:100%" data-3000="margin-top:-1050%">-scroll here-</p>
 				<img src="/dev/img/guard.png" alt="" />
 				<img src="/dev/img/love.png" alt="" />
 				<img src="/dev/img/flower.png" alt="" />
 				<img src="/dev/img/change.png" alt="" />
 			</div>
 			<div class="scroll-space">
-				<img data-2350="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/cello.png" alt="" />
-				<img data-2350="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/everett.png" alt="" />
-				<img data-2350="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/be-the-change.png" alt="" />
-				<img data-2350="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/skies-fall-shirt.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/cello.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/everett.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/be-the-change.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1500px" src="/dev/img/skies-fall-shirt.png" alt="" />
 			</div>
 		</div>
 
