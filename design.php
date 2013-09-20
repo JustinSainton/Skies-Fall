@@ -126,10 +126,10 @@
 				<img src="/dev/img/change.png" alt="" />
 			</div>
 			<div class="scroll-space">
-				<img data-2500="bottom:-500px" data-3000="bottom:1600px" src="/dev/img/cello.png" alt="" />
-				<img data-2500="bottom:-500px" data-3000="bottom:1600px" src="/dev/img/everett.png" alt="" />
-				<img data-2500="bottom:-500px" data-3000="bottom:1600px" src="/dev/img/be-the-change.png" alt="" />
-				<img data-2500="bottom:-500px" data-3000="bottom:1600px" src="/dev/img/skies-fall-shirt.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1550px" src="/dev/img/cello.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1550px" src="/dev/img/everett.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1550px" src="/dev/img/be-the-change.png" alt="" />
+				<img data-2500="bottom:-500px" data-3000="bottom:1550px" src="/dev/img/skies-fall-shirt.png" alt="" />
 			</div>
 		</div>
 
