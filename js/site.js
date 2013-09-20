@@ -25,6 +25,28 @@ var set_proper_home_margin = function() {
 
 	$( "a[href^='http://']" ).attr( "target", "_blank" );
 
+	if ( ! Modernizr.touch ) {
+
+		$( 'body.home #panel-1 .panel-container, body.who #panel-1 .panel-container' ).addClass( 'desktop-panel' );
+
+		$.stellar({
+			hideDistantElements : false,
+			horizontalScrolling : false,
+		});
+
+		//set_proper_home_margin();
+
+
+	} else {
+
+		$( '#panel-1' ).addClass( 'vertical scrollable' ).stellar({
+			hideDistantElements : false,
+			scrollProperty   : 'transform',
+			positionProperty : 'transform',
+		});
+	}
+
+
 	/** Panel Resizing **/
 	var resize_panels = function() {
 
@@ -1533,16 +1555,14 @@ jQuery( document ).ready( function( $ ) {
 
 	$( window ).resize( place_audio_objects );
 
-	var scroll_apparel_panels = function() {
+	//Ensure girls and guys scroll at same time
+	if ( $( 'div.apparel div.scroll-space' ).length ) {
+		var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
 
-		//Ensure girls and guys scroll at same time
-		if ( $( 'div.apparel div.scroll-space' ).length ) {
-			var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
-			$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
-				$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
-			});
-		}
-	};
+		$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
+			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * scroll_difference );
+		});
+	}
 
 	//Ensure guitar cases all scroll together
 	if ( $( 'body.audio #panel-7' ).length ) {
@@ -1735,9 +1755,6 @@ jQuery( window ).load(function() {
 	});
 });
 
-jQuery( window ).load(function(){
-	var s = skrollr.init();
-});
 jQuery( window ).load( canvas_gallery );
 jQuery( window ).load( canvas_demo );
 jQuery( window ).load( gear_list );

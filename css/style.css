@@ -1072,9 +1072,9 @@ div.web .scroll-space img {
 }
 
 div.apparel .scroll-space img {
-	margin: 55% 0 10% 10%;
+	margin-top: 90%;
+	margin: 90% 0 10% 10%;
 	max-width: 90%;
-	position: relative;
 }
 
 div.apparel .scroll-space:nth-child(2) img {
@@ -1084,11 +1084,8 @@ div.apparel .scroll-space:nth-child(2) img {
 div.apparel .scroll-space,
 div.print .scroll-space {
 	position: absolute;
+	overflow-y: scroll;
 	overflow-x: hidden;
-}
-
-div.apparel .scroll-space {
-	overflow: hidden;
 }
 
 div.apparel p.scroll {
