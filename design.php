@@ -119,8 +119,8 @@
 
 		<div id="panel-4" class="panel apparel">
 			<div class="scroll-space">
-				<p class="scroll" data-2500="margin-top:100%" data-3000="margin-top:-1050%">-scroll here-</p>
-				<img src="/dev/img/guard.png" alt="" />
+				<p class="scroll">-scroll here-</p>
+				<img style="margin-top:200%" src="/dev/img/guard.png" alt="" />
 				<img src="/dev/img/love.png" alt="" />
 				<img src="/dev/img/flower.png" alt="" />
 				<img src="/dev/img/change.png" alt="" />
