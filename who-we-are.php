@@ -12,28 +12,28 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
+		<script src="/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
+		<script src="/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="/dev/js/bigvideo.js"></script>
+		<script src="/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/skrollr.js"></script>
+		<script src="/js/skrollr.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
-		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="/dev/genericons/genericons.css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 		<!-- Responsive Navigation -->
-		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
-		<script src="/dev/js/responsive-nav.js"></script>
+		<link rel="stylesheet" href="/css/responsive-nav.css">
+		<script src="/js/responsive-nav.js"></script>
 	</head>
 	<body id="skrollr-body" class="who">
 
@@ -42,22 +42,22 @@
 			<nav id="nav" class="header">
 				<ul>
 					<li class="logo">
-						<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
+						<h1><a href="/dev"><img src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
 					</li>
 					<li>
-						<a class="selected" href="/dev/who-we-are/">Who We Are</a>
+						<a class="selected" href="/who-we-are/">Who We Are</a>
 					</li>
 					<li>
-						<a href="/dev/video/">Video</a>
+						<a href="/video/">Video</a>
 					</li>
 					<li>
-						<a href="/dev/audio/">Audio</a>
+						<a href="/audio/">Audio</a>
 					</li>
 					<li>
-						<a href="/dev/photo">Photo</a>
+						<a href="/photo">Photo</a>
 					</li>
 					<li>
-						<a href="/dev/design">Design</a>
+						<a href="/design">Design</a>
 					</li>
 				</ul>
 			</nav>
@@ -79,22 +79,22 @@
 					with hundreds of artists, local and distant, domestic and foreign, with one aim: to develop the person and their art and give them a context in which to shine. On a local level, we have developed art shows, concerts, music festivals, commercials and short films. On a wider level, we have worked with business professionals, musicians, film-makers, writers, audio &amp; video engineers, photographers, actors and other creatives to develop content for companies like Atlantic Records, Warner Bros., E! Television, HBO Television, Target, QVC, Jockey International, Tooth &amp; Nail Records.</p>
 					<ul id="portfolio">
 						<li>
-							<a href=""><img src="/dev/img/client-logos/atlantic.png" alt="Atlantic Records" /></a>
+							<a href=""><img src="/img/client-logos/atlantic.png" alt="Atlantic Records" /></a>
 						</li>
 						<li>
-							<a href=""><img src="/dev/img/client-logos/jockey.png" alt="Jockey" /></a>
+							<a href=""><img src="/img/client-logos/jockey.png" alt="Jockey" /></a>
 						</li>
 						<li>
-							<a href=""><img src="/dev/img/client-logos/cw.png" alt="The CW" /></a>
+							<a href=""><img src="/img/client-logos/cw.png" alt="The CW" /></a>
 						</li>
 						<li>
-							<a href=""><img src="/dev/img/client-logos/target.png" alt="Target" /></a>
+							<a href=""><img src="/img/client-logos/target.png" alt="Target" /></a>
 						</li>
 						<li>
-							<a href=""><img src="/dev/img/client-logos/e.png" alt="E! Entertainment" /></a>
+							<a href=""><img src="/img/client-logos/e.png" alt="E! Entertainment" /></a>
 						</li>
 						<li>
-							<a href=""><img src="/dev/img/client-logos/hbo.png" alt="HBO" /></a>
+							<a href=""><img src="/img/client-logos/hbo.png" alt="HBO" /></a>
 						</li>
 					</ul>
 				</div>
@@ -105,63 +105,63 @@
 			<div class="panel-container full-width">
 				<div class='bio-container' style="margin-top: -50px">
 					<div class="bio" style="padding-top: 60px">
-						<img src="/dev/img/ben.png" alt="" style="margin-bottom: 50px" />
+						<img src="/img/ben.png" alt="" style="margin-bottom: 50px" />
 						<h2>Ben Kasica <span>Founder</span></h2>
 						<p>A St. Louis native, Ben was the lead guitarist for the band Skillet (Atlantic Records) for 10 years. During his time with the band, Skillet sold over 2 million records, was nominated for 2 Grammy awards, won a Dove Award and scored numerous #1 radio singles. He has worked with world-renown producers like Howard Benson, Brian Howes and Paul Ebersold; and has engineered, co-written &amp; produced music for artists such as Corey Taylor of Slipknot &amp; Stone Sour, Skillet, Icon for Hire, We Are Leo and Silverline. He also spearheads the video, film &amp; television divisions of Skies Fall and has produced numerous commercial advertisements and music videos for the likes of Jockey International, E! Television, QVC, Skillet and Kohl’s. Ben enjoys friends, photography, sushi, community service and sports.<a href="http://www.linkedin.com/pub/benjamin-judah-kasica/40/556/280" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio right">
-						<img src="/dev/img/joe.png" alt="" />
+						<img src="/img/joe.png" alt="" />
 						<h2>Joe Snyder <span>Founder</span></h2>
 						<p>With a varied background in design, music, architecture and manufacturing, Joe has served as executive producer for chart-topping artists such as Everett Thomas, Silverline and We Are Leo and also serves in artist development while heading the business affairs of Skies Fall. Joe has been executive producer on numerous video &amp; design projects for clients such as Skillet, Jockey International, and Belletv. He also serves as Creative Director for the non-profit, LEAP (Leadership and Education for Africa Project).  Joe and his wife, Shelly, have 5 children and enjoy art &amp; architecture, music, film &amp; theater, travel, home entertaining and serving in their local church community.<a href="http://www.linkedin.com/pub/joe-snyder/66/30b/11b" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio">
-						<img src="/dev/img/nick.png" alt="" />
+						<img src="/img/nick.png" alt="" />
 						<h2>Nick Rad <span>1st Engineer/Producer</span></h2>
 						<p>Nick was the drummer for the popular pop-rock five-piece Acceptance (Columbia Records/Militia Group) and lead guitarist for the punk rock quartet Hangnail (Tooth & Nail Records). Since retiring from touring in 2006, he has been heavily involved with professional engineering and mixing and has worked with producers such as Howard Benson, Ben Kasica and Aaron Sprinkle. Nick is the 1st Engineer and Mixing Engineer for Skies Fall Studios and has engineered and mixed for several chart-topping artists - most recently for Skillet’s ‘Rise’, Anberlin’s ‘Devotion’, Silverline’s ‘Lights Out’ and We Are Leo’s ‘Hello’. Nick and his wife, Sam, reside in the Milwaukee area with their lovely daughter and enjoy music, friends, family and the Green Bay Packers. Go Pack Go!<a href="http://www.linkedin.com/pub/nick-radovanovic/80/2b0/850" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio right">
-						<img src="/dev/img/joey.png" alt="" />
+						<img src="/img/joey.png" alt="" />
 						<h2>Joey Papa <span>Writer/Director</span></h2>
 						<p>Joey grew up in the New Jersey shadows of New York City immersed in the arts. After earning his B.A. in Communications, he immediately began working as a road manager and production assistant for Acquire the Fire Productions. Joey has been heavily involved with stage production, acting &amp; performance, and the creative process for most of his professional career. Before joining Skies Fall as head writer director, Joey was a full-time freelance copywriter. Joey resides in Racine, Wisconsin with his wife, Nikki and their 4 children. He enjoys musical theater, poetry, writing, traveling and expanding his mind through inspiration.<a href="http://www.linkedin.com/pub/joey-papa/20/270/433" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio">
-						<img src="/dev/img/steven.png" alt="" />
+						<img src="/img/steven.png" alt="" />
 						<h2>Steven Servi <span>2nd Engineer/Producer</span></h2>
 						<p>Steven developed his talent for music and film at a young age and explored those passions with his family, friends and local church.  His interest quickly turned toward recording &amp; engineering, and in 2008 enrolled at SAE Institute in Nashville becoming professionally certified in audio engineering.  Since then, Steven has been perfecting his technique with opportunities ranging from internships at The Tracking Room (Nashville, TN)/ 5th Floor Recording (Milwaukee, WI) to head engineer of Acacia Theatre. Since joining Skies Fall in 2010, Steven has become the primary editing engineer while producing and assisting on a variety of music and film projects.  Steven loves coloring, reading, and tea-time with his beautiful daughter Brooklyn; he also enjoys collaborating on a variety of artistic projects with family and friends.<a href="http://www.linkedin.com/pub/steven-servi/4b/21b/24" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio right">
-						<img src="/dev/img/dom.png" alt="" />
+						<img src="/img/dom.png" alt="" />
 						<h2>Dominic Kegel <span>Film &amp; Video</span></h2>
 						<p>Raised in an artistic and nomadic family, Dom was able to experience a myriad of the world’s artistic perspectives throughout his youth. His love for the arts stems from early roots in music, but has found its current outworking in performance, film, and video.  He and his wife, Suz, have since visited all the continents - save Antarctica - while living and working in many countries as a freelance video and photography producer and professional football player. They have now settled in Racine, WI (of all places!) as Dom oversees operations at Belletv for Skies Fall.  Dom and Suz enjoy music, dancing, and life with their young son as Dom also stars on the Racine’s semi-pro football team, The Racine Raiders.<a href="http://www.linkedin.com/in/dominickegel" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio">
-						<img src="/dev/img/christian.png" alt="" />
+						<img src="/img/christian.png" alt="" />
 						<h2>Christian Seibert <span>Producer</span></h2>
 						<p>Hailing from an east-coast musical family, Christian developed a thirst for culture and music as a youngster.  An undesired move to the midwest pushed him further into music where  he played and sang in multiple bands.  After a short stint in music business school, Christian dropped out to be a tour guitarist with Columbia and Universal Records musicians such as Natasha Bedingfield, Mat Kearney and Kate Voegel.  Between tours, he worked with music producers such as Jon Kaplan and Mikal Blue while also working as Creative Director at a multimedia firm with an emphasis on commercial photography and video production.  Christian currently utilizes his creativity at Skies Fall both in music and video production.  He enjoys writing music, skateboarding and chilling with his puppy, Dex.<a href="http://www.linkedin.com/in/thechristianseibert" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio right">
-						<img src="/dev/img/jordan.png" alt="" />
+						<img src="/img/jordan.png" alt="" />
 						<h2 class="small">Jordan Stocker <span>Director, Sales &amp; Marketing</span></h2>
 						<p>Wisconsin born and bred, and raised by business professionals, out of college, Jordan earned a Business Marketing Executive position for a midwest media agency, leading the Digital Products Management and Sales division.  After an entrepreneural stint as an independent marketing consultant, Jordan joined the BRP-Evinrude marketing team, spearheading Digital Marketing Projects, social media strategy and copywriting.  In joining Skies Fall in 2013, Jordan heads our sales and marketing initiatives from concept to implementation.  Jordan is also musician, producer and accomlished DJ, working events such as The Electric Run.  He enjoys friends, fitness, and sports and is a closet-nerd, currently enjoying Warhammer and having achieved high world rankings in video games such as The Lord of the Rings: Battle for Middle Earth and Gears of War.<a href="http://www.linkedin.com/pub/jordan-stocker/2a/b04/265" class="genericon genericon-linkedin"></a></p>
 					</div>
 				</div>
 				<div class='bio-container'>
 					<div class="bio">
-						<img src="/dev/img/chino.png" alt="" />
+						<img src="/img/chino.png" alt="" />
 						<h2 class="small">Chino Villatoro <span>Head Designer/Art Director</span></h2>
 						<p>Born in Guatemala and raised in the Chicago area, Chino grew up drawing and playing guitar in rock bands.  After dropping out of college, he took a design gig at a midwest promotions agency where he got his first taste of production art in the business world.  Seeing more potential for expression and growth doing freelance work, Chino launched his own company, Liosvi Image &amp; Design, focusing on design and photography, pioneering dozens of campaigns and shoots while honing his design skills and eye for style and art direction.  He joined Skies Fall in 2013 as Head Designer and Art Director.  Chino and his lovely wife, Crystal, have two beautiful young daughters.  He enjoys professional wrestling, travel, fashion and tattoos.<a href="http://www.linkedin.com/pub/lionel-%22chino%22-villatoro/5a/7b8/998" class="genericon genericon-linkedin"></a></p>
 					</div>
@@ -247,8 +247,8 @@
 				</div>
 			</div>
 		</div>
-		<script src="/dev/js/site.js"></script>
-		<script src="/dev/js/retina.js"></script>
+		<script src="/js/site.js"></script>
+		<script src="/js/retina.js"></script>
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];

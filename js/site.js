@@ -85,7 +85,7 @@ var set_proper_home_margin = function() {
 		BV.init();
 
 		if (  Modernizr.touch ) {
-			BV.show('/dev/img/mobile-placeholder.jpg');
+			BV.show('/img/mobile-placeholder.jpg');
 		} else {
 			BV.show( videos[ page ], { ambient : true, loop : true, doLoop : true } );
 		}
@@ -146,9 +146,9 @@ var set_proper_home_margin = function() {
 		var map = new google.maps.Map( document.getElementById( 'map' ), mapOptions );
 
 		if ( window.devicePixelRatio > 1 ) {
-			var image = 'http://skiesfall.com/dev/img/map-marker@2x.png';
+			var image = 'http://skiesfall.com/img/map-marker@2x.png';
 		} else {
-			var image = 'http://skiesfall.com/dev/img/map-marker.png';
+			var image = 'http://skiesfall.com/img/map-marker.png';
 		}
 
 		var markerImage = {
@@ -244,7 +244,7 @@ var set_proper_home_margin = function() {
 	$( '#contact-form' ).submit( function(e){
 		e.preventDefault();
 		$( 'div.ajax-loader' ).fadeIn( 350 );
-		var url = '/dev/contact.php',
+		var url = '/contact.php',
 		data = {
 			name    : $( 'label#name input' ).val(),
 			email   : $( 'label#email input' ).val(),
@@ -271,19 +271,19 @@ var set_proper_home_margin = function() {
 	});
 
 	$( '#video' ).click(function(){
-		window.location = '/dev/video/';
+		window.location = '/video/';
 	});
 
 	$( '#photography' ).click(function(){
-		window.location = '/dev/photo/';
+		window.location = '/photo/';
 	});
 
 	$( '#audio' ).click(function(){
-		window.location = '/dev/audio/';
+		window.location = '/audio/';
 	});
 
 	$( '#design' ).click(function(){
-		window.location = '/dev/design/';
+		window.location = '/design/';
 	});
 
 })(jQuery);
@@ -346,57 +346,57 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/1-aroom-2.jpg" />',
+					src   : '<img src="/img/1-aroom-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/2-aroom-1.jpg" />',
+					src: '<img src="/img/2-aroom-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/3-live-room-2.jpg" />',
+					src: '<img src="/img/3-live-room-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/4-live-room-1.jpg" />',
+					src: '<img src="/img/4-live-room-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/5-vocal.jpg" />',
+					src: '<img src="/img/5-vocal.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/6-iso-booth-1.jpg" />',
+					src: '<img src="/img/6-iso-booth-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/7-iso-booth-2.jpg" />',
+					src: '<img src="/img/7-iso-booth-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/8-b-room-2.jpg" />',
+					src: '<img src="/img/8-b-room-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/9-b-room-1.jpg" />',
+					src: '<img src="/img/9-b-room-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/10-c-room-1.jpg" />',
+					src: '<img src="/img/10-c-room-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/11-c-room-iso.jpg" />',
+					src: '<img src="/img/11-c-room-iso.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
@@ -431,57 +431,57 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/1-aroom-2.jpg" />',
+					src   : '<img src="/img/1-aroom-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/2-aroom-1.jpg" />',
+					src: '<img src="/img/2-aroom-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/3-live-room-2.jpg" />',
+					src: '<img src="/img/3-live-room-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/4-live-room-1.jpg" />',
+					src: '<img src="/img/4-live-room-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/5-vocal.jpg" />',
+					src: '<img src="/img/5-vocal.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/6-iso-booth-1.jpg" />',
+					src: '<img src="/img/6-iso-booth-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/7-iso-booth-2.jpg" />',
+					src: '<img src="/img/7-iso-booth-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/8-b-room-2.jpg" />',
+					src: '<img src="/img/8-b-room-2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/9-b-room-1.jpg" />',
+					src: '<img src="/img/9-b-room-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/10-c-room-1.jpg" />',
+					src: '<img src="/img/10-c-room-1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src: '<img src="/dev/img/11-c-room-iso.jpg" />',
+					src: '<img src="/img/11-c-room-iso.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
@@ -503,120 +503,120 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/1.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/2.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/3.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/3.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/4.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/4.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/5.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/5.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/6.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/6.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/7.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/7.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/8.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/8.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},{
-					src   : '<img src="/dev/img/photo/galleries/fashion/9.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/9.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/10.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/10.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/11.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/11.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/12.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/12.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/13.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/13.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/14.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/14.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/15.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/15.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/16.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/16.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},{
-					src   : '<img src="/dev/img/photo/galleries/fashion/17.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/17.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/18.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/18.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/19.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/19.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/20.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/20.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/21.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/21.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/22.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/22.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/23.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/23.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/fashion/24.jpg" />',
+					src   : '<img src="/img/photo/galleries/fashion/24.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
@@ -638,42 +638,42 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/1.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/2.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/3.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/3.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/4.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/4.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/5.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/5.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/6.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/6.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/7.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/7.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/commercial/8.jpg" />',
+					src   : '<img src="/img/photo/galleries/commercial/8.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
@@ -695,147 +695,147 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/1.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/2.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/3.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/3.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/4.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/4.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/5.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/5.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/6.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/6.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/7.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/7.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/8.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/8.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/9.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/9.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/10.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/10.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/11.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/11.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/12.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/12.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/13.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/13.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/14.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/14.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/15.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/15.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/16.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/16.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/17.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/17.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/18.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/18.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/19.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/19.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/20.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/20.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/21.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/21.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/22.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/22.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/23.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/23.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/24.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/24.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/25.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/25.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/26.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/26.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/27.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/27.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/28.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/28.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/lifestyle/29.jpg" />',
+					src   : '<img src="/img/photo/galleries/lifestyle/29.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				}
@@ -857,72 +857,72 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/1.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/2.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/3.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/3.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/4.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/4.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/5.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/5.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/6.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/6.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/7.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/7.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/8.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/8.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/9.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/9.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/10.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/10.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/11.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/11.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/12.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/12.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/13.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/13.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/entertainment/14.jpg" />',
+					src   : '<img src="/img/photo/galleries/entertainment/14.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
@@ -944,142 +944,142 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/1.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/2.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/3.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/3.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/4.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/4.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/5.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/5.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/6.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/6.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/7.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/7.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/8.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/8.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/9.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/9.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/10.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/10.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/11.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/11.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/12.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/12.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/13.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/13.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/14.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/14.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/15.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/15.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/16.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/16.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/17.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/17.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/18.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/18.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/19.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/19.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/20.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/20.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/21.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/21.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/22.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/22.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/23.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/23.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/24.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/24.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/25.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/25.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/26.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/26.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/27.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/27.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/non-profit/28.jpg" />',
+					src   : '<img src="/img/photo/galleries/non-profit/28.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				}
@@ -1101,301 +1101,301 @@ jQuery( document ).ready( function( $ ) {
 			preloader : true,
 			items: [
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/1.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/1.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/2.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/2.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/3.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/3.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/4.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/4.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/5.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/5.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/6.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/6.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/7.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/7.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/8.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/8.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/9.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/9.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/10.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/10.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/11.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/11.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/12.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/12.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/13.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/13.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/14.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/14.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/15.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/15.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/16.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/16.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/17.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/17.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/18.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/18.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/19.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/19.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/20.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/20.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/21.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/21.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/22.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/22.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/23.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/23.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/24.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/24.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/25.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/25.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/26.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/26.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/27.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/27.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/28.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/28.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/29.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/29.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},{
-					src   : '<img src="/dev/img/photo/galleries/travel/30.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/30.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/31.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/31.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/32.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/32.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/33.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/33.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/34.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/34.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/35.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/35.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/36.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/36.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/37.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/37.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/38.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/38.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/39.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/39.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/40.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/40.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/41.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/41.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/42.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/42.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/43.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/43.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/44.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/44.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/45.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/45.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/46.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/46.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/47.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/47.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/48.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/48.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/49.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/49.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/50.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/50.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/51.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/51.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/52.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/52.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/53.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/53.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/54.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/54.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/55.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/55.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/56.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/56.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/57.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/57.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/58.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/58.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/59.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/59.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				},
 				{
-					src   : '<img src="/dev/img/photo/galleries/travel/60.jpg" />',
+					src   : '<img src="/img/photo/galleries/travel/60.jpg" />',
 					type  : 'inline',
 					title : 'Audio Room'
 				}

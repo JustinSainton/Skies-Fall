@@ -12,32 +12,32 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
+		<script src="/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
+		<script src="/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="/dev/js/bigvideo.js"></script>
+		<script src="/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/skrollr.js"></script>
+		<script src="/js/skrollr.js"></script>
 
 		<!-- Popup (Video and Image Gallery) styles and scripts -->
-		<link rel="stylesheet" href="/dev/css/popup.css">
-		<script src="/dev/js/popup.js"></script>
+		<link rel="stylesheet" href="/css/popup.css">
+		<script src="/js/popup.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
-		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="/dev/genericons/genericons.css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 		<!-- Responsive Navigation -->
-		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
-		<script src="/dev/js/responsive-nav.js"></script>
+		<link rel="stylesheet" href="/css/responsive-nav.css">
+		<script src="/js/responsive-nav.js"></script>
 	</head>
 	<body id="skrollr-body" class="audio">
 
@@ -47,22 +47,22 @@
 				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
-							<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
+							<h1><a href="/dev"><img src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
-							<a href="/dev/who-we-are/">Who We Are</a>
+							<a href="/who-we-are/">Who We Are</a>
 						</li>
 						<li>
-							<a href="/dev/video/">Video</a>
+							<a href="/video/">Video</a>
 						</li>
 						<li>
-							<a class="selected" href="/dev/audio/">Audio</a>
+							<a class="selected" href="/audio/">Audio</a>
 						</li>
 						<li>
-							<a href="/dev/photo/">Photo</a>
+							<a href="/photo/">Photo</a>
 						</li>
 						<li>
-							<a href="/dev/design/">Design</a>
+							<a href="/design/">Design</a>
 						</li>
 					</ul>
 				</nav>
@@ -116,42 +116,42 @@
 				<div id="skillet" class="grid-item">
 					<p>&#8220;The studio is fantastic. My favorite moments on the record [RISE] are things we did at Skies Fall...and I love working with Nick Rad. He’s made me look really good.&#8221;<br /> &#8212;John Cooper, Skillet<br /> (Atlantic Records)</p>
 					<div class="services-container">
-						<img src="/dev/img/skillet-audio-large.png" alt="" />
+						<img src="/img/skillet-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="reach" class="grid-item">
 					<p>&#8220;Skies Fall brings so much to the table. They produce great music. Sonically, their recordings are excellent. Knowledgeable. Experienced. Affordable. They’re a joy to work with!&#8221;<br /> &#8212;Joseph Prielozny, Producer<br /> (Reach Records)</p>
 					<div class="services-container">
-						<img src="/dev/img/reach-audio-large.png" alt="" />
+						<img src="/img/reach-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="jockey" class="grid-item">
 					<p>&#8220;Our experience working with Skies Fall has been exceptional. The end product always exceeds expectations.&#8221;<br /> &#8212; Dustin Cohn, CMO, Jockey Intl.</p>
 					<div class="services-container">
-						<img src="/dev/img/jockey-audio-large.png" alt="" />
+						<img src="/img/jockey-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="stonesour" class="grid-item">
 					<p>&#8220;This guy [Ben] f***ing knows what he’s doing.&#8221;<br /> &#8212;Corey Taylor, Stone Sour &amp; Slipknot<br /> (Warner Music Group)</p>
 					<div class="services-container">
-						<img src="/dev/img/stonesour-audio-large.png" alt="" />
+						<img src="/img/stonesour-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="hyland" class="grid-item">
 					<p>&#8220;Skies Fall was the key difference maker in our career. They took our songs, writing, and production to the next level. The doors opened as a result. When we were signed to Tooth&amp;Nail, they told us it was one of the most complete EP’s they had ever heard.&#8221;<br /> &#8212;Jon Lewis, Hyland<br /> (Tooth&amp;Nail Records)</p>
 					<div class="services-container">
-						<img src="/dev/img/hyland-audio-large.png" alt="" />
+						<img src="/img/hyland-audio-large.png" alt="" />
 					</div>
 				</div>
 
 				<div id="anberlin" class="grid-item">
 					<p>&#8220;Production is flawless. The mixes are unbelievably unique and infectious...my favorites on the record.&#8221;<br /> &#8212;Stephen &amp; Christian, Anberlin<br /> (Universal Republic Records)</p>
 					<div class="services-container">
-						<img src="/dev/img/anberlin-audio-large.png" alt="" />
+						<img src="/img/anberlin-audio-large.png" alt="" />
 					</div>
 				</div>
 
@@ -165,7 +165,7 @@
 					<canvas id="studio" width="647" height="150"></canvas>
 					<canvas id="gallery" width="665" height="180"></canvas>
 					<canvas id="studio-gallery-link" width="128" height="380"></canvas>
-					<img src="/dev/img/demo-reel-caret.png" id="arrow" />
+					<img src="/img/demo-reel-caret.png" id="arrow" />
 				</div>
 				<div class="studio-right"></div>
 			<div class="studio-bottom"></div>
@@ -306,56 +306,56 @@
 			<p class="clients">(clients)</p>
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<img src="/dev/img/warner-audio-logo.png" alt="" />
-				<img src="/dev/img/mtv-audio-logo.png" alt="" />
-				<img src="/dev/img/cw-audio-logo.png" alt="" />
-				<img src="/dev/img/hbo-audio-logo.png" alt="" />
-				<img src="/dev/img/jockey-audio-logo.png" alt="" />
-				<img src="/dev/img/reach-audio-logo.png" alt="" />
-				<img src="/dev/img/atlantic-audio-logo.png" alt="" />
-				<img src="/dev/img/universal-audio-logo.png" alt="" />
-				<img src="/dev/img/unitedway-audio-logo.png" alt="" />
-				<img src="/dev/img/toothandnail-audio-logo.png" alt="" />
+				<img src="/img/warner-audio-logo.png" alt="" />
+				<img src="/img/mtv-audio-logo.png" alt="" />
+				<img src="/img/cw-audio-logo.png" alt="" />
+				<img src="/img/hbo-audio-logo.png" alt="" />
+				<img src="/img/jockey-audio-logo.png" alt="" />
+				<img src="/img/reach-audio-logo.png" alt="" />
+				<img src="/img/atlantic-audio-logo.png" alt="" />
+				<img src="/img/universal-audio-logo.png" alt="" />
+				<img src="/img/unitedway-audio-logo.png" alt="" />
+				<img src="/img/toothandnail-audio-logo.png" alt="" />
 			</div>
 		</div>
 
 		<div id="panel-7" class="panel">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<img src="/dev/img/audio/bands/skillet-text.png" alt="" />
-				<img src="/dev/img/audio/bands/anberlin-text.png" alt="" />
-				<img src="/dev/img/audio/bands/silverline-text.png" alt="" />
-				<img src="/dev/img/audio/bands/spark-text.png" alt="" />
-				<img src="/dev/img/audio/bands/stria-text.png" alt="" />
-				<img src="/dev/img/audio/bands/love-text.png" alt="" />
-				<img src="/dev/img/audio/bands/lexi-text.png" alt="" />
-				<img src="/dev/img/audio/bands/air-text.png" alt="" />
-				<img src="/dev/img/audio/bands/sweet-text.png" alt="" />
-				<img src="/dev/img/audio/bands/disaster-text.png" alt="" />
+				<img src="/img/audio/bands/skillet-text.png" alt="" />
+				<img src="/img/audio/bands/anberlin-text.png" alt="" />
+				<img src="/img/audio/bands/silverline-text.png" alt="" />
+				<img src="/img/audio/bands/spark-text.png" alt="" />
+				<img src="/img/audio/bands/stria-text.png" alt="" />
+				<img src="/img/audio/bands/love-text.png" alt="" />
+				<img src="/img/audio/bands/lexi-text.png" alt="" />
+				<img src="/img/audio/bands/air-text.png" alt="" />
+				<img src="/img/audio/bands/sweet-text.png" alt="" />
+				<img src="/img/audio/bands/disaster-text.png" alt="" />
 			</div>
 			<div class="scroll-space">
-				<img src="/dev/img/audio/bands/acceptance-text.png" alt="" />
-				<img src="/dev/img/audio/bands/icon-text.png" alt="" />
-				<img src="/dev/img/audio/bands/weareleo-text.png" alt="" />
-				<img src="/dev/img/audio/bands/livinglight-text.png" alt="" />
-				<img src="/dev/img/audio/bands/george-text.png" alt="" />
-				<img src="/dev/img/audio/bands/marah-text.png" alt="" />
-				<img src="/dev/img/audio/bands/boiling-text.png" alt="" />
-				<img src="/dev/img/audio/bands/now-text.png" alt="" />
-				<img src="/dev/img/audio/bands/cities-text.png" alt="" />
-				<img src="/dev/img/audio/bands/kal-text.png" alt="" />
+				<img src="/img/audio/bands/acceptance-text.png" alt="" />
+				<img src="/img/audio/bands/icon-text.png" alt="" />
+				<img src="/img/audio/bands/weareleo-text.png" alt="" />
+				<img src="/img/audio/bands/livinglight-text.png" alt="" />
+				<img src="/img/audio/bands/george-text.png" alt="" />
+				<img src="/img/audio/bands/marah-text.png" alt="" />
+				<img src="/img/audio/bands/boiling-text.png" alt="" />
+				<img src="/img/audio/bands/now-text.png" alt="" />
+				<img src="/img/audio/bands/cities-text.png" alt="" />
+				<img src="/img/audio/bands/kal-text.png" alt="" />
 			</div>
 			<div class="scroll-space">
-				<img src="/dev/img/audio/bands/lecrae-text.png" alt="" />
-				<img src="/dev/img/audio/bands/pro-text.png" alt="" />
-				<img src="/dev/img/audio/bands/hyland-text.png" alt="" />
-				<img src="/dev/img/audio/bands/skyhawk-text.png" alt="" />
-				<img src="/dev/img/audio/bands/scouts-text.png" alt="" />
-				<img src="/dev/img/audio/bands/random-text.png" alt="" />
-				<img src="/dev/img/audio/bands/modern-text.png" alt="" />
-				<img src="/dev/img/audio/bands/above-text.png" alt="" />
-				<img src="/dev/img/audio/bands/glass-text.png" alt="" />
-				<img src="/dev/img/audio/bands/jeremy-text.png" alt="" />
+				<img src="/img/audio/bands/lecrae-text.png" alt="" />
+				<img src="/img/audio/bands/pro-text.png" alt="" />
+				<img src="/img/audio/bands/hyland-text.png" alt="" />
+				<img src="/img/audio/bands/skyhawk-text.png" alt="" />
+				<img src="/img/audio/bands/scouts-text.png" alt="" />
+				<img src="/img/audio/bands/random-text.png" alt="" />
+				<img src="/img/audio/bands/modern-text.png" alt="" />
+				<img src="/img/audio/bands/above-text.png" alt="" />
+				<img src="/img/audio/bands/glass-text.png" alt="" />
+				<img src="/img/audio/bands/jeremy-text.png" alt="" />
 			</div>
 		</div>
 
@@ -437,8 +437,8 @@
 				</div>
 			</div>
 		</div>
-		<script src="/dev/js/site.js"></script>
-		<script src="/dev/js/retina.js"></script>
+		<script src="/js/site.js"></script>
+		<script src="/js/retina.js"></script>
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];

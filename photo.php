@@ -12,32 +12,32 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
+		<script src="/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
+		<script src="/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="/dev/js/bigvideo.js"></script>
+		<script src="/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/skrollr.js"></script>
+		<script src="/js/skrollr.js"></script>
 
 		<!-- Popup (Video and Image Gallery) styles and scripts -->
-		<link rel="stylesheet" href="/dev/css/popup.css">
-		<script src="/dev/js/popup.js"></script>
+		<link rel="stylesheet" href="/css/popup.css">
+		<script src="/js/popup.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
-		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="/dev/genericons/genericons.css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 		<!-- Responsive Navigation -->
-		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
-		<script src="/dev/js/responsive-nav.js"></script>
+		<link rel="stylesheet" href="/css/responsive-nav.css">
+		<script src="/js/responsive-nav.js"></script>
 	</head>
 	<body id="skrollr-body" class="photo">
 
@@ -47,22 +47,22 @@
 				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
-							<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
+							<h1><a href="/dev"><img src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
-							<a href="/dev/who-we-are/">Who We Are</a>
+							<a href="/who-we-are/">Who We Are</a>
 						</li>
 						<li>
-							<a href="/dev/video/">Video</a>
+							<a href="/video/">Video</a>
 						</li>
 						<li>
-							<a href="/dev/audio">Audio</a>
+							<a href="/audio">Audio</a>
 						</li>
 						<li>
 							<a class="selected" href="photo.php">Photo</a>
 						</li>
 						<li>
-							<a href="/dev/design/">Design</a>
+							<a href="/design/">Design</a>
 						</li>
 					</ul>
 				</nav>
@@ -76,7 +76,7 @@
 					<div class="services-container">
 						<h2>Fashion</h2>
 						<div class="img">
-							<img src="/dev/img/fashion-large.png" alt="" />
+							<img src="/img/fashion-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 					<div class="services-container">
 						<h2>Commercial</h2>
 						<div class="img">
-							<img src="/dev/img/commercial-large.png" alt="" />
+							<img src="/img/commercial-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 					<div class="services-container">
 						<h2>Lifestyle</h2>
 						<div class="img">
-							<img src="/dev/img/lifestyle-large.png" alt="" />
+							<img src="/img/lifestyle-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 					<div class="services-container">
 						<h2>Entertainment</h2>
 						<div class="img">
-							<img src="/dev/img/entertainment-large.png" alt="" />
+							<img src="/img/entertainment-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 					<div class="services-container">
 						<h2>Non-Profit</h2>
 						<div class="img">
-							<img src="/dev/img/non-profit-large.png" alt="" />
+							<img src="/img/non-profit-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 					<div class="services-container">
 						<h2>Travel</h2>
 						<div class="img">
-							<img src="/dev/img/travel-large.png" alt="" />
+							<img src="/img/travel-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -201,8 +201,8 @@
 				</div>
 			</div>
 		</div>
-		<script src="/dev/js/site.js"></script>
-		<script src="/dev/js/retina.js"></script>
+		<script src="/js/site.js"></script>
+		<script src="/js/retina.js"></script>
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];

@@ -12,32 +12,32 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
+		<script src="/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
+		<script src="/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="/dev/js/bigvideo.js"></script>
+		<script src="/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/skrollr.js"></script>
+		<script src="/js/skrollr.js"></script>
 
 		<!-- Popup (Video and Image Gallery) styles and scripts -->
-		<link rel="stylesheet" href="/dev/css/popup.css">
-		<script src="/dev/js/popup.js"></script>
+		<link rel="stylesheet" href="/css/popup.css">
+		<script src="/js/popup.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
-		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="/dev/genericons/genericons.css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 		<!-- Responsive Navigation -->
-		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
-		<script src="/dev/js/responsive-nav.js"></script>
+		<link rel="stylesheet" href="/css/responsive-nav.css">
+		<script src="/js/responsive-nav.js"></script>
 	</head>
 	<body id="skrollr-body" class="design">
 
@@ -47,22 +47,22 @@
 				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
-							<h1><a href="/dev"><img src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
+							<h1><a href="/dev"><img src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
-							<a href="/dev/who-we-are/">Who We Are</a>
+							<a href="/who-we-are/">Who We Are</a>
 						</li>
 						<li>
-							<a href="/dev/video/">Video</a>
+							<a href="/video/">Video</a>
 						</li>
 						<li>
-							<a href="/dev/audio/">Audio</a>
+							<a href="/audio/">Audio</a>
 						</li>
 						<li>
-							<a href="/dev/photo/">Photo</a>
+							<a href="/photo/">Photo</a>
 						</li>
 						<li>
-							<a class="selected" href="/dev/design/">Design</a>
+							<a class="selected" href="/design/">Design</a>
 						</li>
 					</ul>
 				</nav>
@@ -76,7 +76,7 @@
 					<div class="services-container">
 						<h2>Web</h2>
 						<div class="img">
-							<img src="/dev/img/web-large.png" alt="" />
+							<img src="/img/web-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 					<div class="services-container">
 						<h2>Print</h2>
 						<div class="img">
-							<img src="/dev/img/print-large.png" alt="" />
+							<img src="/img/print-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 					<div class="services-container">
 						<h2>Apparel</h2>
 						<div class="img">
-							<img src="/dev/img/apparel-large.png" alt="" />
+							<img src="/img/apparel-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 					<div class="services-container">
 						<h2>Music</h2>
 						<div class="img">
-							<img src="/dev/img/music-large.png" alt="" />
+							<img src="/img/music-large.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -110,52 +110,52 @@
 		<div id="panel-3" class="panel web">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<a href="http://www.titus-us.com"><img src="/dev/img/titus-web-scroller.png" alt="" /></a>
-				<a href="http://www.firstloveconference.com"><img src="/dev/img/firstlove-web-scroller.png" alt="" /></a>
-				<a href="http://2220photography.com"><img src="/dev/img/220-web-scroller.png" alt="" /></a>
-				<a href="http://www.everettthomas.com"><img src="/dev/img/ev-web-scroller.png" alt="" /></a>
+				<a href="http://www.titus-us.com"><img src="/img/titus-web-scroller.png" alt="" /></a>
+				<a href="http://www.firstloveconference.com"><img src="/img/firstlove-web-scroller.png" alt="" /></a>
+				<a href="http://2220photography.com"><img src="/img/220-web-scroller.png" alt="" /></a>
+				<a href="http://www.everettthomas.com"><img src="/img/ev-web-scroller.png" alt="" /></a>
 			</div>
 		</div>
 
 		<div id="panel-4" class="panel apparel">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<img style="margin-top:200%" src="/dev/img/guard.png" alt="" />
-				<img src="/dev/img/love.png" alt="" />
-				<img src="/dev/img/flower.png" alt="" />
-				<img src="/dev/img/change.png" alt="" />
+				<img style="margin-top:200%" src="/img/guard.png" alt="" />
+				<img src="/img/love.png" alt="" />
+				<img src="/img/flower.png" alt="" />
+				<img src="/img/change.png" alt="" />
 			</div>
 			<div class="scroll-space">
-				<img style="margin-top:450%" src="/dev/img/cello.png" alt="" />
-				<img src="/dev/img/everett.png" alt="" />
-				<img src="/dev/img/be-the-change.png" alt="" />
-				<img src="/dev/img/skies-fall-shirt.png" alt="" />
+				<img style="margin-top:450%" src="/img/cello.png" alt="" />
+				<img src="/img/everett.png" alt="" />
+				<img src="/img/be-the-change.png" alt="" />
+				<img src="/img/skies-fall-shirt.png" alt="" />
 			</div>
 		</div>
 
 		<div id="panel-5" class="panel print">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<img src="/dev/img/life-love-music.png" alt="" />
-				<img src="/dev/img/first-love-print.png" alt="" />
-				<img src="/dev/img/david-print.png" alt="" />
-				<img src="/dev/img/skies-fall-print.png" alt="" />
-				<img src="/dev/img/life-love-music-print.png" alt="" />
-				<img src="/dev/img/everett-print.png" alt="" />
+				<img src="/img/life-love-music.png" alt="" />
+				<img src="/img/first-love-print.png" alt="" />
+				<img src="/img/david-print.png" alt="" />
+				<img src="/img/skies-fall-print.png" alt="" />
+				<img src="/img/life-love-music-print.png" alt="" />
+				<img src="/img/everett-print.png" alt="" />
 			</div>
 		</div>
 
 		<div id="panel-6" class="panel music">
 			<div class="scroll-space">
 				<p class="scroll">-scroll here-</p>
-				<a href="/dev/img/design/album-art/everett.png"><img src="/dev/img/everett-album.png" alt="" /></a>
-				<a href="/dev/img/design/album-art/skillet.png"><img src="/dev/img/skillet-album.png" alt="" /></a>
-				<a href="/dev/img/design/album-art/nicole.png"><img src="/dev/img/nicole-album.png" alt="" /></a>
-				<img src="/dev/img/leo-album.png" alt="" />
-				<a href="/dev/img/design/album-art/sarah.png"><img src="/dev/img/sarah-album.png" alt="" /></a>
-				<img src="/dev/img/oxygen-album.png" alt="" />
-				<a href="/dev/img/design/album-art/random.png"><img src="/dev/img/random-album.png" alt="" /></a>
-				<img src="/dev/img/emily-album.png" alt="" />
+				<a href="/img/design/album-art/everett.png"><img src="/img/everett-album.png" alt="" /></a>
+				<a href="/img/design/album-art/skillet.png"><img src="/img/skillet-album.png" alt="" /></a>
+				<a href="/img/design/album-art/nicole.png"><img src="/img/nicole-album.png" alt="" /></a>
+				<img src="/img/leo-album.png" alt="" />
+				<a href="/img/design/album-art/sarah.png"><img src="/img/sarah-album.png" alt="" /></a>
+				<img src="/img/oxygen-album.png" alt="" />
+				<a href="/img/design/album-art/random.png"><img src="/img/random-album.png" alt="" /></a>
+				<img src="/img/emily-album.png" alt="" />
 			</div>
 		</div>
 
@@ -240,8 +240,8 @@
 				</div>
 			</div>
 		</div>
-		<script src="/dev/js/site.js"></script>
-		<script src="/dev/js/retina.js"></script>
+		<script src="/js/site.js"></script>
+		<script src="/js/retina.js"></script>
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];

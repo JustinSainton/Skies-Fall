@@ -12,32 +12,32 @@
 		<!-- BigVideo Dependencies -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-		<script src="/dev/js/jquery-ui-1.8.22.custom.min.js"></script>
-		<script src="/dev/js/jquery.imagesloaded.min.js"></script>
+		<script src="/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="/js/jquery.imagesloaded.min.js"></script>
 		<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-		<script src="/dev/js/modernizr-2.5.3.min.js"></script>
+		<script src="/js/modernizr-2.5.3.min.js"></script>
 
 		<!-- BigVideo -->
-		<script src="/dev/js/bigvideo.js"></script>
+		<script src="/js/bigvideo.js"></script>
 
 		<!-- Parallax API -->
-		<script src="/dev/js/skrollr.js"></script>
+		<script src="/js/skrollr.js"></script>
 
 		<!-- Popup (Video and Image Gallery) styles and scripts -->
-		<link rel="stylesheet" href="/dev/css/popup.css">
-		<script src="/dev/js/popup.js"></script>
+		<link rel="stylesheet" href="/css/popup.css">
+		<script src="/js/popup.js"></script>
 
 		<!-- Stylesheets -->
-		<link href="/dev/css/style.css" rel="stylesheet" type="text/css">
-		<link href="/dev/css/responsive.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="/dev/genericons/genericons.css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+		<link href="/css/responsive.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/genericons/genericons.css">
 
 		<!-- GoogleMaps API -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 		<!-- Responsive Navigation -->
-		<link rel="stylesheet" href="/dev/css/responsive-nav.css">
-		<script src="/dev/js/responsive-nav.js"></script>
+		<link rel="stylesheet" href="/css/responsive-nav.css">
+		<script src="/js/responsive-nav.js"></script>
 
 	</head>
 	<body id="skrollr-body" class="video">
@@ -48,27 +48,27 @@
 				<nav id="nav" class="header">
 					<ul>
 						<li class="logo">
-							<h1><a href="/dev"><img id="logo" src="/dev/img/logo.png" alt="Skies Fall Media" /></a></h1>
+							<h1><a href="/dev"><img id="logo" src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
 						</li>
 						<li>
-							<a href="/dev/who-we-are/">Who We Are</a>
+							<a href="/who-we-are/">Who We Are</a>
 						</li>
 						<li>
-							<a class="selected" href="/dev/video">Video</a>
+							<a class="selected" href="/video">Video</a>
 						</li>
 						<li>
-							<a href="/dev/audio/">Audio</a>
+							<a href="/audio/">Audio</a>
 						</li>
 						<li>
-							<a href="/dev/photo/">Photo</a>
+							<a href="/photo/">Photo</a>
 						</li>
 						<li>
-							<a href="/dev/design/">Design</a>
+							<a href="/design/">Design</a>
 						</li>
 					</ul>
 				</nav>
 				<p class="quote">&#8220;Cinema has become the modern cathedral and is the grand concert of all the arts&#8221;<br />&#8212; Robert Mckee</p>
-				<img class="play-button popup-vimeo" src="/dev/img/play.png" alt="Play Video" data-mfp-src="http://player.vimeo.com/video/72420766" />
+				<img class="play-button popup-vimeo" src="/img/play.png" alt="Play Video" data-mfp-src="http://player.vimeo.com/video/72420766" />
 			</div>
 		</div>
 
@@ -78,12 +78,12 @@
 				<canvas id="demo" width="647" height="150" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
 				<canvas id="reel" width="665" height="180" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
 				<canvas id="demo-reel-link" width="128" height="380" data-mfp-src="http://player.vimeo.com/video/73880521"></canvas>
-				<img src="/dev/img/demo-reel-caret.png" id="arrow" />
+				<img src="/img/demo-reel-caret.png" id="arrow" />
 			</div>
 			<div class="demo-right"></div>
 		<div class="demo-bottom"></div>
 
-		<img id="panel" src="/dev/img/quotes.png" alt="Our clients love us" />
+		<img id="panel" src="/img/quotes.png" alt="Our clients love us" />
 
 		<div id="panel-4" class="panel location">
 			<div class="panel-container">
@@ -163,8 +163,8 @@
 				</div>
 			</div>
 		</div>
-		<script src="/dev/js/site.js"></script>
-		<script src="/dev/js/retina.js"></script>
+		<script src="/js/site.js"></script>
+		<script src="/js/retina.js"></script>
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];
