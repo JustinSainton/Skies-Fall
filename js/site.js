@@ -1540,7 +1540,7 @@ jQuery( document ).ready( function( $ ) {
 		var scroll_difference = $( 'div.apparel div.scroll-space' ).get(1).scrollHeight / $( 'div.apparel div.scroll-space' ).get(0).scrollHeight;
 		console.log( scroll_difference );
 		$( 'div.apparel div.scroll-space' ).eq(0).on( 'scroll', function () {
-			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * .68 );
+			$( 'div.apparel div.scroll-space' ).eq(1).scrollTop( $( this ).scrollTop() * .675 );
 		});
 	}
 
