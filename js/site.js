@@ -25,7 +25,7 @@ var set_proper_home_margin = function() {
 
 (function($) {
 
-	$( "a[href^='http://']" ).attr( "target", "_blank" );
+	$( "a[href^='http']" ).attr( "target", "_blank" );
 
 	/** Panel Resizing **/
 	var resize_panels = function() {
