@@ -136,7 +136,11 @@ div.address a.add {
 }
 
 div.hidden-message {
-	display: none
+	display: none;
+	font-family: "Didot W02 Italic";
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 18px;
 }
 
 #contact-form input {
