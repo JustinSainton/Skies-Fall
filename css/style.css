@@ -1077,6 +1077,10 @@ div.apparel .scroll-space img {
 	max-width: 90%;
 }
 
+div.apparel .scroll-space:nth-child(2) {
+	overflow:hidden;
+}
+
 div.apparel .scroll-space:nth-child(2) img {
 	margin-left: 0;
 	margin-bottom: 33%;
