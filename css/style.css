@@ -1084,7 +1084,11 @@ div.apparel .scroll-space:nth-child(2) img {
 div.apparel .scroll-space,
 div.print .scroll-space {
 	position: absolute;
-	overflow: hidden;;
+	overflow-x: hidden;
+}
+
+div.apparel .scroll-space {
+	overflow: hidden;
 }
 
 div.apparel p.scroll {
