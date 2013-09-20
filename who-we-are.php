@@ -42,7 +42,7 @@
 			<nav id="nav" class="header">
 				<ul>
 					<li class="logo">
-						<h1><a href="/dev"><img src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
+						<h1><a href="/"><img src="/img/logo.png" alt="Skies Fall Media" /></a></h1>
 					</li>
 					<li>
 						<a class="selected" href="/who-we-are/">Who We Are</a>
