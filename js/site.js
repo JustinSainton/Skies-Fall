@@ -237,7 +237,7 @@ var set_proper_home_margin = function() {
 
 	//Contact Form
 	$( '#contact-bubble' ).click( function(e){
-		if ( 'DIV' == event.target.nodeName )
+		if ( 'DIV' == event.target.nodeName || 'A' == event.target.nodeName )
 			$( '#contact-form' ).slideToggle( 250 );
 	});
 
