@@ -131,7 +131,7 @@
 				</div>
 				<div id="photography" class="grid-item">
 					<div class="services-container">
-						<h2>Photography</h2>
+						<h2>Photo</h2>
 						<div class="img">
 							<img src="img/photo-large.png" alt="" />
 						</div>
