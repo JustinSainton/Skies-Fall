@@ -1,7 +1,3 @@
-if ( window.console ) {
-	console.log( window.innerWidth + 'x' + window.innerHeight );
-}
-
 $.fn.textWidth = function(){
     var self = $(this),
         calculator = $('<span style="display: inline-block;" />'),
@@ -13,15 +9,6 @@ $.fn.textWidth = function(){
 };
 
 var navigation = responsiveNav("#nav");
-
-var set_proper_home_margin = function() {
-		if ( parseInt( $( 'body.home #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
-			$( 'body.home #panel-1 .panel-container' ).css( 'top', 247 );
-		}
-		if ( parseInt( $( 'body.who #panel-1 .panel-container' ).css( 'top' ), 10 ) < 247 ) {
-			$( 'body.who #panel-1 .panel-container' ).css( 'top', 247 );
-		}
-	};
 
 (function($) {
 
@@ -328,7 +315,7 @@ jQuery( document ).ready( function( $ ) {
 		$( 'div.img', $( this ).parent() ).css( 'opacity', '.3' );
 	});
 
-	if ( jQuery.fn.magnificPopup ) {
+	if ( $.fn.magnificPopup ) {
 
 		//Album art pop-up
 		$( 'div.music a' ).magnificPopup({type:'image'});
@@ -1722,6 +1709,7 @@ jQuery( window ).resize( canvas_gallery );
 jQuery( window ).resize( canvas_demo );
 jQuery( window ).resize( gear_list );
 
+//Attempt to size addresses properly and attempt to size bio pics properly.
 jQuery( window ).load(function() {
 	$( 'div.address' ).css( 'margin-right', ( $( 'div.location div.panel-container' ).width() - ( $( 'div.address' ).eq(0).width() + $( 'div.address' ).eq(1).width() + $( 'div.address' ).eq(2).width() + $( 'div#contact-bubble' ).width() ) ) / 4 );
 	//Not proud of this
@@ -1734,10 +1722,10 @@ jQuery( window ).load(function() {
 		$clone.appendTo( 'body' );
 		$clone.css({
 			'position' : 'absolute',
-			'top' : $top,
-			'left' : $left,
-			'height' : $height,
-			'z-index' : 25
+			'top'      : $top,
+			'left'     : $left,
+			'height'   : $height,
+			'z-index'  : 25
 		});
 	});
 });
