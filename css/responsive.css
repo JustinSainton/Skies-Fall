@@ -17,7 +17,7 @@
 }
 
 /* ---------- iPhone/iPod Only ---------- */
-@media only screen and (device-width: 320px) {
+@media screen and (device-width: 320px), screen and (device-width: 320px) {
   .iphone-only { display: block; }
 
 	div.grid-item {
@@ -27,27 +27,37 @@
 }
 
 /* ---------- Retina Device Only ---------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
   .retina-only { display: block; }
 }
 
 /* ---------- Non Retina Device Only ---------- */
-@media only screen and (-webkit-max-device-pixel-ratio: 1) {
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
   .non-retina-only { display: block; }
 }
 
 /* ---------- Retina iPhone/iPod Only ---------- */
-@media only screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
   .retina-iphone-only { display: block; }
 }
 
 /* ---------- Non Retina iPhone/iPod Only ---------- */
-@media only screen and (device-width: 320px) and (-webkit-max-device-pixel-ratio: 1) {
+@media screen and (device-width: 320px) and (-webkit-max-device-pixel-ratio: 1) {
   .non-retina-iphone-only { display: block; }
 }
 
+/* ---------- Standard Laptops Only ---------- */
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+	.laptop-only { display: block; }
+
+	div.grid-item h2 {
+		font-size: 50px;
+	}
+
+}
+
 /* ---------- 1080p HD Screen ---------- */
-@media only screen and (min-width: 1500px) {
+@media screen and (min-width: 1500px) {
 
 	div.address {
 		margin-right: 15%;
