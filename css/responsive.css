@@ -46,6 +46,16 @@
   .non-retina-iphone-only { display: block; }
 }
 
+/* ---------- Standard Laptops Only ---------- */
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+	.laptop-only { display: block; }
+
+	div.grid-item h2 {
+		font-size: 50px;
+	}
+
+}
+
 /* ---------- 1080p HD Screen ---------- */
 @media only screen and (min-width: 1500px) {
 
