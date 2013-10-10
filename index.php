@@ -62,7 +62,7 @@
 				</ul>
 			</nav>
 			<div class="panel-container desktop-panel">
-				<span class="heading">We own the sky</span>
+				<span class="heading">own the sky</span>
 				<p class="quote">We are artists, sound &amp; visual designers, photographers, filmmakers, and business strategists. Seekers of beauty &amp; innovation.<br />Bound together by our common ambition to engage culture in a pursuit of excellence, creativity, and authentic connection.</p>
 			</div>
 		</div>
